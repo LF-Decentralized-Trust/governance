@@ -21,3 +21,7 @@ repositories:
   teams:
     community: maintain
   visibility: public
+- name: wiki
+  teams:
+    community: maintain
+  visibility: private
