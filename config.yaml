@@ -24,4 +24,5 @@ repositories:
 - name: wiki
   teams:
     community: maintain
+    lf-staff: maintain
   visibility: private
