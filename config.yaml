@@ -14,6 +14,7 @@ teams:
   maintainers:
   - ryjones
   members:
+  - JFleenor
   - hartm
   - tkuhrt
 repositories:
