@@ -17,10 +17,26 @@ teams:
   - JFleenor
   - hartm
   - tkuhrt
+- name: tac
+  maintainers:
+  - ryjones
+  - tkuhrt
+  members:
+  - VRamakrishna
+  - arsulegai
+  - conor10
+  - denyeart
+  - jimthematrix
+  - mbrandenburger
+  - non-fungible-nelson
+  - petermetz
+  - swcurran
+  - yacovm
 repositories:
 - name: governance
   teams:
     community: maintain
+    tac: maintain
   visibility: public
 - name: wiki
   teams:
