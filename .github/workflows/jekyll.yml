@@ -27,16 +27,18 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  WORKING_DIRECTORY: ${{ github.workspace }}/tac
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
     env:
-      WORKING_DIRECTORY: ${{ github.workspace }}/tac
-      BUNDLE_GEMFILE: $WORKING_DIRECTORY/Gemfile
+      BUNDLE_GEMFILE: ${{env.WORKING_DIRECTORY}}/Gemfile
     defaults:
       run:
-        working-directory: $WORKING_DIRECTORY
+        working-directory: ${{env.WORKING_DIRECTORY}}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,7 +60,7 @@ jobs:
         # Uploads artifact from '${WORKING_DIRECTORY}/_site' directory
         uses: actions/upload-pages-artifact@v3
         with:
-          path: $WORKING_DIRECTORY
+          path: ${{env.WORKING_DIRECTORY}}
 
   # Deployment job
   deploy:
