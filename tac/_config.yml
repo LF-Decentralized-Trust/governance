@@ -9,7 +9,7 @@ email: tac@lists.lfdecentralizedtrust.org
 description: >-
   LF Decentralized Trust (LFDT) Technical Advisory Council (TAC)
 baseurl: "/tac"
-url: "https://lf-decentralized-trust.github.io/"
+url: "https://lf-decentralized-trust.github.io/governance/"
 
 # Build settings
 theme: just-the-docs
