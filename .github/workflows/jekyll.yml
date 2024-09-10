@@ -27,18 +27,15 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  WORKING_DIRECTORY: ${{ github.workspace }}/tac
-
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
     env:
-      BUNDLE_GEMFILE: ${{env.WORKING_DIRECTORY}}/Gemfile
+      BUNDLE_GEMFILE: ${{ github.workspace }}/tac/Gemfile
     defaults:
       run:
-        working-directory: ${{env.WORKING_DIRECTORY}}
+        working-directory: ./tac
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -52,15 +49,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        # Outputs to the '${WORKING_DIRECTORY}/_site' directory by default
+        # Outputs to the './tac/_site' directory
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
-        # Uploads artifact from '${WORKING_DIRECTORY}/_site' directory
+        # Uploads artifact from './tac/_site' directory
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{env.WORKING_DIRECTORY}}
+          path: ./tac
 
   # Deployment job
   deploy:
