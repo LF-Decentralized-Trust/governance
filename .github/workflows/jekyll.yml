@@ -57,7 +57,7 @@ jobs:
         # Uploads artifact from './tac/_site' directory
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./tac
+          path: ./tac/_site
 
   # Deployment job
   deploy:
