@@ -27,7 +27,7 @@ to ask for that information as a first step and delay processing.
 If you are unsure about how to proceed or would like to raise an issue
 privately consider contacting one of the
 [LF Decentralized Trust Community Architects][CA-wiki-page]
-or one of the [TAC members](../member-info/tac-members.md).
+or one of the [TAC members](./member-info/tac-members).
 Community Architects can easily be contacted via email
 [community-architects@lfdecentralizedtrust.org][CA-mail]
 or chat [#community-architects][CA-chat].
