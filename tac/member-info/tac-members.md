@@ -9,7 +9,7 @@ nav_order: 1
 
 # The LF Decentralized Trust Technical Advisory Council
 
-2024 term:
+## 2024 Term
 
 * [Marcus Brandenburger][mbrandenburger]
 * [Stephen Curran][swcurran]
