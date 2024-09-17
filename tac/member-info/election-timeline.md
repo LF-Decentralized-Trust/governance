@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Election Timeline 2024
+title: Election Timeline for 2025 TAC
 parent: Member Info
 grand_parent: LF Decentralized Trust TAC
 nav_order: 2
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Election Timeline 2024
+# Election Timeline for 2025 TAC
 
-## 2024 Elections
+## 2025 TAC Elections
 
 This is for the election of the 2025 TAC
 
@@ -21,9 +21,9 @@ Copy section from charter to here.
 
 #### TAC Nominees
 
-Nomination period: 14 Oct 2024 - 31 Oct 2024 
+##### Nomination period: 14 Oct 2024 - 31 Oct 2024 
 
-To nominate yourself for the TAC, first determine if you are eligible (see above). If you are eligible, file an issue on GitHub with your nomination statement.
+To nominate yourself for the TAC, first determine if you are eligible (see above). If you are eligible, [file an issue on GitHub](https://github.com/LF-Decentralized-Trust/governance/issues) with your nomination statement.
 
 ##### Nomination Timeline
 
@@ -40,11 +40,11 @@ To nominate yourself for the TAC, first determine if you are eligible (see above
 #### Election Process
 ##### Voting
 
-Voting period: 01 Nov 2024 - 14 Nov 2024 
+###### Voting period: 01 Nov 2024 - 14 Nov 2024 
 
 The individuals eligible to vote in the TAC election is defined in §4.a.ii of the LF Decentralized Trust Charter. The election will be created using https://vote.heliosvoting.org/. The vote will elect 6 people from the list of TAC nominees.
 
-Election Timeline
+###### Election Timeline
 
 * 01 Nov 2024 - Formally announce the slate of candidates.
 * 01 Nov 2024 - Open the vote using https://vote.heliosvoting.org/. A GitHub notification will be sent to eligible voters with information about casting their ballot. GitHub IDs will be used for the voters.
