@@ -151,8 +151,3 @@ exit *Incubation*:
 # Acknowledgements
 
 The above borrows from the [ASF\'s Minimum Graduation Requirements](https://incubator.apache.org/incubation/Incubation_Policy.html#Graduating+from+the+Incubator).
-
-# FIXMEs
-There are a number of items that need to be resolved in our GitHub setup:
-1. Create the following repo [project-proposals](https://github.com/lf-decentralized-trust/project-proposals)
-2. Ensure that there is a GitHub Pages deployment of the above repo
