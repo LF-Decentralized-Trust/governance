@@ -31,7 +31,7 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
     -   The current and important past releases
     -   Documentation for developers and users
 -   `MAINTAINERS` \
-    A list of all current maintainers with contact info. [A separate document](MAINTAINERS-file.md)
+    A list of all current maintainers with contact info. [A separate document](./MAINTAINERS-file)
     covers the specifics.
 -   `CONTRIBUTING` \
     Directions on how to contribute code to the project, or a pointer to that information.
