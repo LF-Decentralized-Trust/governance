@@ -16,10 +16,9 @@ Repositories MUST have these files with the specific content in the linked files
 link to the specified content with minimal exposition. These files MUST be at the root of the
 repository.
 
--   [`LICENSE`](https://www.apache.org/licenses/LICENSE-2.0.txt) - https://www.apache.org/licenses/LICENSE-2.0.txt\
-    (Unless an exception has been made by the LFDT Governing Board)
--   [`CODE_OF_CONDUCT.md`](./code-of-conduct) - https://lf-decentralized-trust.github.io/governance/governing-documents/code-of-conduct.html
--   [`SECURITY.md`](./security-policy) - https://lf-decentralized-trust.github.io/governance/governing-documents/security-policy.html
+-   [`LICENSE`](https://www.apache.org/licenses/LICENSE-2.0.txt) (Unless an exception has been made by the LFDT Governing Board)
+-   [`CODE_OF_CONDUCT.md`](./code-of-conduct)
+-   [`SECURITY.md`](./security-policy)
 
 ## Required Files with Variable Content
 
