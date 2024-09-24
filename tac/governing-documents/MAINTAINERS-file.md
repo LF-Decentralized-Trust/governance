@@ -3,7 +3,7 @@ layout: default
 title: MAINTAINERS Guidelines
 parent: Governing Documents
 grand_parent: LF Decentralized Trust TAC
-nav_order: 5
+nav_order: 6
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
