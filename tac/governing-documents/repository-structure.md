@@ -3,7 +3,7 @@ layout: default
 title: Common Repository Structure
 parent: Governing Documents
 grand_parent: LF Decentralized Trust TAC
-nav_order: 1
+nav_order: 4
 ---
 # Common Repository Structure
 
