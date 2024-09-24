@@ -1,0 +1,2 @@
+.main-content ol > li li ol { counter-reset: sub-counter; }
+.main-content ol > li li ol > li::before { content: counter(sub-counter,lower-roman); counter-increment: sub-counter; }
