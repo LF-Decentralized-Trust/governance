@@ -3,7 +3,7 @@ layout: default
 title: Allowed Third Party Licenses
 parent: Governing Documents
 grand_parent: LF Decentralized Trust TAC
-nav_order: 3
+nav_order: 4
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 

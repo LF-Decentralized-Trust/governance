@@ -3,7 +3,7 @@ layout: default
 title:  Release Taxonomy
 parent: Governing Documents
 grand_parent: LF Decentralized Trust TAC
-nav_order: 10
+nav_order: 11
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
