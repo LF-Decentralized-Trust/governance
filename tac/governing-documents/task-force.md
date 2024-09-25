@@ -3,7 +3,7 @@ layout: default
 title:  Task Forces
 parent: Governing Documents
 grand_parent: LF Decentralized Trust TAC
-nav_order: 13
+nav_order: 14
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 # Task Force
