@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Name
+title: YYYY Annual Review Project Name
 parent: Project Updates
 grand_parent: LF Decentralized Trust TAC
 nav_exclude: true
