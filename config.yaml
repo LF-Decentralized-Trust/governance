@@ -42,6 +42,12 @@ repositories:
     community: maintain
     tac: maintain
   visibility: public
+- name: project-proposals
+  teams:
+    community: maintain
+    security-managers: read
+    tac: maintain
+  visibility: public
 - name: wiki
   teams:
     community: maintain
