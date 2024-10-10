@@ -3,7 +3,6 @@ layout: default
 title: 2024 Q4 Hyperledger Identus
 parent: 2024
 grand_parent: Project Updates
-nav_exclude: true
 ---
 Created by Javier Ribó with input from other maintainers
 
