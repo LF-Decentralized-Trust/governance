@@ -17,6 +17,10 @@ teams:
   - JFleenor
   - hartm
   - tkuhrt
+- name: security-managers
+  maintainers:
+  - hartm
+  - ryjones
 - name: tac
   maintainers:
   - ryjones
