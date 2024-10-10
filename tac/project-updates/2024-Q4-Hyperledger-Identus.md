@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 2024 Q4 Identus
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
+parent: 2024
+grand_parent: Project Updates
 nav_exclude: true
 ---
 Created by Javier Ribó with input from other maintainers
