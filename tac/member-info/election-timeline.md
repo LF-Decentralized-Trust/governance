@@ -44,9 +44,17 @@ and
 
 #### TAC Nominees
 
+##### Eligibility
+
+Active means having made at least one contribution accepted to any Technical Project during the prior 12 months.
+
+Nominees: Contributors active within the scope of LF Decentralized Trust and who have nominated themselves for the TAC 
+
+Voters: All maintainers (or similar technical role in the case of Supported Projects that have different technical roles than TAC Projects) of any Technical Project who have been active in the past year
+
 ##### Nomination period: 14 Oct 2024 - 31 Oct 2024 
 
-To nominate yourself for the TAC, first determine if you are eligible (see above). If you are eligible, [file an issue on GitHub](https://github.com/LF-Decentralized-Trust/governance/issues) with your nomination statement.
+To nominate yourself for the TAC, first [determine if you are eligible](https://lf-decentralized-trust.github.io/tac-eligibility-check/). If you are eligible, [file an issue on GitHub](https://github.com/LF-Decentralized-Trust/governance/issues) with your nomination statement.
 
 ##### Nomination Timeline
 
