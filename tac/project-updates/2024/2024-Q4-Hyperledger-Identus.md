@@ -29,10 +29,12 @@ N/A
     * Edge Agent SDK KMP v4.0.0
     * Documentation Portal v1.110
 
+  * Additional Releases
+    * Mediator v1.0.0
+
   * In the coming days the following releases are planned:
-    * Prism Node 3.0.0
-    * Mediator 1.0.0
-    * Cloud Agent 1.40.0
+    * Prism Node v3.0.0
+    * Cloud Agent v1.40.0
 
 
 # Overall Activity in the Past Quarter
