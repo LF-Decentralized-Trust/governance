@@ -22,7 +22,7 @@ N/A
   * Identus V2.13
     * Cloud Agent v1.39.0
     * PRISM Node v2.5.0
-    * Mediator v1.0.0
+    * Mediator v0.15.0
     * Apollo Crypto Library v1.4.3
     * Edge Agent SDK Swift v6.1.0
     * Edge Agent SDK TypeScript v6.1.0
