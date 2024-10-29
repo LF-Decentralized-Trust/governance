@@ -57,7 +57,7 @@ During the previous quarter the team has been focusing on the following:
 
 # Current Plans
 
-As the IOG team that acted as maintainers of Identus has scaled down, the objective during this quarter will be to encourage more participation from the community in both development, governance and community engagement
+As IOG shifts its focus away from commercial objectives for ATALA/Identus, the Atala team has been reduced. The remaining IOG team is dedicated into maintaining the Identus project and help with integration from both external and internal projects. Our goal for this quarter is to foster increased community involvement in development, governance, and engagement. To ensure the continued development and growth of Identus.
 The team will be focusing on simplifying the deployment and documentation of our stack, we will no longer be pursuing some of the features we were working on which were more intended for Enterprise use-cases, but instead we are going to focus on what our community members need, one very important one is having diversity of choice on the Prism NODE, universal resolver and VDR
 
 The Community is encouraged to log feature requests, issues etc and this is then incorporated into a roadmap that is transparent for everyone to see https://github.com/orgs/hyperledger/projects/48
