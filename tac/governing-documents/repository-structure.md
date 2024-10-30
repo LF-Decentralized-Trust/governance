@@ -15,10 +15,10 @@ document describes the required and recommended files.
 Repositories MUST have these files with the specific content in the linked files, or a file with a
 link to the specified content with minimal exposition. These files MUST be at the root of the
 repository.
-
+https://lf-decentralized-trust.github.io/governance/governing-documents/code-of-conduct.html
 -   [`LICENSE`](https://www.apache.org/licenses/LICENSE-2.0.txt) (Unless an exception has been made by the LFDT Governing Board)
 -   [`CODE_OF_CONDUCT.md`](./code-of-conduct)
--   [`SECURITY.md`](./security-policy)
+-   [`SECURITY.md`](./security)
 
 ## Required Files with Variable Content
 
