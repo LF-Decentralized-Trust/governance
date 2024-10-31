@@ -23,7 +23,6 @@ teams:
   - ryjones
 - name: tac
   maintainers:
-  - ryjones
   - tkuhrt
   members:
   - VRamakrishna
