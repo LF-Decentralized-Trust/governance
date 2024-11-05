@@ -45,6 +45,8 @@ Upcoming releases:
 - One of these mentorship projects involves a major change to the Cacti code base and architecture, namely the integration of the Cactus and Weaver modules into a common and comprehensive set of capabilities for cross-network operations. A first-cut version of these common COPM modules is [close to being merged](https://github.com/hyperledger-cacti/cacti/pull/3546) into the main branch.
 - There was a lot of work done on the SATP-Hermes framework (part of the IETF standardization compliance work) in the past quarter (see the [satp-dev](https://github.com/hyperledger-cacti/cacti/tree/satp-dev) branch).
   * The SATP-Weaver-Relay framework (the other sample implementation of the SATP standard under Cacti) did not make any progress since the [May 23 workshop](https://lf-hyperledger.atlassian.net/wiki/spaces/events/pages/21794363/Standardizing+DLT+Interoperation+Implementing+IETF+Secure+Asset+Transfer+Protocol+in+Hyperledger+Cacti), but we hope to get more code contributions in the future, especially after the IETF published official RFCs.
+- We successfully removed outdated and deprecated connector plugins from the project that lacked OpenAPI compatibility.
+- The Ledger Browser plugin (GUI) was fully redesigned to enhance extensibility and improve the user interface. Additionally, we significantly expanded and refined the documentation to improve the onboarding experience and simplify project setup for new users.
 
 # Current Plans
 
@@ -54,6 +56,7 @@ Main features planned:
 3. Explore opportunities to add support for [EEA DLT Interoperability Specification Version 1.0](https://entethalliance.org/specs/dlt-interop/) which came out last month (September 19th, 2024)
 4. Improve our OpenSSF Scorecard numbers.
 5. Working on a more automated and sustainable way to maintain package references in source code and configuration files so that if (or when) the repository is migrated to a new organization, the relevant GitHub Actions will automatically publish packages to the new organization's namespace whenever a release is made. (FYI, the publish actions for many packages failed to take effect in the recent `2.0.0` release because of hardcoded references to `hyperledger`. We will fix this in the next release.)
+6. Continue improving the Ledger Browser plugin, promote it and engage the community to attract new contributors.
 
 Releases planned:
 - v2.0.1
