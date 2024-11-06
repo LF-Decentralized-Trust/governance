@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2024 Q4 Hyperledger Fabric
+title: 2024 Q4 Hyperledger Aries
 parent: 2024
 grand_parent: Project Updates
 ---
