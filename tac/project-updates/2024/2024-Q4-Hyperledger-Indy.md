@@ -80,13 +80,10 @@ See the updated type of information in the appropriate section of this report.
 
 ## Releases
 
-Release since the last quarterly report:
+Releases since the last quarterly report:
 
-- indy-node - None
 - indy-plenum - v1.14.0rc0 -- included in the last Quarterly report, but occurred in the period covered by this report.
 - indy-vdr - v0.4.3 -- included in the last Quarterly report, but occurred in the period covered by this report.
-- indy-node-container - None
-- indy-shared-rs - None
 
 ## Overall Activity in the Past Quarter
 
