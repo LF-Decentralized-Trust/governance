@@ -14,7 +14,7 @@ grand_parent: Project Updates
 - Regularly having fortnightly contributors call.
 - Added Web3j [Roadmap](https://lf-hyperledger.atlassian.net/wiki/spaces/WEB3J/pages/23101932/Roadmap+2024+-+2025).
 
-# Questions/Issues for the TOC
+# Questions/Issues for the TAC
 
 None at the moment.
 
