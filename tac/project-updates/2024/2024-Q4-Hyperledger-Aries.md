@@ -8,7 +8,7 @@ grand_parent: Project Updates
 ## Project Health
 
 Work on [Hyperledger Aries] related projects continues at a healthy pace, albeit
-with some of that work now outside of the Aries itself. [ACA-Py] (formerly Aries
+with some of that work now outside of Aries itself. [ACA-Py] (formerly Aries
 Cloud Agent Python) achieved two significant milestones this quarter. Release
 1.0.0 was published, and the project moved to the [OpenWallet Foundation].
 Within [Hyperledger Aries], progress was made on all of the frameworks -- [Aries VCX],
@@ -38,7 +38,7 @@ move forward.
 [Aries Framework Kotlin]: https://github.com/hyperledger/aries-framework-kotlin
 [Askar]: https://github.com/openwallet-foundation/askar
 
-## Questions/Issues for the TOC
+## Questions/Issues for the TAC
 
 None at this time.
 
@@ -76,10 +76,11 @@ us to control the included list of repos.
 
 ### [Aries VCX]
 
-Work is in-progress on fixing and enhancing fixing Android support, as well as
-adding support for iOS. Support for usage via React Native will be considered in
-the future as well. Additionally, work is planned and underway to improve the
-overall ease of use of Aries VCX to boost its adoption.
+Work is underway to build out the "VCX Framework" rust project. It will provide a more consumer-friendly rust framework interface, which will to sit alongside our existing lower-level suite of aries & DID related crates. This VCX Framework is also being developed with UniFFI bindings, enabling native iOS & Android (swift & kotlin) consumption of the framework.
+
+Improvements to the suite of DID crates in VCX have also been made, particularly around more modern DID features (e.g. modern verificationMethods: Multikey, JWK). These improvements pave the way for our effort to expand the supported native DID Resolvers in VCX (https://github.com/hyperledger/aries-vcx/issues/1288). For instance, did:jwk resolver/registrar currently in review, and discussions underway about integrating did:tdw.
+
+Finally we also have work in review to remove indy-sdk/vdrtools from the VCX suite after it had been in deprecated status for awhile https://github.com/hyperledger/aries-vcx/pull/1298.
 
 ### [ACA-Py]
 
