@@ -12,7 +12,7 @@ with some of that work now outside of Aries itself. [ACA-Py] (formerly Aries
 Cloud Agent Python) achieved two significant milestones this quarter. Release
 1.0.0 was published, and the project moved to the [OpenWallet Foundation].
 Within [Hyperledger Aries], progress was made on all of the frameworks -- [Aries VCX],
-[Aries Framework Swift] and [Aries Framework Kotlin]. Other [Open Wallet
+[Aries Framework Swift] and [Aries Framework Kotlin]. Other [OpenWallet
 Foundation]-hosted projects, [Credo-TS] and [Bifold Wallet], continue to evolve
 rapidly, with [Animo Solutions], key maintainers of [Credo-TS], selected by the
 German Government into the next round of the the [Funke] ("sparkle") initiative
@@ -63,7 +63,7 @@ here: [https://aries-interop.info](https://aries-interop.info).
 Per the [Aries Activity Dashboard] for the months of July-September 2024, Aries
 codebases had 396 Commits and 105 contributors representing at least 10
 organizations.  The numbers do include the repositories
-that have moved from Hyperledger to the Open Wallet Foundation, as well as some
+that have moved from Hyperledger to the [OpenWallet Foundation], as well as some
 obsolete (but unchanging) repositories. Per Ry Jones there is not a good way for
 us to control the included list of repos.
 
