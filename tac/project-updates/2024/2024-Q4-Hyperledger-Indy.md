@@ -68,7 +68,7 @@ functionality and documentation completed in November.
 
 [Indy Quarterly Activity Dashboard]: https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=indy&routedFrom=Github&bestPractice=false&dateFilters=Last%20Quarter&dateRange=2024-07-01%20to%202024-09-30&compare=PP&granularity=week&hideBots=true
 
-## Questions/Issues for the TOC
+## Questions/Issues for the TAC
 
 None
 
