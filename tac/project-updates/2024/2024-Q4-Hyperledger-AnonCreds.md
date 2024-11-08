@@ -39,7 +39,7 @@ Created by Stephen Curran with input from the Hyperledger AnonCreds Maintainers.
 
 Limited progress was made on the "next generation" AnonCreds project in the
 quarter -- [anoncreds-v2-rs]. Contributions to the Hyperledger Labs [Agora] project
-continued. Agora includes the [audited cryptographic libraries] that upon which
+continued. Agora includes the [audited cryptographic libraries] upon which
 AnonCreds V2 is built. A Hyperledger Mentorship project has resulted in the
 creation of an implementation of the scalable, privacy preserving
 [ALLOSAUR revocation scheme] that is used in AnonCreds v2.
@@ -53,7 +53,7 @@ repositories from July to September 2024.
 
 Attendance at the AnonCreds Working Group meetings has been low this quarter.
 
-## Questions/Issues for the TOC
+## Questions/Issues for the TAC
 
 None.
 
@@ -88,8 +88,8 @@ implementations.
 
 ## Maintainer Diversity
 
-After the recent cleanup of inactivity Hyperledger Maintainers, the AnonCreds
-project now has nine developers from from seven different organizations.
+After the recent cleanup of inactive Hyperledger Maintainers, the AnonCreds
+project now has nine maintainers from seven different organizations.
 
 ## Contributor Diversity
 
