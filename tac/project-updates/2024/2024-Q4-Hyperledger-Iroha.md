@@ -16,7 +16,7 @@ Additionally, the Iroha 2 team has finished developing the Iroha 2 [Blockchain E
 
 We also successfully moved Iroha 2’s codebase to its [own organization](https://github.com/hyperledger-iroha) as part of the transition from the Hyperledger Foundation to the Linux Foundation’s Decentralized Trust initiative.
 
-The Iroha 2 community is active and growing, with lots of interest from potential users and contributors. Questions are being answered regularly, five issues were assigned to the maintainers among community members, and  the PRs for the ones have been merged since the last update. Project updates are being sent every two weeks to keep everyone connected and informed.
+The Iroha 2 community is active and growing, with lots of interest from potential users and contributors. Questions are being answered regularly, five issues were assigned to the maintainers among community members, and the PRs for these have been merged since the last update. Project updates are being sent every two weeks to keep everyone connected and informed.
 
 # Questions/Issues for the TAC
 
