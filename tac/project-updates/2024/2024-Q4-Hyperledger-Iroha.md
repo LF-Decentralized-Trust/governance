@@ -36,6 +36,7 @@ Summary of Activities in the Last Quarter related to Community management
 Iroha 2 has been actively engaging with the community through various channels, including Telegram and Discord, where we assist with technical questions, gather feedback, and provide technical guidance. 
 
 The team also hosts a weekly open [community call](https://meet.jit.si/Iroha_biweekly), where we share the latest updates and address questions from community members. Additionally, Iroha 2 sends out a regular newsletter to the [Hyperledger mailing list](https://lists.lfdecentralizedtrust.org/g/iroha), keeping everyone informed on the latest development updates and releases. All while ensuring that communication follows our [code of conduct](https://lf-decentralized-trust.github.io/governance/governing-documents/code-of-conduct.html).
+The video recordings of the community calls are uploaded into LF wiki and are available for the community: https://lf-hyperledger.atlassian.net/wiki/spaces/iroha/pages/21012606/Community+meetings
 
 # Current Plans
 
@@ -48,6 +49,10 @@ The team also hosts a weekly open [community call](https://meet.jit.si/Iroha_biw
 # Maintainer Diversity
 
 Since the last update, the composition of the Iroha 2 maintainers has changed significantly. For the most up-to-date information, please refer to the [Maintainers list](https://github.com/hyperledger-iroha/iroha/blob/main/MAINTAINERS.md).
+
+Iroha Team acquired 3 new members. Dmitri Murzin has joined the team as a Rust developer, while Mykhailo Lohachov, who initially contributed to the project as a community contributor, has now joined the team as a Rust development intern. In addition, Alexandra Zorina, a Technical Writer, joined the team. 
+Also, Nurzhan, a Community manager, along with Roman, a Rust Developer, have left the team.
+
 
 # Contributor Diversity
 
