@@ -3,7 +3,7 @@ layout: default
 title: Election Timeline for 2025 TAC
 parent: Member Info
 grand_parent: LF Decentralized Trust TAC
-nav_order: 2
+nav_order: 3
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
