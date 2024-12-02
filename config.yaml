@@ -7,6 +7,7 @@ teams:
   - daniela-barbosa
   - davidwboswell
   - hartm
+  - lanayanelson
   - minyu66
   - thelinuxfoundation
   - tykeal
@@ -49,6 +50,11 @@ repositories:
     tac: maintain
   visibility: public
 - name: wiki
+  teams:
+    community: maintain
+    lf-staff: maintain
+  visibility: private
+- name: wikix
   teams:
     community: maintain
     lf-staff: maintain
