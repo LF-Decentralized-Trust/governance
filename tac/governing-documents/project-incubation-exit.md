@@ -12,13 +12,28 @@ nav_order: 9
 ## Introduction
 
 LF Decentralized Trust has defined a [lifecycle](./project-lifecycle) for its
-projects but this definition does not specify in any detail what it
-takes for a project to be able to transition from the
-*Incubation* phase to the *Graduated* phase.
+projects.
 
-This document is meant to fill this gap by defining a set of criteria to
-be considered before moving a project from *Incubation*
-to *Graduated*.
+This definition specifies the evaluation criteria for a project to be able
+to transition from the *Incubation* phase to the *Graduated* phase. These
+are listed in the [evaluation section of the project lifecycle document](./project-lifecycle.md#evaluation-of-criteria-for-state-transition-decisions)
+(see criteria in box (1)) as follows:
+- Legal
+- Diversity (>=3 maintaining organizations)
+- Releases
+- Testing and Q/A
+- Security
+- Structure
+- Documentation
+- Maintenance
+- Production
+
+This document augments the above set of criteria by fleshing out in more
+detail the standards a project must meet for the TAC to approve its upgrade
+from *Incubation* to *Graduated*. (*Note*: the requirements specified below
+do not exactly correspond to the above list, but largely overlap with it.
+This is because the below requirements were created earlier for manual inspection,
+when automated OpenSSF and CLOMonitor tools were not enabled on the projects.)
 
 It is important to note that *Graduated* in this case refers to
 the project itself rather than its product and it is therefore more
