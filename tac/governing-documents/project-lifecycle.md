@@ -142,3 +142,126 @@ state independent of its prior history.
 
 [TAC]: https://www.lfdecentralizedtrust.org/staff?department=technical_oversight_committee
 [Proposal Template]: https://lf-decentralized-trust.github.io/project-proposals
+
+
+# Lifecycle Transition Guidelines and Recommendations
+
+The TAC must evaluate a project's lifecycle state during its [annual review](./project-annual-review.md) and make one of the following decisions:
+- Maintain its state
+- Upgrade (e.g., *Incubation* to *Graduated*)
+- Downgrade (e.g., *Graduated* to *Dormant*)
+
+(*Note*: as a rough hierarchy, the *Graduated* state represents the highest maturity, followed by *Incubated*, followed by *Dormant*, followed by *Archived*.)
+
+The following criteria MUST be considered for each project when making one of the aforementioned decisions:
+- Legal
+- Diversity
+- Releases
+- Testing and Q/A
+- Security
+- Structure
+- Maintenance
+- Production
+- Documentation
+
+## Description and Breakup of Criteria
+
+Below is a guide for evaluating each of these criteria, with break-ups into sub-criteria that can be directly evaluated using one of three methods:
+1. Checking their OpenSSF Scorecard scores
+2. Checking their LFX Insights Best Practice Scores (produced by CLOMonitor)
+3. Manual inspection of code repositories
+
+(*Note*: The term "close to" below implies that a high (or highest) score is not mandatory but highly desired. If a project falls short on some such criteria but is otherwise mature and well-functioning, the TAC may ignore those criteria while encouraging the project's maintainers to strive for a higher score.)
+
+### Legal Criteria
+
+- (OpenSSF Score): *License*: MUST be 10
+
+### Diversity Criteria
+
+- (OpenSSF Score): *Contributors*: SHOULD be close to 10
+- (Manual): the `MAINTAINERS.md` files in the project's repositories MUST collectively indicate the involvement of more than one organization
+
+- Evaluation:
+  * To be a *Graduated* project, the number of organizations from which maintainers are drawn must be at least 3, and the OpenSSF Score SHOULD be 10.
+  * To be an *Incubated* project, the number of organizations from which maintainers are drawn must be at least 2.
+
+### Releases
+
+- (OpenSSF Score): *Packaging*: SHOULD be 10
+- (Manual): the number and frequency of releases in the recent past (quarter/year), as identified by inspecting the project's repositories, must be reasonably high (at least for one of the repositories)
+
+### Testing and Q/A
+
+- (OpenSSF Score): *CI Tests*: SHOULD be 10
+
+### Security
+
+- (OpenSSF Score): *Dangerous Workflow*: MUST be 10
+- (OpenSSF Score): *Token Permissions*: MUST be 10
+- (OpenSSF Score): *Branch-Protection*: MUST be 9 (Tier 4)
+- (OpenSSF Score): *Dependency-Update-Tools*: MUST be 10
+- (OpenSSF Score): *Fuzzing*: SHOULD be close to 10
+- (OpenSSF Score): *Pinned-Dependencies*: SHOULD NOT be 0
+- (OpenSSF Score): *SAST*: SHOULD be close to 10
+- (OpenSSF Score): *Security-Policy*: SHOULD be at least 9
+- (OpenSSF Score): *Signed-Releases*: (*TBD* from Security Artifacts Task Force's conclusions) tentatively SHOULD be at least 8
+- (OpenSSF Score): *Token-Permissions*: MUST be 10
+- (OpenSSF Score): *Vulnerabilities*: SHOULD be 10
+- (Manual): the contents of the `SECURITY.md` files in the project's repositories must comply with [LFDT requirements](./security.md)
+
+### Structure
+
+- (LFX Insights Best Practice Score): SHOULD be 50% or higher (averaged over all repositories)
+- (Manual): check if the repositories follow the [repository structure guidelines](./repository-structure.md)
+
+### Maintenance
+
+- (OpenSSF Scorecard): *Code Review*: MUST be 10
+- (Manual): frequency of pull requests, Discord activity, and mailing list activity, must be reasonably high
+
+### Production
+
+- (Manual): an `ADOPTERS.md` file must be present in at least one of the project's repositories, and contain at least one reference to the project's real-world usage
+
+### Documentation
+
+- (LFX Insights Best Practice Score): MUST be 50% or higher (averaged over all repositories)
+- (Manual): The project must have at least one documentation website (it may have more if it is releasing multiple separate tools) that is not a skeleton (i.e., only titles and links, with no content)
+
+## Evaluation of Criteria for State Transition Decisions
+
+The below figure illustrates the criteria that MUST be evaluated and considered for the respective lifecycle transitions (denoted by arrows between stages).
+- The groups of criteria marked in green indicate that a project is ready to make an upgrade transition, or is at least qualified to remain in its present state. The decision is at the discretion of the TAC.
+- The groups of criteria marked in red indicate that a project is a candidate for a downgrade, at the discretion of the TAC.
+- In either case, the subjective metrics (those marked with *SHOULD* or *close to* in the list further above) can be treated as optional when it comes to making a decision about a state transition, but the other metrics (marked with *MUST*) are mandatory for a project to preserve it's state or to qualify for an upgrade.
+
+<img src="./project-lifecycle-transition-criteria.png" width="75%" height="75%" />
+
+### Projects Outside the Lifecycle
+
+A project accepted by the LFDT can enter the lifecycle only through the *Incubation* state. This applies to:
+- New projects presented to the TAC
+- Projects that were formerly *Archived* and wish to resume development activity
+- LFDT Labs projects
+
+Therefore, the qualification for a project to be accepted by the LFDT TAC and to begin its official lifecycle is the set of criteria marked (6) in the above diagram, namely:
+1. Legal
+2. Diversity (>=2 maintaining organizations)
+3. Security
+
+## Reference
+
+### History
+
+A [Badging and Lifecycle Task Force](https://github.com/hyperledger/toc/issues/50) was launched in early 2023 to identify badging criteria for LFDT projects and to use those badges as project health indicators. This was intended to help the TAC determine whether a project ought to be moved to a different lifecycle stage. It was also intended to help users and contributors to make an assessment about the project's maturity.
+
+But, based on on the assessment of the [OpenSSF Scorecard Task Force](https://docs.google.com/presentation/d/18zO30diSW1jUfQwoglWza0Lx2_Q8vwuE__q-JdoC3ho/edit#slide=id.g2dd524f49cb_0_28) and experience with the CLOMonitor tool in LFX Insights, the need for extra badges was deemed unnecessary. This is because the broad criteria and associated scores produced on an ongoing basis by the monitoring tools (OpenSSF Scorecard and CLOMonitor) are almost sufficient to cover the original badging criteria debated by the TAC.
+
+Still, the TAC needs guidelines to determine how to evaluate the criteria and scores produced by the given monitoring tools. Therefore, in this section, we have made recommendations for such evaluations, with the caveat that any decision made about a project's place in the lifecycle diagram will be at the subjective discretion of the TAC.
+
+### Links
+
+- Description of OpenSSF Scorecard criteria referenced in this document: https://github.com/ossf/scorecard/blob/main/docs/checks.md
+- Example OpenSSF scorecard (for Hyperledger Cacti): https://scorecard.dev/viewer/?uri=github.com%2Fhyperledger%2Fcacti
+- Example LFX Insights Page with CLOMonitor-derived info (for Hyperledger Fabric): https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/best-practice-score?project=fabric
