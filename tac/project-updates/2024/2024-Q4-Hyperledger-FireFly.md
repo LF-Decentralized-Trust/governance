@@ -42,7 +42,7 @@ This quarter, community members have given talks featuring Hyperledger FireFly a
 
 The star activity for the FireFly repository has continued to grow from 496 end of last quarter to 508 end of this quarter. Discord activity has been very high this quarter with ~50 DAU.
 
-![alt_text](images/HLFF_2024_Q4_stars.png "image_tooltip")
+![GitHub stars history](images/HLFF_2024_Q4_stars.png "")
 
 Contributors are active in the project and since September, there were 22 contributors who performed at least one commit.
 There are currently over 775k lines of code for Hyperledger FireFly across 20 repositories, with a total of 10.986k commits to date.
