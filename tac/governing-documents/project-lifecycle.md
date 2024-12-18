@@ -151,6 +151,8 @@ The TAC must evaluate a project's lifecycle state during its [annual review](./p
 - Upgrade (e.g., *Incubation* to *Graduated*)
 - Downgrade (e.g., *Graduated* to *Dormant*)
 
+In addition, a project's lifecycle state should be evaluated during the quarterly updates if the TAC sees that a project is struggling to meet the requirements of its current state.
+
 (*Note*: as a rough hierarchy, the *Graduated* state represents the highest maturity, followed by *Incubated*, followed by *Dormant*, followed by *Archived*.)
 
 The following criteria MUST be considered for each project when making one of the aforementioned decisions:
@@ -236,7 +238,7 @@ The below figure illustrates the criteria that MUST be evaluated and considered 
 - The groups of criteria marked in red indicate that a project is a candidate for a downgrade, at the discretion of the TAC.
 - In either case, the subjective metrics (those marked with *SHOULD* or *close to* in the list further above) can be treated as optional when it comes to making a decision about a state transition, but the other metrics (marked with *MUST*) are mandatory for a project to preserve it's state or to qualify for an upgrade.
 
-<img src="./project-lifecycle-transition-criteria.png" width="75%" height="75%" />
+<img src="./resources/project-lifecycle-transition-criteria.png" width="75%" height="75%" />
 
 ### Projects Outside the Lifecycle
 

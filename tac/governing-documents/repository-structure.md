@@ -45,9 +45,9 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
 
 The `README.md` in the root folder of the repository MUST display the following badges right below the title:
 
--   Apache-2.0 license
--   OpenSSF Best Practices
--   OpenSSF Scorecard
+-   License: `![GitHub License](https://img.shields.io/github/license/:user/:repo)`
+-   OpenSSF Best Practices: `[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/:project-id/badge)](https://bestpractices.coreinfrastructure.org/projects/:project-id)`
+-   OpenSSF Scorecard: `[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/:user/:repo/badge)](https://scorecard.dev/viewer/?uri=github.com/:user/:repo)`
 
 ## Recommended
 
