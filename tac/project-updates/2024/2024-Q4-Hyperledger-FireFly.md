@@ -7,28 +7,7 @@ grand_parent: Project Updates
 
 # Project Health
 
-FireFly continues to be actively developed with the release of v1.3.2 this quarter. The release of 1.3.2 includes the following new features and enhancements.
-
-__Bug Fixes:__
-
-- Fixed doc site release action.
-- Resolved protocol ID documentation issues.
-- Fixed cache mismatch by deep copying operations.
-- Addressed NPEs during background manager creation.
-
-__Enhancements:__
-
-- Added support for large JSON numbers in input parameters.
-- Improved handling of "latest" image tagging during releases.
-- Refactored event persistence to return a boolean status.
-- Upgraded to Go 1.22.
-- Updated FireFly CLI installation instructions.
-
-__Documentation:__
-
-- Updated protocol and custom smart contract documentation.
-- Documented support for large JSON numbers in v1.3.2.
-- Improved documentation for installation and release manifests.
+FireFly continues to be actively developed with the release of v1.3.2 this quarter. 
 
 ### Community adoption updates
 
