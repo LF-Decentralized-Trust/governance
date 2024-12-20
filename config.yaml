@@ -31,18 +31,12 @@ teams:
   - VRamakrishna
   - arsulegai
   - cjhowland
-  - conor10
-  - denyeart
   - dmueller2001
   - hendrikebbers
-  - jimthematrix
   - matthew1001
   - mbrandenburger
-  - non-fungible-nelson
   - petermetz
-  - swcurran
   - wenjing
-  - yacovm
 repositories:
 - name: governance
   teams:
