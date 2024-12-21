@@ -41,6 +41,14 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
 -   Continuous Integration / Continuous Delivery (CI/CD) configurations \
     Configurations needed to run CI/CD on LFDT Trust provided systems.
 
+## Required Content in Home Page
+
+The `README.md` in the root folder of the repository MUST display the following badges right below the title:
+
+-   License: `![GitHub License](https://img.shields.io/github/license/:user/:repo)`
+-   OpenSSF Best Practices: `[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/:project-id/badge)](https://bestpractices.coreinfrastructure.org/projects/:project-id)`
+-   OpenSSF Scorecard: `[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/:user/:repo/badge)](https://scorecard.dev/viewer/?uri=github.com/:user/:repo)`
+
 ## Recommended
 
 Repositories SHOULD have these files. Named files SHOULD be at the root of the repository.
@@ -64,6 +72,9 @@ Repositories SHOULD have these files. Named files SHOULD be at the root of the r
     Code to test the code in the repository (such as unit tests), in a location appropriate for the language.
     \
     Not all repositories can be tested (homebrew, docs), which is the only reason this is a SHOULD.
+-   `ADOPTERS.md`
+    -   Contains a list of notable usages of the project's releases and/or source code
+    -   MUST contain publicly verifiable references in the form of URLs or article info
 
 ## Prohibited
 
