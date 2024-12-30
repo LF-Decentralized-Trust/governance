@@ -56,6 +56,8 @@ The outcome of the annual review is:
 - A majority of the TAC members recommend that a project be moved to a new status, including `End of Life`, or
 - If the TAC cannot come to a consensus, the project will remain at its current status.
 
+The TAC MUST evaluate the criteria listed in the [project lifecyle transition guidelines](./project-lifecycle.md#lifecycle-transition-guidelines-and-recommendations) before making a decision about the project's status.
+
 NOTE: If the TAC members recommend moving to a new status, additional work may be required to provide details on how the project meets the new status's acceptance criteria.
 
 ## Roles and Responsibilities
