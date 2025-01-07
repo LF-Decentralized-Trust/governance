@@ -1,20 +1,20 @@
 ---
 layout: default
-title: 2024 Annual Review Identus
-parent: 2024
+title: 2025 Annual Review Identus
+parent: 2025
 grand_parent: Project Updates
 ---
 
 ## Project Health
 
-Hyperledger Identus [LFX Insights Dashboard](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/reports/contributors?project=identus&bestPractice=false&dateFilters=Last%20Year&dateRange=2024-01-01%20to%202024-12-31&compare=PP&granularity=month&hideBots=true&repository=all)
-The project is relatively new to the Hyperledger Ecosystem and is mainly supported by the IOG maintainers.
-At the same time, over the past year, we have seen several new contributors and evidence of usage of the Identus Platform by another companies: 
+LF Decentralized Trust Identus [LFX Insights Dashboard](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/reports/contributors?project=identus&bestPractice=false&dateFilters=Last%20Year&dateRange=2024-01-01%20to%202024-12-31&compare=PP&granularity=month&hideBots=true&repository=all)
+The project is relatively new to the LF Decentralized Trust Ecosystem and is mainly supported by the IOG maintainers.
+At the same time, over the past year, we have seen several new contributors and evidence of usage of the Identus platform by another companies: 
 - https://socious.io/, Socious production use case.
 - https://ahau.io/, Ahau PoC.
 - https://blocktrust.dev/, - identity wallet.
 
-We currently utilize two Discord servers: the Hyperledger Discord and the Identus Discord. 
+We currently utilize two Discord servers: the LF Decentralized Trust Discord and the private Identus Discord server. 
 The Identus Discord has seen significantly more engagement. 
 Since January 2024, our membership has grown from 258 to 476 members. 
 On average, there are 348 activities across various channels monthly, with about 39 users online daily.
@@ -50,7 +50,7 @@ During the last six months, the project has achieved the following goals:
 - Connectionless Issuance and Verification of VC via DIDCommV2
 - DID Prism AnonCreds method to resolve the resources from the DID Prism URL (for the schema and credential definition)
 - Crypto Agility of the DID Prism Method (added Ed25519 cryptography suite)
-- Transitioning the project from the IOHK to the Hyperledger organization
+- Transitioning the project from the IOHK to the LF Decentralized Trust organization
 - OID4VCI specification implementation in the Cloud Agent and SDKs (for JWT VC only)
 - Major refactoring: a. improved error handling in the Cloud Agent, the Mediator, and SDKs, b. added Problem Report protocol to other protocols, c. Background jobs are replaced with the message queue (in-memory or Kafka)
 - SD-JWT-VC implementation in the Cloud Agent and SDKs
@@ -78,11 +78,11 @@ The following features are planned for the next year among others:
 ### Help Required
 
 LF Decentralized Trust can help with the following:
-- Promote the Identus project within the Hyperledger community
+- Promote the Identus project within the LF Decentralized Trust community
 - Help with the workshops and hackathons
-- Help to collaborate with the Hyperledger Aries project as the Identus platform leveraging the Aries specs and protorols
+- Help to collaborate with the LF Decentralized Trust Aries project as the Identus platform leveraging the Aries specs and protorols
 
 
 ## Project Lifecycle Status Recommendation
 
-The Identus is a fairly new graduated project in the Hyperledger Ecosystem and should remain so.
+The Identus is a fairly new incubation project in the LF Decentralized Trust Ecosystem and should remain so.
