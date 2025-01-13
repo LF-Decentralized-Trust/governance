@@ -43,7 +43,7 @@ Equally notable is the growing community involvement in troubleshooting, code re
 
 Since the deprecation of the Hyperledger brand, the Besu project has begun the process of migrating their repositories to the `besu-eth` organization on GitHub.
 
-The team has adopted automation to better manage issues- GitHub actions are used to mark any issues or prs that have had no activity for the last 2 weeks as stale, and if they are not tended to in in the subsequent 2 weeks the will be closed. This will enforce regular review of issues.
+The team has adopted automation to better manage issues- GitHub actions are used to mark any issues or prs that have had no activity for the last 2 weeks as stale, and if they are not tended to in the subsequent 2 weeks they will be closed. This will enforce regular review of issues.
 
 # Current Plans
 
