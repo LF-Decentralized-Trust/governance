@@ -24,7 +24,7 @@ On average, there are 348 activities across various channels monthly, with about
 There are currently 10 maintainers from IOG and other companies. 
 
 The MAINTAINERS.md file is up to date and can be found [here](https://github.com/hyperledger/identus/blob/main/MAINTAINERS.md)
-The `identus-maintainers` [team](https://github.com/hyperledger/governance/blob/main/access-control.yaml#L625-L655) includes around 30 members from IOG and other companies.
+The `identus-maintainers` [team](https://github.com/hyperledger/governance/blob/main/access-control.yaml#L625-L655) includes around 10 members from IOG and other companies.
 
 The number of active maintainers has decreased due to restructuring the Atala Team at IOG. 
 However, the diversity of maintainers has increased over the past six months, with more companies contributing to the project.
