@@ -173,7 +173,10 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 2. Checking their LFX Insights Best Practice Scores (produced by CLOMonitor)
 3. Manual inspection of code repositories
 
-(*Note*: The term "close to" below implies that a high (or highest) score is not mandatory but highly desired. If a project falls short on some such criteria but is otherwise mature and well-functioning, the TAC may ignore those criteria while encouraging the project's maintainers to strive for a higher score.)
+*Notes to keep in mind during evaluation*:
+- The term "close to" below implies that a high (or highest) score is not mandatory but highly desired. If a project falls short on some such criteria but is otherwise mature and well-functioning, the TAC may ignore those criteria while encouraging the project's maintainers to strive for a higher score.
+- Likewise, `SHOULD` and `SHOULD NOT` indicate that the stated criteria is subjective and not mandatory; if a project does not meet the given criteria, its status should be highlighted and debated during the [annual review](./project-annual-review.md) process.
+- A project may consist of multiple GitHub repositories. Several criteria below mention whether they must apply to at least one repository or to all repositories. Wherever this is not mentioned, the assumption should be that at least one repository must meet the given criterion. The project's maintainers shall have the right to designate one or more repositories for evaluation by the TAC whenever required, and these repositories may change from one cycle to the next.
 
 ### Legal Criteria
 
@@ -191,7 +194,7 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 ### Releases
 
 - (OpenSSF Score): *Packaging*: SHOULD be 10
-- (Manual): the number and frequency of releases in the recent past (quarter/year), as identified by inspecting the project's repositories, must be reasonably high (at least for one of the repositories)
+- (Manual): determined by inspecting the project's repositories, at least one of the repositories MUST have 2 or more releases in the past year
 
 ### Testing and Q/A
 
@@ -207,7 +210,9 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 - (OpenSSF Score): *Pinned-Dependencies*: SHOULD NOT be 0
 - (OpenSSF Score): *SAST*: SHOULD be close to 10
 - (OpenSSF Score): *Security-Policy*: SHOULD be at least 9
-- (OpenSSF Score): *Signed-Releases*: (*TBD* from Security Artifacts Task Force's conclusions) tentatively SHOULD be at least 8
+- (OpenSSF Score): *Signed-Releases*: (based on the Security Artifacts Task Force's conclusions)
+  * To be a *Graduated* project, MUST be 10.
+  * To be an *Incubated* project, MUST be 8.
 - (OpenSSF Score): *Token-Permissions*: MUST be 10
 - (OpenSSF Score): *Vulnerabilities*: SHOULD be 10
 - (Manual): the contents of the `SECURITY.md` files in the project's repositories must comply with [LFDT requirements](./security.md)
@@ -224,7 +229,7 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 
 ### Production
 
-- (Manual): an `ADOPTERS.md` file must be present in at least one of the project's repositories, and contain at least one reference to the project's real-world usage
+- (Manual): an `ADOPTERS.md` file SHOULD be present in at least one of the project's repositories, and contain at least one reference to the project's real-world usage. (Absence of this should prompt questions by the TAC during a review, and if all the other evaluation criteria are favorable, this requirement MAY be disregarded in favor of a simple inspection of the repositories for production-readiness.)
 
 ### Documentation
 

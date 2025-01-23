@@ -30,6 +30,7 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
     -   A reference to the license (required).
     -   The current and important past releases
     -   Documentation for developers and users
+    -   Suggestion for users to update the `ADOPTERS.md` file (see further below) upon awareness of practical usage
 -   `MAINTAINERS` \
     A list of all current maintainers with contact info. [A separate document](./MAINTAINERS-file)
     covers the specifics.
@@ -75,6 +76,7 @@ Repositories SHOULD have these files. Named files SHOULD be at the root of the r
 -   `ADOPTERS.md`
     -   Contains a list of notable usages of the project's releases and/or source code
     -   MUST contain publicly verifiable references in the form of URLs or article info
+    -   Can be updated by maintainers as well as by adopters or any third party who is aware of adoption and can provide verifiable links.
 
 ## Prohibited
 
