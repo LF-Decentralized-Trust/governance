@@ -29,6 +29,7 @@ teams:
 - name: security-managers
   maintainers:
     - hartm
+    - jwagantall
     - ryjones
 - name: tac
   maintainers:
