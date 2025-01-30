@@ -1,42 +1,49 @@
 teams:
+- name: calendar
+  maintainers:
+    - ryjones
+  members:
+    - davidwboswell
+    - jwagantall
 - name: lf-staff
   maintainers:
-  - ryjones
+    - ryjones
   members:
-  - SeanBohan
-  - daniela-barbosa
-  - davidwboswell
-  - hartm
-  - lanayanelson
-  - minyu66
-  - thelinuxfoundation
-  - tykeal
+    - SeanBohan
+    - daniela-barbosa
+    - davidwboswell
+    - hartm
+    - jwagantall
+    - lanayanelson
+    - minyu66
+    - thelinuxfoundation
+    - tykeal
 - name: community
   maintainers:
-  - ryjones
+    - ryjones
   members:
-  - JFleenor
-  - hartm
-  - lanayanelson
-  - tkuhrt
+    - JFleenor
+    - hartm
+    - lanayanelson
+    - tkuhrt
 - name: security-managers
   maintainers:
-  - hartm
-  - ryjones
+    - hartm
+    - ryjones
 - name: tac
   maintainers:
-  - tkuhrt
+    - tkuhrt
   members:
-  - EnriqueL8
-  - VRamakrishna
-  - arsulegai
-  - cjhowland
-  - dmueller2001
-  - hendrikebbers
-  - matthew1001
-  - mbrandenburger
-  - petermetz
-  - wenjing
+    - EnriqueL8
+    - VRamakrishna
+    - arsulegai
+    - cjhowland
+    - dmueller2001
+    - hendrikebbers
+    - matthew1001
+    - mbrandenburger
+    - petermetz
+    - wenjing
 repositories:
 - name: governance
   teams:
