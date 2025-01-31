@@ -64,7 +64,7 @@ For the record...2024 was a great and very busy year for the Aries collaborators
 
 The remaining eight Aries repositories are being evaluated to determine an appropriate final disposition. This includes:
 
-- Identifying repositories with ongoing value and facilitating their transition to the [OpenWallet Foundation] or other relevant communities.
+- Identifying repositories with ongoing value and facilitating their transition to the [OpenWallet Foundation] or other relevant communities. Of note, the invaluable [Aries RFC](https://github.com/hyperledger/aries-rfcs) repository and [website](https://hyperledger.github.io/aries-rfcs/) are likely to move to the [Decentralized Identity Foundation](https://identity.foundation)'s DIDComm Working Group.
 - Archiving repositories that are no longer maintained or needed.
 - Ensuring proper documentation is in place for any future reference or migration efforts.
 
