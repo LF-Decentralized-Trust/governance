@@ -13,7 +13,9 @@ Hyperledger Indy is a very stable project. Because of this stability, there are 
 
 A Hyperledger Mentorship project was completed and has produced an Indy Read Replica implementation that can be found [here](https://github.com/rxbryan/indyread). 
 
-An [Indy Besu Article](https://www.lfdecentralizedtrust.org/blog/lf-decentralized-trusts-hyperledger-indy-on-besu-joins-the-didindy-method-six-months-of-progress) was recently published which describes the progress being made towards the next generation of Hyperledger Indy.
+An [Indy on Besu Article] was recently published which describes the progress being made towards the next generation of Hyperledger Indy.
+
+[Indy on Besu Article]: https://www.lfdecentralizedtrust.org/blog/lf-decentralized-trusts-hyperledger-indy-on-besu-joins-the-didindy-method-six-months-of-progress
 
 ### OpenSSF Scorecard for key repositories:
 
@@ -76,8 +78,8 @@ Below is a copy of the goals from last years [Hyperledger Indy Annnual Report](h
     * STATUS: **Completed**. Indy documentation and all Discord and other community communications all point people away from the deprecated Indy SDK and towards its replacements.
 * Address the “Corporate Firewall” issue, where users behind a corporate firewall cannot access an Indy network because of the ZMQ ports being used.
     * STATUS: **Partially Completed**. Several implementers (teams in Brazil and Canada) implemented "one-off" solutions to this using a local instance of an "indy-proxy". A Hyperledger Mentorship Program Project called "Indy Read Replica" ([repository](https://github.com/hyperledger/indy-read-replica)) implements a more general approach, allowing anyone to run a component that is configured to retrieve and server Indy transactions from multi 
-* Evolve Indy so as to be ready for when the current implementation will need more functionality, such via the Indy Besu approach.
-  * STATUS: **In Progress**. Excellent progress has been made on Indy Besu, and the work on the project continues. See the recent [Indy Besu article](https://www.lfdecentralizedtrust.org/blog/lf-decentralized-trusts-hyperledger-indy-on-besu-joins-the-didindy-method-six-months-of-progress) for details about the progress.
+* Evolve Indy so as to be ready for when the current implementation will need more functionality, such via the Indy on Besu approach.
+  * STATUS: **In Progress**. Excellent progress has been made on Indy on Besu, and the work on the project continues. See the recent [Indy on Besu article] for details about the progress, and additional updates below.
 
 **Desired functionality:**
 
@@ -93,15 +95,15 @@ Below is a copy of the goals from last years [Hyperledger Indy Annnual Report](h
 
 Beyond the "Read Replica" work referenced earlier in this report, little progress was made on the desired functionality. Teams are focused on deployments with what is available.  
 
-**Progress on the Indy Besu concept:**
+**Indy on Besu:**
 
 * Transitioning from the existing PoC and design to a concrete implementation.
   * Improvement of existing modules
   * Integration with Aries Frameworks
   * Implementation of migration tools
-* Some of the general desired functionality above might be done in the Indy Besu implementation.
+* Some of the general desired functionality above might be done in the Indy on Besu implementation.
 
-As noted earlier in this report, much progress continues to be made on Indy Besu.
+**STATUS**: Great progress on this was accomplished in 2024. Large companies have started making significant contributions to the codebase, and the community has expanded considerably. The smooth integration of Indy on Besu into production networks is underway. The next year will bring us statistical data on the productivity of this system in real projects.
 
 ### Next Year's Goals
 
@@ -117,8 +119,9 @@ Here is a list of goals we intend to work towards during the coming year to help
     e. Add code quality checking for project commits
     f. Reformat code base
     g. Add poetry package management
-4. Update the python version and the other dependencies versions
-5. Indy Besu _TO BE ADDED_
+4. Update the Python version and related dependencies.
+5. Update Indy on Besu with revocation, and integrate it into production deployements.
+6. Test migrations from existing Indy ledgers to Indy on Besu.
 
 ### Help Required
 
