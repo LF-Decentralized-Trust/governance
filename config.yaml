@@ -61,7 +61,7 @@ repositories:
   teams:
     community: maintain
     lf-staff: maintain
-  visibility: private
+  visibility: public
 - name: wikix
   teams:
     community: maintain
