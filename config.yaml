@@ -3,12 +3,14 @@ teams:
   maintainers:
     - ryjones
   members:
+    - Emily-Fisher-PR
     - davidwboswell
     - jwagantall
 - name: lf-staff
   maintainers:
     - ryjones
   members:
+    - Emily-Fisher-PR
     - SeanBohan
     - daniela-barbosa
     - davidwboswell
