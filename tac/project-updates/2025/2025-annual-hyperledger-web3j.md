@@ -46,7 +46,8 @@ During the last six months, the project has achieved the following goals:
 - Generic struct functionality implementation;
 - Upgrade web3j-android branch with to latest version and release libraries as android artifacts;
 - First Web3J Hyperledger Ecosystem Summit;
-- Reduce part of the open issues and connect with the community in different events.
+- Reduce part of the open issues and connect with the community in different events;
+- Improve ENS integration support.
 
 Other accomplishments:
 - Migrate the project under LF Decentralized Trust Ecosystem.
@@ -59,7 +60,8 @@ Other accomplishments:
 - Web3J Workshop with Account Abstraction support;
 - Improve Windows support;
 - Web3j-unit and Web3j-evm updates;
-- Generate Kotlin wrappers for Solidity Smart contracts.
+- Generate Kotlin wrappers for Solidity Smart contracts;
+- Add linea RPC APIs EIP-7702 support.
 
 ### Help Required
 We continue to work with LFDT staff to organize events, identify contributors and potential maintainers.
