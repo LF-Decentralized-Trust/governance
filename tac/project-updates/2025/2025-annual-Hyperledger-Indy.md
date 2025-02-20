@@ -136,3 +136,72 @@ Because Hyperledger Indy is so stable, and efforts are being increased to contin
 Although some of the current OpenSSF Scorecard values fall below the new criteria introduced by the TAC, we firmly believe that Hyperledger Indy continues to qualify as a graduated project. The project has consistently adhered to best practices and demonstrated its maturity and reliability.
 
 The OpenSSF Scorecard is a relatively new tool, and while adjustments are needed to align with its metrics, this does not diminish the quality or robustness of the project. We have recently integrated the Scorecard into our processes and are actively working to address the identified areas for improvement. Hyperledger Indy remains a well-rounded and well-managed project, with a clear roadmap to further enhance its security posture and alignment with OpenSSF standards.
+
+## Indy Annual Review 2025 Notes from the TAC
+
+TAC Reviewers: Enrique Lacal (primary), Peter Somogyvari (secondary)
+
+Great written report!
+
+### Project Health
+
+Using data from https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=indy&routedFrom=Github&bestPractice=false
+
+The project is in good health, there is a substantial amount of community involvement and a varied list of organizations contributing.
+
+- The maintainer diversity has decreased but still at a great level with 13 organizations involved.
+- Most contributions performed by 3 organizations
+- Metrics for commits, contributors, issues and pull requests have all gone down and is related to the maturity of the project.
+
+The stability of the project mentioned in the annual review highlights the big pieces of work this year:
+
+- Keeping up with the Ubuntu releases, there was a release of indy-node this year v1.13.2
+- Indy on Besu was a new stream of work that continues into 2025
+
+Project is widely adopted across the world with a varied list of use cases: https://www.lfdecentralizedtrust.org/learn/use-case-tracker
+
+Increased awareness for Indy on Besu through a webinar titled: Evolution of Indy Project as eIDAS2/EUDI Compliant Verifiable Credentials
+
+Discord channels have engaging discussions:
+
+- Separate channels exist for domain specific discussions.
+- Including a new Discord Channel for Indy on Besu, which has been big focus this year and will continue to be next year.
+
+Community calls are well run and have good attendance.
+
+Fantastic to see the project getting involved in the Mentorship program!
+
+### Progress and Releases
+
+- There has been a constant stream of contributions across most of the Indy Repositories
+- Ubuntu 20.04 release of Indy Node
+- Indy on Besu maturing and substantial traction from the community
+- Community calls are fantastically ran, great meeting notes!
+
+### Goal Review
+
+- Achieved most of the goals set out for the year 👏🏼
+- Goals for the year are clear and precise!
+    - There is a stretch goal as a recommendation to specify some of the new features
+    - A lot of the goals are about upgrading versions, OpenSSF, testing migration...
+
+### Compliance with Hyperledger Project Lifecycle Criteria
+
+- As mentioned in the annual review, the OpenSSF Scorecard reports have only come into effect and it's great to see them enabled in the key repositories.
+- A goal is established to increase the OpenSSF Scorecard rating.
+- Add as a goal for next year to move to it's own GitHub organization, it was discussed in the community call so already progress there!
+
+### Recommendations
+
+1. Ecosystem mapping
+
+- Hyperledger Indy has a large amount of repositories and there is a lot of wikis, posts, README and it can be difficult to get a grasp of all the features it has.
+  
+2. Release documentation needs Improvement
+
+- As part of the review, it was difficult to keep track of releases and versions. The cadence of releases and documenting this would improve adoption and communicating to users of new updates. Just looking at the v.13.2 release https://github.com/hyperledger/indy-node/releases/tag/v1.13.2 and the README points to using a branch. It might just need clean as the team mentioned they have move to GitHub release.
+- Think about how frequently you are releasing CVE fixes and patches to users. I think the OpenSFF will enable to spot these quicker.
+
+### Decision
+
+The project should remain in the Graduated status given the amount of engagement, maturity and project adoption.
