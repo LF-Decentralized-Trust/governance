@@ -11,7 +11,7 @@ Reference: [Indy LFX Insights Page](https://insights.lfx.linuxfoundation.org/fou
 
 Hyperledger Indy is a very stable project. Because of this stability, there are a number of scaled deployments of Indy across the world. All are running smoothly, and there is little demand for new features in the existing Indy Node/Plenum code base.
 
-A Hyperledger Mentorship project was completed and has produced an Indy Read Replica implementation that can be found [here](https://github.com/rxbryan/indyread). 
+A Hyperledger Mentorship project was completed and has produced an Indy Read Replica implementation that can be found [here](https://github.com/hyperledger/indy-read-replica).
 
 An [Indy on Besu Article] was recently published which describes the progress being made towards the next generation of Hyperledger Indy.
 
@@ -52,7 +52,7 @@ The OpenSSF Scorecard items that need further investigation are similar in Indy 
 
 ## Maintainer Diversity
 
-There are 23 current maintainers on 18 Indy GitHub Teams representing at least 13 organizations. This represents a decrease of 12 total maintainers but only 3 fewer organizations compared to last year. The maintainers and teams can be seen in the Hyperledger [Access Control YAML file]https://github.com/hyperledger/governance/blob/main/access-control.yaml). The Indy maintainers file ([example](https://github.com/hyperledger/indy/blob/main/MAINTAINERS.md)) links to the Access Control YAML as the "source of truth."
+There are 23 current maintainers on 18 Indy GitHub Teams representing at least 13 organizations. This represents a decrease of 12 total maintainers but only 3 fewer organizations compared to last year. The maintainers and teams can be seen in the Hyperledger [Access Control YAML file](https://github.com/hyperledger/governance/blob/main/access-control.yaml). The Indy maintainers file ([example](https://github.com/hyperledger/indy/blob/main/MAINTAINERS.md)) links to the Access Control YAML as the "source of truth."
 
 ## Project Adoption
 
@@ -64,7 +64,7 @@ The [Use Case Tracker](https://www.lfdecentralizedtrust.org/learn/use-case-track
 
 ### Performance Against Prior Goals
 
-Below is a copy of the goals from last years [Hyperledger Indy Annnual Report](https://github.com/hyperledger/toc/blob/gh-pages/project-reports/2024/2024-annual-Hyperledger-Indy.md).
+Below is a copy of the goals from last years [Hyperledger Indy Annual Report](https://github.com/hyperledger/toc/blob/gh-pages/project-reports/2024/2024-annual-Hyperledger-Indy.md).
 
 * Increased awareness of Indy, its usefulness, and a corresponding increase in contributors to enable it to continue to evolve.
 * Formally release the Ubuntu 20.04 release of Indy Node.
@@ -77,7 +77,7 @@ Below is a copy of the goals from last years [Hyperledger Indy Annnual Report](h
     * Update and release the Indy VDR component as needed.
     * STATUS: **Completed**. Indy documentation and all Discord and other community communications all point people away from the deprecated Indy SDK and towards its replacements.
 * Address the “Corporate Firewall” issue, where users behind a corporate firewall cannot access an Indy network because of the ZMQ ports being used.
-    * STATUS: **Partially Completed**. Several implementers (teams in Brazil and Canada) implemented "one-off" solutions to this using a local instance of an "indy-proxy". A Hyperledger Mentorship Program Project called "Indy Read Replica" ([repository](https://github.com/hyperledger/indy-read-replica)) implements a more general approach, allowing anyone to run a component that is configured to retrieve and server Indy transactions from multi 
+    * STATUS: **Partially Completed**. Several implementers (teams in Brazil and Canada) implemented "one-off" solutions to this using a local instance of an "indy-proxy". A Hyperledger Mentorship Program Project called "Indy Read Replica" ([repository](https://github.com/hyperledger/indy-read-replica)) implements a more general approach, allowing anyone to run a component that is configured to retrieve and server Indy transactions from multiple networks.
 * Evolve Indy so as to be ready for when the current implementation will need more functionality, such via the Indy on Besu approach.
   * STATUS: **In Progress**. Excellent progress has been made on Indy on Besu, and the work on the project continues. See the recent [Indy on Besu article] for details about the progress, and additional updates below.
 
@@ -120,7 +120,7 @@ Here is a list of goals we intend to work towards during the coming year to help
     f. Reformat code base
     g. Add poetry package management
 4. Update the Python version and related dependencies.
-5. Update Indy on Besu with revocation, and integrate it into production deployements.
+5. Update Indy on Besu with revocation, and integrate it into production deployments.
 6. Test migrations from existing Indy ledgers to Indy on Besu.
 
 ### Help Required
