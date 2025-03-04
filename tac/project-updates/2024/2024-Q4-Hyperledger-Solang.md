@@ -13,7 +13,7 @@ grand_parent: Project Updates
 
 * Solang Playground Deliverables to the Web3 Foundation were completed and delivered, making the playground closer to the final version.
 
-# Questions/Issues for the TOC
+# Questions/Issues for the TAC
 
 There are no issues at this time.
 
