@@ -41,6 +41,7 @@ There are no issues at this time.
 # Maintainer Diversity
 
 Two new maintainers were added to the project: [Ahmad Sameh](https://github.com/ahmadsamehh) and [Tarek Nasser](https://github.com/tareknaser).
+They don't represent an organization, but they are actively contributing/trying to contribute to the Soroban target.
 
 # Contributor Diversity
 
