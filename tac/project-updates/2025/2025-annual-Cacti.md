@@ -36,7 +36,7 @@ and previous (Jan 1st, 2024) [MAINTAINERS.md](https://github.com/hyperledger-cac
 
 ## Project Adoption
 
-The detailed answer about adoption has been published earlier and can be read through this link: https://github.com/hyperledger/hyperledger-hip/blob/gh-pages/HIPs/graduated/cacti.md#real-world-use
+The detailed answer about adoption has been published earlier and can be read through this link: https://github.com/LF-Decentralized-Trust/project-proposals/blob/gh-pages/proposals/graduated/cacti.md#real-world-use
 
 ## Goals
 
