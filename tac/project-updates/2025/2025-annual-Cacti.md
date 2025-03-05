@@ -75,7 +75,7 @@ Artifact publishing is on hold at the moment due to the migration effort from th
 
 ### Next Year's Goals
 
-1. Have the Typescript reference implementation of the IETF Secure Asset Transfer Protocol (SATP) deployed to at least one production project.
+1. Have the Typescript reference implementation of the IETF Secure Asset Transfer Protocol (SATP) and helping production project with a dedicated discord channel and support.
 2. Increase our security posture when it comes to the OpenSSF and LFX scores (a lot of this is just figuring out how to tell the tools about what we already have)
 3. Bring down our average pull request merge time. This was one of the earlier year's goals as well and we have made significant progress on it a couple of years ago but recently there's been a bit of a relapse on this metric so it's worth putting it down as a goal again.
 4. Finish migrating the release automation to the new repository.
