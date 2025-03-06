@@ -79,6 +79,7 @@ Artifact publishing is on hold at the moment due to the migration effort from th
 2. Increase our security posture when it comes to the OpenSSF and LFX scores (a lot of this is just figuring out how to tell the tools about what we already have)
 3. Bring down our average pull request merge time. This was one of the earlier year's goals as well and we have made significant progress on it a couple of years ago but recently there's been a bit of a relapse on this metric so it's worth putting it down as a goal again.
 4. Finish migrating the release automation to the new repository.
+5. About 80% of all requests will be handled within 3 days.
 
 
 ### Help Required
