@@ -69,6 +69,54 @@ AnonCreds remains an **Incubation project**. While it is one of the most mature 
 
 ## TAC Hyperledger AnonCreds Annual Review Notes
 
-*To be added after the TAC Meeting that covers the AnonCreds Annual Report.*
+[TAC Meeting Recording - 2025.03.06](https://zoom.us/rec/play/eq8yfXAkOWIPbqfjWAwmzsIPzRKDTXBoXY27NQReWGeLWuATDrIU7bQb6J0wgLvJPTwFtXKTnebWA0bG.AukIVgJR1j5hTz9G?accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FEWc7elJj8J5ulXwXZG8aOZuoQjK5ZNrb1beOs4CoJZuiFXq051wiks8wU3Dm8j-l.46-6EBHM5lY-RcRi) -- AnonCreds Annual Review discussion starts at time 41:45. mark.
 
-[TAC Meeting Recording - 2025.02.XX](#) -- AnonCreds Annual Review discussion starts at the X:XX mark.
+### Project Health & Activity
+
+The Hyperledger AnonCreds project has reached a stable phase for v1, with development efforts shifting toward maintenance and adoption rather than active feature expansion. The transition to a ledger-agnostic model and alignment with the W3C Verifiable Credentials Data Model (VCDM) represent significant milestones that reduce the need for frequent updates.
+
+Development on AnonCreds v2, however, has been inconsistent, reflecting broader challenges in the ZKP-based credentialing ecosystem. Competing approaches and a fragmented industry landscape continue to slow standardization and adoption, leaving the project's long-term trajectory uncertain.
+
+### Maintainer Diversity & Governance
+
+The project is supported by nine maintainers representing six organizations, providing a stable governance structure. However, sustained engagement from contributors, particularly in advancing AnonCreds v2, will be essential to driving future progress.
+
+### Adoption & Market Positioning
+
+AnonCreds remains a core component of the Hyperledger Aries and Indy ecosystems, though new public deployments have been limited. The lack of an ADOPTERS file makes it difficult to measure real-world traction. Meanwhile, competing credentialing approaches, such as SD-JWTs and ISO mDL, continue to gain industry attention, increasing competitive pressure.
+
+To reinforce its market position, the project would benefit from improved adoption tracking and stronger messaging around AnonCreds’ privacy-preserving advantages compared to emerging alternatives.
+
+### Key Ecosystem Dependencies
+
+AnonCreds adoption is primarily driven by integrations with:
+
+[ACA-Py](https://github.com/openwallet-foundation/acapy) – The primary mechanism for issuing and verifying AnonCreds-based credentials.
+
+[Credo-TS](https://github.com/openwallet-foundation/credo-ts) – A TypeScript-based credentialing library, extending support to JavaScript/Node.js environments.
+
+[Bifold Wallet](https://github.com/openwallet-foundation/bifold-wallet) - A React Native wallet based on [Credo-TS](https://github.com/openwallet-foundation/credo-ts).
+
+These frameworks remain critical to AnonCreds’ ecosystem, but integration of AnonCreds v2 has been slow. Ensuring a smooth migration path from v1 to v2 will be a priority as Aries-based ecosystems explore alternative credential formats.
+
+### Challenges & Future Focus Areas
+
+Specification & Standardization – While AnonCreds v1 has stabilized, finalizing the AnonCreds v2 specification remains an outstanding task. Broader industry alignment on ZKP-based credentials is still a challenge.
+
+Interoperability & Competing Models – The growing adoption of SD-JWTs and non-ZKP-based credential formats requires AnonCreds to emphasize its unique privacy-preserving advantages.
+
+Scalability & Revocation – Progress has been made on the ALLOSAUR revocation model, but further work is needed to ensure deployment-ready solutions.
+
+### Next Steps & Recommendations
+
+Accelerate AnonCreds v2 implementation in ACA-Py and Credo-TS to provide a clear transition path.
+
+Improve transparency in adoption tracking through an ADOPTERS file or detailed case studies.
+
+Strengthen competitive positioning by highlighting the privacy benefits of ZKP-based credentials.
+
+Consider refining branding for AnonCreds v2 to clarify its role as a next-generation credentialing solution.
+
+### Project Lifecycle Recommendation
+
+AnonCreds remains in Incubation. While it is one of the most widely deployed privacy-preserving credentialing solutions, the adoption of AnonCreds v2 will be a critical factor in determining its path toward Graduation. Stronger industry collaboration and more structured adoption tracking will be key to ensuring continued relevance.
