@@ -80,4 +80,4 @@ With its core technologies now under the [OpenWallet Foundation], Hyperledger Ar
 
 *To be added after the TAC Meeting that covers the final review of Hyperledger Aries.*
 
-[TAC Meeting Recording - 2025.02.XX](#) — Discussion starts at the X:XX mark.
+[TAC Meeting Recording - 2025.02.13](https://zoom.us/rec/share/OhATLT_aayeusxQj-9UvnrcZgBkCkjelSmNXTTtScxgPZaL4U9owoMYmcjbJ5252.ZixXMlkyJXPQMDgK) — Discussion starts at the 31:52 mark.
