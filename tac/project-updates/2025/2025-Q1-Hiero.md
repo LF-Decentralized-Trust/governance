@@ -41,8 +41,15 @@ We see new people coming up at all of those places and are happy to see that the
 
 # Current Plans
 
-<mark>_Required: A healthy project will often be working towards a common goal, or have a shared understanding of what is being done next - even if individual contributors have their own "itches". What are the main features planned? What releases are planned? Are there any specific efforts or branches of development underway? This does not need to be described in technical detail. Conversely, if the activity is minimal, discuss how the project plans to address that - whether through seeking out new contributors, maintaining in a dormant but available state, or planning towards a move to a Deprecated (and ultimately End of Life) state._
-</mark>
+Our current main goal is still to move all Hedera repositories to Hiero.
+While we are mostly done with that topic we already started to refactor the code to a more vendor neutral state.
+Here we are currently concentrating on the SDKs and discuss workflows, roadmaps, and patterns.
+
+With all that work we plan to have first releases of all projects in near future.
+Next to that we plan a major release that will contain all the work regarding moving the code to a more vendor neutral project.
+
+Another main goal is the onboarding of community projects from the Hiero ecosystem.
+We already moved 3 community projects to Hiero and a new proposal is already in the pipeline.
 
 # Maintainer Diversity
 
