@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2025 Annual Review Hyperledger Fabric
+title: 2025 Annual Review Hyperledger Iroha
 parent: 2025
 grand_parent: Project Updates
 ---
