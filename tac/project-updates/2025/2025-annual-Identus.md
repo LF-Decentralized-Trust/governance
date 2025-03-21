@@ -89,3 +89,48 @@ LF Decentralized Trust can help with the following:
 ## Project Lifecycle Status Recommendation
 
 The Identus is a reasonably new incubation project in the LF Decentralized Trust Ecosystem and should remain so.
+
+
+## Identus Annual Review 2025 Notes from the TAC
+
+[TAC Meeting Recording 2025.01.30](https://zoom.us/rec/play/HBFR6uCLwhy7qUxqHGAhLGjvBbgZSklBtGzVnB7js1EIZDvqqJUq3FIY4wM36zCWm6RIREsHwi7dNd-D.L53jN2jLjtRD7WUL?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2Fw3bujVyRZRw8UDKGjc5Y-JRF1MVzhBNNt0u0BTdtyWdVbjU56jGk1snGiNjyTq1D.5MKrIQkwxw3H-Bd1) -- Identus Annual report discussion starts at the 29:44 mark.
+
+__TAC Reviewers__: Venkatraman Ramakrishna (primary), Matthew Whitehead (secondary)
+
+### Project Health
+
+- Overall, the project seems to be in good health as indicated in the review and by looking at the development activity in the project's repositories. Here are the caveats:
+  * A problem we found was that the repositories had not been moved to the new org, so LFX Insights did not reveal anything meaningful about the project.
+  * Also, the repositories are not being tracked by the OpenSSF Scorecard, so we can't see how well the project is performing on several OpenSSF metrics.
+- There's a decent amount of community interest and participation, as indicated by observing the activity in Discord and the mailing list, and watching the replays of their recent community calls.
+- Discord channels are easonably well structured, indicating that the project is active enough to need separate channels for high-level topics.
+- Frequent releases are being published for the various Identus components.
+- The documentation looks very well-done and comprehensive.
+- The fact that the Identus platform is being used in three distinct use cases by other companies indicates the interest in the project as well as its utility, which is a good sign for a project in the incubation stage.
+- Produced their annual report ahead of schedule which shows their level of engagement as a project.
+- There are 3 distinct organizations from which the project's maintainers are drawn, but there's a significant skew toward IOG (8 out of 10 maintainers). It's not possible to tell how diverse the code contributions are because the LFX Insights dashboard is not configured for the code repositories yet.
+
+### Recent Maintenance Activity and Progress
+
+- As a new incubating project, there is a lot of development activity that is identifiable by inspection of the repositories, which supports the points made in the review by the project's maintainers.
+- We can see a lot of PRs having ben approved over time with relatively few outstanding PRs, indicating active and timely maintenance.
+- The project plan indicates several tasks that have been fulfilled, currently worked on, or in the pipeline. This, in addition to the notes made in the review, indicate that the maintainers have identified specific features and improvements and have actively been fulfilling these over time.
+- There is no roadmap defined at a somewhat macro level, i.e., which tells us how the overall Identus platform and its components are supposed to be evolving as per the maintainers' visions. What we see in the roadmap link provided in the review is a set of low-level GitHub issues.
+
+### Compliance with Hyperledger Project Lifecycle Criteria
+
+- There are no red flags when it comes to development and maintenance activity, but none of the project's repositories have the OpenSSF Best Practices and OpenSSF Scorecard badges enabled. This should be fixed ASAP.
+- Should remain in Incubated status as requested by the maintainers in the review.
+
+### Suggestions for Improvement
+
+- As mentioned earlier, migrate the repositories to the new organization so we can track its health using LFX Insights, enable the OpenSSF Best Practices Badge, and enable the OpenSSF Scorecard badge so we can identify the precise metrics on which the project is lacking.
+- Try to increase maintainer diversity over time (currently skewed toward IOG).
+- The documentation looks good, but do strive to create a process for community-driven feature proposals and brainstorming. As a suggestion, several LFDT projects do this using project-specific RFCs, which you can support within a folder or a separate repository.
+- Maintain a high-level ROADMAP.md file in your main repository ('identus') that spells out your vision and a near- or medium-term plan in plain language and illustrations.
+
+### General Recommendations
+
+- Do try to collaborate with other projects in your space, like Aries or CREDEBL. Avoid reinventing the wheel and leverage dependencies instead, keeping the code as modular and reusable as possible. (The project has done a good job of this so far!).
+- To promote the project, write blog articles and deliver talks/demos or run workshops with LFDT staff's help.
+- Keep connections with the W3C standardization community and strive for compliance with those standards.

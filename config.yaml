@@ -1,69 +1,72 @@
 teams:
-- name: calendar
-  maintainers:
-    - ryjones
-  members:
-    - davidwboswell
-    - jwagantall
-- name: lf-staff
-  maintainers:
-    - ryjones
-  members:
-    - SeanBohan
-    - daniela-barbosa
-    - davidwboswell
-    - hartm
-    - jwagantall
-    - lanayanelson
-    - minyu66
-    - thelinuxfoundation
-    - tykeal
-- name: community
-  maintainers:
-    - ryjones
-  members:
-    - JFleenor
-    - hartm
-    - lanayanelson
-    - tkuhrt
-- name: security-managers
-  maintainers:
-    - hartm
-    - jwagantall
-    - ryjones
-- name: tac
-  maintainers:
-    - tkuhrt
-  members:
-    - EnriqueL8
-    - VRamakrishna
-    - arsulegai
-    - cjhowland
-    - dmueller2001
-    - hendrikebbers
-    - matthew1001
-    - mbrandenburger
-    - petermetz
-    - wenjing
+  - name: calendar
+    maintainers:
+      - ryjones
+    members:
+      - Emily-Fisher-PR
+      - davidwboswell
+      - jwagantall
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - Emily-Fisher-PR
+      - SeanBohan
+      - Tomaz-S-LFDT
+      - daniela-barbosa
+      - davidwboswell
+      - hartm
+      - jwagantall
+      - lanayanelson
+      - minyu66
+      - thelinuxfoundation
+      - tykeal
+  - name: community
+    maintainers:
+      - ryjones
+    members:
+      - JFleenor
+      - hartm
+      - lanayanelson
+      - tkuhrt
+  - name: security-managers
+    maintainers:
+      - hartm
+      - jwagantall
+      - ryjones
+  - name: tac
+    maintainers:
+      - tkuhrt
+    members:
+      - EnriqueL8
+      - VRamakrishna
+      - arsulegai
+      - cjhowland
+      - dmueller2001
+      - hendrikebbers
+      - matthew1001
+      - mbrandenburger
+      - petermetz
+      - wenjing
 repositories:
-- name: governance
-  teams:
-    community: maintain
-    tac: maintain
-  visibility: public
-- name: project-proposals
-  teams:
-    community: maintain
-    security-managers: read
-    tac: maintain
-  visibility: public
-- name: wiki
-  teams:
-    community: maintain
-    lf-staff: maintain
-  visibility: public
-- name: wikix
-  teams:
-    community: maintain
-    lf-staff: maintain
-  visibility: private
+  - name: governance
+    teams:
+      community: maintain
+      tac: maintain
+    visibility: public
+  - name: project-proposals
+    teams:
+      community: maintain
+      security-managers: read
+      tac: maintain
+    visibility: public
+  - name: wiki
+    teams:
+      community: maintain
+      lf-staff: maintain
+    visibility: public
+  - name: wikix
+    teams:
+      community: maintain
+      lf-staff: maintain
+    visibility: private
