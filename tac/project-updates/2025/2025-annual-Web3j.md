@@ -23,7 +23,7 @@ Highlights from the 2024 Insights report:
 
 ## Maintainer Diversity
 
-At the moment there are only 3 maintainers (both from Web3 Labs).
+At the moment there are only 3 maintainers (all from Web3 Labs).
 
 The MAINTAINERS.md file is up to date and can be found [here](https://github.com/LFDT-web3j/web3j/blob/main/MAINTAINERS.md)
 
