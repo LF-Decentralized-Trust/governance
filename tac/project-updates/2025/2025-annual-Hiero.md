@@ -26,7 +26,7 @@ All repositories of the Hiero org receive regular updates and are maintained by 
 As a new project it is always hard to start creating a diverse community.
 We are really happy, that we already have maintainers and contributors from different companies and even some that are not employed by a company.
 This includes new contributors (and even committers and maintainers) as you can see as example in the contributor list of https://github.com/hiero-ledger/hiero-solo-action that is a community driven project which already attracting new contributors from India and Africa.
-Another positive example ifor contributions is the YouTube tutorial series for our Python SDK that has been created by a community member: https://www.youtube.com/playlist?list=PL6uVtTx-oqY8V-HBfenONJrsA0Z8xJymX
+Another positive example for contributions is the YouTube tutorial series for our Python SDK that has been created by a community member: https://www.youtube.com/playlist?list=PL6uVtTx-oqY8V-HBfenONJrsA0Z8xJymX
 
 ## Project Adoption
 
