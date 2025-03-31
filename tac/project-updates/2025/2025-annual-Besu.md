@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2025 Annual Review Besu
+title: 2024 Annual Review Besu
 parent: Project Updates
 grand_parent: LF Decentralized Trust TAC
 nav_exclude: true
