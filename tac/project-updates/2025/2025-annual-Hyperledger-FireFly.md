@@ -67,7 +67,7 @@ Hyperledger FireFly continues to be adopted by world leading companies throughou
 
 * Release of FireFly V1.3.0, V1.3.1, & V1.3.2
 * V1.3.0 introduced namespace isolation, custom smart contracts with data association, PostgreSQL support, optimized Hyperledger Besu integration, and a Tezos connector. V1.3.0 had significant amount of new features highlighted in this webinar <https://www.youtube.com/watch?v=zR_JwW1V9Og>
-* V1.3.1 enhanced listener functionality, documentation, multiparty status API, Ethereum signing keys, namespace management, websockets, and performance.
+* [V1.3.1](https://github.com/hyperledger/firefly/releases/tag/v1.3.1) enhanced listener functionality, documentation, multiparty status API, Ethereum signing keys, namespace management, websockets, and performance.
 * [V1.3.2](https://github.com/hyperledger/firefly/releases/tag/v1.3.2) included bug fixes, support for large JSON numbers, upgraded dependencies, and improved documentation and testing.
 * Progress on the Cardano connector with new contributors from Blockfrost.io
 * A demo of the new Cardano connector was demoed during the November 13th, 2024 community call (<https://www.youtube.com/watch?v=8R_DGS-OwgE>)
