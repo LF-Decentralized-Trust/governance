@@ -8,7 +8,7 @@ nav_exclude: true
 
 ### Project Health
 
-Hyperledger FireFly released version 1.3.2, an upgrade over V1.2 where FireFly was at the beginning of the year. We have seen continued contributions in the community including major additions such as the Cardano connector (Sundaelabs). Additionally, the maintainer based for Paladin, a Linux Foundation Decentralized Trust Lab, has a significant maintainer overlap, with 4,000 commits of FireFly-related code contributed in the last six months. The community is exploring the potential of Paladin being a FireFly connector.
+Hyperledger FireFly released version 1.3.2, an upgrade over V1.2 where FireFly was at the beginning of the year. We have seen continued contributions in the community including major additions such as the Cardano connector (Sundaelabs). Additionally, the maintainer based for [Paladin](https://www.lfdecentralizedtrust.org/blog/announcing-paladin-an-lf-decentralized-trust-lab-for-programmable-privacy-on-evm), a Linux Foundation Decentralized Trust Lab, has a significant maintainer overlap, with 4,000 commits of FireFly-related code contributed in the last six months. The community is exploring the potential of Paladin being a FireFly connector.
 
 In 2024, contributors decreased by 15% YOY. However, FireFly is in a more mature and stable state than when V1.0 and V1.2 were released in 2022 and 2023 respectively. FireFly has seen continued adoption from dozens of large enterprises across a variety of industries and increased contributions through the connector work highlighted above.
 
