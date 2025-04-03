@@ -50,6 +50,11 @@ Another main goal is the onboarding of community projects from the Hiero ecosyst
 At the moment, we moved 3 community projects to Hiero and a new proposal is in the pipeline.
 Information about the onboarding of new projects can be found [here](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md).
 
+On the project's management front, the team is focusing on evaluating and analyzing key project health metrics that track our progress in fostering a thriving and diverse community.
+These metrics enable us to assess the project's performance by measuring contributions, code velocity, and issue response and resolution times.
+
+Our metrics report can be found [here](https://docs.google.com/document/d/e/2PACX-1vRxg-3wU-eg0EWEhAu9SRab_sXwJBy5YDQqoeV6BLq0FnVnoO4V41kPYEDYJovtns6tpq9gkaSaSzlO/pub).
+
 ### Next Year's Goals
 
 <mark>_What are the goals for the next year of the project? The goals should list what you want to achieve, not just what you know you can achieve. Feel free to include stretch goals and things that you are looking to explore in the next year. For example, are you working on major new features? Or are you concentrating on adoption, community growth, or documentation?_
