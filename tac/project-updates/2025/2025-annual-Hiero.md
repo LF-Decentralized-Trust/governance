@@ -9,24 +9,24 @@ grand_parent: Project Updates
 
 The LFX Insights page of Hiero can be found [here](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=hiero)
 
-The Hiero project started in September 2024 and is growing since that.
-Next to the transition of all Hedera repositories that are needed to run a network we already added some repositories to the project that are community driven.
-With those projects we already onboarded new contributors to Hiero and even got some new maintainers coming from the community.
+The Hiero project began in September 2024 and has been growing ever since.
+Along with the transition of all Hedera repositories that are needed to run a network, we added  other community driven repositories.
+While developing those projects, we were able to onboard new contributors to Hiero and new maintainers coming from the community.
 
-Next to transitioning the repositories we are also setting up a more and more open governance model for the project.
-We now have several public meetings a week on that we discuss the project and the future of it.
+Next to transitioning the repositories, we are setting up an open governance model for the project.
+We kickstarted several public meetings that run on a weekly basis where we discuss the project and it's plans for the future.
 
-All repositories of the Hiero org receive regular updates and are maintained by the maintainers.
+All repositories within the Hiero organization are regularly updated and actively maintained by the project maintainers.
 
 ## Maintainer Diversity
 
 <mark>_How many maintainers do you have, and which organizations are they from? How has the maintainers and diversity of your maintainers changed in the past year? Has the number of active maintainers increased/decreased? Has the diversity of maintainers increased/decreased? Please include a link to your existing [MAINTAINERS file](../guidelines/MAINTAINERS-guidelines.md) and the MAINTAINERS file from last year (if appropriate). This is a good opportunity to ensure that your MAINTAINERS file is up to date and to retire any maintainers._
 </mark>
 
-As a new project it is always hard to start creating a diverse community.
-We are really happy, that we already have maintainers and contributors from different companies and even some that are not employed by a company.
-This includes new contributors (and even committers and maintainers) as you can see as example in the contributor list of https://github.com/hiero-ledger/hiero-solo-action that is a community driven project which already attracting new contributors from India and Africa.
-Another positive example for contributions is the YouTube tutorial series for our Python SDK that has been created by a community member: https://www.youtube.com/playlist?list=PL6uVtTx-oqY8V-HBfenONJrsA0Z8xJymX
+As a new project, it is always hard to start creating a diverse community.
+Our community includes maintainers and contributors from different companies and even some that are not employed by a company.
+This group includes new contributors (committers and maintainers) as shown in the contributor list of https://github.com/hiero-ledger/hiero-solo-action, which is an example of a community driven project attracting new contributors from India and Africa.
+Another positive example for contributions is the YouTube tutorial series for our Python SDK that has been created by one of our community members: https://www.youtube.com/playlist?list=PL6uVtTx-oqY8V-HBfenONJrsA0Z8xJymX
 
 ## Project Adoption
 
@@ -37,17 +37,17 @@ Another positive example for contributions is the YouTube tutorial series for ou
 
 ### Performance Against Prior Goals
 
-Our initial main goal was to move all Hedera repositories to Hiero.
-While we are mostly done with that topic we already started to refactor the code to a more vendor neutral / unbranded state.
-Here we are currently concentrating on the SDKs and discuss workflows, roadmaps, and patterns.
+Our initial target was to move all Hedera repositories to Hiero.
+While we've mostly finished this transition, we've initiated the process of refactoring the code to a more vendor-agnostic and unbranded architecture.
+Our main focus is our SDKs in addition to discussing workflows, roadmaps, and patterns.
 Information and current state on the transition from Hedera can be found [here](https://github.com/hiero-ledger/hiero/blob/main/transition.md).
 Information about our work on making the SDKs vendor neutral can be found [here](https://github.com/hiero-ledger/hiero/blob/main/blog/2025-03-17-sdk-workflows.md).
 
-With all that work we plan to have first releases of all projects in near future.
-Next to that we plan a major release that will contain all the work regarding moving the code to a more vendor neutral project.
+With all of this work in progress, we plan to release the initial minor versions of all projects in the near future.
+Next, we plan a major release that will contain all the work from moving the code to a more vendor neutral release.
 
-Another main goal was and still is the onboarding of community projects from the Hiero ecosystem.
-We already moved 3 community projects to Hiero and a new proposal is already in the pipeline.
+Another main goal is the onboarding of community projects from the Hiero ecosystem.
+At the moment, we moved 3 community projects to Hiero and a new proposal is in the pipeline.
 Information about the onboarding of new projects can be found [here](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md).
 
 ### Next Year's Goals
@@ -57,8 +57,8 @@ Information about the onboarding of new projects can be found [here](https://git
 
 ### Help Required
 
-As described in the next section we would like to start a discussion with the TAC about moving the project to the graduated state.
-Here help (mostly in form of feedback) would be appreciated.
+As outlined in the following section, we would like to initiate a discussion with the TAC regarding the transition of the project to the graduated state.
+We would greatly appreciate any feedback or guidance on this process.
 
 ## Project Lifecycle Status Recommendation
 
