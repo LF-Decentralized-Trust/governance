@@ -20,9 +20,6 @@ All repositories within the Hiero organization are regularly updated and activel
 
 ## Maintainer Diversity
 
-<mark>_How many maintainers do you have, and which organizations are they from? How has the maintainers and diversity of your maintainers changed in the past year? Has the number of active maintainers increased/decreased? Has the diversity of maintainers increased/decreased? Please include a link to your existing [MAINTAINERS file](../guidelines/MAINTAINERS-guidelines.md) and the MAINTAINERS file from last year (if appropriate). This is a good opportunity to ensure that your MAINTAINERS file is up to date and to retire any maintainers._
-</mark>
-
 As a new project, it is always hard to start creating a diverse community.
 Our community includes maintainers and contributors from different companies and even some that are not employed by a company.
 This group includes new contributors (committers and maintainers) as shown in the contributor list of https://github.com/hiero-ledger/hiero-solo-action, which is an example of a community driven project attracting new contributors from India and Africa.
@@ -30,8 +27,14 @@ Another positive example for contributions is the YouTube tutorial series for ou
 
 ## Project Adoption
 
-<mark>_What do you know about adoption, and how has this changed since your last review or since being accepted into LF Decentralized Trust? If you can list companies that are adopters of your project, please do so. Feel free to link to an existing ADOPTERS file if appropriate._
-</mark>
+The project announced the upcoming elections for two vital positions on the Hiero Technical Steering Committee (TSC): the End User Seat and the Contributor Seat.
+These roles are instrumental in guiding the technical direction and ensuring the diverse representation of our community within the Hiero project.
+
+This election will be held on May 7th until May 31st, 2025.
+
+At the moment, we continue to welcome and encorage nominations.
+
+Our current nominees can be viewed [here](https://github.com/hiero-ledger/governance/tree/main/elections/nominees/mar-2025-election)
 
 ## Goals
 
@@ -57,8 +60,15 @@ Our metrics report can be found [here](https://docs.google.com/document/d/e/2PAC
 
 ### Next Year's Goals
 
-<mark>_What are the goals for the next year of the project? The goals should list what you want to achieve, not just what you know you can achieve. Feel free to include stretch goals and things that you are looking to explore in the next year. For example, are you working on major new features? Or are you concentrating on adoption, community growth, or documentation?_
-</mark>
+Hiero is a rapidly growing project that is gaining significant traction. We anticipate continued growth in our community's diversity, enabling the adoption of more community-driven components.
+
+The project is expected to see a considerable growth in the number of maintainers, committers, and members of the TSC.
+
+Our vendor-neutral releases will provide the project with enhanced flexibility and adaptability, supporting its long-term success.
+
+As a project, we expect Hiero to continue advancing in performance, scalability, and, most importantly, trust.
+We remain committed to continue growing our community engagement by encouraging contributions to support both our current and upcoming SDKs, as well as helping to build a more comprehensive TCK with richer test coverage to ensure robust end-to-end validation.
+Additionally, we are focused on achieving faster finality, lower latency, and continuously increasing capacity to support larger transactions.
 
 ### Help Required
 
