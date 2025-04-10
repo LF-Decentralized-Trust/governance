@@ -9,8 +9,9 @@ grand_parent: Project Updates
 
 We are forging ahead with the IETF SATP reference implementations, the codebase integration and a mentorship project proposal which was granted acceptance a just a few days ago.
 We are still working on the Cacti Chainlink CCIP connector which we've presented in the February LFDT Interoperability Workshop mid-February this year.
+We had an LFDT mentorship project approved for the summer, which will further the goal of creating an integrated architecture as envisioned in the project's roadmap.
 A steady stream of questions are being answered on Discord where most of our activity is happening these days.
-There hasn't been any violations of the code of condcut by contributors so we count ourselves lucky so far.
+There haven't been any violations of the code of conduct by contributors so we count ourselves lucky so far.
 There's been a bit of a slowdown this quarter, the number of active Contributors are decreased by 9.09%. 
 
 # Questions/Issues for the TAC
@@ -21,7 +22,7 @@ N/A
 
 2025-12-02 - `v2.1.0`
 
-We've had plans to issue v2.2.0 in this quarter but there is a chain of dependencies tied in a bit of a gordian knot with the release process, the package renaming and the `satp-dev` branch which contains most of the work of the IETF SATP team. We are hoping to have the new release issued within a few weeks from now when the `satp-dev` branch was properly merged onto `main`.
+We've had plans to issue v2.2.0 in this quarter but there is a chain of dependencies tied in a bit of a gordian knot with the release process, the package renaming and the `satp-dev` branch which contains most of the work of the IETF SATP team. We are hoping to have the new release issued within a few weeks from now when the `satp-dev` branch is properly merged onto `main`.
 
 # Overall Activity in the Past Quarter
 
@@ -39,7 +40,7 @@ Technical changes that we are working on:
    
 # Current Plans
 
-We'll want to do a major release this Summer because we have to have some breaking changes.
+We'll want to do a major release this summer because we have to have some breaking changes.
 We need to migrate away from Web3JS which was unfortunately deprecated and retired as of last month (March 2025).
 This will be a particularly big amount of work and also lots of breaking changes in the APIs of the EVM flavored connector plugins.
 
