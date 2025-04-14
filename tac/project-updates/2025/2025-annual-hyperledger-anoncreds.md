@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 2025 Annual Review Hyperledger AnonCreds
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
+parent: 2025
+grand_parent: Project Updates
 nav_exclude: true
 ---
 
