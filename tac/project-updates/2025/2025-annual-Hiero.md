@@ -14,7 +14,7 @@ Along with the transition of all Hedera repositories that are needed to run a ne
 While developing those projects, we were able to onboard new contributors to Hiero and new maintainers coming from the community.
 
 Next to transitioning the repositories, we are setting up an open governance model for the project.
-We kickstarted several public meetings that run on a weekly basis where we discuss the project and it's plans for the future.
+We kickstarted several public meetings that run on a weekly basis where we discuss the project and its plans for the future.
 
 All repositories within the Hiero organization are regularly updated and actively maintained by the project maintainers.
 
