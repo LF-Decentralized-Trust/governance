@@ -56,6 +56,7 @@ Information about the onboarding of new projects can be found [here](https://git
 On the project's management front, the team is focusing on evaluating and analyzing key project health metrics that track our progress in fostering a thriving and diverse community.
 These metrics enable us to assess the project's performance by measuring contributions, code velocity, and issue response and resolution times.
 
+In hiero-ledger we rely on meassuring tools like LFX Insights, Bitergia and GitHub Insights. With the help of Bitergia, we are able to visualize in detail the contributions data for all the work that happened by the Hedera team before September 2024 (which is when the projects started transitioning to Hiero in hiero-ledger GitHub Organization). LFX Insights helps us confirm the contribution statistics for the work that is happening as we continue to move forward in the projects. Other statistics like GH Insights helps us confirm the data in a specific repository at a time whenever we need to direct focus to a particular component. Leveraging all these metrics tools helps us staying accurate and caught up with the fast pace at which the repos continue to transition into https://github.com/hiero-ledger/.
 Our metrics report can be found [here](https://docs.google.com/document/d/e/2PACX-1vRxg-3wU-eg0EWEhAu9SRab_sXwJBy5YDQqoeV6BLq0FnVnoO4V41kPYEDYJovtns6tpq9gkaSaSzlO/pub).
 
 ### Next Year's Goals
