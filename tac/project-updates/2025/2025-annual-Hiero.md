@@ -71,9 +71,11 @@ The project is expected:
 
 Our vendor-neutral releases will provide the project with enhanced flexibility and adaptability, supporting its long-term success.
 
-As a project, we expect Hiero to continue advancing in performance, scalability, and, most importantly, trust.
-We remain committed to continue growing our community engagement by encouraging contributions to support both our current and upcoming SDKs, as well as helping to build a more comprehensive Technology Compatibility Kits (TCKs) with richer test coverage to ensure robust end-to-end validation of our software implementation in our SDKs.
-Additionally, we are focused on achieving faster finality, lower latency, and continuously increasing capacity to support larger transactions.
+As a project, we anticipate continued progress in the following areas for Hiero:
+
+- **Reliability** - We remain committed to continue growing our community engagement by encouraging contributions to support both our current and upcoming SDKs, as well as helping to build a more comprehensive Technology Compatibility Kits (TCKs) with richer test coverage to ensure robust end-to-end validation of our software implementation in our SDKs. We continue to review and adhere to our security policies, staying informed about potential threats and vulnerabilities that need to be addressed in our codebase. Additionally, we promote active participation in our security efforts by offering bounty opportunities to encourage contributions in this critical area.
+- **Scalability** - The team continuously evaluates opportunities for collaboration with other LFDT projects. We remain actively informed about the focus areas of these projects to identify potential synergies where Hiero can contribute and collaborate effectively. At the same time, we are focused on acquiring new adopters, end users and chair members.
+- **Performance** - Additionally, we are focused on achieving faster finality, lower latency, and continuously increasing capacity to support larger transactions. As we conclude our project transition phase into hiero-ledger, the team's focus will shift towards supporting the development of new and improved releases for each component.
 
 ### Help Required
 
