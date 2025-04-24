@@ -68,7 +68,7 @@ The project is expected to see a considerable growth in the number of maintainer
 Our vendor-neutral releases will provide the project with enhanced flexibility and adaptability, supporting its long-term success.
 
 As a project, we expect Hiero to continue advancing in performance, scalability, and, most importantly, trust.
-We remain committed to continue growing our community engagement by encouraging contributions to support both our current and upcoming SDKs, as well as helping to build a more comprehensive TCK with richer test coverage to ensure robust end-to-end validation.
+We remain committed to continue growing our community engagement by encouraging contributions to support both our current and upcoming SDKs, as well as helping to build a more comprehensive Technology Compatibility Kits (TCKs) with richer test coverage to ensure robust end-to-end validation of our software implementation in our SDKs.
 Additionally, we are focused on achieving faster finality, lower latency, and continuously increasing capacity to support larger transactions.
 
 ### Help Required
