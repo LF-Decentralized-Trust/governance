@@ -63,7 +63,11 @@ Our metrics report can be found [here](https://docs.google.com/document/d/e/2PAC
 
 Hiero is a rapidly growing project that is gaining significant traction. We anticipate continued growth in our community's diversity, enabling the adoption of more community-driven components.
 
-The project is expected to see a considerable growth in the number of maintainers, committers, and members of the TSC.
+The project is expected:
+
+- **Grow their TSC** - Following the recent elections, we anticipate increased participation from members of the Technical Steering Committee (TSC). This growth will enable more companies to take an active role in shaping the project and contribute to the continued expansion of our community.
+- **Grow their maintainers and committers** - We are actively encouraging participation from new contributors and raising awareness among current maintainers and committers to review their contributions in accordance with our project guidelines. The goal is to identify and nominate qualified individuals for committer roles. Simultaneously, we are supporting projects in assessing their current resources to identify opportunities for promoting existing committers to maintainer roles, aligned with the newly established criteria.
+- **Recruit more participating companies** - As we continue to analyze our contributor metrics, we remain committed to promoting Hiero through events, seminars, and forums to enhance the project's visibility. Our goal is to attract interest from a broader range of companies willing to participate and contribute to the project's objectives. Through these efforts, we aim to increase both the diversity and reach of our community.
 
 Our vendor-neutral releases will provide the project with enhanced flexibility and adaptability, supporting its long-term success.
 
