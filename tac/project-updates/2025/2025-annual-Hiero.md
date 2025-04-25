@@ -84,6 +84,13 @@ As a project, we anticipate continued progress in the following areas for Hiero:
 
 ## Project Lifecycle Status Recommendation
 
-We are working on all the topics that are needed to move the project to the graduated state (as described in https://lf-decentralized-trust.github.io/governance/governing-documents/project-incubation-exit.html).
-We believe that we are in a very good state to move to the graduated state in the near future.
-We would like to discuss that topic with the TAC.
+The project continues to work towards the goals set by the TAC in order for the project to move to Graduated state.
+
+- **Legal Criteria** - The project has established a dedicated security team tasked with monitoring the latest security reports and implementing OpenSSF best practices, with the goal of achieving a score of 10.
+- **Diversity Criteria** - As we continue to aquire new contribuitors, we are hoping that their contributions continue to be meaninful enough to be elected as Committers and Maintainers. The team is offering guidance on the project development front and promoting active coolaboration in order to qualify as Committers or Maintainers of the project.
+- **Releases** - All code repos in Hiero have at least 2 or more minor releases. We are working towards developing a vendor neutral first major release that will be easily adoptable, flexible and independent.
+- **Testing and Q/A** - Along with projects transitioning into hiero-ledger, the team is focused on strengtening the CI workflows that cover unit and integration tests with other project components. These tests are being monitored and adapted to project changes as we move towards a vendor neutrality state.
+- **Structure** - As new projects move into hiero-ledger, we continue to review them in LFX Insights to make sure their best practices are reflected in the project's performance.
+- **Maintenance** - The team continues to remain active. We have initiated new component dedicated bi-weekly calls with the maintainers of each component where new features and future work is being discussed. In discord, we are promoting more collaboration and inclusion of new members.
+- **Production** - We are working on our project's Adopters file for each hiero-ledger repo.
+- **Documentation** - docs.hiero.org is live and currently maintained under the hiero-docs repo in GitHub. This site contains extended technical information on hiero-ledger's components and guided instruction on how to locally run the project.
