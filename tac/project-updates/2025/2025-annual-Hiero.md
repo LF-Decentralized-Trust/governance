@@ -20,10 +20,15 @@ All repositories within the Hiero organization are regularly updated and activel
 
 ## Maintainer Diversity
 
-As a new project, it is always hard to start creating a diverse community.
-Our community includes maintainers and contributors from different companies and even some that are not employed by a company.
-This group includes new contributors (committers and maintainers) as shown in the contributor list of https://github.com/hiero-ledger/hiero-solo-action, which is an example of a community driven project attracting new contributors from India and Africa.
-Another positive example for contributions is the YouTube tutorial series for our Python SDK that has been created by one of our community members: https://www.youtube.com/playlist?list=PL6uVtTx-oqY8V-HBfenONJrsA0Z8xJymX
+Building a diverse community is always a challenge, particularly in the early stages of a new project. Our community is made up of both maintainers and contributors from a range of backgrounds, including individuals from various companies as well as independent contributors.
+
+We are proud to include a growing number of new committers and maintainers, as reflected in the contributor list of [hiero-solo-action](https://github.com/hiero-ledger/hiero-solo-action), a community-driven project that has successfully attracted contributors from regions such as India and Africa.
+
+Another great example of community engagement is the [YouTube tutorial series for our Python SDK](https://www.youtube.com/playlist?list=PL6uVtTx-oqY8V-HBfenONJrsA0Z8xJymX), created independently by one of our community members.
+
+The team remains committed to expanding the project’s reach and engaging with broader communities. Recently, the maintainers hosted a Hiero booth at events such as HederaCon and ETHDenver, with plans to participate in upcoming conferences like Rare Evo. We continue to seek opportunities to present the project to wider audiences and foster meaningful connections across the ecosystem.
+
+The project’s current call for nominations to the Technical Steering Committee (TSC) is another step toward encouraging broader participation from companies and organizations, helping to further strengthen and grow the community.
 
 ## Project Adoption
 
