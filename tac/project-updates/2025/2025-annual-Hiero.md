@@ -82,11 +82,6 @@ As a project, we anticipate continued progress in the following areas for Hiero:
 - **Scalability** - The team continuously evaluates opportunities for collaboration with other LFDT projects. We remain actively informed about the focus areas of these projects to identify potential synergies where Hiero can contribute and collaborate effectively. At the same time, we are focused on acquiring new adopters, end users and chair members.
 - **Performance** - Additionally, we are focused on achieving faster finality, lower latency, and continuously increasing capacity to support larger transactions. As we conclude our project transition phase into hiero-ledger, the team's focus will shift towards supporting the development of new and improved releases for each component.
 
-### Help Required
-
-As outlined in the following section, we would like to initiate a discussion with the TAC regarding the transition of the project to the graduated state.
-We would greatly appreciate any feedback or guidance on this process.
-
 ## Project Lifecycle Status Recommendation
 
 We are working on all the topics that are needed to move the project to the graduated state (as described in https://lf-decentralized-trust.github.io/governance/governing-documents/project-incubation-exit.html).
