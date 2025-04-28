@@ -71,6 +71,8 @@ None.
 Since the last Quarterly Report, there has been the completion of a significant audit in the `agora-blsful` BLS Signatures implementation in the LFDT Labs [Agora]
 project.
 
+[Agora]: https://github.com/LF-Decentralized-Trust-labs?q=agora&type=all&language=&sort=
+
 ## Current Plans
 
 Contributing to the conversation happening in the broader community
