@@ -17,7 +17,7 @@ The [maintainers](https://github.com/hyperledger-solang/solang/blob/main/MAINTAI
 
 ## Project Adoption
 
-Porject adoption was a major challenge in 2024. After discussions with the maintainers and SDF, we decided to foucs on a [web IDE for Solang](https://github.com/hyperledger-labs/solang-playground), whereby users can write and test smart contracts in a web browser. We are planning to launch the IDE and Solang to the Stellar community in Q3 2025.
+Project adoption was a major challenge in 2024. After discussions with the maintainers and SDF, we decided to foucs on a [web IDE for Solang](https://github.com/hyperledger-labs/solang-playground), whereby users can write and test smart contracts in a web browser. We are planning to launch the IDE and Solang to the Stellar community in Q3 2025.
 
 ## Goals
 
