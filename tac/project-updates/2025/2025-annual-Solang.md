@@ -23,7 +23,7 @@ Porject adoption was a major challenge in 2024. After discussions with the maint
 
 ### Performance Against Prior Goals
 
-Last year [goal](https://github.com/hyperledger/toc/blob/gh-pages/project-reports/2024/2024-annual-Hyperledger-Solang.md#goals) was to making Solang more attractive to developers. We have focused on a visually appealing web IDE, which is a major step towards this goal. The IDE will be launched in Q3 2025.
+Last year’s [goal](https://github.com/hyperledger/toc/blob/gh-pages/project-reports/2024/2024-annual-Hyperledger-Solang.md#goals) was to making Solang more attractive to developers. We have focused on a visually appealing web IDE, which is a major step towards this goal. The IDE will be launched in Q3 2025.
 
 ### Next Year's Goals
 
