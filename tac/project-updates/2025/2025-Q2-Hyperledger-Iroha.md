@@ -60,15 +60,20 @@ The team remains committed to addressing feedback from community interactions to
 
 The composition of the core Iroha 2 team remains stable, comprising:
 
+(Iroha 2 core team: Soramitsu)
 - 4 Rust Developers
 - 1 Full-time QA Engineer
 - 1 Full-time QA Intern
 - 1 Full-time Technical Writer
 - 1 Project Manager
 - 1 Product Manager
-- 1 Technical Writer (additional)
-- 1 Commercial Lead/Documentation Specialist
 - 1 DevOps Engineer
+
+
+Freelance community contributors:
+- https://github.com/sleepyqadir
+- https://github.com/maximevtush
+- https://github.com/dufucun
 
 
 # Contributor Diversity
