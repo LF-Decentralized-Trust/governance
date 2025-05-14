@@ -24,9 +24,6 @@ Maintainers file per projects:
 
 ## Project Adoption
 
-<mark>_What do you know about adoption, and how has this changed since your last review or since being accepted into LF Decentralized Trust? If you can list companies that are adopters of your project, please do so. Feel free to link to an existing ADOPTERS file if appropriate._
-</mark>
-
 We see that several companies that are trying out our project: they reach out to us asking questions about the project. We don't know for sure if any company is using the project in production (except ourselves).
 
 ## Goals
