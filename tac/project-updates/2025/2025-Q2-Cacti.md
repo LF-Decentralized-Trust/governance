@@ -20,7 +20,7 @@ N/A
 
 # Releases
 
-2025-12-02 - `v2.1.0`
+December 2, 2024 - `v2.1.0`
 
 We've had plans to issue v2.2.0 in this quarter but there is a chain of dependencies tied in a bit of a gordian knot with the release process, the package renaming and the `satp-dev` branch which contains most of the work of the IETF SATP team. We are hoping to have the new release issued within a few weeks from now when the `satp-dev` branch is properly merged onto `main`.
 
