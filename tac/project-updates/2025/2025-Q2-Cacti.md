@@ -7,7 +7,7 @@ grand_parent: Project Updates
 
 # Project Health
 
-- We are forging ahead with the IETF SATP reference implementations, the codebase integration and a mentorship project proposal which was granted acceptance a just a few days ago.
+- We are forging ahead with the IETF SATP reference implementations, the codebase integration and a mentorship project proposal which was granted acceptance just a few days ago.
 - We are still working on the Cacti Chainlink CCIP connector which we've presented in the February LFDT Interoperability Workshop mid-February this year.
 - We had an LFDT mentorship project approved for the summer, which will further the goal of creating an integrated architecture as envisioned in the project's roadmap.
 - A steady stream of questions are being answered on Discord where most of our activity is happening these days.
