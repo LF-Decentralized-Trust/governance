@@ -64,4 +64,4 @@ We keep up with the technical part of our duty (maintaining the code, delivering
 
 ## Project Lifecycle Status Recommendation
 
-We suggest to keep the project status "Graduated".
+We suggest to keep the project in Incubation.
