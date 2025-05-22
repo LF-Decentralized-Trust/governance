@@ -18,9 +18,7 @@ While the primary maintainer of the Identus Platform is the Input Output (IOG) o
 
 # Questions/Issues for the TAC
 
-The Identus team is currently revising its roadmap and removing items that have lost priority or relevance. As part of this effort, the following capability is being put on hold:
-
-- **UAS wrapper** – This feature is considered more of an R&D capability, and there is currently no real customer demand for it.
+No questions for the TAC.
 
 ---
 
@@ -38,7 +36,7 @@ The Identus community remains active across two Discord servers:
 - **LF Decentralized Trust (LFDT)**
 - [**Identus Community Discord**](https://discord.gg/SCB2eqU4)
 
-Community members continue to ask questions, report issues, and engage in discussions about various use cases. Both the core team and community contributors are actively supporting these interactions.
+Community members continue to ask questions, report issues, and discuss various use cases. The core team and community contributors actively support these interactions.
 
 ---
 
@@ -76,7 +74,7 @@ Socious has increased its presence on both Discord and GitHub. Additionally, new
 
 # Contributor Diversity
 
-The main contributor to the Identus project continues to be Input Output Global (IOG). However, Blocktrust and Socious are also actively contributing to the codebase and discussions. Interest from new engineers is growing, as evidenced by increased participation on Discord and in weekly community meetings.
+The primary contributor to the Identus project continues to be Input Output Global (IOG). However, Blocktrust and Socious also actively contribute to the codebase and discussions. Interest from new engineers is growing, as evidenced by increased participation on Discord and in weekly community meetings.
 
 ---
 
