@@ -1,6 +1,6 @@
 # Project Health
 
-The Hyperledger Cello project is more mature this quarter, and we continue to focus on the v1.1 release after the v1.0 version. 
+The [Hyperledger Cello](https://github.com/hyperledger-cello/cello) project is more mature this quarter, and we continue to focus on the v1.1 release after the v1.0 version. 
 
 The key accomplishments and initiatives this quarter include:
 
