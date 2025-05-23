@@ -45,6 +45,8 @@ When will the maintainers are able to update the meeting calendar, without needi
 
 # Project Lifecycle Status Recommendation
 
-The project is stable and more mature. Release v1.1 is on the way. 
+The TAC had a constructive and thoughtful discussion on the current state of Cello's community. TAC recognizes and appreciate the dedication of a few maintainers whose efforts stand out. At the same time, the TAC identified several areas that need attention to ensure the long-term health and sustainability of the project.
 
-So incubation of graduated are the recommended status.
+Key concerns include an outdated security policy document, the absence of a documented release process, irregular release cycles, and tokens with potentially elevated privileges. Additionally, the community’s responsiveness on support channels—such as GitHub issues and Discord—along with a growing number of long-pending pull requests, signal the need for stronger community engagement and maintenance practices.
+
+Recognizing the potential of the project, the TAC recommends that the team continue to grow and strengthen the community under the Labs program. Once foundational improvements are in place, the team is encouraged to reapply for incubation.
