@@ -36,9 +36,6 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
     covers the specifics.
 -   `CONTRIBUTING` \
     Directions on how to contribute code to the project, or a pointer to that information.
--   `CHANGELOG` \
-    A human readable list of recent changes. Changes should at least include the current release. This
-    file may be maintainer curated or mechanically produced.
 -   Continuous Integration / Continuous Delivery (CI/CD) configurations \
     Configurations needed to run CI/CD on LFDT Trust provided systems.
 
