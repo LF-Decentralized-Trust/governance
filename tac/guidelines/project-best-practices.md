@@ -148,6 +148,8 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
   - NPM packages - don't publish on every commit due to NPM limit of 1000 versions
 * Changelog and Release Notes - whenever possible, do not create a `CHANGELOG.md` file inside the repository. Use the
     Release Notes available through GitHub to capture new features or bug fixes in a specific release.
+* Consider the use of [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to automate 
+    major.minor.patch release identifiers.
 
 ## Continuous Integration
 
