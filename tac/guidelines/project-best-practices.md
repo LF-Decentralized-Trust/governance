@@ -146,8 +146,9 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 * Release artifacts
   - binaries attached to GitHub release
   - NPM packages - don't publish on every commit due to NPM limit of 1000 versions
-* Changelog and Release Notes - whenever possible, do not create a `CHANGELOG.md` file inside the repository. Use the
-    Release Notes available through GitHub to capture new features or bug fixes in a specific release.
+* Changelog and Release Notes - In new repositories, do not create a `CHANGELOG.md` file inside the repository. Use the
+    Release Notes available through GitHub to capture new features or bug fixes in a specific release. It is at 
+    maintainer discretion to use a changelog file if the existing repository is effectively using a changelog.
 * Consider the use of [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to automate 
     major.minor.patch release identifiers.
 
