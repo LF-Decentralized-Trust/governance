@@ -74,6 +74,10 @@ Repositories SHOULD have these files. Named files SHOULD be at the root of the r
     -   Contains a list of notable usages of the project's releases and/or source code
     -   MUST contain publicly verifiable references in the form of URLs or article info
     -   Can be updated by maintainers as well as by adopters or any third party who is aware of adoption and can provide verifiable links.
+-   `CHANGELOG` \
+    A human-readable list of recent changes. Changes should at least include the current release. This
+    file may be maintainer curated or mechanically produced. Consider making this file a link that points to
+    the GitHub release notes.
 
 ## Prohibited
 
