@@ -36,6 +36,8 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
     covers the specifics.
 -   `CONTRIBUTING` \
     Directions on how to contribute code to the project, or a pointer to that information.
+    If a repository contains more than one CONTRIBUTING file, then the file shown in links is chosen from locations in the following order:
+    the .github directory, then the repository's root directory, and finally the docs directory.
 -   Continuous Integration / Continuous Delivery (CI/CD) configurations \
     Configurations needed to run CI/CD on LFDT Trust provided systems.
 
@@ -62,7 +64,7 @@ Repositories SHOULD have these files. Named files SHOULD be at the root of the r
     -   For Ruby a `Gemfile` file
     -   For Java, one of a Maven `pom.xml`, an Apache Ant `build.xml`, or a Gradle `build.gradle`, file
     -   For Python `setup.py` and `requirements.txt` files
-    -   For Go `go.mod` and optionally `go.sum` 
+    -   For Go `go.mod` and optionally `go.sum`
     -   For Rust a `cargo.toml` file
     -   For multi-lingual repositories a `Makefile` or executable `build.sh` script
     -   For other languages, other standard build files a practitioner of the language would expect.
@@ -93,3 +95,22 @@ In order to help automate checks a repolinter file and supporting scripts can be
 [LFDT Community Management Tools](https://github.com/hyperledger-labs/hyperledger-community-management-tools/tree/main/repo_structure).
 
 Note that this document takes precedence over documents in the folder linked above, wherever the instructions and tooling differ between the two.
+
+## Community Standards Verification for GitHub based Projects
+
+GitHub provides an Insights feature called Community Standards that helps ensure a repository adheres to recommended structural guidelines.
+This feature is accessible via the Insights tab of a repository and evaluates whether the repository includes key components aligned with community best practices.
+
+Specifically, the Community Standards tool checks for the presence of the following files and configurations, as outlined by the TAC's "must" and "recommended" criteria:
+
+- Repository description
+- README
+- Code of Conduct
+- Contribution guidelines (CONTRIBUTING)
+- License file
+- Security policy
+- Issue templates
+- Pull request templates
+- Repository administrators' ability to receive content reports
+
+For additional details, please refer to the [GitHub public documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/accessing-a-projects-community-profile).
