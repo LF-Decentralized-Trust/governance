@@ -23,8 +23,13 @@ nav_exclude: true
 
 # Overall Activity in the Past Quarter
 
-<mark>_Required: Discuss briefly how active the project mailing lists and chat channels are. Are emails or user questions regularly read and responded to? What technical changes is the project working on? Is there new development happening, or just bug fixes? NOTE: If the activity is minimal, verify whether or not there are at least three active maintainers who can step in when needed, and include this information in the report._
-</mark>
+Hiero Ledger has seen a notable increase in activity in recent months. The project has successfully launched new project specific community calls, which remain publicly accessible via the [Hiero calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week). Currently, we are collaborating with the Python SDK team to organize their first "Office Hours" and Hackathon session, scheduled to take place in the coming weeks. Additionally, the team has proposed initiating a recurring monthly Hackathon focused on development for the [Hiero](https://hiero.org/) website.
+
+As more [components continue to be transitioned](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) into the hiero-ledger ecosystem, we are encouraging project teams to host regular community calls to support collaboration, accelerate development, and enhance overall project performance.
+
+While activity on the public mailing lists has remained minimal, we are actively directing community engagement toward the Hiero Discord channel, which continues to serve as the primary hub for discussion and support. At the same time, we continue to observe consistent community engagement through GitHub Issues and Discussions.
+
+Following the recent approval of updated [roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md) by the TSC, and their subsequent adoption by the community, we are encouraging teams to review their structures and consider promoting additional committers and maintainers where appropriate. These guidelines provide a clear framework for aligning with best practices, allowing teams to assess their current processes and make informed improvements. We continue to offer support and guidance to team leads seeking assistance in implementing these standards.
 
 # Current Plans
 
