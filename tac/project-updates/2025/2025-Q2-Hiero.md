@@ -8,8 +8,11 @@ nav_exclude: true
 
 # Project Health
 
-<mark>_Required: Sum up the status and health of your project and the community in a few sentences. Consider this the TL;DR for the rest of the report. How is your community doing health-wise? Are questions being answered? Are contributors acting appropriately? Are there new contributors showing up?_
-</mark>
+Hiero has experienced a 45% increase in [active contributors](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-04-01&end=2025-06-12&widget=active-contributors) compared to the previous quarter. In recent months, the project successfully completed the transfer of Hedera owned components and is now focusing on the migration of community driven projects. Concurrently, we remain committed to advancing brand neutrality and are preparing for future releases under the Hiero namespace. In parallel, we have been actively preparing for the upcoming graduation application, which is scheduled for submission on August 1.
+
+Our number of [active organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-04-01&end=2025-06-12&widget=active-organizations) remains stable, with new communities continuing to discover Hiero and recognize the project's potential impact. During the recent elections, we observed a notable increase in project adopters and successfully onboarded [two new TSC members](https://hiero.org/blog/results-of-the-hiero-technical-steering-committee-elections/), representing the Contributor and End User seats.
+
+Hiero has experienced a noticeable increase in the number of issues opened and resolved, along with a rise in [commit activity](https://insights.linuxfoundation.org/project/hiero/development?timeRange=custom&start=2025-04-01&end=2025-06-12) which is an encouraging indicator of the project's growing popularity and discovery by new contributors and adopters. To further promote community engagement, we launched a new [Hiero blog](https://hiero.org/blog/) section, where technical documentation and project updates are being published. Additionally, Hiero is scheduled to present a project seminar at Rare Evo in August, further expanding its visibility within the broader ecosystem along with other LFDT projects.
 
 # Questions/Issues for the TAC
 
