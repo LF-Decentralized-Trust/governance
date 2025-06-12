@@ -51,5 +51,4 @@ Following the recent approval of updated [roles and groups guidelines](https://g
 
 # Additional Information
 
-<mark>_Optional: Please provide any additional information that you feel would be useful for TAC to be aware._
-</mark>
+The team is actively working to address the feedback and outstanding issues from the most recent Hiero annual report in preparation for reapplying for graduation by August 1. Additionally, we continue to work closely with the LFX team to have a more accurate representation of the Hiero project in LFX Insights and encouraging more contributors to provide their observations.
