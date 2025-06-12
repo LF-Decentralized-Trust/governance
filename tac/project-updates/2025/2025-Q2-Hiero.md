@@ -16,8 +16,7 @@ Hiero has experienced a noticeable increase in the number of issues opened and r
 
 # Questions/Issues for the TAC
 
-<mark>_Required: If there are any specific issues that the TAC should be aware of or specifically address, then please call them out. If not, then it is helpful to state something like: "There are no issues at this time." When in doubt, it is better to include information or questions, rather than waiting._
-</mark>
+There are no issues or questions to bring up to the TAC at this time. We appreciate the TAC's support on helping us address recent guidelines and adoption for Contribute and Changelog project requirements.
 
 # Releases
 
