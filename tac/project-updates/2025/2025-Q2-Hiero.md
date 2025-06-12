@@ -20,8 +20,22 @@ There are no issues or questions to bring up to the TAC at this time. We appreci
 
 # Releases
 
-<mark>_Required: Regular software product releases are a sign of a healthy project. Reports should list the releases made since your last report, along with the release date of each. NOTE: If no releases were made, list the date of the most recent prior release._
-</mark>
+The Hiero project maintainers are actively focusing and working on tasks related to recent minor version releases. At the same time, the team is addressing outstanding dependency issues, which are required to enable publishing of Maven packages under the official Hiero org namespace. Below is a summary of the most notable recent releases for Q2:
+
+- [hiero-sdk-js](https://github.com/hiero-ledger/hiero-sdk-js) - The team released v2.66.0, which addresses multiple feature and bug issues (e.g., JSON‑RPC endpoints for TokenAirdropClaimTransaction, TokenCancelAirdropTransaction, browser mirror-node support).
+- [hiero-sdk-java](https://github.com/hiero-ledger/hiero-sdk-java) - v2.58.0 release enhances enterprise-grade transaction signing capabilities with new HSM support and improves code maintainability through strategic refactoring of core transaction handling methods.
+- [hiero-sdk-go](https://github.com/hiero-ledger/hiero-sdk-go) - Release v2.64.0 introduces enhanced transaction size inspection APIs, enabling developers to measure transaction sizes with and without signatures. It also includes bug fixes for protobuf methods in Pause and Unpause transactions.
+- [hiero-solo-action](https://github.com/hiero-ledger/hiero-solo-action) - Release v0.8 improves developer experience with updated documentation, compatibility warnings, and a new account-check script. It also enhances Solo setup performance, adds ED25519 key outputs, and enables gRPC port forwarding for better integration.
+- [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp) - v0.41.0 includes improvement proposals to update NodeCreate, NodeUpdate APIs.
+- [hiero-mirror-node](https://github.com/hiero-ledger/hiero-mirror-node) - The latest release v0.131.1, includes ongoing migration effort to fully shift naming from Hedera to Hiero namespaces.
+- [hiero-block-node](https://github.com/hiero-ledger/hiero-block-node) - Version 0.12.0 delivers significant improvements to observability and security, introducing new Prometheus metrics and dashboards across core components and plugins, along with full metrics coverage for block provider tiers and system status.
+- [hiero-consensus-node](https://github.com/hiero-ledger/hiero-consensus-node) - Release v0.61.10 includes changes that allows operators the option to disable node rewards, fixes an issue where throttle capacity was not properly reclaimed after ingestion failures among other fixes and incremental improvements.
+- [hiero-local-node](https://github.com/hiero-ledger/hiero-local-node) - v2.37.1 inclues a feature that enables mirror node modularized services, improve devex in the CLI and add support to multinode scenario.
+- [hiero-mirror-node](https://github.com/hiero-ledger/hiero-mirror-node-explorer) - v25.0.0 includes updates that prioritize improved observability, accessibility, and developer utility in the explorer interface.
+- [solo](https://github.com/hiero-ledger/solo) - v0.37.1 introduces full compatibility with Apple Silicon improving the reliability of network deployments on macOS. It also features an updated requirements table that clarifies supported versions for critical dependencies ensuring a smoother setup and clearer user guidance.
+
+In general, all hiero-ledger components are actively adding security fixes and adopting CI practices from StepSecurity. At the same time, the repositories are adding additional structure to their local documentation and maintainer information acoording to the best practices.
+In terms of documentation, sdk collaboration hub, website, and improvement proposals are maintained and updated several times a week.
 
 # Overall Activity in the Past Quarter
 
