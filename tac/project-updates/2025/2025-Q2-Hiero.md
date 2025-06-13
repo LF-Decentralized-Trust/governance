@@ -54,8 +54,20 @@ Following the recent approval of updated [roles and groups guidelines](https://g
 
 # Maintainer Diversity
 
-<mark>_Required: Please include the maintainers that were added since your last report. This information will allow us to track the diversity and growth of the maintainers of the project. NOTE: If no maintainers were added since your last report, provide the list of existing maintainers._
-</mark>
+In this Q2 quarter, the Hiero project has undergone a number of maintainer team updates, including the addition of new members, team restructurings, and role assignments. Several contributors have been granted both maintainer and committer roles within some of our repositories, reflecting their active engagement and contributions to the project.
+
+In summary, the [following repos have received changes](https://github.com/hiero-ledger/governance/commits/main/config.yaml?since=2025-04-01&until=2025-06-13): 
+
+- solo: The team designated 3 maintainers and 8 committers.
+- tsc-eligibility-check: Added 2 maintainers and 3 committers.
+- hiero-consensus-node: Underwent a team restructuring, resulting in updated maintainer assignments across its associated teams within the repo.
+- governance-triage: A newly formed team, launched with 6 maintainers.
+- tsc: Welcomed 2 new members following the most recent elections.
+- hiero-sdk-swift: Added 1 new maintainer.
+- hiero-python-sdk: Added 1 new committer.
+- hiero-rust-sdk: Added 1 new maintainer.
+
+These updates reflect the growing adoption and participation in the project, as well as the ongoing efforts to expand and strengthen the project's contributor base.
 
 # Contributor Diversity
 
