@@ -59,8 +59,9 @@ Following the recent approval of updated [roles and groups guidelines](https://g
 
 # Contributor Diversity
 
-<mark>_Required: A healthy project should survive the departure of any single contributor or employer of contributors. Healthy projects also serve the needs of many parties. Include information on the number of unique organizations currently contributing to the project. NOTE: The contributions do not need to be source code._
-</mark>
+With the recent round of elections, increased promotion of the Hiero project in recent events and through new announcements, the expansion of the Technical Steering Committee (TSC), and a steady growth of new adopter organizations joining the community, we anticipate continued growth in contributor diversity. In the latest TSC elections, over 50 companies were added to our list of [adopters](https://github.com/hiero-ledger/hiero/blob/main/ADOPTERS.md), and more than 100 active contributors participated in the voting for the Contributor Seat elections. Currently, a significant portion of contributions comes from Hashgraph, LimeChain, and Devlabs, among over [30 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-04-01&end=2025-06-12&widget=organization-dependency) via GitHub commits/issues/discussions in the second quarter alone.
+
+Overall, [more than 190 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=alltime&widget=organization-dependency) have contributed to Hiero actuvites, reflecting strong momentum toward a more diverse and inclusive contributor community.
 
 # Additional Information
 
