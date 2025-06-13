@@ -49,8 +49,13 @@ Following the recent approval of updated [roles and groups guidelines](https://g
 
 # Current Plans
 
-<mark>_Required: A healthy project will often be working towards a common goal, or have a shared understanding of what is being done next - even if individual contributors have their own "itches". What are the main features planned? What releases are planned? Are there any specific efforts or branches of development underway? This does not need to be described in technical detail. Conversely, if the activity is minimal, discuss how the project plans to address that - whether through seeking out new contributors, maintaining in a dormant but available state, or planning towards a move to a Deprecated (and ultimately End of Life) state._
-</mark>
+The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboard new contributors and maintainers as well as remain focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities.
+
+The team is also actively working on the Hiero renaming initiative and brand neutralization, with particular attention to dependency related issues to ensure a smooth and seamless transition.
+
+In addition, Hiero has formally adopted and now maintains the Hedera Improvement Proposal (HIP) process, leveraging its established success to foster open, transparent, and community driven technical decision making.
+
+We are also continuing our efforts in cross-project collaboration with other open source communities, including the **OpenWallet Foundation**, **Hyperledger Besu**, and **AnonCreds**, to advance shared goals and strengthen the broader decentralized ecosystem.
 
 # Maintainer Diversity
 
