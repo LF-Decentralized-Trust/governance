@@ -71,6 +71,8 @@ In summary, the [following repos have received changes](https://github.com/hiero
 - hiero-python-sdk: Added 1 new committer.
 - hiero-rust-sdk: Added 1 new maintainer.
 
+As of today, maintainers in the Hiero Ledger organization are primarily represented by contributors from Hashgraph (67%) and LimeChain (18%). Given that the majority of the project was originally donated by Hashgraph/Hedera, this distribution is to be expected. However, following our recent round of elections, new adoptions, and increased project visibility, we are beginning to see greater participation from additional organizations taking on maintainer roles. Both the project team and the TSC are actively working to further broaden this diversity and participation. In parallel, efforts to transition additional community donated repositories is ongoing, which is expected to further enhance diversity within the maintainer groups in the next months. Detailed composition of the maintainer groups can be viewed [here](https://docs.google.com/spreadsheets/d/1LjBhaaZMiDAvYlBAwzLbC5Z-ySc3BucMuJs25kbnsAc/edit?usp=sharing)
+
 These updates reflect the growing adoption and participation in the project, as well as the ongoing efforts to expand and strengthen the project's contributor base.
 
 # Contributor Diversity
