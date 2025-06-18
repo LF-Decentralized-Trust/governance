@@ -1,4 +1,12 @@
-### **What is the definition of an adopter in the context of the LF Decentralized Trust ecosystem and its projects?**
+---
+layout: default
+title: Defining Adopters
+parent: Governing Documents
+grand_parent: LF Decentralized Trust TAC
+---
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# Defining Adopters
 
 Adopters of an LF Decentralized Trust (LFDT) project are organizations or communities that successfully leverage the project as intended—whether integrating it into their systems, building on top of it, or offering it as a foundational component of a service or solution.
 
@@ -35,12 +43,10 @@ When documenting adopters (e.g., in an `ADOPTERS.md` file), projects are encoura
 
 Projects may leverage the above guidelines to list organizations in their ADOPTERS.md file within their repo, projects are not required to identify the type of adopter in their ADOPTERS.md file.
 
-If you’re not sure if your organization falls into any of these categories you can ask in the \#tac discord channel, on the TAC mailing list, or email [tbd@lfdt.org](mailto:tbd@lfdt.org)  and we’ll help you.  
-References:
+If you’re not sure if your organization falls into any of these categories you can ask in the \#tac discord channel, on the TAC mailing list, or email [tac@lists.lfdecentralized.org](mailto:tac@lists.lfdecentralizedtrust.org)  and we’ll help you.  
 
-CNCF Definitions  
-[https://github.com/cncf/toc/blob/main/FAQ.md\#what-is-the-definition-of-an-adopter](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter)
+## References
 
-Hiero Adopters.md 
+- [CNCF Definitions](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter)
 
-https://github.com/hiero-ledger/governance/blob/main/elections/ADOPTERS.md
+- [Hiero Adopters.md](https://github.com/hiero-ledger/governance/blob/main/elections/ADOPTERS.md)
