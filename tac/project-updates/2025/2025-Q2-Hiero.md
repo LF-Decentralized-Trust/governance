@@ -48,7 +48,7 @@ Following the recent approval of updated [roles and groups guidelines](https://g
 
 # Current Plans
 
-The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboard new contributors and maintainers as well as remain focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities.
+The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboarding new contributors and maintainers as well as remaining focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities.
 
 The team is also actively working on the Hiero renaming initiative and brand neutralization, with particular attention to dependency related issues to ensure a smooth and seamless transition.
 
