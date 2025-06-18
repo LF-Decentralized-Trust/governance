@@ -3,7 +3,6 @@ layout: default
 title: 2025 Q2 Hiero
 parent: Project Updates
 grand_parent: LF Decentralized Trust TAC
-nav_exclude: true
 ---
 
 # Project Health
