@@ -33,7 +33,7 @@ The Hiero project maintainers are actively focusing and working on tasks related
 - [hiero-mirror-node](https://github.com/hiero-ledger/hiero-mirror-node-explorer) - v25.0.0 includes updates that prioritize improved observability, accessibility, and developer utility in the explorer interface.
 - [solo](https://github.com/hiero-ledger/solo) - v0.37.1 introduces full compatibility with Apple Silicon improving the reliability of network deployments on macOS. It also features an updated requirements table that clarifies supported versions for critical dependencies ensuring a smoother setup and clearer user guidance.
 
-In general, all hiero-ledger components are actively adding security fixes and adopting CI practices from StepSecurity. At the same time, the repositories are adding additional structure to their local documentation and maintainer information acoording to the best practices.
+In general, all hiero-ledger components are actively adding security fixes and adopting CI practices from StepSecurity. At the same time, the repositories are adding additional structure to their local documentation and maintainer information according to the best practices.
 In terms of documentation, sdk collaboration hub, website, and improvement proposals are maintained and updated several times a week.
 
 # Overall Activity in the Past Quarter
