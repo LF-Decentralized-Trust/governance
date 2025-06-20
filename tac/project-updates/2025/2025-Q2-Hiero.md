@@ -48,7 +48,9 @@ Following the recent approval of updated [roles and groups guidelines](https://g
 
 # Current Plans
 
-The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboarding new contributors and maintainers as well as remaining focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities.
+The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboarding new contributors and maintainers as well as remaining focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities. 
+
+Given the origins of hiero-ledger, where the majority of the codebase was initially donated by Hedera/Hashgraph, it is understandable that much of the current maintenance and ownership remains with the original contributing parties. However, the project is now entering an exciting phase of growth, with a clear focus on expanding contributor and maintainer diversity. This momentum is already evident in the [latest proposals](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22project%20proposal%22) currently in the pipeline. As these proposals are taking place over the coming weeks, we are confident they will significantly enhance the diversity and inclusivity of the project community.
 
 The team is also actively working on the Hiero renaming initiative and brand neutralization, with particular attention to dependency related issues to ensure a smooth and seamless transition.
 
