@@ -66,4 +66,4 @@ LF Decentralized Trust can help with the following:
 
 ## Project Lifecycle Status Recommendation
 
-The CREDEBL is already used in production with large scale deployments at a national level. We think the project is in good health and TAC may consider moving it to Graduated status.
+The CREDEBL is already used in production with large scale deployments at a national level. However, based on the suggestions from TAC, we will focus on increasing the maintainer diversity through LFDT events such as webinars, workshops. Until then, the project can remain in the incubation.
