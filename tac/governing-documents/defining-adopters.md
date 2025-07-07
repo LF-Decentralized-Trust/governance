@@ -18,7 +18,7 @@ To better understand how a project is adopted, we distinguish between **direct a
 
 The intent of identifying adopters within the LFDT community is to gain insight into real-world, production-level usage of its projects or specifications. This helps assess project maturity, community engagement, and long-term viability within the decentralized trust ecosystem.
 
-In some cases, original sponsoring organizations or maintainers may also be recognized as adopters. The LFDT and the associated LF/DT projects’ technical and community leadership reserves the discretion to determine whether an adopter can offer meaningful feedback to guide the evolution of a project.
+In some cases, original sponsoring organizations or maintainers may also be recognized as adopters. The LFDT and the associated LFDT projects’ technical and community leadership reserves the discretion to determine whether an adopter can offer meaningful feedback to guide the evolution of a project.
 
 Adopters of LFDT projects may include the following (noting that a single organization may fit more than one category):
 
