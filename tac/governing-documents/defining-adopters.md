@@ -35,6 +35,7 @@ Adopters of LFDT projects may include the following (noting that a single organi
   * APIs  
   * SaaS  
   * Blockchain networks both public and private~~cloud providers~~.   
+  * Repackaged supported software
 * Consultancy \- an entity whose purpose is to assist other organizations in developing a solution leveraging decentralized trust technology. They may be embedded in the end user team and are responsible for the execution of the service. Service Providers may also provide consultancy services, they may also package decentralized trust technologies for reuse as part of their offerings. These function as proxies for an end user.  
     
   NOTE: A Service Provider’s customers are considered transitive adopters and should be excluded from identification within the ADOPTERS.md file.
