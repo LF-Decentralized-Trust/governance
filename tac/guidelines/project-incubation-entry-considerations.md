@@ -28,13 +28,13 @@ A project is more likely to succeed if it publicly states its intent and estimat
 ### Community
 * The TAC is more likely to accept projects that have contributors familiar with open source practices. Contributing to existing LFDT projects or starting in LFDT Labs is a great place to grow this experience. Many people contributing their code are new to running an open source project, so we want to provide some specific guidance around what is involved with managing an open source project. In your project proposal, it is expected that you will address how you will meet the following community expectations:
 
-1. Design discussions will be moved to a public forum
-1. Community building
-    1. Hosting community calls
-    1. Diversify contributors and maintainers from the initial set of people
-    1. Mentor new contributors to become maintainers
-1. Support community forums (e.g. GitHub, Discord)
-1. Reporting to the TAC
+    1. Design discussions will be moved to a public forum
+    1. Community building
+        1. Hosting community calls
+        1. Diversify contributors and maintainers from the initial set of people
+        1. Mentor new contributors to become maintainers
+    1. Support community forums (e.g. GitHub, Discord)
+    1. Reporting to the TAC
 
 If you need any assistance with community engagement planning, LFDT staff is happy to help.
 
