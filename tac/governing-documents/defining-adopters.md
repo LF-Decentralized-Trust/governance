@@ -30,8 +30,6 @@ Adopters of LFDT projects may include the following (noting that a single organi
 
 * **End-user Organization** – A company or institution that uses an LFDT project to power part of its infrastructure, services, or internal workflows, without necessarily contributing upstream.
 
-When documenting adopters (e.g., in an `ADOPTERS.md` file), projects are encouraged to identify the category or categories each adopter fits under, but to list the adopter only once. This helps the LFDT community track usage patterns and adoption trends more effectively.
-
 * End users \- companies and organizations that are not LFDT End-User members that use the project and decentralized trust technologies internally, or build upon a decentralized trust open source project but do not sell the decentralized trust project externally as a service offering. This group is identified in the written form by the convention end user, uncapitalized and unhyphenated.  
 * A Service Provider \- a Service Provider is an organization that repackages an open source project as a core component of a service offering and sells decentralized trust services externally. Examples might include:  
   * APIs  
@@ -41,7 +39,8 @@ When documenting adopters (e.g., in an `ADOPTERS.md` file), projects are encoura
     
   NOTE: A Service Provider’s customers are considered transitive adopters and should be excluded from identification within the ADOPTERS.md file.
 
-Projects may leverage the above guidelines to list organizations in their ADOPTERS.md file within their repo, projects are not required to identify the type of adopter in their ADOPTERS.md file.
+Projects may leverage the above guidelines to list organizations in their ADOPTERS.md file within their repo, projects are not required to identify the type of adopter in their ADOPTERS.md file; however, projects are encouraged to identify the category or categories each adopter fits under, but to list the adopter only once. This helps the LFDT community track usage patterns and adoption trends more effectively.
+
 
 If you’re not sure if your organization falls into any of these categories you can ask in the \#tac discord channel, on the TAC mailing list, or email [tac@lists.lfdecentralized.org](mailto:tac@lists.lfdecentralizedtrust.org)  and we’ll help you.  
 
