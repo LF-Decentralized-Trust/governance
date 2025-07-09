@@ -49,4 +49,4 @@ If you’re not sure if your organization falls into any of these categories you
 
 - [CNCF Definitions](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter)
 
-- [Hiero Adopters.md](https://github.com/hiero-ledger/governance/blob/main/elections/ADOPTERS.md)
+- [Hiero Adopters.md](https://github.com/hiero-ledger/hiero/blob/main/ADOPTERS.md)
