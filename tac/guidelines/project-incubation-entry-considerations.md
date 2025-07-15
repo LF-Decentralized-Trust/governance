@@ -28,17 +28,17 @@ A project is more likely to succeed if it publicly states its intent and estimat
 ### Community
 * The TAC is more likely to accept projects that have contributors familiar with open source practices. Contributing to existing LFDT projects or starting in LFDT Labs is a great place to grow this experience. Many people contributing their code are new to running an open source project, so we want to provide some specific guidance around what is involved with managing an open source project. In your project proposal, it is expected that you will address how you will meet the following community expectations:
 
-    1. Design discussions will be moved to a public forum
-    1. Community building
-        1. Hosting community calls
-        1. Diversify contributors and maintainers from the initial set of people
-        1. Mentor new contributors to become maintainers
-    1. Support community forums (e.g. GitHub, Discord)
-    1. Reporting to the TAC
+    1. Holding technical discussions in a public forum (e.g., design and implementation discussions)
+    1. Building the community
+        1. Hosting public, community calls
+        1. Working to diversify contributors and maintainers from the initial set of contributing organizations
+        1. Mentoring new contributors to become maintainers
+    1. Supporting public, community forums (e.g. GitHub, Discord)
+    1. Submitting annual and quarterly reports to the TAC in a timely fashion
 
 If you need any assistance with community engagement planning, LFDT staff is happy to help.
 
-**NOTE: If you do not meet these expectations in the first year of your project the TAC will move the project to a lab. In addition, if a project is no longer meeting these expectations, the TAC will also move that project to a lab.**
+**NOTE: If your project are not working towards meeting these expectations within the first year, the TAC will consider it to be falling short of the LFDT open-source community standards and may recommend transitioning the project to the lab. Additionally, if an existing project stops meeting these expectations at any point, the TAC may determine that it no longer aligns with community standards and recommend moving it to the lab.**
 
 ### Sponsors
 * Sponsors are advocates for the project. There should be more than one sponsor, and they should be from different organizations. They may or may not be committing resources to the project.
