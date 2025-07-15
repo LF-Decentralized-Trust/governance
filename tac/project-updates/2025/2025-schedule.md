@@ -53,13 +53,11 @@ has_toc: false
 | Q3          | 2025-07-10 | Fabric    |
 | Q3          | 2025-07-17 | Identus   |
 | Q3          | 2025-07-17 | Web3j     |
-| Q3          | 2025-07-24 | Aries     |
 | Q3          | 2025-07-24 | Indy      |
 | Q3          | 2025-07-24 | AnonCreds |
 | Q3          | 2025-08-07 | Iroha     |
 | Q3          | 2025-08-07 | Bevel     |
 | Q3          | 2025-08-14 | Solang    |
-| Q3          | 2025-08-14 | Cello     |
 | Q3          | 2025-08-21 | Firefly   |
 | Q3          | 2025-08-28 | Besu      |
 | Q3          | 2025-08-28 | Caliper   |
@@ -71,13 +69,11 @@ has_toc: false
 | Q4          | 2025-10-02 | Fabric    |
 | Q4          | 2025-10-09 | Identus   |
 | Q4          | 2025-10-09 | Web3j     |
-| Q4          | 2025-10-16 | Aries     |
 | Q4          | 2025-10-16 | Indy      |
 | Q4          | 2025-10-16 | AnonCreds |
 | Q4          | 2025-10-23 | Iroha     |
 | Q4          | 2025-10-23 | Bevel     |
 | Q4          | 2025-11-06 | Solang    |
-| Q4          | 2025-11-06 | Cello     |
 | Q4          | 2025-11-13 | Firefly   |
 | Q4          | 2025-11-20 | Besu      |
 | Q4          | 2025-11-20 | Caliper   |
