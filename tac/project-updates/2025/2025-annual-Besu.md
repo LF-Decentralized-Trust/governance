@@ -15,7 +15,7 @@ The Besu project continues to thrive. [Fleet Mode](https://consensys.io/blog/bes
 
 ## Maintainer Diversity
 
-The Besu project currently has 21 maintainers, 19  of which work for Consensys Software Inc. The remaining 2 work for Kaleido. Existing maintainers give special attention to new pull requests and are very timely in moving those forward.
+The Besu project currently has 21 maintainers, 18 of which work for Consensys Software Inc.  2 work for Kaleido. Existing maintainers give special attention to new pull requests and are very timely in moving those forward.
 
 ## Project Adoption
 
