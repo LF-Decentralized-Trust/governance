@@ -20,19 +20,11 @@ collaborate to multiple LFDT projects.
 
 ### Communication
 
-Notes...
-
 ### Bug tracking
-
-Notes...
 
 ### Release planning
 
-Notes...
-
 ### Release communication
-
-Notes...
 
 ### Technical discussion that contributes to project direction
 
@@ -52,8 +44,6 @@ Notes...
 
 ### Issue templates
 
-Notes...
-
 ### Security
 
  - CVE reporting
@@ -63,4 +53,3 @@ Notes...
 ## Areas that we do not feel require clear consistency between projects
 
  - Release process i.e. the buttons that are pushed and GHAs that are run to make a release happen
-    - Notes...
