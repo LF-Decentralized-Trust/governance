@@ -11,7 +11,7 @@ This document outlines consistent approaches to certain aspects of running and m
 LFDT projects will always have their own approaches to how they manage and govern themselves, how they
 communicate and collaborate, and how they track and communicate progress.
 
-The LFDT sets out `MUST` and `SHOULD DO` behaviours that projects should treat accordingly. This document
+The LFDT already sets out `MUST` and `SHOULD` and `MAY` behaviours that projects should treat accordingly. This document
 is not intended to replace any of the existing governance rules set out by the LFDT. Instead it is designed improve
 consistency across projects such that inter-project collaboration is easier, and to make it easier for individuals to
 collaborate to multiple LFDT projects.
