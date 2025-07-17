@@ -34,7 +34,7 @@ Great strides were made with the Plugin API, so much so that Linea now runs thei
 
 ### Next Year's Goals
 
-The Besu team continues to focus its roadmap on performance, stability, modularity, and upcoming protocol changes like EOF, PeerDAS and Stateless ethereum. The Besu Maintainers intend to support the Fusaka hard fork and take an active role in its delivery.
+The Besu team continues to focus its roadmap on performance, stability, modularity, and upcoming protocol changes like PeerDAS and Stateless ethereum. The Besu Maintainers intend to support the Fusaka and Glamsterdam hard forks and take an active role in delivery.
 
 ### Help Required
 
