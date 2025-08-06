@@ -78,8 +78,10 @@ with large revocation registries for AnonCreds v1.
 Contributing to the conversation happening in the broader community about new
 ways to use ZKPs for achieving unlinkable VCs, and determining how to leverage
 that work into expanding efforts on AnonCreds, or using the resources of
-AnonCreds together with those efforts. The new [zk-Longfellow] project and [BBS
+AnonCreds together with those efforts. The new [longfellow-zk] project and [BBS
 Signatures] are the key projects on the horizon.
+
+[longfellow-zk]: https://github.com/google/longfellow-zk
 
 Moving ahead with the work on the AnonCreds v1 Revocation Registry size expansion, with a focus on the data management, performance and ease of deployment aspects of the change.
 
