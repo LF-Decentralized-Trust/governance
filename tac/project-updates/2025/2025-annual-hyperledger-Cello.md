@@ -1,3 +1,10 @@
+---
+layout: default
+title: 2025 Annual Review Hyperledger Cello
+parent: 2025
+grand_parent: Project Updates
+---
+
 # Project Health
 
 The [Hyperledger Cello](https://github.com/hyperledger-cello/cello) project is more mature this quarter, and we continue to focus on the v1.1 release after the v1.0 version. 
