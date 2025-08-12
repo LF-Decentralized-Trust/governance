@@ -38,17 +38,19 @@ jobs:
         working-directory: ./tac
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        # https://github.com/actions/checkout/releases/tag/v5.0.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
       - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.255.0
+        uses: ruby/setup-ruby@829114fc20da43a41d27359103ec7a63020954d4
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
+          ruby-version: '3.4' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 4 # Increment this number if you need to re-download cached gems
+          cache-version: 10 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        # https://github.com/actions/configure-pages/releases/tag/v5.0.0
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
       - name: Build with Jekyll
         # Outputs to the './tac/_site' directory
         run: bundle exec jekyll build
@@ -56,7 +58,8 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Uploads artifact from './tac/_site' directory
-        uses: actions/upload-pages-artifact@v3
+        # https://github.com/actions/upload-pages-artifact/releases/tag/v3.0.1
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
         with:
           path: ./tac/_site
 
@@ -70,5 +73,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        # https://github.com/actions/deploy-pages/releases/tag/v4.0.5
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
 
