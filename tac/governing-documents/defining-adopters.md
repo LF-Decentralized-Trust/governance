@@ -67,11 +67,9 @@ Projects may leverage the above guidelines to list organizations in their ADOPTE
 
 If you’re not sure if your organization falls into any of these categories you can ask in the \#tac discord channel, on the TAC mailing list, or email [tac@lists.lfdecentralized.org](mailto:tac@lists.lfdecentralizedtrust.org)  and we’ll help you.  
 
-## Maintaining the ADOPTERS.md File
+## ADOPTERS.md File
 
-##More context on Maintenance of an Adopters.md file:
-
-## Maintenance Guidance
+### Maintenance Guidelines
 
 Projects are encouraged to keep their ADOPTERS file **accurate and up-to-date**.  
 To ensure both transparency and respect for commercially sensitive information:
@@ -79,11 +77,15 @@ To ensure both transparency and respect for commercially sensitive information:
 - **Self-submission is preferred**: Where possible, the adopter organization should submit the pull request (PR) to add or update their entry in the ADOPTERS file.  
   This ensures explicit consent for their inclusion.
 - **Commercial sensitivity**: Some organizations may be unable or unwilling to disclose their technology stack publicly. In such cases, maintainers should respect this decision and only add adopters that have given explicit permission.
-###  Contribution Instructions Should Include:
-1. **File location** – e.g., `ADOPTERS.md` in the root folder for ease of discoverability.
+
+###  Contribution Instructions
+
+Contributions instructions should include:
+
+1. **File location** – `ADOPTERS.md` in the root folder for ease of discoverability.
 2. **Required fields**, such as:
    - Organization name
-   - (Optional) Link to public information or case study, if available
+   - Link to public information or case study
    - Date of first known use
 3. **Formatting guidance**, perhaps with a sample snippet
 4. **Review Process** – indicate that PRs will be reviewed by the project maintainers for formatting, accuracy, or duplicates—but not added without the adopter’s explicit submission.
@@ -93,6 +95,7 @@ To ensure both transparency and respect for commercially sensitive information:
 
 ```markdown
 - **University X** – Using Hiero as part of our internal identity framework. (Added via self-submitted PR, YYYY-MM-DD)
+```
  
 ## References
 
