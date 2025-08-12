@@ -8,6 +8,29 @@ grand_parent: LF Decentralized Trust TAC
 
 # Defining Adopters
 
+## Introduction
+
+The **ADOPTERS** file serves as a living registry of organizations — and occasionally individuals — that actively **adopt and use LFDT-hosted open source projects**. It differs from membership or contribution lists; rather, it showcases those who:
+
+- **Use LFDT technologies internally or publicly**, integrating them into their systems, platforms, or services.
+- Provide **real-world validation**, demonstrating that LFDT solutions are stable, scalable, and production-ready.
+- May offer **feedback, use cases, or success stories**, helping guide project direction and priorities.
+
+### Why It Matters
+
+1. **Transparency & Credibility**  
+   Displaying a diverse and growing list of adopters builds confidence in our ecosystem — signaling to others that LFDT projects are trusted and battle-tested.
+
+2. **Community Insight**  
+   The ADOPTERS file helps the LFDT Technical Steering Committee and governance bodies understand adoption trends, key use cases, and potential areas of improvement.
+
+3. **Recognition & Encouragement**  
+   Acknowledging adopters encourages broader involvement and can motivate organizations to deepen their collaboration with LFDT.
+
+As LFDT continues to grow, maintaining an up-to-date ADOPTERS file will be instrumental in telling the story of our impact, forging stronger community bonds, and steering future development based on real-world usage.
+
+## Definitions
+
 Adopters of an LF Decentralized Trust (LFDT) project are organizations or communities that successfully leverage the project as intended—whether integrating it into their systems, building on top of it, or offering it as a foundational component of a service or solution.
 
 To better understand how a project is adopted, we distinguish between **direct adopters** and **transitive adopters**. For example, if a service provider uses a decentralized identity project from LFDT as the backbone of a digital credentialing solution, the service provider is a *direct adopter*. If their customers use that solution without directly engaging with or deploying the underlying project, those customers are *transitive adopters*.
@@ -44,6 +67,33 @@ Projects may leverage the above guidelines to list organizations in their ADOPTE
 
 If you’re not sure if your organization falls into any of these categories you can ask in the \#tac discord channel, on the TAC mailing list, or email [tac@lists.lfdecentralized.org](mailto:tac@lists.lfdecentralizedtrust.org)  and we’ll help you.  
 
+## Maintaining the ADOPTERS.md File
+
+##More context on Maintenance of an Adopters.md file:
+
+## Maintenance Guidance
+
+Projects are encouraged to keep their ADOPTERS file **accurate and up-to-date**.  
+To ensure both transparency and respect for commercially sensitive information:
+
+- **Self-submission is preferred**: Where possible, the adopter organization should submit the pull request (PR) to add or update their entry in the ADOPTERS file.  
+  This ensures explicit consent for their inclusion.
+- **Commercial sensitivity**: Some organizations may be unable or unwilling to disclose their technology stack publicly. In such cases, maintainers should respect this decision and only add adopters that have given explicit permission.
+###  Contribution Instructions Should Include:
+1. **File location** – e.g., `ADOPTERS.md` in the root folder for ease of discoverability.
+2. **Required fields**, such as:
+   - Organization name
+   - (Optional) Link to public information or case study, if available
+   - Date of first known use
+3. **Formatting guidance**, perhaps with a sample snippet
+4. **Review Process** – indicate that PRs will be reviewed by the project maintainers for formatting, accuracy, or duplicates—but not added without the adopter’s explicit submission.
+5. **Link to relevant governance benefits**, such as eligibility for steering committee roles (e.g., “Note: Being listed as an adopter may qualify your organization for certain governance participation, such as End User representation.”).
+
+###  Example Entry
+
+```markdown
+- **University X** – Using Hiero as part of our internal identity framework. (Added via self-submitted PR, YYYY-MM-DD)
+ 
 ## References
 
 - [CNCF Definitions](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter)
