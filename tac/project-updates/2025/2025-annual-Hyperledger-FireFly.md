@@ -1,9 +1,8 @@
 ---
 layout: default
 title: 2025 Annual Review Hyperledger FireFly
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
-nav_exclude: true
+parent: 2025
+grand_parent: Project Updates
 ---
 
 ### Project Health

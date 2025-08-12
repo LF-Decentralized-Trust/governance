@@ -1,0 +1,20 @@
+---
+meeting-minutes:
+  - changed-files:
+      - any-glob-to-any-file:
+          - tac/meeting-minutes/**/*
+
+annual-report:
+  - changed-files:
+      - any-glob-to-any-file:
+          - tac/project-updates/**/*annual*.md
+
+quarterly-report:
+  - changed-files:
+      - any-glob-to-any-file:
+          - tac/project-updates/**/*q2*.md
+          - tac/project-updates/**/*q3*.md
+          - tac/project-updates/**/*q4*.md
+          - tac/project-updates/**/*Q2*.md
+          - tac/project-updates/**/*Q3*.md
+          - tac/project-updates/**/*Q4*.md
