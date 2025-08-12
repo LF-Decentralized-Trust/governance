@@ -26,22 +26,23 @@ Adopters of LFDT projects may include the following (noting that a single organi
 
 * **Service Provider** – An entity offering LFDT projects as part of a larger solution (e.g., a platform or product).
 
-* **Upstream or Downstream Project** – An open source project that depends on or integrates with an LFDT project for functionality, compatibility, or supply chain inclusion.
-
-* **End-user Organization** – A company or institution that uses an LFDT project to power part of its infrastructure, services, or internal workflows, without necessarily contributing upstream.
-
-* End users \- companies and organizations that are not LFDT End-User members that use the project and decentralized trust technologies internally, or build upon a decentralized trust open source project but do not sell the decentralized trust project externally as a service offering. This group is identified in the written form by the convention end user, uncapitalized and unhyphenated.  
-* A Service Provider \- a Service Provider is an organization that repackages an open source project as a core component of a service offering and sells decentralized trust services externally. Examples might include:  
+  A Service Provider is an organization that repackages an open source project as a core component of a service offering and sells decentralized trust services externally. Examples might include:  
   * APIs  
   * SaaS  
   * Blockchain networks both public and private~~cloud providers~~.   
   * Repackaged supported software
-* Consultancy \- an entity whose purpose is to assist other organizations in developing a solution leveraging decentralized trust technology. They may be embedded in the end user team and are responsible for the execution of the service. Service Providers may also provide consultancy services, they may also package decentralized trust technologies for reuse as part of their offerings. These function as proxies for an end user.  
-    
+
   NOTE: A Service Provider’s customers are considered transitive adopters and should be excluded from identification within the ADOPTERS.md file.
 
-Projects may leverage the above guidelines to list organizations in their ADOPTERS.md file within their repo, projects are not required to identify the type of adopter in their ADOPTERS.md file; however, projects are encouraged to identify the category or categories each adopter fits under, but to list the adopter only once. This helps the LFDT community track usage patterns and adoption trends more effectively.
+* **Upstream or Downstream Project** – An open source project that depends on or integrates with an LFDT project for functionality, compatibility, or supply chain inclusion.
 
+* **End user** – A company or institution that uses an LFDT-hosted open source technologies internally to build, deploy, and operate software, systems, or services — but does not commercially distribute, support, or sell software derived from LFDT projects, nor sell related services or training. An end-user organization may not necessarily contribute upstream.
+
+  An **end user** can also mean any individual or organization that utilizes or benefits from LFDT-hosted project deliverables, and may provide feedback, requirements, or real-world usage data to guide project direction and priorities.
+
+* **Consultancy** - an entity whose purpose is to assist other organizations in developing a solution leveraging decentralized trust technology. They may be embedded in the end user team and are responsible for the execution of the service. Service Providers may also provide consultancy services, they may also package decentralized trust technologies for reuse as part of their offerings. These function as proxies for an end user.  
+    
+Projects may leverage the above guidelines to list organizations in their ADOPTERS.md file within their repo, projects are not required to identify the type of adopter in their ADOPTERS.md file; however, projects are encouraged to identify the category or categories each adopter fits under, but to list the adopter only once. This helps the LFDT community track usage patterns and adoption trends more effectively.
 
 If you’re not sure if your organization falls into any of these categories you can ask in the \#tac discord channel, on the TAC mailing list, or email [tac@lists.lfdecentralized.org](mailto:tac@lists.lfdecentralizedtrust.org)  and we’ll help you.  
 
