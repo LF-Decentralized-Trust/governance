@@ -24,12 +24,10 @@ Adopters of LFDT projects may include the following (noting that a single organi
 
 * **Ecosystem Participant** – An organization actively engaged in developing, deploying, or operating one or more LFDT projects.
 
-* **Service Provider** – An entity offering LFDT projects as part of a larger solution (e.g., a platform or product).
-
-  A Service Provider is an organization that repackages an open source project as a core component of a service offering and sells decentralized trust services externally. Examples might include:  
+* **Service Provider** – An entity offering LFDT projects as part of a larger solution (e.g., a platform or product). This entity repackages an open source project as a core component of a service offering and sells decentralized trust services externally. Examples might include:  
   * APIs  
   * SaaS  
-  * Blockchain networks both public and private~~cloud providers~~.   
+  * Blockchain networks both public and private cloud providers.   
   * Repackaged supported software
 
   NOTE: A Service Provider’s customers are considered transitive adopters and should be excluded from identification within the ADOPTERS.md file.
