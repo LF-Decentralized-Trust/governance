@@ -1,20 +1,16 @@
----
-layout: default
-title: 2025 Q2 Hyperledger Indy
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
+# 2025 Q2 Hyperledger Indy
 
-# Project Health
+## Project Health
 
 Over the past quarter, the Indy community has been actively working on upgrading components to support Ubuntu 22.04, with significant collaboration happening on Discord. Key progress includes updates to CI/CD workflows, test automation, and the Indy VDR upgrade for Plenum. The project remains highly stable, with globally deployed networks running smoothly and ongoing efforts focused on long-term maintainability and security improvements.
 
-# Questions/Issues for the TAC
+## Questions/Issues for the TAC
 
 There are no issues at this time.
 
-# Releases
+## Releases
 
 The current focus is the Ubuntu 22.04 upgrade, so there have been no releases in this first quarter.
 
@@ -22,11 +18,11 @@ Most recent prior release:
 - [indy-node v1.31.2](https://github.com/hyperledger/indy-node/releases/tag/v1.13.2)
 - [indy-plenum v1.31.1](https://github.com/hyperledger/indy-plenum/releases/tag/v1.13.1)
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 Progress on the project is going well. The primary focus of the current technical work is upgrading Hyperledger Indy components to support Ubuntu 22.04.
 
-There has been significant community activity, particularly on the Discord server. The Ubuntu-related channels are highly active, with maintainers responding promptly and consistently. Notably, there has been a lot of engagement in the #indy, #indy-node, and #indy-ubuntu-2204-upgrade channels.
+There has been significant community activity, particularly on the Discord server. The Ubuntu-related channels are highly active, with maintainers responding promptly and consistently. Notably, there has been a lot of engagement in the ##indy, #indy-node, and #indy-ubuntu-2204-upgrade channels.
 
 Although the team initially experimented with using Tatsu for standups, it proved ineffective, and coordination has since moved back to Discord.
 
@@ -44,7 +40,7 @@ The Quebec team has made significant contributions to this work. Although they h
 
 Hyperledger Indy remains a highly stable project. As a result of this stability, there are numerous scaled deployments of Indy networks operating reliably across the globe. Demand for new features in the existing Indy Node and Plenum codebases is low, reflecting the maturity and robustness of the platform. Efforts are ongoing to maintain and strengthen this level of stability, ensuring that production-grade Indy networks continue to serve critical identity infrastructure needs worldwide.
 
-# Current Plans
+## Current Plans
 
 - Complete the upgrade to Ubuntu 22.04
 - Complete the GitHub organization change
@@ -58,12 +54,12 @@ Hyperledger Indy remains a highly stable project. As a result of this stability,
     - Add poetry package management
 
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 There are currently 14 maintainers. The maintainers and teams can be seen in the [Governance Access Control YAML file](https://github.com/hyperledger/governance/blob/main/access-control.yaml).
 
 
-# Contributor Diversity
+## Contributor Diversity
 
 |Rank|Organization                   |Activities|% Contributions|Change|
 |----|-------------------------------|----------|---------------|------|
@@ -76,7 +72,7 @@ There are currently 14 maintainers. The maintainers and teams can be seen in the
 
 Source: [LFX Insights](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=indy&routedFrom=Github&bestPractice=false&repository=all&dateFilters=Last%20Quarter&dateRange=2025-01-01%20to%202025-03-31&compare=PP&granularity=week&hideBots=true)
 
-# Additional Information
+## Additional Information
 
 A new use case reported within the first quarter: [South African blockchain-powered Uber rival](https://mybroadband.co.za/news/internet/580104-south-african-blockchain-powered-uber-rival.html?utm_campaign=LFDT%20Decentralized%20Digest&utm_medium=email&_hsmi=345935392&utm_content=345936564&utm_source=hs_email)
 

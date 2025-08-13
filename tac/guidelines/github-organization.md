@@ -1,10 +1,3 @@
----
-layout: default
-title: LFDT transition from one GitHub org to one GitHub org per project
-parent: Guidelines
-grand_parent: LF Decentralized Trust TAC
-nav_order: 4
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # LFDT transition from one GitHub org to one GitHub org per project

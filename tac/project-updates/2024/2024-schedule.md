@@ -1,11 +1,4 @@
----
-layout: default
-title: 2024 Schedule
-parent: 2024
-grand_parent: Project Updates
-has_children: false
-has_toc: false
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # 2024 Schedule
 

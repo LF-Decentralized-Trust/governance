@@ -1,9 +1,6 @@
----
-layout: default
-title: 2025 Annual Review Hyperledger Bevel
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# 2025 Annual Review Hyperledger Bevel
 
 ## Project Health
 1. Getting code contribution on Bevel still remains a challenge, though the community usage and interest is still there for both the projects as can be inferred from discussions and queries on discord channel and user participations on meetups. However, it has decreased compared to 2023 in every aspect (commits, PRs, issues created, forks). Reference: [Bevel LFX Insights Page](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=bevel&repository=&routedFrom=Github)

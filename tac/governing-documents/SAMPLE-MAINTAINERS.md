@@ -1,9 +1,3 @@
----
-layout: default
-title: Sample MAINTAINERS file
-nav_exclude: true
----
-[//]: # remove this line, and all prior, before using in a repo.
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 # Maintainers
 

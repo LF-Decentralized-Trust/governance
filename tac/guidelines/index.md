@@ -1,3 +1,5 @@
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
 # Guidelines
 
 The TAC has created a number of guidelines for use by projects and their maintainers. Please check out these best practices and recommendations.

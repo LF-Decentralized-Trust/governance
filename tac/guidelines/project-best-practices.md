@@ -1,10 +1,3 @@
----
-layout: default
-title: Project Best Practices
-parent: Guidelines
-grand_parent: LF Decentralized Trust TAC
-nav_order: 4
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Project Best Practices

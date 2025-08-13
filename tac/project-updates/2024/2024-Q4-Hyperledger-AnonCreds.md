@@ -1,9 +1,6 @@
----
-layout: default
-title: 2024 Q4 Hyperledger AnonCreds
-parent: 2024
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# 2024 Q4 Hyperledger AnonCreds
 
 Created by Stephen Curran with input from the Hyperledger AnonCreds Maintainers.
 

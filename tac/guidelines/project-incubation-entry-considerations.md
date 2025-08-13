@@ -1,10 +1,3 @@
----
-layout: default
-title: Project Incubation Entry Considerations
-parent: Guidelines
-grand_parent: LF Decentralized Trust TAC
-nav_order: 5
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Project Incubation Entry Considerations
