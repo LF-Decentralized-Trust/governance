@@ -1,10 +1,3 @@
----
-layout: default
-title: Project Incubation Exit Criteria
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 9
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Project Incubation Exit Criteria

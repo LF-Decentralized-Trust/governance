@@ -1,23 +1,21 @@
----
-layout: default
-title: 2024 Q4 Hyperledger Identus
-parent: 2024
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# 2024 Q4 Hyperledger Identus
+
 Created by Javier Ribó with input from other maintainers
 
 
-# Project Health
+## Project Health
 
 The project is still new to the Hyperledger Ecosystem and continues to have steady growth of contributors.
 The project can now be found on the [LFX dashboard](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=identus&routedFrom=Github&bestPractice=false&repository=all&dateFilters=Last%20Quarter&dateRange=2024-07-01%20to%202024-09-30&compare=PP&granularity=week&hideBots=true) which can now be checked for health insights. In the last quarter we have seen an increase on the number of github issues created while the active contributors have gone down 8%.
 
 
-# Questions/Issues for the TOC
+## Questions/Issues for the TOC
 
 N/A
 
-# Releases
+## Releases
 
   * Identus V2.13
     * Cloud Agent v1.39.0
@@ -37,7 +35,7 @@ N/A
     * Cloud Agent v1.40.0
 
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 During the previous quarter the team has been focusing on the following:
 1. Connectionless Issuance and Verification of VC via DIDCommV2
@@ -55,7 +53,7 @@ During the previous quarter the team has been focusing on the following:
 
 
 
-# Current Plans
+## Current Plans
 
 As IOG shifts its focus away from commercial objectives for ATALA/Identus, the Atala team has been reduced. The remaining IOG team is dedicated into maintaining the Identus project and help with integration from both external and internal projects. Our goal for this quarter is to foster increased community involvement in development, governance, and engagement. To ensure the continued development and growth of Identus.
 The team will be focusing on simplifying the deployment and documentation of our stack, we will no longer be pursuing some of the features we were working on which were more intended for Enterprise use-cases, but instead we are going to focus on what our community members need, one very important one is having diversity of choice on the Prism NODE, universal resolver and VDR
@@ -64,11 +62,11 @@ The Community is encouraged to log feature requests, issues etc and this is then
 
 
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 We currently have 7 maintainers from which 3 are from outside of IOG, and we are constantly working on onboarding new members to the community by making workshops, community calls and partnering with some projects
 
-# Contributor Diversity
+## Contributor Diversity
 
 At the moment, the main contributors of source code are from IOG at 75% of the contributions.
 The remaining of the contributions are shared across other organizations.
@@ -76,6 +74,6 @@ Other organizations have given additional on feature request ideas such as Ahau 
 
 
 
-# Additional Information
+## Additional Information
 
 NA

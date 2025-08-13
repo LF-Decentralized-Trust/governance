@@ -1,13 +1,8 @@
----
-layout: default
-title: 2024 Q4 Hyperledger Bevel
-parent: 2024
-grand_parent: Project Updates
----
+[//]: ## (SPDX-License-Identifier: CC-BY-4.0)
 
 # 2024 Q4 Hyperledger Bevel
 
-# Project Health
+## Project Health
 
 [Hyperledger Bevel LFX Insights page](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview?project=bevel&repository=&dateFilters=Last%20Year&dateRange=2023-01-01%20to%202023-12-31&compare=PP&granularity=month&hideBots=true)
 
@@ -20,11 +15,11 @@ grand_parent: Project Updates
 [Hyperledger Bevel Operator Fabric LFX Insights page](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview?project=bevel&repository=https:%2F%2Fgithub.com%2Fhyperledger%2Fbevel-operator-fabric)
 
 
-# Questions/Issues for the TOC
+## Questions/Issues for the TOC
 
 No questions at the moment.
 
-# Releases
+## Releases
 
 [Releases](https://github.com/hyperledger/bevel/releases) past quarter:
 
@@ -33,7 +28,7 @@ No questions at the moment.
 - Bevel Fabric Operator v1.11.0
 
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 
 - We are working on improvements to the proxy/vault and no-proxy/no-vault options to deploy DLT Networks. Besu charts have been remarkable enhanced, and as external organizations are using Bevel, we will continue to improve them over the next months.
@@ -47,12 +42,12 @@ For Bevel Operator Fabric
 - Bug fixes.
 
 
-# Current Plans
+## Current Plans
 
 - Analyze and evaluate whether to update the Besu Helm charts once the new transaction manager, which will replace the current one, is developed. We are awaiting updates from the Besu team.
 - Work on Fabric bugs the community has been reported during the past  few months.
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 -	There is a change in the maintainers for Bevel. You can find our current maintainer list here:  
 <a href="https://github.com/hyperledger/bevel/blob/main/MAINTAINERS.md" class="external-link" rel="nofollow">https://github.com/hyperledger/bevel/blob/main/MAINTAINERS.md</a>.
@@ -79,9 +74,9 @@ For Bevel Operator Fabric
 	-	David Viejo (Kung Fu Software)
 	-	Aditya Joshi (Walmart)
 
-# Contributor Diversity
+## Contributor Diversity
 [Dashboard](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/reports/contributors?project=bevel&repository=https:%2F%2Fgithub.com%2Fhyperledger%2Fbevel&routedFrom=Github)
 
-# Additional Information
+## Additional Information
 
 N/A

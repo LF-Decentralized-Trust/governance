@@ -1,10 +1,4 @@
----
-layout: default
-title: 2025 Annual Review Hyperledger AnonCreds
-parent: 2025
-grand_parent: Project Updates
-nav_exclude: true
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # 2025 Annual Review Hyperledger AnonCreds
 

@@ -1,10 +1,3 @@
----
-layout: default
-title:  Security Policy
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 13
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 This document outlines the LF Decentralized Trust security vulnerability disclosure policy

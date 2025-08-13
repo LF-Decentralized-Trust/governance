@@ -1,11 +1,8 @@
----
-layout: default
-title: 2024 Q4 Hyperledger Solang
-parent: 2024
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2024 Q4 Hyperledger Solang
+
+## Project Health
 
 * Hyperledger Solang development is going well, with the main focus on the Soroban target.
 
@@ -13,17 +10,17 @@ grand_parent: Project Updates
 
 * Solang Playground Deliverables to the Web3 Foundation were completed and delivered, making the playground closer to the final version.
 
-# Questions/Issues for the TAC
+## Questions/Issues for the TAC
 
 There are no issues at this time.
 
-# Releases
+## Releases
 
 * Cross contract calls and value transfers are not yet merged into the Solang's main, but a release will be made once they are.
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
-## For Solang
+### For Solang
 
 * Worked on cross-contract calls and value transfers for Soroban target.
 
@@ -33,21 +30,21 @@ There are no issues at this time.
 
 * Worked on Soroban's more complex data types (i128, addresses, etc.).
 
-# Current Plans
+## Current Plans
 
 * Merge cross-contract calls and value transfers into the main branch.
 * Complete Soroban's auth framework.
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 Two new active contibutors were added to the project: [Ahmad Sameh](https://github.com/ahmadsamehh) and [Tarek Nasser](https://github.com/tareknaser).
 They don't represent an organization, but they are actively contributing/trying to contribute to the Soroban target.
 
-# Contributor Diversity
+## Contributor Diversity
 
 Tarek was working on Solang-Aqd as part of the Hyperledger mentorship program, while Ahmad Sameh got involved in the project after the Stellar conference.
 
-# Additional Information
+## Additional Information
 
 None at this time.
 

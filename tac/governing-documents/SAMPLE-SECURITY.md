@@ -1,9 +1,3 @@
----
-layout: default
-title: Sample SECURITY file
-nav_exclude: true
----
-[//]: # remove this line, and all prior, before using in a repo.
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 # PROJECT, an LF Decentralized Trust Project Security Policy
 

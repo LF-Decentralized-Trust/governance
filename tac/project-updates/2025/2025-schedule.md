@@ -1,11 +1,4 @@
----
-layout: default
-title: 2025 Schedule
-parent: 2025
-grand_parent: Project Updates
-has_children: false
-has_toc: false
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # 2025 Schedule
 

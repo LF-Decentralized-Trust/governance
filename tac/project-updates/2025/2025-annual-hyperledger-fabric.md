@@ -1,9 +1,6 @@
----
-layout: default
-title: 2025 Annual Review Hyperledger Fabric
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# 2025 Annual Review Hyperledger Fabric
 
 ## Project Health
 

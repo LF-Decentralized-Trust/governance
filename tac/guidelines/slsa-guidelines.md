@@ -1,10 +1,4 @@
----
-layout: default
-title: Supply Chain Levels for Software Artifacts Compliance
-parent: Guidelines
-grand_parent: LF Decentralized Trust TAC
-nav_order: 6
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 ## Supply Chain Levels for Software Artifacts Recommendations
 

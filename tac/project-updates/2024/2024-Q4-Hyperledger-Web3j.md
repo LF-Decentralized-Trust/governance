@@ -1,11 +1,8 @@
----
-layout: default
-title: 2024 Q4 Hyperledger Web3j
-parent: 2024
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2024 Q4 Hyperledger Web3j
+
+## Project Health
 
 - The project is in good health.
 - We did 11 releases for all the Web3j Repos fixing several bugs, issues, vulnerabilities, licenses and adding new features.
@@ -14,11 +11,11 @@ grand_parent: Project Updates
 - Regularly having fortnightly contributors call.
 - Added Web3j [Roadmap](https://lf-hyperledger.atlassian.net/wiki/spaces/WEB3J/pages/23101932/Roadmap+2024+-+2025).
 
-# Questions/Issues for the TAC
+## Questions/Issues for the TAC
 
 None at the moment.
 
-# Releases
+## Releases
 
 We did release several strong releases for all Web3j repos.
 
@@ -47,7 +44,7 @@ We did release several strong releases for all Web3j repos.
 - Web3j CLI
     - v1.6.1 (Aug 17, 2024)
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 - 33 commits and 10 PRs merged in Web3j core.
 - 50+ commits and 18 PRs merged across all other Web3j repositories.
@@ -61,7 +58,7 @@ We did release several strong releases for all Web3j repos.
 - Regularly having fortnightly contributors call. A few people joined the call, but it is not very successful yet.
 - The Discord channel was active with questions and announcements of new releases.
 
-# Current Plans
+## Current Plans
 
 - Fixing Bugs and issues in Web3j.
 - Getting web3j-android fixed for newer Android versions.
@@ -69,16 +66,16 @@ We did release several strong releases for all Web3j repos.
 - Fix Web3j open-api project.
 - Organize Web3j Summit in early December.
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 - No new maintainers were added this quarter, but several contributors remained active and showed interest towards maintainership.
 
-# Contributor Diversity
+## Contributor Diversity
 
 - 7 new contributors in Web3j releases.
 - Contributions from NTT to fix several bugs in Web3j.
 
-# Additional Information
+## Additional Information
 
 N/A
 

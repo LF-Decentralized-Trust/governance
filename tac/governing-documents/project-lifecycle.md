@@ -1,11 +1,3 @@
----
-layout: default
-title: Project Lifecycle
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 8
----
-
 [//]: # 'SPDX-License-Identifier: CC-BY-4.0'
 
 # Project Lifecycle

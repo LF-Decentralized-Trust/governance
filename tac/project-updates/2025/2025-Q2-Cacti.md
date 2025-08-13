@@ -1,11 +1,8 @@
----
-layout: default
-title: 2025 Q2 Cacti
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2025 Q2 Cacti
+
+## Project Health
 
 - We are forging ahead with the IETF SATP reference implementations, the codebase integration and a mentorship project proposal which was granted acceptance just a few days ago.
 - We are still working on the Cacti Chainlink CCIP connector which we've presented in the February LFDT Interoperability Workshop mid-February this year.
@@ -14,17 +11,17 @@ grand_parent: Project Updates
 - There haven't been any violations of the code of conduct by contributors so we count ourselves lucky so far.
 - There's been a bit of a slowdown this quarter, the number of active Contributors are decreased by 9.09%.
 
-# Questions/Issues for the TAC
+## Questions/Issues for the TAC
 
 N/A
 
-# Releases
+## Releases
 
 December 2, 2024 - `v2.1.0`
 
 We've had plans to issue v2.2.0 in this quarter but there is a chain of dependencies tied in a bit of a gordian knot with the release process, the package renaming and the `satp-dev` branch which contains most of the work of the IETF SATP team. We are hoping to have the new release issued within a few weeks from now when the `satp-dev` branch is properly merged onto `main`.
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 We regularly respond to questions! 
 With that said the mailing list is pretty quiet. 
@@ -38,7 +35,7 @@ Technical changes that we are working on:
 3. Bringing down the Dependabot alerts
 4. Increasing our OpenSSF score, particularly with the low hanging fruit such as not committing binaries into the git repository
    
-# Current Plans
+## Current Plans
 
 We'll want to do a major release this summer because we have to have some breaking changes.
 We need to migrate away from Web3JS which was unfortunately deprecated and retired as of last month (March 2025).
@@ -61,7 +58,7 @@ a major piece of work as well.
 
 There is also ongoing effort to migrate away from Web3JS which has been in progress for a while now.
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 **Active Maintainers**
 
@@ -77,7 +74,7 @@ There is also ongoing effort to migrate away from Web3JS which has been in progr
 | Rafael Belchior | [RafaelAPB][RafaelAPB] | rafaelapb |
 
 
-# Contributor Diversity
+## Contributor Diversity
 
 |Rank|Organization                   |Activities|% Contributions|Change|
 |----|-------------------------------|----------|---------------|------|
@@ -91,6 +88,6 @@ There is also ongoing effort to migrate away from Web3JS which has been in progr
 
 Source: [LFX Cacti Project Page](https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/overview/github?project=cacti&routedFrom=Github&bestPractice=false&repository=all&dateFilters=Last%20Quarter&dateRange=2025-01-01%20to%202025-03-31&compare=PP&granularity=week&hideBots=true)
 
-# Additional Information
+## Additional Information
 
 N/A
