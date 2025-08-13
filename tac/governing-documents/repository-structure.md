@@ -1,10 +1,3 @@
----
-layout: default
-title: Common Repository Structure
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 5
----
 # Common Repository Structure
 
 LF Decentralized Trust (LFDT) projects are required to maintain a standard set of files in each repository. This

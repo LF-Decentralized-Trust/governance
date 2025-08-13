@@ -1,10 +1,5 @@
----
-layout: default
-title: Automated Pipelines Best Practices
-parent: Guidelines
-grand_parent: LF Decentralized Trust TAC
-nav_order: 1
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
 # Automated Pipelines Best Practices<!-- omit in toc -->
 
 - [Version Control Systems](#version-control-systems)

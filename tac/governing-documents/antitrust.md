@@ -1,10 +1,3 @@
----
-layout: default
-title: Antitrust Policy Notice
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 2
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Antitrust Policy Notice

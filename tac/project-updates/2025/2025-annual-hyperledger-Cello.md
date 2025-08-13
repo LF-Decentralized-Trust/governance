@@ -1,11 +1,8 @@
----
-layout: default
-title: 2025 Annual Review Hyperledger Cello
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2025 Annual Hyperledger Cello
+
+## Project Health
 
 The [Hyperledger Cello](https://github.com/hyperledger-cello/cello) project is more mature this quarter, and we continue to focus on the v1.1 release after the v1.0 version. 
 
@@ -22,7 +19,7 @@ The key accomplishments and initiatives this quarter include:
     * Improve the QA, including adding more test cases and documentation;
     * Support more blockchain networks such as Hyperledger Besu.
 
-## Maintainer Diversity
+### Maintainer Diversity
 
 We currently have four maintainers now, and two maintainers are not that active due to working on other directions, including Feng Yang and Yuanmao Zhu. We will retire the inactive maintainers and recruit new ones:
 
@@ -31,26 +28,26 @@ Feng Yang (H3C)
 Yuanmao Zhu (Coinbase)
 Xichen Pan (University of British Columbia)
 
-# Project Adoption
+## Project Adoption
 Based on the Github issues, there are some adoptions, but we do not have the exact number.
 
-# Goals
+## Goals
 
-## Performance Against Prior Goals
+### Performance Against Prior Goals
 The Cello team is mainly working on the new feature development as planed, as long as fixing bugs and improve documentations.
 
 Throughout the recent quarters, we maintained project stability through active bug fixing and timely responses to GitHub issues, supporting our community of users and contributors.
 
-## Next Year's Goals
+### Next Year's Goals
 The v1.1 version will be released in early Q2, 2025.
 
 The v1.2 version will be released in the 2nd half of 2025.
 
-## Help Required
+### Help Required
 When will the maintainers are able to update the meeting calendar, without needing to contact LF staffs to help?
 
 
-# Project Lifecycle Status Recommendation
+## Project Lifecycle Status Recommendation
 
 The TAC had a constructive and thoughtful discussion on the current state of Cello's community. TAC recognizes and appreciate the dedication of a few maintainers whose efforts stand out. At the same time, the TAC identified several areas that need attention to ensure the long-term health and sustainability of the project.
 

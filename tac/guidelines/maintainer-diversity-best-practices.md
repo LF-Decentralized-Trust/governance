@@ -1,10 +1,5 @@
----
-layout: default
-title: Maintainer Diversity Best Practices
-parent: Guidelines
-grand_parent: LF Decentralized Trust TAC
-nav_order: 3
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
 # Maintainer Diversity Best Practices
 
 The following is a set of items that can help in increasing maintainer diversity for projects. If there are any questions on how to implement these practices, please reach out to the community architects or the TOC. Also, if you have additional items that have helped your project increase your maintainer diversity, please feel free to file a PR to add those items.

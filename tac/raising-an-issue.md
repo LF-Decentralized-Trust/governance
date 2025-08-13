@@ -1,9 +1,5 @@
----
-layout: default
-title: Raising an Issue
-parent: LF Decentralized Trust TAC
-nav_order: 2
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
 # Raising an Issue with the Technical Advisory Council (TAC)
 
 Issues specific to a project should first be raised within the project itself.

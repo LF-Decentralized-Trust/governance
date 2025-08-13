@@ -1,19 +1,16 @@
----
-layout: default
-title: 2024 Q4 Hyperledger Besu
-parent: 2024
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2024 Q4 Hyperledger Besu
+
+## Project Health
 
 The Besu project continues to thrive. [Fleet Mode](https://consensys.io/blog/besu-fleet-the-future-of-rpc-scaling) has bolstered interest in Besu from public blockchain networks and private chains, with both Layer 2 and RPC providers considering Besu for their infrastructure. Community activity on Discord is stable, though external contributions are at a seasonal lull. Overall, the project remains healthy. 
 
-# Questions/Issues for the TOC
+## Questions/Issues for the TOC
 
 Besu contributors have been asking to use a single [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) instead of the DCO requirement for every commit, which is a source of unnecessary friction. The new [LFDT Charter](https://www.lfdecentralizedtrust.org/about/charter) does not mention anything about requiring either, and as such the Besu team intends to relax the DCO requirement in favor of a single CLA.
 
-# Releases
+## Releases
 
 This quarters releases:
 
@@ -35,7 +32,7 @@ Challenges include:
 
 
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 Over the past several months, the Besu team and community contributors have addressed a variety of enhancements, bug fixes, and performance optimizations. A number of improvements target transaction processing speed, and accompanying metrics to better visualize and analyze those improvements. 
 
@@ -45,13 +42,13 @@ Since the deprecation of the Hyperledger brand, the Besu project has begun the p
 
 The team has adopted automation to better manage issues- GitHub actions are used to mark any issues or prs that have had no activity for the last 2 weeks as stale, and if they are not tended to in the subsequent 2 weeks they will be closed. This will enforce regular review of issues.
 
-# Current Plans
+## Current Plans
 
 The Prague and Osaka upgrades will be the primary focus in Q1 2025. We continue to invest in our plugin architecture and modularizing the codebase to accommodate that. Integration with the Portal Network will be invested in to reduce the storage footprint required by mainnet nodes.
 
-# Contributor Diversity
+## Contributor Diversity
 
-Due to an increase in trivial or automatically generated PRs, we have had to refine our [policies around insignificant contributions](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md#guidelines-for-non-code-and-other-trivial-contributions) likely intended to farm future rewards.
+Due to an increase in trivial or automatically generated PRs, we have had to refine our [policies around insignificant contributions](https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md##guidelines-for-non-code-and-other-trivial-contributions) likely intended to farm future rewards.
 
-# Additional Information
+## Additional Information
 

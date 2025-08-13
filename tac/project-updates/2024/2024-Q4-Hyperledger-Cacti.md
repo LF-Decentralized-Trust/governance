@@ -1,11 +1,8 @@
----
-layout: default
-title: 2024 Q4 Hyperledger Cacti
-parent: 2024
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2024 Q4 Hyperledger Cacti
+
+## Project Health
 
 - Cacti is doing great, there is steady interest in the project as interoperability is becoming more and more important to organizations wishing to deploy distributed ledger technologies.
 - There was a significant increase in new contributors this last quarter according to LFX (75%) and the pair programming sessions get more attendance than ever.
@@ -15,11 +12,11 @@ grand_parent: Project Updates
   * Cacti maintainers continue to be actively involved in the IETF SATP Working Group, co-authoring protocol specifications.
 - We are not doing too badly on the [OpenSSF Scorecard Metrics](https://scorecard.dev/viewer/?uri=github.com%2Fhyperledger-cacti%2Fcacti) with a present score (as of the time of this file's commit) of 6.3, but there is a lot of scope to improve.
 
-# Questions/Issues for the TAC
+## Questions/Issues for the TAC
 
 No questions at the moment, thank you.
 
-# Releases
+## Releases
 
 Issued releases:
 - v2.0.0-rc.4
@@ -35,7 +32,7 @@ Upcoming releases:
 - v2.0.1
 - v2.1.0
 
-# Overall Activity in the Past Quarter
+## Overall Activity in the Past Quarter
 
 - The vast majority of the community's communication happens on the Discord channel. The mailing list is not used much nowadays.
 - The maintainers try to respond to all queries in a timely manner. On average our response time is likely around a couple of days with the tail end being a couple of weeks.
@@ -48,7 +45,7 @@ Upcoming releases:
 - We successfully removed outdated and deprecated connector plugins from the project that lacked OpenAPI compatibility.
 - The Ledger Browser plugin (GUI) was fully redesigned to enhance extensibility and improve the user interface. Additionally, we significantly expanded and refined the documentation to improve the onboarding experience and simplify project setup for new users.
 
-# Current Plans
+## Current Plans
 
 Main features planned:
 1. Finishing the IETF SATP Typescript reference implementation (currently most of the code for it is on the `satp-dev` branch)
@@ -63,7 +60,7 @@ Releases planned:
 - v2.1.0
 - Potentially v3.0.0 if the number requested breaking changes reaches above threshold sooner than next Spring.
 
-# Maintainer Diversity
+## Maintainer Diversity
 
 We have 8 active maintainers from 4 different organizations total:
 
@@ -76,13 +73,13 @@ We have 8 active maintainers from 4 different organizations total:
 - Sandeep Nishad 
 - Rafael Belchior 
 
-# Contributor Diversity
+## Contributor Diversity
 
 We estimate that the the number of contributing organizations have grown slightly since last quarter, but
 LFX seems to be buggy at the moment showing that there are 17 **thousand** organizations contributing to the project which
 is definitely wrong.
 See: https://insights.lfx.linuxfoundation.org/foundation/lf-decentralized-trust/reports/organizations?project=cacti
 
-# Additional Information
+## Additional Information
 
 - Different collaborations with the academia and industry are still taking place. In particular, one of them is [Portugal's BLOCKCHAIN.PT project](https://www.hyperledger.org/blog/portugals-blockchain.pt-uses-hyperledger-cacti-as-its-interoperability-framework).

@@ -1,9 +1,6 @@
----
-layout: default
-title: 2025 Annual Review Hyperledger Indy
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# 2025 Annual Review Hyperledger Indy
 
 ## Project Health
 

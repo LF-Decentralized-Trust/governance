@@ -1,10 +1,3 @@
----
-layout: default
-title: Project Updates
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 11
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Project Updates

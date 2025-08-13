@@ -1,10 +1,4 @@
----
-layout: default
-title: YYYY Annual Review Project Name
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
-nav_exclude: true
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 <mark>_Copy this template to the subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `2024-annual-lf-decentralized-trust-amazing.md`). Update the information above to change the `title` to the `YYYY Annual Review Project Name` (e.g., `2024 Annual Review LF Decentralized Trust Amazing`), the `parent` to `YYYY` (e.g., 2024), the `grand_parent` to `Project Updates`, and remove the `nav_exclude` line. Text between `<mark></mark>` are instructions. Please remove when section has been completed._
 </mark>

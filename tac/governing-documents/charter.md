@@ -1,10 +1,3 @@
----
-layout: default
-title: Charter
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 1
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 # LF Decentralized Trust Charter
 

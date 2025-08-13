@@ -1,10 +1,3 @@
----
-layout: default
-title: Inactivity Policies
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 7
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Inactivity Policies

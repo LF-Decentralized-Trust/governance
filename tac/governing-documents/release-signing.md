@@ -1,10 +1,3 @@
----
-layout: default
-title:  Release Signing
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
-nav_order: 10
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Securing and Verifying Releases
