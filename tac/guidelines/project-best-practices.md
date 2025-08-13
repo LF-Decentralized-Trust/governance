@@ -21,35 +21,35 @@ The document will first provide a survey of existing guidelines and practices an
 
 ## Project Incubation Entry Considerations
 
-The [Project Incubation Entry Considerations](./project-incubation-entry-considerations) provides baseline suggestions for new Incubations projects. For example:
+The [Project Incubation Entry Considerations](./project-incubation-entry-considerations.md) provides baseline suggestions for new Incubations projects. For example:
 * Follow basic open-source practices and licensing
 * [DCO](https://developercertificate.org/) sign-offs on commits
 * Diverse set of maintainers and stakeholders
 
 ## Project Incubation Exit Criteria
 
-The [Project Incubation Exit Criteria](../governing-documents/project-incubation-exit) defines minimum requirements for Graduated projects. These are good suggestions for any project. In a nutshell:
+The [Project Incubation Exit Criteria](../governing-documents/project-incubation-exit.md) defines minimum requirements for Graduated projects. These are good suggestions for any project. In a nutshell:
 * Use Apache 2 license
 * Foster an active and diverse contributor community.
-  - See [Fostering a community](#Fostering-a-community) section for more details.
+  - See [Fostering a community](#fostering-a-community) section for more details.
 * Provide automated unit and integration test coverage.
-  - See [Continuous Integration](#Continuous-Integration) section for more details.
+  - See [Continuous Integration](#continuous-integration) section for more details.
 * Provide project documentation.
-  - See [Documentation](#Documentation) section for more details.
+  - See [Documentation](#documentation) section for more details.
 * Ensure project infrastructure is in place (Github repository, mailing list, Discord chat, CI).
-  - See [Repository structure](#Repository-structure) section for more details.
+  - See [Repository structure](#repository-structure) section for more details.
 * Identify security key contacts and address security vulnerabilities.
-  - See [Security](#Security) section for more details.
+  - See [Security](#security) section for more details.
 * Work towards an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/en)
 
 ## Repository structure
 
-* Projects should follow the [Common Repository Structure](../governing-documents/repository-structure) which provides details for required and recommended repository files.
+* Projects should follow the [Common Repository Structure](../governing-documents/repository-structure.md) which provides details for required and recommended repository files.
 
 ## Maintainer guidelines
 
 * Projects should document maintainers along with maintainer roles and responsibilities in a MAINTAINERS.md file.
-* See the [maintainers file](../governing-documents/MAINTAINERS-file) and [sample MAINTAINERS.md](../governing-documents/SAMPLE-MAINTAINERS) for suggested duties of a maintainer and guidance on how to add and remove maintainers.
+* See the [maintainers file](../governing-documents/MAINTAINERS-file.md) and [sample MAINTAINERS.md](../governing-documents/SAMPLE-MAINTAINERS.md) for suggested duties of a maintainer and guidance on how to add and remove maintainers.
 
 ## Inclusive naming
 
@@ -64,7 +64,7 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 * Use an RFC process (or similar process) to drive consensus and track agreement on project major decisions, features, design, etc.
   - Example - [Fabric RFC process](https://github.com/hyperledger/fabric-rfcs)
 * Use [Community Specification License v1.0](https://spdx.org/licenses/Community-Spec-1.0.html) in RFC repositories - more details TBD
-* Maintainer governance - see [Maintainer guidelines](#Maintainer-guidelines) above
+* Maintainer governance - see [Maintainer guidelines](#maintainer-guidelines) above
 * Document project roles and responsibilities (maintainers, release managers, contributors, etc)
 * Document project operational procedures, including how to manage a project roadmap
 
@@ -112,7 +112,7 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 ## Security
 
 * Provide three named security contacts per project
-* Define security issue reporting process in SECURITY.md with reference to [Security reporting process](../governing-documents/security)
+* Define security issue reporting process in SECURITY.md with reference to [Security reporting process](../governing-documents/security.md)
 * Review, respond, and act on reported security vulnerabilities
 * Leverage automated scans, tooling depends on language but usually includes some combination of:
   - linters
@@ -136,7 +136,7 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 
 ## Releases
 
-* Follow an established [Release taxonomy](../governing-documents/release-taxonomy) - either SemVer or CalVer; use consistent pre-release tags (e.g. -preview, -alpha, -beta)
+* Follow an established [Release taxonomy](../governing-documents/release-taxonomy.md) - either SemVer or CalVer; use consistent pre-release tags (e.g. -preview, -alpha, -beta)
 * Document release strategy and release process including required approvals
 * Document branch strategy, e.g. one branch per major.minor release works well so that it can be maintained in isolation while delivering major.minor.patch releases
 * Document Long-term support (LTS) release strategy - [Fabric example](https://github.com/hyperledger/fabric-rfcs/blob/main/text/0005-lts-release-strategy.md)
@@ -163,7 +163,7 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
   - DCO - [Developer Certificate of Origin](https://github.com/apps/dco)
   - Unit tests
   - Integration tests
-  - Scans - see [Security](#Security) section, consider running on schedule (nightly) rather than on each pull request
+  - Scans - see [Security](#security) section, consider running on schedule (nightly) rather than on each pull request
   - Note - just because a change passes automated checks doesn't mean it is necessarily good, it still requires judicious maintainer review
 * Test coverage reporting - run on-demand or nightly
 * Keep CI clean and green at all times, address failures and flakes
@@ -190,7 +190,7 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 ## GitHub workflow
 
 * Although there are often multiple paths to achieve an outcome in git and GitHub, there is value in defining a suggested path for contributors, both for the benefit of new GitHub users, and for the sake of project consistency.
-  - See the [LFDT GitHub Contribution Guide](./github-contribution-guide) for detailed guidance on forking, branching, remotes, creating pull requests, updating pull requests, and cherry picking
+  - See the [LFDT GitHub Contribution Guide](./github-contribution-guide.md) for detailed guidance on forking, branching, remotes, creating pull requests, updating pull requests, and cherry picking
 * **Rebase merging** is preferred over **Merge commits** and **Squash merging** to keep commit history and PR description clean (assuming contributors squash/amend their own pull requests)
 * Nice to haves (consult the GitHub Best Practices documentation for details)
   - Try to have all the commits signed on your default branch. This is hard to do in practice, but could come in handy later.
