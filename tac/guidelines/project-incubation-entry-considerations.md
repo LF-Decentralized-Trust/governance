@@ -8,7 +8,7 @@ nav_order: 5
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Project Incubation Entry Considerations
-This document provides information to help people who are considering bringing their projects to LF Decentralized Trust (hereafter "LFDT") for [Incubation](../governing-documents/project-lifecycle#incubation). Specifically, it will outline items that the TAC will take into consideration when evaluating the project, as well as, some best practices that have been followed by other projects prior to the project proposal being submitted to the TAC. Our hope is that this document will smooth the entry process for new projects being proposed. The [project proposal process](../governing-documents/project-lifecycle#proposal) and the [template for project proposals](https://lf-decentralized-trust.github.io/project-proposals/) are outlined outside of this document. The goal of Incubation within LFDT is to provide a space for projects that have high potential to grow in the community. Ideas should start in [Labs](https://labs.hyperledger.org/).
+This document provides information to help people who are considering bringing their projects to LF Decentralized Trust (hereafter "LFDT") for [Incubation](../governing-documents/project-lifecycle.md#incubation). Specifically, it will outline items that the TAC will take into consideration when evaluating the project, as well as, some best practices that have been followed by other projects prior to the project proposal being submitted to the TAC. Our hope is that this document will smooth the entry process for new projects being proposed. The [project proposal process](../governing-documents/project-lifecycle.md#proposal) and the [template for project proposals](https://lf-decentralized-trust.github.io/project-proposals/) are outlined outside of this document. The goal of Incubation within LFDT is to provide a space for projects that have high potential to grow in the community. Ideas should start in [Labs](https://labs.hyperledger.org/).
 
 ## Considerations
 When considering projects that are proposed for incubation to LFDT, the TAC will consider the following items: codebase, maintainers, community, sponsors, legal, and overlap with existing projects. The below items are not hard and fast rules for projects being accepted. The considerations are a guide to project proposers. If you meet most of the considerations, you are most likely to be accepted. If you do not meet any of the considerations, you are most likely to not be accepted.
@@ -47,7 +47,7 @@ If you need any assistance with community engagement planning, LFDT staff is hap
 * Trademark concerns – project names should not be trademarked by a contributing company or if it is, then the trademark will need to be handed over to LFDT. Project names must be approved by the LFDT marketing committee
 * Projects do not require a name prior to being submitted.
   * Codebase should be Apache 2 licensable, without encumbrances
-  * Non-Apache 2 licensed code is possible, but requires Governing board approval (see [allowed third-party licenses](../governing-documents/allowed-third-party-licenses))
+  * Non-Apache 2 licensed code is possible, but requires Governing board approval (see [allowed third-party licenses](../governing-documents/allowed-third-party-licenses.md))
   * Special examination should be given to copyleft and non-licensed code.
   * Required patent licensing issues have prevented projects from entering Incubation.
   * GPL licensing issues have prevented projects from entering Incubation.

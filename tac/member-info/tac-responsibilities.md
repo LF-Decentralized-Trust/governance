@@ -24,7 +24,7 @@ The [LF Decentralized Trust Charter](../governing-documents/charter.md) states t
 TAC members are expected to:
 
 * Subscribe to the TAC mailing list and the LF Decentralized Trust Github organization to stay aware of the TAC related updates and issues.
-* Regularly participate in the [TAC Meetings](../meeting-minutes)
+* Regularly participate in the [TAC Meetings](../meeting-minutes/index.md)
 * Review the [TAC Project Quarterly Updates](../governing-documents/project-updates.md) and comment as needed in a timely manner
 * Review the [TAC Project Annual Updates](../governing-documents/project-annual-review.md) and present the findings to the TAC
 * Bring up and help resolve any issues related to the needs of the LF Decentralized Trust technical community

@@ -24,9 +24,6 @@ The highlight here is that in the Spring of 2024 we've added the wonderful [Rafa
 
 ## Maintainer Diversity
 
-<mark>_How many maintainers do you have, and which organizations are they from? How has the maintainers and diversity of your maintainers changed in the past year? Has the number of active maintainers increased/decreased? Has the diversity of maintainers increased/decreased? Please include a link to your existing [MAINTAINERS file](../guidelines/MAINTAINERS-guidelines.md) and the MAINTAINERS file from last year (if appropriate). This is a good opportunity to ensure that your MAINTAINERS file is up to date and to retire any maintainers._
-</mark>
-
 - We have **8 maintainers** at present from 4 different organizations: Fujitsu, IBM, Tecnico Lisboa, Accenture.
 - The number of active maintainers has **increased** from 7 to 8.
 - The number of maintaining organizations has **increased** from 3 to 4.

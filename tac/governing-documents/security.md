@@ -9,7 +9,7 @@ nav_order: 13
 
 This document outlines the LF Decentralized Trust security vulnerability disclosure policy
 that all LF Decentralized Trust projects **MUST** follow. The associated
-[SAMPLE-SECURITY.md](./SAMPLE-SECURITY) file is a "best practices" security vulnerability
+[SAMPLE-SECURITY.md](./SAMPLE-SECURITY.md) file is a "best practices" security vulnerability
 disclosure policy that project Maintainers **SHOULD** use for
 publishing the security policy and procedures for their project by copying the
 file into their project repositories and updating it according to the
@@ -44,7 +44,7 @@ This document has the following sections:
 7. [(GitHub) Security Advisories](#github-security-advisories)
 8. [Private Patch Deployment Infrastructure](#private-patch-deployment-infrastructure)
 
-In each of these sections, and in the associated [SAMPLE-SECURITY.md](./SAMPLE-SECURITY), the
+In each of these sections, and in the associated [SAMPLE-SECURITY.md](./SAMPLE-SECURITY.md), the
 current LF Decentralized Trust "best practices" are defined. In some sections are
 alternatives (tagged "**Alternative:**") that projects may want to use. When
 projects vary from the current LF Decentralized Trust best practices, the documented alternatives

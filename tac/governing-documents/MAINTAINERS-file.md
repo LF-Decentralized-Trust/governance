@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Introduction
 
-All LF Decentralized Trust (LFDT) repositories **MUST** have a `MAINTAINERS.md` file at the top-level directory of the source code. The [SAMPLE-MAINTAINERS.md](./SAMPLE-MAINTAINERS) can be used as a template by projects creating a new repository.
+All LF Decentralized Trust (LFDT) repositories **MUST** have a `MAINTAINERS.md` file at the top-level directory of the source code. The [SAMPLE-MAINTAINERS.md](./SAMPLE-MAINTAINERS.md) can be used as a template by projects creating a new repository.
 
 The Technical Steering Committee (TSC) for the project to which a repository belongs **MUST** periodically send out notifications about missing `MAINTAINERS.md` files.
 
@@ -81,7 +81,7 @@ The following table format **MUST** be used for both Maintainers lists (active a
 The `MAINTAINERS.md` file **SHOULD** contain information about the different
 maintainer scopes, and for each, the maintainers duties (e.g., maintainers
 calls, quarterly reports, code reviews, issue cleansing). See the [Sample
-Maintainers](./SAMPLE-MAINTAINERS) for an example of what to include in this
+Maintainers](./SAMPLE-MAINTAINERS.md) for an example of what to include in this
 section for an open source software project. Feel free to evolve that text to
 match the needs of the repository and project.
 

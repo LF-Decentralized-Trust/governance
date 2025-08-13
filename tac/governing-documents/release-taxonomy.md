@@ -9,7 +9,7 @@ nav_order: 12
 
 # Release Taxonomy
 
-Releases at LF Decentralized Trust can be done either according to [SemVer](#SemVer) or via [CalVer](#CalVer).
+Releases at LF Decentralized Trust can be done either according to [SemVer](#semver) or via [CalVer](#calver).
 
 ## SemVer
 
