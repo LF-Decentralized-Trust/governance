@@ -1,0 +1,257 @@
+site_name: Technical Advisory Council
+repo_name: lf-decentralized-trust/governance
+repo_url: https://github.com/lf-decentralized-trust/governance
+edit_uri: edit/main/tac
+docs_dir: tac
+copyright: "Copyright &copy; LF Decentralized Trust<br/>License: CC BY 4.0"
+theme:
+  name: material
+  logo: assets/project-logo.svg
+  favicon: assets/project-icon.svg
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+  - content.code.copy
+  - content.action.view
+  - navigation.expand
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant
+  - navigation.instant.prefetch
+  - navigation.path
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.suggest
+  - toc.follow
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lf-decentralized-trust
+    - icon: fontawesome/solid/flask-vial
+      link: https://github.com/lf-decentralized-trust-labs
+      name: Labs (GitHub)
+    - icon: fontawesome/brands/discord
+      link: https://discord.lfdecentralizedtrust.org/
+      name: Discord
+    - icon: fontawesome/solid/envelope
+      link: https://lists.lfdecentralizedtrust.org
+    - icon: fontawesome/solid/calendar-days
+      link: https://zoom-lfx.platform.linuxfoundation.org/meetings/lf-decentralized-trust
+      name: Community Calendar
+    - icon: fontawesome/solid/globe
+      link: https://lfdecentralizedtrust.org
+nav:
+  - Home: index.md
+  - Governing Documents:
+    - governing-documents/index.md
+    - Charter: governing-documents/charter.md
+    - Antitrust Policy Notice: governing-documents/antitrust.md
+    - Code of Conduct: governing-documents/code-of-conduct.md
+    - Allowed Third Party Licenses: governing-documents/allowed-third-party-licenses.md
+    - Common Repository Structure: governing-documents/repository-structure.md
+    - MAINTAINERS File Requirements: governing-documents/MAINTAINERS-file.md
+    - Inactivity Policies: governing-documents/inactivity.md
+    - Project Lifecycle: governing-documents/project-lifecycle.md
+    - Project Incubation Exit Criteria: governing-documents/project-incubation-exit.md
+    - Project Annual Review: governing-documents/project-annual-review.md
+    - Release Signing: governing-documents/release-signing.md
+    - Project Updates: governing-documents/project-updates.md
+    - Release Taxonomy: governing-documents/release-taxonomy.md
+    - Security Policy: governing-documents/security.md
+    - Task Forces: governing-documents/task-force.md
+  - Guidelines:
+    - ./guidelines/index.md
+    - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
+    - GitHub Contribution Guide: guidelines/github-contribution-guide.md
+    - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
+    - GitHub Organization: guidelines/github-organization.md
+    - Project Best Practices: guidelines/project-best-practices.md
+    - Project Incubation Entry Considerations: guidelines/project-incubation-entry-considerations.md
+    - Supply Chain Levels for Software Artifacts Recommendations: guidelines/slsa-guidelines.md
+  - Meetings:
+    - meeting-minutes/index.md
+    - 2025:
+      - 2025-07-31: meeting-minutes/2025/2025-07-31.md
+      - 2025-07-24: meeting-minutes/2025/2025-07-24.md
+      - 2025-07-17: meeting-minutes/2025/2025-07-17.md
+      - 2025-07-10: meeting-minutes/2025/2025-07-10.md
+      - 2025-06-26: meeting-minutes/2025/2025-06-26.md
+      - 2025-06-12: meeting-minutes/2025/2025-06-12.md
+      - 2025-06-05: meeting-minutes/2025/2025-06-05.md
+      - 2025-05-29: meeting-minutes/2025/2025-05-29.md
+      - 2025-05-22: meeting-minutes/2025/2025-05-22.md
+      - 2025-05-15: meeting-minutes/2025/2025-05-15.md
+      - 2025-05-08: meeting-minutes/2025/2025-05-08.md
+      - 2025-05-01: meeting-minutes/2025/2025-05-01.md
+      - 2025-04-24: meeting-minutes/2025/2025-04-24.md
+      - 2025-04-17: meeting-minutes/2025/2025-04-17.md
+      - 2025-04-10: meeting-minutes/2025/2025-04-10.md
+      - 2025-04-03: meeting-minutes/2025/2025-04-03.md
+      - 2025-03-27: meeting-minutes/2025/2025-03-27.md
+      - 2025-03-20: meeting-minutes/2025/2025-03-20.md
+      - 2025-03-06: meeting-minutes/2025/2025-03-06.md
+      - 2025-02-27: meeting-minutes/2025/2025-02-27.md
+      - 2025-02-20: meeting-minutes/2025/2025-02-20.md
+      - 2025-02-13: meeting-minutes/2025/2025-02-13.md
+      - 2025-02-06: meeting-minutes/2025/2025-02-06.md
+      - 2025-01-30: meeting-minutes/2025/2025-01-30.md
+      - 2025-01-23: meeting-minutes/2025/2025-01-23.md
+      - 2025-01-16: meeting-minutes/2025/2025-01-16.md
+      - 2025-01-09: meeting-minutes/2025/2025-01-09.md
+    - 2024:
+      - 2024-12-19: meeting-minutes/2024/2024-12-19.md
+      - 2024-12-12: meeting-minutes/2024/2024-12-12.md
+      - 2024-12-05: meeting-minutes/2024/2024-12-05.md
+      - 2024-11-21: meeting-minutes/2024/2024-11-21.md
+      - 2024-11-14: meeting-minutes/2024/2024-11-14.md
+      - 2024-11-07: meeting-minutes/2024/2024-11-07.md
+      - 2024-10-31: meeting-minutes/2024/2024-10-31.md
+      - 2024-10-10: meeting-minutes/2024/2024-10-10.md
+      - 2024-10-03: meeting-minutes/2024/2024-10-03.md
+      - 2024-09-26: meeting-minutes/2024/2024-09-26.md
+      - 2024-09-19: meeting-minutes/2024/2024-09-19.md
+  - Member Info:
+      - TAC Members: member-info/tac-members.md
+      - TAC Responsibilities: member-info/tac-responsibilities.md
+      - Election Timelines:
+        - 2025: member-info/election-timeline.md
+  - Project Updates:
+    - 2025:
+      - 2025 Schedule: project-updates/2025/2025-schedule.md
+      - Q2:
+        - 2025 Q2 Web3j: project-updates/2025/2025-Q2-Web3j.md
+        - 2025 Q2 Hyperledger Iroha: project-updates/2025/2025-Q2-Hyperledger-Iroha.md
+        - 2025 Q2 Hyperledger Indy: project-updates/2025/2025-Q2-Hyperledger-Indy.md
+        - 2025 Q2 Hyperledger Identus: project-updates/2025/2025-Q2-Hyperledger-Identus.md
+        - 2025 Q2 Hyperledger FireFly: project-updates/2025/2025-Q2-Hyperledger-FireFly.md
+        - 2025 Q2 Hyperledger Fabric: project-updates/2025/2025-Q2-Hyperledger-Fabric.md
+        - 2025 Q2 Hyperledger Cello: project-updates/2025/2025-Q2-Hyperledger-Cello.md
+        - 2025 Q2 Hyperledger Caliper: project-updates/2025/2025-Q2-Hyperledger-Caliper.md
+        - 2025 Q2 Cacti: project-updates/2025/2025-Q2-Cacti.md
+        - 2025 Q2 Hyperledger Bevel: project-updates/2025/2025-Q2-Hyperledger-Bevel.md
+        - 2025 Q2 Hyperledger Aries: project-updates/2025/2025-Q2-Hyperledger-Aries.md
+        - 2025 Q2 Hyperledger AnonCreds: project-updates/2025/2025-Q2-Hyperledger-AnonCreds.md
+      - Annual:
+        - 2025 Annual Web3j: project-updates/2025/2025-annual-Web3j.md
+        - 2025 Annual Solang: project-updates/2025/2025-annual-Solang.md
+        - 2025 Annual Hyperledger Iroha: project-updates/2025/2025-annual-hyperledger-iroha.md
+        - 2025 Annual Hyperledger Indy: project-updates/2025/2025-annual-Hyperledger-Indy.md
+        - 2025 Annual Identus: project-updates/2025/2025-annual-Identus.md
+        - 2025 Annual Hiero: project-updates/2025/2025-annual-Hiero.md
+        - 2025 Annual Hyperledger FireFly: project-updates/2025/2025-annual-Hyperledger-FireFly.md
+        - 2025 Annual Hyperledger Fabric: project-updates/2025/2025-annual-hyperledger-fabric.md
+        - 2025 Annual CREDEBL: project-updates/2025/2025-annual-CREDEBL.md
+        - 2025 Annual Hyperledger Cello: project-updates/2025/2025-annual-hyperledger-Cello.md
+        - 2025 Annual Hyperledger Caliper: project-updates/2025/2025-annual-hyperledger-caliper.md
+        - 2025 Annual Cacti: project-updates/2025/2025-annual-Cacti.md
+        - 2025 Annual Hyperledger Bevel: project-updates/2025/2025-annual-Hyperledger-Bevel.md
+        - 2025 Annual Besu: project-updates/2025/2025-annual-Besu.md
+        - 2025 Annual Hyperledger Aries: project-updates/2025/2025-annual-Hyperledger-Aries.md
+        - 2025 Annual Hyperledger Anoncreds: project-updates/2025/2025-annual-hyperledger-anoncreds.md
+    - 2024:
+      - 2024 Schedule: project-updates/2024/2024-schedule.md
+      - Q4:
+        - 2024 Q4 Hyperledger Web3j: project-updates/2024/2024-Q4-Hyperledger-Web3j.md
+        - 2024 Q4 Hyperledger Solang: project-updates/2024/2024-Q4-Hyperledger-Solang.md
+        - 2024 Q4 Hyperledger Iroha: project-updates/2024/2024-Q4-Hyperledger-Iroha.md
+        - 2024 Q4 Hyperledger Indy: project-updates/2024/2024-Q4-Hyperledger-Indy.md
+        - 2024 Q4 Hyperledger Identus: project-updates/2024/2024-Q4-Hyperledger-Identus.md
+        - 2024 Q4 Hyperledger FireFly: project-updates/2024/2024-Q4-Hyperledger-FireFly.md
+        - 2024 Q4 Hyperledger Fabric: project-updates/2024/2024-Q4-Hyperledger-Fabric.md
+        - 2024 Q4 Hyperledger Cello: project-updates/2024/2024-Q4-Hyperledger-Cello.md
+        - 2024 Q4 Hyperledger Caliper: project-updates/2024/2024-Q4-Hyperledger-Caliper.md
+        - 2024 Q4 Hyperledger Cacti: project-updates/2024/2024-Q4-Hyperledger-Cacti.md
+        - 2024 Q4 Hyperledger Bevel: project-updates/2024/2024-Q4-Hyperledger-Bevel.md
+        - 2024 Q4 Hyperledger Besu: project-updates/2024/2024-Q4-Hyperledger-Besu.md
+        - 2024 Q4 Hyperledger Aries: project-updates/2024/2024-Q4-Hyperledger-Aries.md
+        - 2024 Q4 Hyperledger AnonCreds: project-updates/2024/2024-Q4-Hyperledger-AnonCreds.md
+not_in_nav: |
+  meeting-minutes/Introduction_to_Standards_for_OSS_Projects.pdf
+  project-updates/2025/HLFF_2025_Q2_stars.png
+  project-updates/2025/HLFF_2025_Q2_4.png
+  project-updates/2025/HLFF_2025_Q2_3.png
+  project-updates/2025/HLFF_2025_Q2_2.png
+  project-updates/2025/HLFF_2025_Q2_1.png
+  governing-documents/project-lifecycle-transition-criteria.png
+  governing-documents/project-lifecycle-transition-criteria.pptx
+  governing-documents/SAMPLE-MAINTAINERS.md
+  governing-documents/SAMPLE-SECURITY.md
+  github-verified-signature.png
+  project-updates/0000-annual-review-template.md
+  project-updates/0000-quarterly-update-template.md
+  raising-an-issue.md
+  guidelines/index.md
+  meeting-minutes/index.md
+  meeting-minutes/2024/index.md
+  meeting-minutes/2025/index.md
+  member-info/index.md
+  project-updates/index.md
+  project-updates/2024/index.md
+  project-updates/2025/index.md
+  project-updates/2025/2025-annual-Hyperledger-FireFly-project-adoption.png
+

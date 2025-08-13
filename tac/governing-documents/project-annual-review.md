@@ -39,7 +39,7 @@ LF Decentralized Trust staff will notify the project TSC and copy the TAC when t
 Project TSC members are responsible for agreeing between them who will complete the annual review. One of the project's TSC members should create the review in GitHub under [lf-decentralized-trust/governance] in the `/tac/project-updates/` folder.
 
 - Raise a PR titled *`[year] [Project Name] Annual Review`* (e.g., `2024 Amazing Annual Review`).
-- The PR should include a file called `./<year>/<year>-annual-<Project-Name>.md` (e.g., `2024/2024-annual-amazing.md`) using [the annual review template](../project-updates/0000-annual-review-template).
+- The PR should include a file called `./<year>/<year>-annual-<Project-Name>.md` (e.g., `2024/2024-annual-amazing.md`) using [the annual review template](../project-updates/0000-annual-review-template.md).
   - Update the information at the top of the file:
     - change the `title` line to `YYYY Annual Review <Project Name>` (e.g., `title: 2024 Annual Review Amazing`)
     - change the `parent` line to `YYYY` (e.g., `parent: 2024`)

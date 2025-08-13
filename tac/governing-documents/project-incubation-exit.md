@@ -11,7 +11,7 @@ nav_order: 9
 
 ## Introduction
 
-LF Decentralized Trust has defined a [lifecycle](./project-lifecycle) for its
+LF Decentralized Trust has defined a [lifecycle](./project-lifecycle.md) for its
 projects.
 
 This definition specifies the evaluation criteria for a project to be able
@@ -96,9 +96,9 @@ decision process by informing its members of key aspects of the project.
         *Graduated* projects.
 
     -   Release numbering: the project should use the LF Decentralized Trust
-        standard [release taxonomy](./release-taxonomy), once that is agreed upon.
+        standard [release taxonomy](./release-taxonomy.md), once that is agreed upon.
 
-    -   Project must make a [release](./release-taxonomy), even a "developer preview",
+    -   Project must make a [release](./release-taxonomy.md), even a "developer preview",
         before graduation.
 
 -   Infrastructure
@@ -107,7 +107,7 @@ decision process by informing its members of key aspects of the project.
     -   Mailing lists have been created and are archived
     -   Other communication means used, such as chat channels, are set up
     -   Project is set up with Continuous Integration
-    -   All project repos have implemented the [common repository structure](./repository-structure)
+    -   All project repos have implemented the [common repository structure](./repository-structure.md)
 
 -   Security
 

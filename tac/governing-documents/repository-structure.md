@@ -17,8 +17,8 @@ link to the specified content with minimal exposition. These files MUST be at th
 repository.
 
 -   [`LICENSE`](https://www.apache.org/licenses/LICENSE-2.0.txt) (Unless an exception has been made by the LFDT Governing Board)
--   [`CODE_OF_CONDUCT.md`](./code-of-conduct)
--   [`SECURITY.md`](./security)
+-   [`CODE_OF_CONDUCT.md`](./code-of-conduct.md)
+-   [`SECURITY.md`](./security.md)
 
 ## Required Files with Variable Content
 
@@ -32,7 +32,7 @@ format suffixes such as `.md`, `.rst`, or `.txt`.
     -   Documentation for developers and users
     -   Suggestion for users to update the `ADOPTERS.md` file (see further below) upon awareness of practical usage
 -   `MAINTAINERS` \
-    A list of all current maintainers with contact info. [A separate document](./MAINTAINERS-file)
+    A list of all current maintainers with contact info. [A separate document](./MAINTAINERS-file.md)
     covers the specifics.
 -   `CONTRIBUTING` \
     Directions on how to contribute code to the project, or a pointer to that information.
