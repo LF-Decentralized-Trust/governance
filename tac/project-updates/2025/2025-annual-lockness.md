@@ -7,7 +7,7 @@ grand_parent: Project Updates
 
 ## Project Health
 
-Lockness is not yet onboarded to LFX Insights.
+See [LFX Insights](https://insights.linuxfoundation.org/project/lockness/repository/lfdt-lockness?timeRange=past365days).
 
 ## Maintainer Diversity
 
@@ -30,7 +30,7 @@ We see that several companies that are trying out our project: they reach out to
 
 ### Performance Against Prior Goals
 
-In [project proposal](https://github.com/dfns/hyperledger-hip-private/blob/proposal/HIPs/incubation/xkey.md), we set and accomplished following goals:
+In [project proposal](https://github.com/LF-Decentralized-Trust/project-proposals/blob/gh-pages/proposals/incubation/xkey.md), we set and accomplished following goals:
 
 - [x] Develop a framework for writing MPC protocols, reducing boilerplate and making the code easy to
   write and read.
