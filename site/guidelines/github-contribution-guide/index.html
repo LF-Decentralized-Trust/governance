@@ -1,0 +1,4585 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../automated-pipelines-best-practices/">
+      
+      
+        <link rel="next" href="../maintainer-diversity-best-practices/">
+      
+      
+      <link rel="icon" href="../../assets/project-icon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>GitHub Contribution Guide - Technical Advisory Council</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#github-contribution-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Technical Advisory Council" class="md-header__button md-logo" aria-label="Technical Advisory Council" data-md-component="logo">
+      
+  <img src="../../assets/project-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Technical Advisory Council
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              GitHub Contribution Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/lf-decentralized-trust/governance" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    lf-decentralized-trust/governance
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../governing-documents/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Governing Documents
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../automated-pipelines-best-practices/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guidelines
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../meeting-minutes/2025/2025-07-31/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Meetings
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../member-info/tac-members/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Member Info
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project-updates/2025/2025-schedule/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project Updates
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Technical Advisory Council" class="md-nav__button md-logo" aria-label="Technical Advisory Council" data-md-component="logo">
+      
+  <img src="../../assets/project-logo.png" alt="logo">
+
+    </a>
+    Technical Advisory Council
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/lf-decentralized-trust/governance" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    lf-decentralized-trust/governance
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../governing-documents/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Governing Documents
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Governing Documents
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/charter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Charter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/antitrust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Antitrust Policy Notice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/code-of-conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/allowed-third-party-licenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Allowed Third Party Licenses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/repository-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Common Repository Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/MAINTAINERS-file/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MAINTAINERS File Requirements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/inactivity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inactivity Policies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/project-lifecycle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Lifecycle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/project-incubation-exit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Incubation Exit Criteria
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/project-annual-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Annual Review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/release-signing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release Signing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/project-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/release-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release Taxonomy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../governing-documents/task-force/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Task Forces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guidelines
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guidelines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automated-pipelines-best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Automated Pipelines Best Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    GitHub Contribution Guide
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub Contribution Guide
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#forking-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forking the repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloning-the-repository-and-syncing-with-the-upstream-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloning the repository and syncing with the upstream project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-local-feature-branch-for-your-development-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a Local Feature Branch for Your Development work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#committing-and-pushing-changes-to-your-forked-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Committing and Pushing Changes to Your Forked Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opening-a-pull-request-in-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening a Pull Request in GitHub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating a Pull Request
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cherry-picking-your-pull-request-to-other-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cherry-picking your pull request to other branches
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up-local-and-remote-feature-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cleaning Up Local And Remote Feature branches
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syncing-your-fork-with-the-upstream-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syncing Your Fork With the Upstream Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-commit-signatures-not-sign-off-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Git Commit Signatures (not sign-off messages)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Git Commit Signatures (not sign-off messages)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reading-list-for-git-commit-signing-in-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reading List for Git Commit Signing in General
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintainer-diversity-best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maintainer Diversity Best Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github-organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub Organization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Best Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-incubation-entry-considerations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Incubation Entry Considerations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slsa-guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supply Chain Levels for Software Artifacts Recommendations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Meetings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            2025
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-07-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-07-31
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-07-24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-07-24
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-07-17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-07-17
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-07-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-07-10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-06-26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-06-26
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-06-12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-06-12
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-06-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-06-05
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-05-29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-05-29
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-05-22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-05-22
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-05-15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-05-15
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-05-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-05-08
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-05-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-05-01
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-04-24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-04-24
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-04-17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-04-17
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-04-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-04-10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-04-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-04-03
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-03-27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-27
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-03-20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-03-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-06
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-02-27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-27
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-02-20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-20
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-02-13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-13
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-02-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-06
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-01-30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-01-30
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-01-23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-01-23
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-01-16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-01-16
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2025/2025-01-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-01-09
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            2024
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-12-19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-12-19
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-12-12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-12-12
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-12-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-12-05
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-11-21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-11-21
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-11-14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-11-14
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-11-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-11-07
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-10-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-10-31
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-10-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-10-10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-10-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-10-03
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-09-26/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-09-26
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meeting-minutes/2024/2024-09-19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-09-19
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Member Info
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Member Info
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../member-info/tac-members/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TAC Members
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../member-info/tac-responsibilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TAC Responsibilities
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Election Timelines
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Election Timelines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../member-info/election-timeline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project Updates
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Project Updates
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            2025
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025 Schedule
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1_2" id="__nav_6_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Q2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Q2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Web3j/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Web3j
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Iroha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Iroha
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Indy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Indy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Identus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Identus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-FireFly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-FireFly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Fabric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Fabric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Cello/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Cello
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Caliper/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Caliper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Bevel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Bevel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-Aries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-Aries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Hyperledger-AnonCreds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Hyperledger-AnonCreds
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-Q2-Cacti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-Q2-Cacti
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1_3" id="__nav_6_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Annual
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Annual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Web3j/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Web3j
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Solang/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Solang
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Identus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Identus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-hyperledger-iroha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-hyperledger-iroha
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Hyperledger-Indy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Hyperledger-Indy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Hyperledger-FireFly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Hyperledger-FireFly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Hyperledger-FireFly-project-adoption.png" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Hyperledger-FireFly-project-adoption.png
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-hyperledger-fabric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-hyperledger-fabric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-hyperledger-Cello/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-hyperledger-Cello
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-hyperledger-caliper/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-hyperledger-caliper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Hyperledger-Bevel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Hyperledger-Bevel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Hyperledger-Aries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Hyperledger-Aries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-hyperledger-anoncreds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-hyperledger-anoncreds
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Hiero/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Hiero
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-CREDEBL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-CREDEBL
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Cacti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Cacti
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2025/2025-annual-Besu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-annual-Besu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            2024
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024 Schedule
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_2" id="__nav_6_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Q4
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Q4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Web3j/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Web3j
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Solang/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Solang
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Iroha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Iroha
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Indy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Indy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Identus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Identus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-FireFly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-FireFly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Fabric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Fabric
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Cello/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Cello
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Caliper/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Caliper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Cacti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Cacti
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Bevel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Bevel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Besu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Besu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-Aries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-Aries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-updates/2024/2024-Q4-Hyperledger-AnonCreds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024-Q4-Hyperledger-AnonCreds
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#forking-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forking the repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloning-the-repository-and-syncing-with-the-upstream-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cloning the repository and syncing with the upstream project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-local-feature-branch-for-your-development-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a Local Feature Branch for Your Development work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#committing-and-pushing-changes-to-your-forked-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Committing and Pushing Changes to Your Forked Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opening-a-pull-request-in-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening a Pull Request in GitHub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating a Pull Request
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cherry-picking-your-pull-request-to-other-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cherry-picking your pull request to other branches
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up-local-and-remote-feature-branches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cleaning Up Local And Remote Feature branches
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syncing-your-fork-with-the-upstream-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syncing Your Fork With the Upstream Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-commit-signatures-not-sign-off-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Git Commit Signatures (not sign-off messages)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Git Commit Signatures (not sign-off messages)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reading-list-for-git-commit-signing-in-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reading List for Git Commit Signing in General
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+    
+      
+    
+    <a href="https://github.com/lf-decentralized-trust/governance/raw/main/tac/guidelines/github-contribution-guide.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="github-contribution-guide">GitHub Contribution Guide<a class="headerlink" href="#github-contribution-guide" title="Permanent link">&para;</a></h1>
+<p>This document provides instructions to fork a LF Decentralized Trust (LFDT) repository and submit code contributions through a pull request.
+Although there are many GitHub guides available, this guide covers the full set of contribution steps using generally accepted LFDT practices.</p>
+<p>For additional Git/GitHub questions and discussions after reading this guide, reach out on the <a href="https://discord.com/channels/905194001349627914/1098621099681513492">git-help Discord channel</a>.</p>
+<h2 id="forking-the-repository">Forking the repository<a class="headerlink" href="#forking-the-repository" title="Permanent link">&para;</a></h2>
+<p>In order to contribute code to a LFDT project, it is required to fork the relevant GitHub repository and submit a pull request from your fork.
+The act of forking a GitHub repository creates an identical copy of the repository in your personal GitHub account.
+You are then able to edit code and propose these changes to the official LFDT repository you forked the code from via the GitHub pull request process.</p>
+<p>To fork a repository:</p>
+<ul>
+<li>Navigate to the GitHub repository you wish to fork in your browser</li>
+<li>In the top right corner select the Fork button</li>
+<li>Accept the default fork options and select <code>Create Fork</code></li>
+<li>Your browser will take you to the forked repository within your personal GitHub account</li>
+</ul>
+<p>You can now clone your personal fork to your local machine.</p>
+<h2 id="cloning-the-repository-and-syncing-with-the-upstream-project">Cloning the repository and syncing with the upstream project<a class="headerlink" href="#cloning-the-repository-and-syncing-with-the-upstream-project" title="Permanent link">&para;</a></h2>
+<p>Once you have forked the repository you can now clone the project to your local machine to begin your development work.
+This will create a local GitHub repository on your machine.</p>
+<blockquote>
+<p>Prerequisite: This guide uses GitHub\'s SSH protocol for cloning repositories.
+If you have not yet setup SSH access for GitHub please
+use the <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh">GitHub guide</a>
+to configure your SSH access.</p>
+</blockquote>
+<p>To clone a repository:</p>
+<ul>
+<li>Open your terminal</li>
+<li>Navigate to the location on your local disk where you want to clone the repository</li>
+<li>Execute the following command to clone your fork</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git clone git@github.com:&lt;your_github_id&gt;/&lt;repository_name&gt;.git
+</span></code></pre></div>
+<ul>
+<li>Now change to the repository directory and add a remote upstream repository pointing to the official LFDT repository</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cd &lt;repository_name&gt;
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git remote add upstream https://github.com/LF-Decentralized-Trust/&lt;repository_name&gt;.git
+</span></code></pre></div>
+<ul>
+<li>You can now list your remote branches and confirm your local repository has created a link with the remote upstream repository</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git remote -v
+</span></code></pre></div>
+<p>You have now cloned your forked repository and configured its upstream repository. You can now create a feature branch for development.</p>
+<h2 id="create-a-local-feature-branch-for-your-development-work">Create a Local Feature Branch for Your Development work<a class="headerlink" href="#create-a-local-feature-branch-for-your-development-work" title="Permanent link">&para;</a></h2>
+<p>To preserve the state of the existing branches in your forked repository and isolate your changes, use a feature branch in your forked repository.
+A feature branch is created from an existing branch and is where you will perform your development work before pushing the changes back to your fork of the GitHub repository.
+To create a feature branch, perform the following steps:</p>
+<ul>
+<li>Fetch the project branches from the upstream repository</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git fetch upstream
+</span></code></pre></div>
+<ul>
+<li>Checkout one of the existing branches</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git checkout -t origin/main
+</span></code></pre></div>
+<ul>
+<li>Rebase your main branch based on the upstream main branch (there are likely no changes required if you've just forked it, but we show the step here for completeness)</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git rebase upstream/main
+</span></code></pre></div>
+<ul>
+<li>Update your fork on GitHub with any changes from the upstream main</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git push origin main
+</span></code></pre></div>
+<ul>
+<li>You can now checkout a new local feature branch for your work, the feature branch will be an exact copy of the branch from which you created it.</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git checkout -b &lt;feature_branch_name&gt;
+</span></code></pre></div>
+<p>Now that you have created a local feature branch, you can perform your updates.</p>
+<h2 id="committing-and-pushing-changes-to-your-forked-repository">Committing and Pushing Changes to Your Forked Repository<a class="headerlink" href="#committing-and-pushing-changes-to-your-forked-repository" title="Permanent link">&para;</a></h2>
+<p>Make the desired changes to files in your feature branch. You can now commit this code and push it to your forked repository:</p>
+<ul>
+<li>Add existing files you have changed to your commit by executing the following <code>git add</code> command</li>
+<li>The <code>-p</code> flag will open an interactive terminal for you to review and approve your changes before staging them for your commit.</li>
+<li>Alternatively, use the <code>-u</code> flag to stage all updated files for your commit.</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git add -p
+</span></code></pre></div>
+<ul>
+<li>Add any new files you have created by executing:</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git add &lt;file1&gt; &lt;file2&gt;
+</span></code></pre></div>
+<ul>
+<li>You can now create your commit containing the changes you just added.</li>
+<li>Your commit message should contain the following information:</li>
+<li>A one line commit title summarizing the commit, followed by an empty line</li>
+<li>A multi-line commit message body explaining the need for the change and how you approached it</li>
+<li>A link to GitHub issue (if exists), using syntax like <code>Resolves #&lt;GitHub issue number&gt;</code> so that the GitHub issue gets linked to the pull request.</li>
+<li>The <code>-s</code> flag will automatically sign the commit</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git commit -s
+</span></code></pre></div>
+<ul>
+<li>You can now push your local changes to your forked repository</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>git push origin &lt;feature_branch_name&gt;
+</span></code></pre></div>
+<p>Note - If you want to integrate upstream changes from the original repository
+before pushing your changes see <a href="#syncing-your-fork-with-the-upstream-repository">Syncing Your Fork With the Upstream
+Repository</a>.</p>
+<p>You have now successfully pushed your local changes to your forked repository.
+To integrate these changes you must now go through the pull request process.</p>
+<h2 id="opening-a-pull-request-in-github">Opening a Pull Request in GitHub<a class="headerlink" href="#opening-a-pull-request-in-github" title="Permanent link">&para;</a></h2>
+<p>Now that you've created and pushed changes to a feature branch in your forked repository,
+you can now open a pull request against the original LFDT repository from which you created your fork and begin the code review process.</p>
+<ul>
+<li>Navigate to <a href="https://github.com/LF-Decentralized-Trust/">https://github.com/LF-Decentralized-Trust/</a><original_repository></li>
+<li>Select the Pull Request tab at the top of the page</li>
+<li>In the top right corner of the Pull Requests page, select New Pull Request</li>
+<li>On the Compare Changes page, select "compare across forks" at the top of the page</li>
+<li>Select the LFDT repository and branch that you want to merge into as the "base repository" and "base" branch</li>
+<li>Select your fork and your feature branch as the "head repository" and "compare" branch</li>
+<li>Select Create Pull Request</li>
+<li>You'll have the option to open your pull request as a Draft if you are not yet ready to have it reviewed.</li>
+</ul>
+<p>Congratulations, you have now submitted your first pull request to a LFDT project.
+Your pull request will now run through CI checks.
+You can monitor your pull request CI progress by navigating to the Checks tab of the pull request.
+If there are CI check failures the pull request may not get reviewed and merged.
+Either resolve the failures by updating the pull request, or add a comment to the pull request to request help resolving the failure.</p>
+<h2 id="updating-a-pull-request">Updating a Pull Request<a class="headerlink" href="#updating-a-pull-request" title="Permanent link">&para;</a></h2>
+<p>As you receive review comments on your pull request (or if pull request checks fail), you may need to make edits to your commit.
+In the local branch you are working from, you may make changes, amend the commit, and re-push to your remote feature branch.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>git add -p
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>git commit --amend
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>git push origin &lt;feature_branch_name&gt; -f
+</span></code></pre></div>
+<p>This will update the pull request and re-trigger checks.</p>
+<p>If you have created multiple commits locally that contain one logical change, it is typically best to squash them into a single final commit.
+For example to squash your two most recent commits into a single commit before pushing:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>git rebase -i HEAD~2
+</span></code></pre></div>
+<p>This will open an interactive dialog. Change the second (and any subsequent) commit action from \'pick\' to \'squash\' in the dialog.
+The dialog will then present all the commit messages, which you can edit into a final message.</p>
+<h2 id="cherry-picking-your-pull-request-to-other-branches">Cherry-picking your pull request to other branches<a class="headerlink" href="#cherry-picking-your-pull-request-to-other-branches" title="Permanent link">&para;</a></h2>
+<p>After your PR is merged into the main branch, you need to consider whether it should be backported to earlier branches.
+If the content is a new feature designated for the next release, obviously backporting is not appropriate.
+But if it is a fix or update to an existing topic, don't forget to cherry-pick the PR back to earlier branches as needed.
+When in doubt, consult the maintainer that merged the PR for advice.
+Both parties should consider the backport and either party can trigger it.
+You can use the GitHub cherry-pick command, or if the repository has the Mergify app enabled,
+you can simply paste the following command as a comment in your PR after it is merged:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>@Mergifyio backport &lt;release-branch&gt;
+</span></code></pre></div>
+<p>Replace <release-branch> with the branch that you want to backport to, for example, release-2.0.
+If there are no merge conflicts, a new PR is automatically generated in that branch that still requires the normal approval process to be merged.
+Remember to add a comment to the original PR for each branch that you want to backport to.</p>
+<p>If there are merge conflicts, use the GitHub <code>cherry-pick</code> command instead, by providing the <code>SHA</code> from the commit in the main branch.</p>
+<ul>
+<li>The following example shows how to cherry-pick a commit from the main branch into the release-2.0 release branch:</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>git checkout release-2.0
+</span></code></pre></div>
+<ul>
+<li>If your branch is behind, run the following command to update the branch based on the upstream branch:</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>git fetch upstream
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>git rebase upstream/release-2.0
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>git push origin release-2.0
+</span></code></pre></div>
+<ul>
+<li>Create a new local branch to cherry-pick the content to and then cherry-pick the content by providing the SHA from the main branch.</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git checkout -b &lt;my2.0branch&gt;
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>git cherry-pick &lt;SHA from main branch&gt;
+</span></code></pre></div>
+<ul>
+<li>Resolve any merge conflicts and then push to your local branch.</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git push origin &lt;my2.0branch&gt; 
+</span></code></pre></div>
+<ul>
+<li>Now go to your browser and create a PR off of your local branch to the release-2.0 branch.</li>
+</ul>
+<p>Your change has been cherry-picked back to the release-2.0 branch and can be approved and merged following the normal process.</p>
+<h2 id="cleaning-up-local-and-remote-feature-branches">Cleaning Up Local And Remote Feature branches<a class="headerlink" href="#cleaning-up-local-and-remote-feature-branches" title="Permanent link">&para;</a></h2>
+<p>Once you have completed work on a feature branch and the changes have been merged,
+you should delete the local and remote feature branches as they are no longer valid to build on.
+You can delete them by executing the following commands:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git branch -d &lt;feature_branch_name&gt;
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>git push --delete origin &lt;feature_branch_name&gt;
+</span></code></pre></div>
+<h2 id="syncing-your-fork-with-the-upstream-repository">Syncing Your Fork With the Upstream Repository<a class="headerlink" href="#syncing-your-fork-with-the-upstream-repository" title="Permanent link">&para;</a></h2>
+<p>As your development progresses, invariably new commits will be merged
+into the original project from which your forked repo was generated from.
+To avoid surprise merge conflicts you should integrate these changes into your local repository.
+To integrate changes from the upstream repository, assuming you are currently in your local main branch,
+execute the following commands from the root of your repository:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git fetch upstream
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>git rebase upstream/main
+</span></code></pre></div>
+<p>Syncing your fork only updates your local repository,
+you will need to push these updates to your forked repository to save them using the following command:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git push origin main
+</span></code></pre></div>
+<h2 id="git-commit-signatures-not-sign-off-messages">Git Commit Signatures (not sign-off messages)<a class="headerlink" href="#git-commit-signatures-not-sign-off-messages" title="Permanent link">&para;</a></h2>
+<p>When merging someone else's pull request where they had GPG signed their commits, try to preserve GPG signatures where possible, but not at the expense of abandoning the principle of keeping a linear commit history.</p>
+<p>In practice this means that if a pre-merge rebase is necessary (for ensuring linear commit history), it must be done by the contributor of the pull request, so that they can re-sign the new commit (which usually has the same diff, but cryptographically speaking a completely different commit, e.g. different commit hash)</p>
+<p>If you are a maintainer who is merging a pull request that is both:</p>
+<ol>
+<li>up to date with the target branch <strong>and</strong></li>
+<li>the commit of it is signed</li>
+</ol>
+<p>then you can follow these steps below to ensure that the final commit on the target branch has the same hash and signature as the one made by the contributor originally. This is useful/important if you want to make sure that commit verification can be done on the commit graph.</p>
+<p>Assuming that:
+1. The target branch is called <code>main</code>
+2. You have the official repo added as a remote called <code>upstream</code> (e.g. you've done something like <code>git remote add upstream https://github.com/hyperledger/cacti.git</code>)
+3. The pull request branch is called <code>the_pr_branch</code>
+4. The remote of the fictional contributor called Example Person who opened the pull request has been added with the name of <code>example_remote</code></p>
+<p>First we fetch all remotes and ensure that our own main branch is up to date with the upstream main branch.</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>--all
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>git<span class="w"> </span>switch<span class="w"> </span>main
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>git<span class="w"> </span>rebase<span class="w"> </span>upstream/main
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>git<span class="w"> </span>push<span class="w"> </span>--force-with-lease
+</span></code></pre></div>
+<p>Then we perform the actual merging of <code>the_pr_branch</code> into <code>main</code></p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>git<span class="w"> </span>merge<span class="w"> </span>--ff-only<span class="w"> </span>example_remote/the_pr_branch
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>git<span class="w"> </span>push<span class="w"> </span>upstream
+</span></code></pre></div>
+<p>At this point the <code>main</code> branch's commit log on GitHub should show the commit of the pull request with a matching hash and also with the signature verification checkmark (as long as the signature was there on the original commit)</p>
+<p><img alt="GitHub Vigilant Mode Depicting a Valid Commit Signature in the Commit Log" src="../images/github-verified-signature.png" /></p>
+<p>If you are a maintainer who is merging a pull request that has a signed commit but is NOT up to date with the target branch, your only option is to ask the contributor to perform a rebase of their branch onto the target branch and re-sign the commit at the same time.
+Once they had done that, you can execute the steps above in the previous paragraph.</p>
+<h3 id="reading-list-for-git-commit-signing-in-general">Reading List for Git Commit Signing in General<a class="headerlink" href="#reading-list-for-git-commit-signing-in-general" title="Permanent link">&para;</a></h3>
+<ol>
+<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work">Git Tools: Signing Your Work</a></li>
+<li><a href="https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification">About Commit Signature Verification</a></li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../automated-pipelines-best-practices/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Automated Pipelines Best Practices">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Automated Pipelines Best Practices
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../maintainer-diversity-best-practices/" class="md-footer__link md-footer__link--next" aria-label="Next: Maintainer Diversity Best Practices">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Maintainer Diversity Best Practices
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; LF Decentralized Trust<br/>License: CC BY 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/lf-decentralized-trust" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/lf-decentralized-trust-labs" target="_blank" rel="noopener" title="Labs (GitHub)" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M184.6 411.5c-3.1 7.3-5.4 14.9-6.8 22.6-14.5 8.8-31.5 13.9-49.8 13.9-53 0-96-43-96-96V64C14.3 64 0 49.7 0 32S14.3 0 32 0h192c17.7 0 32 14.3 32 32s-14.3 32-32 32v255.6zM96 64v128h64V64zM352 0h160c17.7 0 32 14.3 32 32s-14.3 32-32 32v153.4l91.3 213c2.3 5.4 3.8 11.1 4.4 17l.3.6h-.3q.3 2.7.3 5.4c0 32.3-26.2 58.6-58.6 58.6H282.5c-32.3 0-58.6-26.2-58.6-58.6q0-2.7.3-5.4h-.3l.3-.6c.6-5.8 2.1-11.6 4.4-17l91.4-213V64c-17.7 0-32-14.3-32-32s14.3-32 32-32zm101.2 242.6c-3.4-8-5.2-16.5-5.2-25.2V64h-64v153.4c0 8.7-1.8 17.2-5.2 25.2L345.6 320h140.7l-33.2-77.4z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://discord.lfdecentralizedtrust.org/" target="_blank" rel="noopener" title="Discord" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://lists.lfdecentralizedtrust.org" target="_blank" rel="noopener" title="lists.lfdecentralizedtrust.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://zoom-lfx.platform.linuxfoundation.org/meetings/lf-decentralized-trust" target="_blank" rel="noopener" title="Community Calendar" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 0c17.7 0 32 14.3 32 32v32h128V32c0-17.7 14.3-32 32-32s32 14.3 32 32v32h32c35.3 0 64 28.7 64 64v288c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128c0-35.3 28.7-64 64-64h32V32c0-17.7 14.3-32 32-32M64 240v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16m128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16m144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM64 368v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16m144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://lfdecentralizedtrust.org" target="_blank" rel="noopener" title="lfdecentralizedtrust.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M351.9 280H161c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zm-191-48h190.9c-2.8-64.5-17.1-123.9-37.4-167.4-11.4-24.4-23.7-41.8-35.1-52.4C268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4m-48 0c3.5-85.6 25.6-165.1 57.9-217.3C78.7 47.3 10.9 131.2 1.5 232zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3zm111.4-48C501.9 131.2 434.1 47.3 342 14.7c32.3 52.2 54.4 131.7 57.9 217.3z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.view", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
