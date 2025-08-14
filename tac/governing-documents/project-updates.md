@@ -4,6 +4,7 @@
 
 ## Overview
 Project updates are:
+
 - used by the TAC to determine the health of a project
 - provided to the Governing Board on a monthly basis in the TAC Update
 - used to highlight interesting updates to the Governing Board about the projects
@@ -19,6 +20,7 @@ Project updates will be merged after 14 days from submission unless (1) there is
 
 ## History
 The following section captures the history of project reporting (aka project updates).
-* 2017-10-08 - New Governing Process: [Project Reporting Proposal](https://github.com/hyperledger/toc-docs/blob/main/documents/Project%20Reporting%20Proposal.pdf) - [approved by email vote on 2017-10-11](https://lists.hyperledger.org/g/toc/topic/17552164#1183)
-* 2023-01-10 - [Proposal to move project reporting to GitHub](https://github.com/hyperledger/toc/issues/43) - [approved by voice vote 26 JAN 2023](https://wiki.hyperledger.org/display/TSC/2023+01+26+TOC+Meeting+Record)
-* 2023-02-16 - [Discussion on when to merge project updates](https://toc.hyperledger.org/meeting-minutes/2023/2023-02-16-TOC-meeting-record.html#discussion)
+
+- 2017-10-08 - New Governing Process: [Project Reporting Proposal](https://github.com/hyperledger/toc-docs/blob/main/documents/Project%20Reporting%20Proposal.pdf) - [approved by email vote on 2017-10-11](https://lists.hyperledger.org/g/toc/topic/17552164#1183)
+- 2023-01-10 - [Proposal to move project reporting to GitHub](https://github.com/hyperledger/toc/issues/43) - [approved by voice vote 26 JAN 2023](https://wiki.hyperledger.org/display/TSC/2023+01+26+TOC+Meeting+Record)
+- 2023-02-16 - [Discussion on when to merge project updates](https://toc.hyperledger.org/meeting-minutes/2023/2023-02-16-TOC-meeting-record.html#discussion)
