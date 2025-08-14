@@ -15,6 +15,7 @@ The document will first provide a survey of existing guidelines and practices an
 ## Project Incubation Entry Considerations
 
 The [Project Incubation Entry Considerations](./project-incubation-entry-considerations.md) provides baseline suggestions for new Incubations projects. For example:
+
 * Follow basic open-source practices and licensing
 * [DCO](https://developercertificate.org/) sign-offs on commits
 * Diverse set of maintainers and stakeholders
@@ -22,17 +23,18 @@ The [Project Incubation Entry Considerations](./project-incubation-entry-conside
 ## Project Incubation Exit Criteria
 
 The [Project Incubation Exit Criteria](../governing-documents/project-incubation-exit.md) defines minimum requirements for Graduated projects. These are good suggestions for any project. In a nutshell:
+
 * Use Apache 2 license
 * Foster an active and diverse contributor community.
-  - See [Fostering a community](#fostering-a-community) section for more details.
+    - See [Fostering a community](#fostering-a-community) section for more details.
 * Provide automated unit and integration test coverage.
-  - See [Continuous Integration](#continuous-integration) section for more details.
+    - See [Continuous Integration](#continuous-integration) section for more details.
 * Provide project documentation.
-  - See [Documentation](#documentation) section for more details.
+    - See [Documentation](#documentation) section for more details.
 * Ensure project infrastructure is in place (Github repository, mailing list, Discord chat, CI).
-  - See [Repository structure](#repository-structure) section for more details.
+    - See [Repository structure](#repository-structure) section for more details.
 * Identify security key contacts and address security vulnerabilities.
-  - See [Security](#security) section for more details.
+    - See [Security](#security) section for more details.
 * Work towards an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/en)
 
 ## Repository structure
@@ -47,15 +49,15 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 ## Inclusive naming
 
 * Projects should adopt the [Inclusive naming recommendations](https://wiki.hyperledger.org/display/TSC/DCI+Working+Group%3A+Inclusive+Naming+Proposal). In a nutshell:
-  - Name the default branch 'main' instead of 'master'
-  - Follow [inclusive naming conventions](https://inclusivenaming.org/)
-  - Add an inclusive language statement
-  - Optionally use GitHub Action [DCI-Lint](https://github.com/petermetz/dci-lint)
+    - Name the default branch 'main' instead of 'master'
+    - Follow [inclusive naming conventions](https://inclusivenaming.org/)
+    - Add an inclusive language statement
+    - Optionally use GitHub Action [DCI-Lint](https://github.com/petermetz/dci-lint)
 
 ## Project governance
 
 * Use an RFC process (or similar process) to drive consensus and track agreement on project major decisions, features, design, etc.
-  - Example - [Fabric RFC process](https://github.com/hyperledger/fabric-rfcs)
+    - Example - [Fabric RFC process](https://github.com/hyperledger/fabric-rfcs)
 * Use [Community Specification License v1.0](https://spdx.org/licenses/Community-Spec-1.0.html) in RFC repositories - more details TBD
 * Maintainer governance - see [Maintainer guidelines](#maintainer-guidelines) above
 * Document project roles and responsibilities (maintainers, release managers, contributors, etc)
@@ -72,25 +74,25 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 ## Finding and encouraging new contributors
 
 * Provide easy-to-find contributing documentation, link to it from CONTRIBUTING.md. Examples:
-  - [Besu Contributing Guide](https://wiki.hyperledger.org/display/BESU/Contributing)
-  - [Cacti Contributing Guide](https://github.com/hyperledger/cacti/blob/main/CONTRIBUTING.md)
-  - [Fabric Contributing Guide](https://hyperledger-fabric.readthedocs.io/en/latest/CONTRIBUTING.html)
-  - [Indy Contributing Guide](https://wiki.hyperledger.org/display/indy/How+to+Contribute)
-  - [Firefly Contributing Guide](https://hyperledger.github.io/firefly/contributors/)
-  - [Iroha Contributing Guide](https://github.com/hyperledger/iroha/blob/main/CONTRIBUTING.rst)
+    - [Besu Contributing Guide](https://wiki.hyperledger.org/display/BESU/Contributing)
+    - [Cacti Contributing Guide](https://github.com/hyperledger/cacti/blob/main/CONTRIBUTING.md)
+    - [Fabric Contributing Guide](https://hyperledger-fabric.readthedocs.io/en/latest/CONTRIBUTING.html)
+    - [Indy Contributing Guide](https://wiki.hyperledger.org/display/indy/How+to+Contribute)
+    - [Firefly Contributing Guide](https://hyperledger.github.io/firefly/contributors/)
+    - [Iroha Contributing Guide](https://github.com/hyperledger/iroha/blob/main/CONTRIBUTING.rst)
 * Present at Meetups - Virtual or in person – these are well attended and the videos also get many views
-  - Email meetup@lfdecentralizedtrust.org if you're interested in presenting or join one of the [bi-weekly Meetup and Workshop planning calls every other Thursday at 9:30 AM pacific](https://lists.lfdecentralizedtrust.org/g/meetups/calendar)
+    - Email meetup@lfdecentralizedtrust.org if you're interested in presenting or join one of the [bi-weekly Meetup and Workshop planning calls every other Thursday at 9:30 AM pacific](https://lists.lfdecentralizedtrust.org/g/meetups/calendar)
 * Host technical Workshops - Virtual or in person (e.g. Global Forum) – these are well attended and the videos also get many views
-  - Reach out to one of the LFDT Community Architects or join one of the [bi-weekly Meetup and Workshop planning calls every other Thursday at 9:30 AM pacific](https://lists.lfdecentralizedtrust.org/g/meetups/calendar)
+    - Reach out to one of the LFDT Community Architects or join one of the [bi-weekly Meetup and Workshop planning calls every other Thursday at 9:30 AM pacific](https://lists.lfdecentralizedtrust.org/g/meetups/calendar)
 * Take part in annual Mentorship program
-  - Near the beginning of each year maintainers have the option to [submit projects to the annual LFDT mentorship program](https://wiki.hyperledger.org/display/INTERN/Mentorship+Projects) and work with mentees or code, documentation or research projects
+    - Near the beginning of each year maintainers have the option to [submit projects to the annual LFDT mentorship program](https://wiki.hyperledger.org/display/INTERN/Mentorship+Projects) and work with mentees or code, documentation or research projects
 * See also [Raising the Profile of your Project or Lab](https://docs.google.com/presentation/d/13nji_R-op77ERT-AV3-CbOOZwAOjtvq33RRGnjpL3Gc/edit#slide=id.g3cf4a9ebda_0_647)
 
 ## Project management and issues
 
 * Maintain a written project roadmap, discuss in project meetings
 * Create, clarify, and label issues in Github for contributors. Use Github default labels, e.g. "good first issue"
-  - Consider splitting "good first issue" label into multiple labels, e.g. "good-first-issue-100-introductory" through "good-first-issue-400-expert" (see Cacti project)
+    - Consider splitting "good first issue" label into multiple labels, e.g. "good-first-issue-100-introductory" through "good-first-issue-400-expert" (see Cacti project)
 * Review, triage, comment on, and close inbound Github issues
 
 ## Pull Request management
@@ -108,9 +110,9 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 * Define security issue reporting process in SECURITY.md with reference to [Security reporting process](../governing-documents/security.md)
 * Review, respond, and act on reported security vulnerabilities
 * Leverage automated scans, tooling depends on language but usually includes some combination of:
-  - linters
-  - Software Composition Analysis dependency scans, e.g. Dependabot, Govulncheck
-  - Static Application Security Testing (SAST) aka static analysis scans, e.g. CodeQL, Snyk
+    - linters
+    - Software Composition Analysis dependency scans, e.g. Dependabot, Govulncheck
+    - Static Application Security Testing (SAST) aka static analysis scans, e.g. CodeQL, Snyk
 * Pin dependencies and keep dependencies up to date,  e.g. using Dependabot, although be wary of auto-upgrades and lookout for malware.
 * Engage with LFDT staff on possibility of [security audits](https://wiki.hyperledger.org/display/SEC/Security+Code+Audits) for Graduated project major releases; address audit results and socialize
 * Review [OpenSSF secure developer guide](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Developing-More-Secure-Software.md) and OpenSSF overview presentation to TAC ([charts](https://wiki.hyperledger.org/download/attachments/80775801/OpenSSF%20Hyperledger%2020230119.pdf?version=1&modificationDate=1674218724000&api=v2), [replay](https://youtu.be/0AFFIDKFNvc))
@@ -121,9 +123,9 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 ## Documentation
 
 * Documentation should minimally target the following audiences
-  - User guide including Getting Started / Tutorial
-  - Project developer guide including coding guidelines, design docs, build instructions, test instructions
-  - Application developer guide
+    - User guide including Getting Started / Tutorial
+    - Project developer guide including coding guidelines, design docs, build instructions, test instructions
+    - Application developer guide
 * See the [documentation template lab](https://github.com/hyperledger-labs/documentation-template) for an example of what to include in documentation
 * [Documentation task force](https://wiki.hyperledger.org/display/TF/Documentation+task+force) will address Common styling guide, Recommended common publishing platform, Document best practices for creating documentation, etc.
 
@@ -137,8 +139,8 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 * Use [Reproducible builds](https://reproducible-builds.org/)
 * Sign release commits with [GPG](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (-S or --gpg-sign); sign release artifacts - see [Security Artifact Signing task force](https://github.com/hyperledger/toc/issues/49)
 * Release artifacts
-  - binaries attached to GitHub release
-  - NPM packages - don't publish on every commit due to NPM limit of 1000 versions
+    - binaries attached to GitHub release
+    - NPM packages - don't publish on every commit due to NPM limit of 1000 versions
 * Release Notes - Use the Release Notes available through GitHub to capture new features or bug fixes in a specific
      release. Consider the use of [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to
      automate major.minor.patch release identifiers.
@@ -146,18 +148,18 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 ## Continuous Integration
 
 * GitHub Actions is the recommended CI platform, although use efficiently due to limits on number of runners, some ideas to limit runner usage:
-  - Use [cancel-in-progress](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run) to suppress multiple jobs for multiple pushes to the same pull request
-  - Uncheck branch protection rule ["Require branches to be up to date before merging"](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches#require-status-checks-before-merging) to reduce number of runs (potentially add a scheduled run if you are concerned about incompatible PRs getting merged)
-  - Use [filters](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet) to eliminate unnecessary runs, e.g. doc PRs shouldn't require building and testing code.
-  - Consider running some jobs on schedule (nightly) rather than on each pull request (e.g. full matrix of platform tests)
-  - Inspect Github Actions run results on your own fork prior to opening Pull Request
-  - Contact LFDT staff for the possibility of dedicated paid runners
+    - Use [cancel-in-progress](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run) to suppress multiple jobs for multiple pushes to the same pull request
+    - Uncheck branch protection rule ["Require branches to be up to date before merging"](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches#require-status-checks-before-merging) to reduce number of runs (potentially add a scheduled run if you are concerned about incompatible PRs getting merged)
+    - Use [filters](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet) to eliminate unnecessary runs, e.g. doc PRs shouldn't require building and testing code.
+    - Consider running some jobs on schedule (nightly) rather than on each pull request (e.g. full matrix of platform tests)
+    - Inspect Github Actions run results on your own fork prior to opening Pull Request
+    - Contact LFDT staff for the possibility of dedicated paid runners
 * Pull request checks
-  - DCO - [Developer Certificate of Origin](https://github.com/apps/dco)
-  - Unit tests
-  - Integration tests
-  - Scans - see [Security](#security) section, consider running on schedule (nightly) rather than on each pull request
-  - Note - just because a change passes automated checks doesn't mean it is necessarily good, it still requires judicious maintainer review
+    - DCO - [Developer Certificate of Origin](https://github.com/apps/dco)
+    - Unit tests
+    - Integration tests
+    - Scans - see [Security](#security) section, consider running on schedule (nightly) rather than on each pull request
+    - Note - just because a change passes automated checks doesn't mean it is necessarily good, it still requires judicious maintainer review
 * Test coverage reporting - run on-demand or nightly
 * Keep CI clean and green at all times, address failures and flakes
 * See also proposed [Automated Pipelines task force](https://github.com/hyperledger/toc/issues/44)
@@ -166,26 +168,26 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
 
 * Define repository settings in `.github/settings.yml` so that they can be managed and tracked via pull requests, see [Fabric example](https://github.com/hyperledger/fabric/blob/main/.github/settings.yml).
 * Consider using a CODEOWNERS file to specify write permission per directory
-  - See [Fabric example](https://github.com/hyperledger/fabric/blob/main/CODEOWNERS) with additional `/docs` maintainers.
-  - Add a link from CODEOWNERS to MAINTAINERS.md scope field so that users can find domain area contacts
+    - See [Fabric example](https://github.com/hyperledger/fabric/blob/main/CODEOWNERS) with additional `/docs` maintainers.
+    - Add a link from CODEOWNERS to MAINTAINERS.md scope field so that users can find domain area contacts
 * Consider using a .github/[PULL_REQUEST_TEMPLATE.md](https://raw.githubusercontent.com/hyperledger/fabric/main/.github/PULL_REQUEST_TEMPLATE.md) and .github/[ISSUE_TEMPLATE](https://github.com/hyperledger/fabric/tree/main/.github/ISSUE_TEMPLATE)
 * Define Branch protection rules. Recommended configuration:
-  - Check `Require a pull request before merging`
-  - Check `Require approvals`
-  - Check `Dismiss stale pull request approvals when new commits are pushed`
-  - Check `Require review from Code Owners` to enforce CODEOWNERS file.
-  - Check `Require status checks to pass before merging`
-  - Uncheck `Require branches to be up to date before merging` to limit CI runs
-  - Check `Restrict who can push to matching branches`
-  - The remainder can remain unchecked unless there is a specific need
+    - Check `Require a pull request before merging`
+    - Check `Require approvals`
+    - Check `Dismiss stale pull request approvals when new commits are pushed`
+    - Check `Require review from Code Owners` to enforce CODEOWNERS file.
+    - Check `Require status checks to pass before merging`
+    - Uncheck `Require branches to be up to date before merging` to limit CI runs
+    - Check `Restrict who can push to matching branches`
+    - The remainder can remain unchecked unless there is a specific need
 * Use [Reusable github actions](https://docs.github.com/en/actions/using-workflows/reusing-workflows) to reduce the number of top-level checks
 
 ## GitHub workflow
 
 * Although there are often multiple paths to achieve an outcome in git and GitHub, there is value in defining a suggested path for contributors, both for the benefit of new GitHub users, and for the sake of project consistency.
-  - See the [LFDT GitHub Contribution Guide](./github-contribution-guide.md) for detailed guidance on forking, branching, remotes, creating pull requests, updating pull requests, and cherry picking
+    - See the [LFDT GitHub Contribution Guide](./github-contribution-guide.md) for detailed guidance on forking, branching, remotes, creating pull requests, updating pull requests, and cherry picking
 * **Rebase merging** is preferred over **Merge commits** and **Squash merging** to keep commit history and PR description clean (assuming contributors squash/amend their own pull requests)
 * Nice to haves (consult the GitHub Best Practices documentation for details)
-  - Try to have all the commits signed on your default branch. This is hard to do in practice, but could come in handy later.
-  - Try to reduce the load on the CI by preserving the commit hashes post-merge (e.g. the commit hash on the main branch matches the commit hash from the pull request branch)
-    - This makes it so that some CI tasks can be skipped on the main branch, thus reducing the load on the CI.
+    - Try to have all the commits signed on your default branch. This is hard to do in practice, but could come in handy later.
+    - Try to reduce the load on the CI by preserving the commit hashes post-merge (e.g. the commit hash on the main branch matches the commit hash from the pull request branch)
+        - This makes it so that some CI tasks can be skipped on the main branch, thus reducing the load on the CI.
