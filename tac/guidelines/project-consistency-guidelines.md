@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Consistency
-parent: Governing Documents
+parent: Guidelines
 grand_parent: LF Decentralized Trust TAC
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
@@ -54,15 +54,20 @@ collaborate to multiple LFDT projects.
 ### Roadmap
 
  - How can I see what the current roadmap is for a project?
- - 
+ - e.g. roadmap.md for consistency, but with the option to hyperlink to somewhere that is project-specific e.g. wiki, Git wiki, discord channel...
 
 ### Issue templates
 
+### Vulnerability tracking and disclosure
+
+ - MRW: CVE reporting
+ - MRW: CVE disclosures outside of public domain comms
+
 ### Security
 
- - CVE reporting
- - Maintainer/GH access control
- - GH branch protection rules (e.g. number of approvals)
+ - MRW: I'm less convinced this needs tracking under "consistency" as it's already reporting in annual reports and existing guidelines for e.g. security.md
+   - Maintainer/GH access control
+   - GH branch protection rules (e.g. number of approvals)
 
 ## Areas that we do not feel require clear consistency between projects
 
