@@ -16,15 +16,28 @@ is not intended to replace any of the existing governance rules set out by the L
 consistency across projects such that inter-project collaboration is easier, and to make it easier for individuals to
 collaborate to multiple LFDT projects.
 
+*MRW* - There is potentially a lot of overlap with [project best practices](./project-best-practices.md) 
+*MRW* - Perhaps this document should be wrapped into that document?
+
 ## Areas of consistency
+
+ - MRW: Suggest some discussion around consistency vs guidelines
 
 ### Communication
 
 ### Bug tracking
 
+ - MRW: There is already guidance about using Github practices such as "bug: ..." issue naming
+
 ### Release planning
 
+ - MRW: Post on the "maintainers" or "contributors" discord channel that a new release is planned with an approximate timeline
+   - MRW: Is this being too prescriptive?
+
 ### Release communication
+
+ - MRW: Use Github releases to communicate new releases
+ - MRW: Post on the main project discord channel (i.e. not just the "maintainers" or "contributors" channels
 
 ### Technical discussion that contributes to project direction
 
