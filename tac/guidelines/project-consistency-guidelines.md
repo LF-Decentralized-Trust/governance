@@ -16,8 +16,8 @@ is not intended to replace any of the existing governance rules set out by the L
 consistency across projects such that inter-project collaboration is easier, and to make it easier for individuals to
 collaborate to multiple LFDT projects.
 
-*MRW* - There is potentially a lot of overlap with [project best practices](./project-best-practices.md) 
-*MRW* - Perhaps this document should be wrapped into that document?
+**MRW** - There is potentially a lot of overlap with [project best practices](./project-best-practices.md) 
+**MRW** - Perhaps this document should be wrapped into that document?
 
 ## Areas of consistency
 
