@@ -187,6 +187,10 @@ nav:
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
       - Q2:
+        - 2025 Q2 Besu: project-updates/2025/2025-Q2-Besu.md
+        - 2025 Q2 Hiero: project-updates/2025/2025-Q2-Hiero.md
+        - 2025 Q2 Hyperledger Solang: project-updates/2025/2025-Q2-Hyperledger-Solang.md
+        - 2025 Q2 Hyperledger AnonCreds: project-updates/2025/2025-Q3-Hyperledger-AnonCreds.md
         - 2025 Q2 Web3j: project-updates/2025/2025-Q2-Web3j.md
         - 2025 Q2 Hyperledger Iroha: project-updates/2025/2025-Q2-Hyperledger-Iroha.md
         - 2025 Q2 Hyperledger Indy: project-updates/2025/2025-Q2-Hyperledger-Indy.md
