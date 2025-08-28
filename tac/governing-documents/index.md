@@ -38,6 +38,7 @@ The Technical Advisory Council has created the following requirements for projec
 - :fontawesome-solid-magnifying-glass:{ .lg .middle } __[Project Annual Review Process](project-annual-review.md)__
 - :material-file-export:{ .lg .middle } __[Project Updates](project-updates.md)__
 - :material-folder-table-outline:{ .lg .middle } __[Common Repository Structure](repository-structure.md)__
+- :fontawesome-solid-users-gear:{ .lg .middle } __[Defining Adopters](defining-adopters.md)__
 - :material-file-document-outline:{ .lg .middle } __[MAINTAINERS.md File Contents](MAINTAINERS-file.md)__
 - :material-bed-clock:{ .lg .middle } __[Maintainer Inactivity](inactivity.md#maintainer-inactivity)__
 - :material-security:{ .lg .middle } __[Security Policy](security.md)__
