@@ -62,7 +62,7 @@ Additional features under consideration:
 - Support of OpenBadges 3.0 Verifiable Credentials
 - Integration with WebWallets (the Lace Wallet will use the Identus Platform to enable the SSI capabilities)
 
-To align with Hyperledger Project Lifecycle Criteria, the team also plans to:
+To align with LF Decentralized Trust's Project Lifecycle Criteria, the team also plans to:
 - Enable the OpenSSF Best Practices Badge
 - Enable the OpenSSF Scorecard Badge
 
