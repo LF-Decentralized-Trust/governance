@@ -65,7 +65,8 @@ If you’re not sure if your organization falls into any of these categories you
 
 ### Maintenance Guidelines
 
-Projects are encouraged to keep their ADOPTERS file **accurate and up-to-date**.  
+Projects are encouraged to keep their ADOPTERS file **accurate and up-to-date**. Adopters may wish to remove their usage from the ADOPTERS file, and the maintainers must allow pull requests to do so.
+
 To ensure both transparency and respect for commercially sensitive information:
 
 - **Self-submission is preferred**: Where possible, the adopter organization should submit the pull request (PR) to add or update their entry in the ADOPTERS file.  
@@ -78,18 +79,18 @@ Contributions instructions should include:
 
 1. **File location** – `ADOPTERS.md` in the root folder for ease of discoverability.
 2. **Required fields**, such as:
-   - Organization name
-   - Link to public information or case study
-   - Date of first known use
+     - Organization name
+     - Link to public information or case study
+     - Date of first known use
 3. **Formatting guidance**, perhaps with a sample snippet
 4. **Review Process** – indicate that PRs will be reviewed by the project maintainers for formatting, accuracy, or duplicates—but not added without the adopter’s explicit submission.
 5. **Link to relevant governance benefits**, such as eligibility for steering committee roles (e.g., “Note: Being listed as an adopter may qualify your organization for certain governance participation, such as End User representation.”).
 
 ###  Example Entry
 
-```markdown
-- **University X** – Using Hiero as part of our internal identity framework. (Added via self-submitted PR, YYYY-MM-DD)
-```
+| Organization Name | Link | Date of First Use | Description |
+| ----------------- | ---- | ----------------- | ----------- |
+| **HashPack Inc.** | https://www.hashpack.app/ | 2020 | HashPack is a pioneering force in the Hedera ecosystem since 2020, developing critical infrastructure that enabled the growth of Hedera's retail DeFi ecosystem. As builders of wallet technology used by 95% of Hedera's retail users, HashPack brings essential perspective on user experience, developer needs, and technical implementation challenges that will inform Hiero's development priorities and adoption strategy.  (Added via self-submitted PR, YYYY-MM-DD) |
  
 ## References
 
