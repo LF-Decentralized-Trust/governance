@@ -65,10 +65,11 @@ If you’re not sure if your organization falls into any of these categories you
 
 ### Maintenance Guidelines
 
-Projects are encouraged to keep their ADOPTERS file **accurate and up-to-date**. Adopters may wish to remove their usage from the ADOPTERS file, and the maintainers must allow pull requests to do so.  Self-submission is preferred: Where possible, the adopter organization should submit the pull request (PR) to add or update their entry in the ADOPTERS file. If the adopting organization cannot find the time to submit the pull request it is also acceptable for a maintainer of the project to create the adoption record's pull request and then have someone belonging to the adopting organization's GitHub account sign off in a PR comment. This way their required level of effort is minimized.
+Projects are encouraged to keep their ADOPTERS file **accurate and up-to-date**. Adopters may wish to remove their usage from the ADOPTERS file, and the maintainers must allow pull requests to do so.  If the adopting organization cannot find the time to submit the pull request it is also acceptable for a maintainer of the project to create the adoption record's pull request and then have someone belonging to the adopting organization's GitHub account sign off in a PR comment. This way their required level of effort is minimized.
 
 To ensure both transparency and respect for commercially sensitive information:
 
+- **Self-submission is preferred**: Where possible, the adopter organization should submit the pull request (PR) to add or update their entry in the ADOPTERS file.
   This ensures explicit consent for their inclusion.
 - **Commercial sensitivity**: Some organizations may be unable or unwilling to disclose their technology stack publicly. In such cases, maintainers should respect this decision and only add adopters that have given explicit permission.
 
