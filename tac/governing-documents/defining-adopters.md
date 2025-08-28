@@ -1,9 +1,3 @@
----
-layout: default
-title: Defining Adopters
-parent: Governing Documents
-grand_parent: LF Decentralized Trust TAC
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Defining Adopters
