@@ -35,8 +35,13 @@ The next release (v2.16) is planned for October and will include the following f
 ## Overall Activity in the Past Quarter
 
 The Identus community remains active across the LFDT Discord, Identus Maintainers' weekly community meetings, and GitHub [discussions](https://github.com/hyperledger-identus/hyperledger-identus/discussions)
-Community members continue to ask questions, report issues, and discuss various use cases, as well as discussing the Identus RoadMap. 
+Community members continue to ask questions, report issues, and discuss various use cases, as well as discuss the Identus Roadmap. 
 The core team and community contributors actively support these interactions.
+
+Together with the LFDT, the Identus team conducted the workshop at the RareEvo 2025 event.
+The Socious, Identus community, and the Identu team demonstrated the use case by integrating the platform, employing an offline-first strategy, and integrating the SSI capability into the Lace wallet. 
+The link to the recording is [here](https://www.youtube.com/watch?v=vlBsXzNqvDc).
+The workshop went well and attracted other community members. There were several questions about the use cases and Identus' plans for the future, highlighting the community's interest in the Identus project.
 
 ---
 
@@ -70,7 +75,7 @@ To align with LF Decentralized Trust's Project Lifecycle Criteria, the team also
 
 ## Maintainer Diversity
 
-Socious, CSign, 
+Socious, CSign, Blocktrust, Trust0
 
 ---
 
