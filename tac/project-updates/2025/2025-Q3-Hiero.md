@@ -19,9 +19,9 @@ Hiero also was present at RareEvo's conference in August. Hendrik Ebbers directe
 
 # Questions/Issues for the TAC
 
-There are no issues or questions to bring up to the TAC at this time. We appreciate the TAC's support on helping us address recent guidelines and adoption for Contribute and Changelog project requirements.
+There are no issues or questions to bring up to the TAC at this time.
 
-# Releases
+# Releases -- Needs update
 
 The Hiero project maintainers are actively focusing and working on tasks related to recent minor version releases. At the same time, the team is addressing outstanding dependency issues, which are required to enable publishing of Maven packages under the official Hiero org namespace. Below is a summary of the most notable recent releases for Q2:
 
@@ -40,7 +40,7 @@ The Hiero project maintainers are actively focusing and working on tasks related
 In general, all hiero-ledger components are actively adding security fixes and adopting CI practices from StepSecurity. At the same time, the repositories are adding additional structure to their local documentation and maintainer information according to the best practices.
 In terms of documentation, sdk collaboration hub, website, and improvement proposals are maintained and updated several times a week.
 
-# Overall Activity in the Past Quarter
+# Overall Activity in the Past Quarter -- Needs update
 
 Hiero Ledger has seen a notable increase in activity in recent months. The project has successfully launched new project specific community calls, which remain publicly accessible via the [Hiero calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week). Currently, we are collaborating with the Python SDK team to organize their first "Office Hours" and Hackathon session, scheduled to take place in the coming weeks. Additionally, the team has proposed initiating a recurring monthly Hackathon focused on development for the [Hiero](https://hiero.org/) website.
 
@@ -50,7 +50,7 @@ While activity on the public mailing lists has remained minimal, we are actively
 
 Following the recent approval of updated [roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md) by the TSC, and their subsequent adoption by the community, we are encouraging teams to review their structures and consider promoting additional committers and maintainers where appropriate. These guidelines provide a clear framework for aligning with best practices, allowing teams to assess their current processes and make informed improvements. We continue to offer support and guidance to team leads seeking assistance in implementing these standards.
 
-# Current Plans
+# Current Plans  -- Needs update
 
 The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboarding new contributors and maintainers as well as remaining focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities. 
 
@@ -62,7 +62,7 @@ In addition, Hiero has formally adopted and now maintains the Hedera Improvement
 
 We are also continuing our efforts in cross-project collaboration with other open source communities, including the **OpenWallet Foundation**, **Hyperledger Besu**, and **AnonCreds**, to advance shared goals and strengthen the broader decentralized ecosystem.
 
-# Maintainer Diversity
+# Maintainer Diversity -- Needs update
 
 In this Q2 quarter, the Hiero project has undergone a number of maintainer team updates, including the addition of new members, team restructurings, and role assignments. Several contributors have been granted both maintainer and committer roles within some of our repositories, reflecting their active engagement and contributions to the project.
 
@@ -81,7 +81,7 @@ As of today, maintainers in the Hiero Ledger organization are primarily represen
 
 These updates reflect the growing adoption and participation in the project, as well as the ongoing efforts to expand and strengthen the project's contributor base.
 
-# Contributor Diversity
+# Contributor Diversity -- Needs update
 
 With the recent round of elections, increased promotion of the Hiero project in recent events and through new announcements, the expansion of the Technical Steering Committee (TSC), and a steady growth of new adopter organizations joining the community, we anticipate continued growth in contributor diversity. In the latest TSC elections, over 50 companies were added to our list of [adopters](https://github.com/hiero-ledger/hiero/blob/main/ADOPTERS.md), and more than 100 active contributors participated in the voting for the Contributor Seat elections. Currently, a significant portion of contributions comes from Hashgraph, LimeChain, and Devlabs, among over [30 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-04-01&end=2025-06-12&widget=organization-dependency) via GitHub commits/issues/discussions in the second quarter alone.
 
@@ -89,4 +89,4 @@ Overall, [more than 190 organizations](https://insights.linuxfoundation.org/proj
 
 # Additional Information
 
-The team is actively working to address the feedback and outstanding issues from the most recent Hiero annual report in preparation for reapplying for graduation by August 1. Additionally, we continue to work closely with the LFX team to have a more accurate representation of the Hiero project in LFX Insights and encouraging more contributors to provide their observations.
+The Hiero team continues to work closely with the LFX team to have a more accurate representation of the Hiero project in LFX Insights and encouraging more contributors to provide their observations. With the recent re-introduction of the [Security & Best Practices](https://insights.linuxfoundation.org/project/hiero/security?timeRange=custom&start=2025-06-12&end=2025-09-04) scores in May, the team is focused on ensuring that the data remains consistent with the status of the repositories. At the same time, we will work with the OpenSSF team to help us adjusting our repo's scores to reflect any exceptions to the scores and work on improving those scores that are in our maintainer's hands.
