@@ -51,17 +51,15 @@ While activity on the public mailing lists has remained minimal, we are actively
 
 Following the recent approval of updated [roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md) by the TSC, and their subsequent adoption by the community, we are encouraging teams to review their structures and consider promoting additional committers and maintainers where appropriate. These guidelines provide a clear framework for aligning with best practices, allowing teams to assess their current processes and make informed improvements. We continue to offer support and guidance to team leads seeking assistance in implementing these standards.
 
-# Current Plans  -- Needs update
+# Current Plans
 
-The Hiero project continues to experience rapid growth and increased visibility across the broader community, driven by ongoing promotion and community engagement and traction efforts. The team is preparing for upcoming conference participation and onboarding new contributors and maintainers as well as remaining focused on maintaining project health through our metrics tooling and upholding strong security practices to protect against threats and vulnerabilities. 
+The Hiero project continues to build momentum, with community awareness and adoption receiving continuous expansion. Current priorities include preparing for upcoming conference participation, expanding the contributor and maintainer base, and reinforcing the project’s foundation by leveraging metrics tools and implementing strong security measures to guard against vulnerabilities and potential threats.
 
-Given the origins of hiero-ledger, where the majority of the codebase was initially donated by Hedera/Hashgraph, it is understandable that much of the current maintenance and ownership remains with the original contributing parties. However, the project is now entering an exciting phase of growth, with a clear focus on expanding contributor and maintainer diversity. This momentum is already evident in the [latest proposals](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22project%20proposal%22) currently in the pipeline. As these proposals are taking place over the coming weeks, we are confident they will significantly enhance the diversity and inclusivity of the project community.
+The project will continue to work with the LFDT TAC to maintain and presetve project status. The main areas of focus will be the project's diversity in contributors and maintainers as well as the improvement of OpenSSF scoring. In the following month, the TSC will renew one TSC position for Contributor Seat with the rest of the governance. We are organizing a Maintainer's Community Call that will allow us to work with the maintainers and explain the roles, participation and impact that the members of the TSC in the project along with how they can influence their desision making when selecting new candidates.
 
-The team is also actively working on the Hiero renaming initiative and brand neutralization, with particular attention to dependency related issues to ensure a smooth and seamless transition.
+We are also continuing our efforts in cross-project collaboration with other open source communities. The team has started a comunication with the Identus maintainers to potentially bring in Hiero's usage for the Identus project development. 
 
-In addition, Hiero has formally adopted and now maintains the Hedera Improvement Proposal (HIP) process, leveraging its established success to foster open, transparent, and community driven technical decision making.
-
-We are also continuing our efforts in cross-project collaboration with other open source communities, including the **OpenWallet Foundation**, **Hyperledger Besu**, and **AnonCreds**, to advance shared goals and strengthen the broader decentralized ecosystem.
+Additionally, the project is planning a Fist Year Anniversary webinar to promote the project's achievement and welcome interested audiences to participate in the project.
 
 # Maintainer Diversity -- Needs update
 
