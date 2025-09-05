@@ -80,11 +80,17 @@ As of today, maintainers in the Hiero Ledger organization are primarily represen
 
 These updates reflect the growing adoption and participation in the project, as well as the ongoing efforts to expand and strengthen the project's contributor base.
 
-# Contributor Diversity -- Needs update
+# Contributor Diversity
 
-With the recent round of elections, increased promotion of the Hiero project in recent events and through new announcements, the expansion of the Technical Steering Committee (TSC), and a steady growth of new adopter organizations joining the community, we anticipate continued growth in contributor diversity. In the latest TSC elections, over 50 companies were added to our list of [adopters](https://github.com/hiero-ledger/hiero/blob/main/ADOPTERS.md), and more than 100 active contributors participated in the voting for the Contributor Seat elections. Currently, a significant portion of contributions comes from Hashgraph, LimeChain, and Devlabs, among over [30 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-04-01&end=2025-06-12&widget=organization-dependency) via GitHub commits/issues/discussions in the second quarter alone.
+Projects in Hiero continue to promote more participation from external contributors. For example, the Python SDK team recently held one of their [Office Hours events](https://hiero.org/blog/introducing-the-hiero-python-sdk-office-hour/) to help the community get started, understand the project's proposed feature requests, get familiar with the codebase, troubleshooting their tests and even help new collaborators create their first PR.
 
-Overall, [more than 190 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=alltime&widget=organization-dependency) have contributed to Hiero actuvites, reflecting strong momentum toward a more diverse and inclusive contributor community.
+Our workshop to help users create their own test network and communicate to it via our SDKs will continue to be promoted in future events.
+
+Our [latest communtiy calls](https://hiero.org/#contribute) are easily visible for the community to select one and join with the rest of the maintainers. For any of these calls, there are no expertise requirements. We welcome anyone in the community interested in using, adopting and contributing to Hiero.
+
+In this quarter, 50% of the organization dependency contines to belong to Hashgraph and LimeChain among [35 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-06-20&end=2025-09-04&widget=organization-dependency) in GitHub commits/issues/discussions. 
+
+Overall, [266 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=alltime&widget=organization-dependency) have contributed to Hiero activites (compared to 199 oranizations reported in Q2). The team continues to seek diversity and promote more inclusion of new organizations and participating maintainers. It is a goal as a community overall to increase the number of participating organizations to be able to preserve project status.
 
 # Additional Information
 
