@@ -13,7 +13,7 @@ At the moment, the hiero-ledger organization consists on [32 repositories](https
 
 Nearly 800 contributors from 80+ organizations and 50+ adopters continue to shape the future of Hiero.
 
-After the addition of two new members of the Technical Steering Committee (TSC), in July, we had [Brandon Davenport](https://github.com/itsbrandondev) (Contributor seat) joining as well. In September, the team is looking to run another round of elections to rotate out of the existing TSC Contributor Seat positions. These actions are helping the governance maintain a diverse approach and provide a fresh perspective of the direction of the project.
+After the addition of two new members of the Technical Steering Committee (TSC), in July, we had [Brandon Davenport](https://github.com/itsbrandondev) (Contributor seat) joining as well. In September, the team is looking to run another round of elections to rotate one of the existing TSC Contributor Seat positions. These actions are helping the governance maintain a diverse approach and provide a fresh perspective of the direction of the project.
 
 Hiero also was present at RareEvo's conference in August. Hendrik Ebbers directed a [workshop](https://www.youtube.com/watch?v=4saglmQVxU0) to help new and current contributors set up a network and create a simple application that connected to the network using one of the project's SDKs.
 
