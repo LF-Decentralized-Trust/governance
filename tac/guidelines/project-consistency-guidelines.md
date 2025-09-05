@@ -20,9 +20,35 @@ collaborate to multiple LFDT projects.
 
 **MRW** - Perhaps this document should be wrapped into that document?
 
-## Areas of consistency
+## Relationship to existing guidelines
 
  - MRW: Suggest some discussion around consistency vs guidelines
+
+### Areas of consistency by stakeholder
+
+1. LFDT
+   - Communication
+      - Release activity
+3. Project users
+   - Communication
+      - Release activity
+      - CVE reporting & fixes (should release notes include all fixed CVEs?)
+   - Issue tracking
+      - Progress on issues & bug fixes
+   - Roadmap
+      - Where to find it
+      - How to contribute to it (raise issues? attend contributor calls?)
+5. Project maintainers & contributors
+   - Communication
+      - Release planning
+   - Bug tracking
+   - Roadmap
+      - Where to find it 
+
+
+---
+**OLD NOTES BELOW**
+---
 
 ### Communication
 
