@@ -43,7 +43,7 @@ All hiero-ledger repositories are up to date with the TAC repo structure require
 
 # Overall Activity in the Past Quarter
 
-The Hiero project is building traction and momentum in our goal to acquire more collaborators and participants. Our [community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) continue to run and recently we were able to host a new Solo Community call, Python SDK Office Hours and Website community call. We also had a short series of calls to discuss the direction of the projects and the baseline and requirements for new projects to joinin hiero-ledger. We continue to promote openness in the community and continue to welcome the opinion of new users.
+The Hiero project is building traction and momentum in our goal to acquire more collaborators and participants. Our [community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) continue to run and recently we were able to host a new Solo Community call, Python SDK Office Hours and Website community call. We also had a short series of calls to discuss the direction of the projects and the baseline and requirements for new projects to join hiero-ledger. We continue to promote openness in the community and continue to welcome the opinion of new users.
 
 The community was able to obtain Graduated project status. Each repo in hiero-ledger comforms to the TSC guidelines for repo structure, security policies and quality of the code. We continue to work on adopting more [community projects](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) and seeking the participation of new members from different backgrounds and affiliations.
 
@@ -72,10 +72,10 @@ In summary, the [following repos have received changes](https://github.com/hiero
 - Nominations are created for the upcoming September elections.
 - LFStaff received an updated with one more member.
 - Additional Roles for supporting onboarding & management are created.
-- Block Node receoved a re-structuring of their maintainers team.
-- Python SDK aquired a new maintainer.
+- Block Node received a re-structuring of their maintainers team.
+- Python SDK acquired a new maintainer.
 - Contributors are allowed to perform triage activities for sdk-tck and sdk-js.
-- Consensus Node maintainers team aquired two new members.
+- Consensus Node maintainers team acquired two new members.
 - Added new maintainers team for hashgraph online.
 
 As of today, maintainers in the Hiero Ledger organization are primarily represented by contributors from Hashgraph and LimeChain. The entire composition of the maintainers affiliation can he found [here](https://docs.google.com/spreadsheets/d/1O4wTFxw9rUQbgc3YvCKyDYlAKwmoz7sD0ATJ_rJiWp0/edit?usp=sharing)
