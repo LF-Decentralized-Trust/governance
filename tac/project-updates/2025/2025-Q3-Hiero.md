@@ -40,7 +40,7 @@ All hiero-ledger repositories are up to date with the TAC repo structure require
 
 The Hiero project is building traction and momentum in our goal to acquire more collaborators and participants. Our [community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) continue to run and recently we were able to host a new Solo Community call, Python SDK Office Hours and Website community call. We also had a short series of calls to discuss the direction of the projects and the baseline and requirements for new projects to join hiero-ledger. We continue to promote openness in the community and continue to welcome the opinion of new users.
 
-The community was able to obtain Graduated project status. Each repo in hiero-ledger comforms to the TSC guidelines for repo structure, security policies and quality of the code. We continue to work on adopting more [community projects](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) and seeking the participation of new members from different backgrounds and affiliations.
+The community was able to obtain Graduated project status. Each repo in hiero-ledger comforms to the TAC guidelines for repo structure, security policies and quality of the code. We continue to work on adopting more [community projects](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) and seeking the participation of new members from different backgrounds and affiliations.
 
 The project maintainers are helping to shape the scores from the OpenSSF reports. We have been working on improving the overall project quality by focusing in the reports obtained by our tools like GitHub Insights, LFX Insights, OpenSSF, Snyk and Step Security.
 
