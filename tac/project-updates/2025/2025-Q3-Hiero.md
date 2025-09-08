@@ -1,9 +1,4 @@
----
-layout: default
-title: 2025 Q3 Hiero
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Project Health
 
@@ -25,17 +20,17 @@ There are no issues or questions to bring up to the TAC at this time.
 
 The Hiero project maintainers continue to focus and work on tasks related to recent minor version releases. Below is a summary of the most notable recent releases for Q3:
 
-- [hiero-sdk-js](https://github.com/hiero-ledger/hiero-sdk-js) - The team released v2.72.0, which introduces important improvements to transaction validation and fee flexibility in the Hiero SDK. These changes enhance both security and usability for developers working with smart contracts and scheduled transactions.
-- [hiero-sdk-java](https://github.com/hiero-ledger/hiero-sdk-java) - v2.63.0 release that introduced validation to ensure that TopicMessageSubmitTransaction messages cannot be empty and added support for customFeeLimits in scheduled transactions, starting with TopicSubmitTransaction. Several dependency upgrades were made.
-- [hiero-sdk-go](https://github.com/hiero-ledger/hiero-sdk-go) - Release v2.69.0 introduces several enhancements to transaction handling and contract updates, including support for setting AutoRenewPeriod in seconds, mutual exclusivity between SetStakedAccountID and SetStakedNodeID, the ability to use both private and public keys in SetAdminKey for contract updates, the option to remove an auto-renew account by setting it to 0.0.0, and new customFeeLimits support for scheduled transactions
-- [hiero-solo-action](https://github.com/hiero-ledger/hiero-solo-action) - Release v0.12.0 improves developer experience and adds additional fixes.
-- [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp) - v0.45.0 introduces new JSON-RPC endpoints for file transactions, enhances GRPC proxy management with e2e test support, and includes multiple dependency and CI version updates.
-- [hiero-mirror-node](https://github.com/hiero-ledger/hiero-mirror-node) - Release v0.137.1, includes several fixes and remove duplicate functionality.
-- [hiero-block-node](https://github.com/hiero-ledger/hiero-block-node) - Version 0.17.1 delivers adds improvements to security and bugfixes.
-- [hiero-consensus-node](https://github.com/hiero-ledger/hiero-consensus-node) - Release v0.65.1 adds progress output to the export command, improves state validator stability, and includes a fix for transaction parsing fallback logic.
-- [hiero-mirror-node](https://github.com/hiero-ledger/hiero-mirror-node-explorer) - v25.1.1 includes updates and bug fixes.
+- [hiero-sdk-js](https://github.com/hiero-ledger/hiero-sdk-js) - The team released [v2.72.0](https://github.com/hiero-ledger/hiero-sdk-js/releases/tag/v2.72.0), which introduces important improvements to transaction validation and fee flexibility in the Hiero SDK. These changes enhance both security and usability for developers working with smart contracts and scheduled transactions.
+- [hiero-sdk-java](https://github.com/hiero-ledger/hiero-sdk-java) - [v2.63.0](https://github.com/hiero-ledger/hiero-sdk-java/releases/tag/v2.63.0) release that introduced validation to ensure that TopicMessageSubmitTransaction messages cannot be empty and added support for customFeeLimits in scheduled transactions, starting with TopicSubmitTransaction. Several dependency upgrades were made.
+- [hiero-sdk-go](https://github.com/hiero-ledger/hiero-sdk-go) - Release [v2.69.0](https://github.com/hiero-ledger/hiero-sdk-go/releases/tag/v2.69.0) introduces several enhancements to transaction handling and contract updates, including support for setting AutoRenewPeriod in seconds, mutual exclusivity between SetStakedAccountID and SetStakedNodeID, the ability to use both private and public keys in SetAdminKey for contract updates, the option to remove an auto-renew account by setting it to 0.0.0, and new customFeeLimits support for scheduled transactions
+- [hiero-solo-action](https://github.com/hiero-ledger/hiero-solo-action) - Release [v0.12.0](https://github.com/hiero-ledger/hiero-solo-action/releases/tag/v0.12.0) improves developer experience and adds additional fixes.
+- [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp) - [v0.45.0](https://github.com/hiero-ledger/hiero-sdk-cpp/releases/tag/v0.45.0) introduces new JSON-RPC endpoints for file transactions, enhances GRPC proxy management with e2e test support, and includes multiple dependency and CI version updates.
+- [hiero-mirror-node](https://github.com/hiero-ledger/hiero-mirror-node) - Release [v0.137.1](https://github.com/hiero-ledger/hiero-mirror-node/releases/tag/v0.137.1), includes several fixes and remove duplicate functionality.
+- [hiero-block-node](https://github.com/hiero-ledger/hiero-block-node) - Version [0.17.1](https://github.com/hiero-ledger/hiero-block-node/releases/tag/v0.17.1) adds improvements to security and bugfixes.
+- [hiero-consensus-node](https://github.com/hiero-ledger/hiero-consensus-node) - Release [v0.65.1](https://github.com/hiero-ledger/hiero-consensus-node/releases/tag/v0.65.1) adds progress output to the export command, improves state validator stability, and includes a fix for transaction parsing fallback logic.
+- [hiero-mirror-node-explorer](https://github.com/hiero-ledger/hiero-mirror-node-explorer) - [v25.1.1](https://github.com/hiero-ledger/hiero-mirror-node-explorer/releases/tag/v25.1.1) includes updates and bug fixes.
 
-Documentation and hiero-website repos are also receiving updates. Hiero-website continues to add more information that can easily help new contributors getting started, update information on TSC members and make continuous [blog updates](https://hiero.org/blog/) related to the state of the project and collaboration opportunities. 
+Documentation and hiero-website repos are also receiving updates. Hiero-website continues to add more information that can easily help new contributors getting started, updates information on TSC members and makes continuous [blog updates](https://hiero.org/blog/) related to the state of the project and collaboration opportunities. 
 
 All hiero-ledger components continue to add security fixes and adopt CI practices from StepSecurity. 
 
@@ -47,7 +42,7 @@ The Hiero project is building traction and momentum in our goal to acquire more 
 
 The community was able to obtain Graduated project status. Each repo in hiero-ledger comforms to the TSC guidelines for repo structure, security policies and quality of the code. We continue to work on adopting more [community projects](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) and seeking the participation of new members from different backgrounds and affiliations.
 
-The project maintainers are helping shaping the scores from the OpenSSF reports. We have been working on improving the overall project quality by focusing in the reports obtained by our tools like GitHub Insights, LFX Insights, OpenSSF, Snyk and Step Security.
+The project maintainers are helping to shape the scores from the OpenSSF reports. We have been working on improving the overall project quality by focusing in the reports obtained by our tools like GitHub Insights, LFX Insights, OpenSSF, Snyk and Step Security.
 
 # Current Plans
 
@@ -61,7 +56,7 @@ Additionally, the project is planning a First Year Anniversary webinar to promot
 
 # Maintainer Diversity
 
-In Q3 we continue to add acquire new projects into our hiero-ledger organization.
+In Q3 we continue to add new projects into our hiero-ledger organization.
 - [hiero-hederium](https://github.com/hiero-ledger/hiero-hederium) - Hederium is Golang implementation of Hedera JSON-RPC Relay or Hashio.
 - [hiero-did-sdk-js](https://github.com/hiero-ledger/hiero-did-sdk-js) - A TypeScript/JavaScript SDK for building decentralized identity solutions on Hiero.
 - We are currently working on transfering hiero-cli.
@@ -70,7 +65,7 @@ In summary, the [following repos have received changes](https://github.com/hiero
 
 - Create the hiero-cli-committers team with several new members. 
 - Nominations are created for the upcoming September elections.
-- LFStaff received an updated with one more member.
+- LFStaff received an update with one more member.
 - Additional Roles for supporting onboarding & management are created.
 - Block Node received a re-structuring of their maintainers team.
 - Python SDK acquired a new maintainer.
@@ -90,7 +85,7 @@ Our workshop to help users create their own test network and communicate to it v
 
 Our [latest community calls](https://hiero.org/#contribute) are easily visible for the community to select one and join with the rest of the maintainers. For any of these calls, there are no expertise requirements. We welcome anyone in the community interested in using, adopting and contributing to Hiero.
 
-In this quarter, 50% of the organization dependency contines to belong to Hashgraph and LimeChain among [35 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-06-20&end=2025-09-04&widget=organization-dependency) in GitHub commits/issues/discussions. 
+In this quarter, 50% of the organization dependency continues to belong to Hashgraph and LimeChain among [35 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-06-20&end=2025-09-04&widget=organization-dependency) in GitHub commits/issues/discussions. 
 
 Overall, [266 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=alltime&widget=organization-dependency) have contributed to Hiero activities (compared to 199 organizations reported in Q2). The team continues to seek diversity and promote more inclusion of new organizations and participating maintainers. It is a goal as a community overall to increase the number of participating organizations to be able to preserve project status.
 
