@@ -4,8 +4,8 @@
 - 2025:
     - [2025 Schedule](2025-schedule.md)
     - Q3: 
-        - [2025 Q3 Hyperledger Indy](2025-Q3-Hyperledger-Indy.md)
         - [2025 Q3 Hyperledger AnonCreds](2025-Q3-Hyperledger-AnonCreds.md)
+        - [2025 Q3 Hyperledger Indy](2025-Q3-Hyperledger-Indy.md)
     - Q2:
         - [2025 Q2 Cacti](2025-Q2-Cacti.md)
         - [2025 Q2 Hyperledger AnonCreds](2025-Q2-Hyperledger-AnonCreds.md)
