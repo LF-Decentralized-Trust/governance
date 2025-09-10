@@ -4,7 +4,7 @@
 
 The major milestone achieved this quarter was the release of Hyperledger FireFly v1.4.0. This new version marks a significant step forward, officially integrating the Cardano connector as a core blockchain plugin. This completes the multi-month effort mentioned in our last report thanks to the continued contributions from the Cardano team.
 
-Additionally, we welcome Simon Ellis from Sundae Labs as a new maintainer.
+Additionally, we welcome Simon Gellis from Sundae Labs as a new maintainer.
 
 The release of v1.4.0 introduces several key updates and improvements across the platform:
 
