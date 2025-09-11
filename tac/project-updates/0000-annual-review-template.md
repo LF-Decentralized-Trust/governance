@@ -1,6 +1,6 @@
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-<mark>_Copy this template to the subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `2024-annual-lf-decentralized-trust-amazing.md`). Update the information above to change the `title` to the `YYYY Annual Review Project Name` (e.g., `2024 Annual Review LF Decentralized Trust Amazing`), the `parent` to `YYYY` (e.g., 2024), the `grand_parent` to `Project Updates`, and remove the `nav_exclude` line. Text between `<mark></mark>` are instructions. Please remove when section has been completed._
+<mark>_Copy this template to the subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `2024-annual-lf-decentralized-trust-amazing.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate year and quarter. If the year or quarter does not yet exist, please add it to match what you see in the `Project Updates` section. Text between `<mark></mark>` are instructions. Please remove when section has been completed._
 </mark>
 
 ## Project Health
