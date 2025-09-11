@@ -19,28 +19,31 @@ This is for the election of the 2026 TAC
 
 5)  **Technical Advisory Council**
 
-   1)  The role of the TAC is to facilitate communication and collaboration among the Technical Projects.  The TAC will be responsible for:
-
-      1) coordinating collaboration among Technical Projects, including development of an overall technical vision for the community;
-
-      2) making recommendations to the Budget Committee of resource priorities for Technical Projects;
-
-      3) electing annually a chairperson (the “TAC Chair”) to preside over meetings, set the agenda for meetings, ensure meeting minutes are taken and who will also serve on the Governing Board as the TAC’s representative (the “TAC Representative”);
-
-and
-
-      4) such other matters related to the technical role of the TAC as may be communicated to the TAC by the Governing Board.
-
-   2) The voting members of the TAC consist of:
-
-      1) six representative elected by the maintainers of the Technical Projects as a group; and
-
-      2) five representatives selected by the Governing Board.
-
-   3) TAC meetings are intended to be open for public observation.
-
-   4) The TAC Chair will preside over meetings, ensure minutes are taken and drive the TAC agenda with input from the TAC representatives.  The TAC may appoint a Vice Chair to preside over TAC meetings and ensure that minutes are taken when the Chair is not available.  A Vice Chair does not serve as the alternate to the TAC Representative with respect to the Governing Board.
-
+<p style="margin-left: 20px; text-indent: -20px;">
+<br>
+  1)  The role of the TAC is to facilitate communication and collaboration among the Technical Projects.  The TAC will be responsible for:<br>
+<p style="margin-left: 40px; text-indent: -20px;">
+<br>
+    1) coordinating collaboration among Technical Projects, including development of an overall technical vision for the community;<br>
+<br>
+    2) making recommendations to the Budget Committee of resource priorities for Technical Projects;<br>
+<br>
+    3) electing annually a chairperson (the “TAC Chair”) to preside over meetings, set the agenda for meetings, ensure meeting minutes are taken and who will also serve on the Governing Board as the TAC’s representative (the “TAC Representative”); and<br>
+<br>
+    4) such other matters related to the technical role of the TAC as may be communicated to the TAC by the Governing Board.<br>
+</p>
+<p style="margin-left: 40px; text-indent: -20px;">
+  2) The voting members of the TAC consist of:<br>
+<br>
+    1) six representative elected by the maintainers of the Technical Projects as a group; and<br>
+<br>
+    2) five representatives selected by the Governing Board.<br>
+<br>
+    3) TAC meetings are intended to be open for public observation.<br>
+<br>
+    4) The TAC Chair will preside over meetings, ensure minutes are taken and drive the TAC agenda with input from the TAC representatives.  The TAC may appoint a Vice Chair to preside over TAC meetings and ensure that minutes are taken when the Chair is not available.  A Vice Chair does not serve as the alternate to the TAC Representative with respect to the Governing Board.<br>
+</p>
+</p>
 
 #### TAC Nominees
 
