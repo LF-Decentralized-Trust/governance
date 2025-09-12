@@ -1,9 +1,3 @@
----
-layout: default
-title: 2025 Q2 CREDEBL
-parent: 2025
-grand_parent: project-updates
----
 
 # Project Health
 
