@@ -1,10 +1,3 @@
----
-layout: default
-title: 2025 Q3 CREDEBL
-parent: 2025
-grand_parent: project-updates
----
-
 # Project Health
 
 CREDEBL witnessed 23% increase in [active contributors](https://insights.linuxfoundation.org/project/credebl/contributors?timeRange=past180days&start=2025-06-21&end=2025-09-10&widget=active-contributors) in past 90 days. Currently, majority of the contributors are from AYANWORKS team, however, we are actively working with LFDT staff to increase the outreach to built a more diverse community of contributors.
