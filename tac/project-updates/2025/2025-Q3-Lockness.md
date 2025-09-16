@@ -6,6 +6,8 @@
 
 The project is in a healthy and active state, with development focused on two major efforts: a significant upgrade to the CGGMP core protocol and a foundational rework of the `round-based` library. The CGGMP update has already resulted in new alpha releases, while the crucial `round-based` update is a key work-in-progress. Our community is engaged and growing; questions are being answered on Discord and GitHub, and we've seen a new, highly active outside contributor make significant contributions this quarter.
 
+[LFX Insights](https://insights.linuxfoundation.org/project/lockness/repository/lfdt-lockness)
+
 # Questions/Issues for the TAC
 
 In Discord, when people reach out to ask questions in the public channel, sometimes a scam bot tries impersonate stuff by posting a message like "please use this link to open a support ticket", and after a few minutes deletes a message. 
