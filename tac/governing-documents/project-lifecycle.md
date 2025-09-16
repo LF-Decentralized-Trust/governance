@@ -162,7 +162,7 @@ The following criteria MUST be considered for each project when making one of th
 
 Below is a guide for evaluating each of these criteria, with break-ups into sub-criteria that can be directly evaluated using one of three methods:
 1. Checking their OpenSSF Scorecard scores
-2. Checking their LFX Insights Best Practice Scores (produced by CLOMonitor)
+2. Checking their LFX Insights Best Practice Scores (produced by CLOMonitor) (Recommended, not required)
 3. Manual inspection of code repositories
 
 *Notes to keep in mind during evaluation*:
