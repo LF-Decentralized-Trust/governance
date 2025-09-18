@@ -160,7 +160,7 @@ The following criteria MUST be considered for each project when making one of th
 
 ## Description and Breakup of Criteria
 
-Below is a guide for evaluating each of these criteria, with break-ups into sub-criteria that can be directly evaluated using one of three methods:
+Below is a guide for evaluating each of these criteria, with break-ups into sub-criteria that can be directly evaluated using one of the following methods:
 1. Checking their OpenSSF Scorecard scores
 2. Manual inspection of code repositories
 
