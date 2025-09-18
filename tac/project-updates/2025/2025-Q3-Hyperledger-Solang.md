@@ -1,14 +1,13 @@
 ---
 layout: default
 title: 2025 Q3 Hyperledger Solang
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
-nav_exclude: true
+parent: 2025
+grand_parent: Project Updates
 ---
 
 # Project Health
 
-We are introducing Solang to the Stellar ecosystem through the Solang Playground, available at: https://solang.io/.  
+We are introducing Solang to the Stellar ecosystem through the Solang Playground, available at: https://solang.io/.
 Additionally, Solang was selected for mentorship, and our mentee, @guptapratykshh, has been actively contributing across the compiler (fixing bugs, adding new data types for the Stellar target, and implementing end-to-end tests).
 
 # Questions/Issues for the TAC
@@ -17,7 +16,7 @@ No issues at the moment.
 
 # Releases
 
-We shipped the London release: https://github.com/hyperledger-solang/solang/releases/tag/v0.3.4  
+We shipped the London release: https://github.com/hyperledger-solang/solang/releases/tag/v0.3.4
 This release expands Soroban support, updates LLVM to version 16, and fixes numerous minor bugs.
 
 # Overall Activity in the Past Quarter
