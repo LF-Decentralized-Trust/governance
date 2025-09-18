@@ -1,11 +1,6 @@
----
-layout: default
-title: 2025 Q3 Hyperledger Iroha
-parent: 2025
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-
+# 2025 Q3 Hyperledger Iroha
 
 # Project Health
 

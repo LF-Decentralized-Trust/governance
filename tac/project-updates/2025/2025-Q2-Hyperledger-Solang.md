@@ -1,10 +1,6 @@
----
-layout: default
-title: 2025 Q2 Hyperledger Solang
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
-nav_exclude: true
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+
+# 2025 Q2 Hyperledger Solang
 
 # Project Health
 

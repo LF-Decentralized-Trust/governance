@@ -1,11 +1,8 @@
----
-layout: default
-title: 2025 Q2 Hiero
-parent: Project Updates
-grand_parent: LF Decentralized Trust TAC
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Project Health
+# 2025 Q2 Hiero
+
+## Project Health
 
 Hiero has experienced a 45% increase in [active contributors](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-04-01&end=2025-06-12&widget=active-contributors) compared to the previous quarter. In recent months, the project successfully completed the transfer of Hedera owned components and is now focusing on the migration of community driven projects. Concurrently, we remain committed to advancing brand neutrality and are preparing for future releases under the Hiero namespace. In parallel, we have been actively preparing for the upcoming graduation application, which is scheduled for submission on August 1.
 
