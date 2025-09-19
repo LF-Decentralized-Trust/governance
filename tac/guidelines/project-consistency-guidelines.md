@@ -25,33 +25,35 @@ collaborate to multiple LFDT projects.
 
 1. LFDT
    - Communication
-      - Release activity
+   - Release activity
    - CVE bounties
 3. Project users
-   - Communication
+   - Release communication
       - **Readme structure that gives me a quick overview of what the project is/does** 
-      - Release activity
+      - **Public release tracking board can be viewed by project users and used to determine approximate contents of upcoming release**
+   - Release contents - CVEs
       - **CVE resolution should be included in release notes including specific CVE numbers**
          - (Potentially GH built-in CVE labelling)
-      - CVE advisories
+      - CVE advisories? There is very mixed use of these across current projects
    - Issue tracking
       - Progress on issues & bug fixes
+      - MRW: I'm erring on the side of not wanting to be over zealous in what we stipulate here
    - Roadmap
-      - Where to find it
-      - How to contribute to it (raise issues? attend contributor calls?)
+      - **Readme structure makes it easy to find the current project roadmap** 
+      - **Readme structure makes it easy to understand how the roadmap is determined and where it is discussed**
 5. Project maintainers & contributors
-   - Communication
-      - **Readme structure that gives me a quick way to learn how to set up a development environment**
-      - Release planning
-         - **Public project tracking board**
-            - **Github projects for tracking**
-            - Alternatives acceptable, as long as public and not requiring authentication to view
-         - **Project tracking board linked from repo landing page**
+   - Developers/contributors
+      - **Readme structure should gives me a quick way to learn how to set up a development environment**
+   - Maintainers
+      - **Major & minor releases should be planned and tracked on a public project tracking board**
+        - Github projects are encouraged, alternatives acceptable, as long as public and not requiring authentication to view
+      - **Project tracking board linked from repo landing page**
    - CVE reporting
       - **Raising GH advisories for at least HIGH and CRITICAL CVEs??**
    - Bug tracking
    - Roadmap
-      - Where to find it 
+      - **Readme structure makes it easy to find the current project roadmap** 
+      - **Readme structure makes it easy to understand how the roadmap is determined and where it is discussed**
 
 ## Areas that we do not feel require clear consistency between projects
 
