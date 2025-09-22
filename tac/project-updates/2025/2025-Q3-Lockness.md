@@ -35,6 +35,10 @@ Many people reached out to us asking questions about protocols, through github i
 
 Current plan is to continue updating CGGMP protocol to latest revision, and wrapping up `round-based` update, and then updating all protocols that depend on it.
 
+On admin side, we still have these items as to do:
+* Add the OpenSSF Scorecard for each repository.
+* Add an option for our users to reach out so they can be included in `ADOPTERS.md`.
+
 # Maintainer Diversity
 
 No changes in maintainers since last report.
