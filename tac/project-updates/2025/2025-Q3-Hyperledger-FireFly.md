@@ -26,7 +26,7 @@ The star activity for the FireFly repository has continued to grow from 550 end 
 
 Contributors are active in the project and in Q2 2025, there were 35 contributors who performed at least one commit.
 
-# Questions/Issues for the TOC
+# Questions/Issues for the TAC
 
 None
 
