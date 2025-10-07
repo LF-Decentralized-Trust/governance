@@ -6,6 +6,9 @@ docs_dir: tac
 copyright: "Copyright &copy; LF Decentralized Trust<br/>License: CC BY 4.0"
 theme:
   name: material
+  custom_dir: tac/overrides
+  static_templates:
+    - 404.html
   logo: assets/project-logo.svg
   favicon: assets/project-icon.svg
   icon:
@@ -137,6 +140,7 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2025:
+      - 2025-10-09: meeting-minutes/2025/2025-10-09.md
       - 2025-10-02: meeting-minutes/2025/2025-10-02.md
       - 2025-09-25: meeting-minutes/2025/2025-09-25.md
       - 2025-09-18: meeting-minutes/2025/2025-09-18.md
@@ -214,13 +218,13 @@ nav:
       - Q3:
 #        - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
 #        - 2025 Q3 ToIP: project-updates/2025/2025-Q3-ToIP.md
-#        - 2025 Q3 Hiero: project-updates/2025/2025-Q3-Hiero.md
+        - 2025 Q3 Hiero: project-updates/2025/2025-Q3-Hiero.md
 #        - 2025 Q3 Web3j: project-updates/2025/2025-Q3-Web3j.md
-#        - 2025 Q3 Hyperledger Iroha: project-updates/2025/2025-Q3-Hyperledger-Iroha.md
+        - 2025 Q3 Hyperledger Iroha: project-updates/2025/2025-Q3-Hyperledger-Iroha.md
 #        - 2025 Q3 Hyperledger FireFly: project-updates/2025/2025-Q3-Hyperledger-FireFly.md
-#        - 2025 Q3 Hyperledger Fabric: project-updates/2025/2025-Q3-Hyperledger-Fabric.md
+        - 2025 Q3 Hyperledger Fabric: project-updates/2025/2025-Q3-Hyperledger-Fabric.md
         - 2025 Q3 Hyperledger Caliper: project-updates/2025/2025-Q3-Hyperledger-Caliper.md
-#        - 2025 Q3 Cacti: project-updates/2025/2025-Q3-Cacti.md
+        - 2025 Q3 Cacti: project-updates/2025/2025-Q3-Hyperledger-Cacti.md
 #        - 2025 Q3 Hyperledger Bevel: project-updates/2025/2025-Q3-Hyperledger-Bevel.md
 #        - 2025 Q3 Hyperledger Aries: project-updates/2025/2025-Q3-Hyperledger-Aries.md
 #        - 2025 Q3 CREDEBL: project-updates/2025/2025-Q3-CREDEBL.md
