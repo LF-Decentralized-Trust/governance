@@ -1,6 +1,5 @@
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-<mark>
 # ToIP 2025 Q2 Quarterly Report
 
 See our [2024 Annual Report](../2024/2024-annual-review-Hyperledger-ToIP.md) for background information about ToIP.
@@ -40,4 +39,39 @@ All IPR options will remain the same as the latest TSWG charter.
 # Decentralized Trust Graph Working Group (DTGWG) Charter
 
 The scope of the Decentralized Trust Graph Working Group (DTGWG) is to define the socio-technical standards for a decentralized trust graph where there is no centralized database and all parties control their own subgraph of trust relationships. This work includes specifying requirements for key management and recovery, verifiable identifiers, verifiable credentials, verifiable relationship credentials, social vouching, relationship cards (r-cards), privacy-preserving zero-knowledge proofs, trust task protocols, trust registries, out-of-band introductions, UI/UX affordances, decentralized naming and discovery mechanisms, and governance considerations. This work will be based on the Design Principles for the ToIP Stack, the ToIP Technology Architecture Specification, other ToIP technical specifications, and complementary open standards for decentralized digital trust infrastructure.
-</mark>
+
+## TAC Review
+
+[TAC Meeting Recording 2025.10.09](https://zoom.us/rec/play/sPFAvWTzpXDiroWmrsiLvtAhAISHKS2lY2A8cLf8sY4f4hDtjmfpE9p0KzVwyVOOYzdbZBlE0qx1J-U0.UW8wAa1I2aNolpRD?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FrCPkH1HkHo4SdMNJXjx6BQcitOTug9RexuKaEE_SkqCOgz_RlKEC-geCDDJHNG3J.bmR3b-kZAjgD5cl_) -- ToIP Annual report (and Q2 quarterly report) discussion starts at the 10:45 mark.
+
+### Assessment Notes from Diane Mueller
+
+Thanks again to the ToIP community for preparing and submitting the **Q2 2025 Quarterly Report**. I’ve reviewed the material as a TAC member and wanted to share my assessment of overall project and community health, with references to the relevant artifacts.
+
+**Strengths**
+
+* **Continuity of WG activity**: Core working groups remain active — GSWG, TSWG, EGWG, KSWG, DMRWG, and CTWG. The continuity across annual and quarterly reports shows resilience.
+
+* **Expansion with new WGs**: Approval of the **AI & Human Trust WG (AIMWG)** and **Decentralized Trust Graph WG (DTGWG)** in May 2025 demonstrates responsiveness to emerging challenges (AI trust, decentralized trust relationships). Both charters follow JDF’s standard IP terms (CC BY 4.0, W3C Mode, Apache 2.0).
+
+* **Clear chartering**: The AIMWG and DTGWG charters are well-scoped and grounded in existing ToIP principles and the Technology Architecture.
+   • AIMWG builds on prior AI & Human Trust Task Force work under TSWG and focuses on applying ToIP’s Trust Spanning Protocol and related components to AI authenticity and provenance.
+   • DTGWG takes on the socio-technical standards of decentralized trust graphs, with concrete elements such as verifiable identifiers, social vouching, r-cards, and zero-knowledge proofs.
+
+* **Foundation documents remain referenced**: New readers are pointed back to ToIP’s core materials:
+   • ToIP Model: [https://trustoverip.org/toip-model/](https://trustoverip.org/toip-model/)
+   • Introduction to ToIP v2.0 (Nov 2021): [https://trustoverip.org/wp-content/uploads/Introduction-to-ToIP-V2.0-2021-11-17.pdf](https://trustoverip.org/wp-content/uploads/Introduction-to-ToIP-V2.0-2021-11-17.pdf?utm_source=chatgpt.com)
+   • Design Principles v1.0 (Nov 2021): https://trustoverip.org/wp-content/uploads/Design-Principles-for-the-ToIP-Stack-V1.0-2022-11-17.pdf
+   • Technology Architecture Specification (PR2, Sept 2024): [https://trustoverip.github.io/TechArch/](https://trustoverip.github.io/TechArch/?utm_source=chatgpt.com)
+
+**Areas to watch**
+
+* **Evidence of adoption**: The quarterly report lists WGs and new charters but does not surface adoption or implementation signals (pilots, interop results, deployments). Including even a few highlights would help TAC track impact.
+
+* **Spec maturity**: Most references are still at the “draft/implementer’s draft” stage. TAC will want clarity on which WGs are targeting Candidate or Final specifications in the next quarters.
+
+* **Integration of new WGs**: AIMWG and DTGWG charters are promising, but TAC should monitor whether they achieve critical mass of contributors beyond the initial proposers.
+
+**Overall assessment**
+ The Q2 2025 report shows steady continuity in ToIP’s core working groups and thoughtful expansion into two important new areas. The next step is to pair this structural growth with evidence of adoption and progress on maturing specifications. This would make quarterly reports more useful for TAC in evaluating ecosystem impact as well as community activity.
+
