@@ -125,6 +125,7 @@ nav:
     - Project Annual Review: governing-documents/project-annual-review.md
     - Project Annual Review Instructions: project-updates/annual-review-instructions.md
     - Project Updates: governing-documents/project-updates.md
+    - Project Updates Instructions: project-updates/quarterly-update-instructions.md
     - Release Signing: governing-documents/release-signing.md
     - Release Taxonomy: governing-documents/release-taxonomy.md
     - Security Policy: governing-documents/security.md
@@ -298,7 +299,6 @@ not_in_nav: |
   governing-documents/SAMPLE-MAINTAINERS.md
   governing-documents/SAMPLE-SECURITY.md
   github-verified-signature.png
-  project-updates/0000-quarterly-update-template.md
   raising-an-issue.md
   guidelines/index.md
   meeting-minutes/index.md
