@@ -22,7 +22,7 @@ The process for annual reviews is as follows:
 - The project's TSC and advocates are invited to the public TAC meeting to engage in a TAC-led discussion about the project. Project TSC members are not obligated to attend, but it is highly recommended.
 - The lead TAC member provides a summary of the project and leverages the thread's content as the basis of discussion. The discussion typically focuses on what is going well with the project and areas to improve.
 - The project's TSC and contributors are invited to use this time to voice any concerns and requests for help they may have that are not captured in the PR (or highlight asks within the PR).
-- At the conclusion of the public meeting, the TAC votes to approve the annual review, including any change in the project's status. Should a concern be registered on a project, the vote will be held at a later date.
+- At the conclusion of the public meeting, the TAC votes to approve the annual review. Should a concern be registered on a project, the vote will be held at a later date.
 - After the meeting wraps up, the lead TAC member should summarize the discussion on the PR in the form of a comment to document information for the project and community.
 
 ### Filing an Annual Review
@@ -32,13 +32,7 @@ LF Decentralized Trust staff will notify the project TSC and copy the TAC when t
 Project TSC members are responsible for agreeing between them who will complete the annual review. One of the project's TSC members should create the review in GitHub under [lf-decentralized-trust/governance] in the `/tac/project-updates/` folder.
 
 - Raise a PR titled *`[year] [Project Name] Annual Review`* (e.g., `2024 Amazing Annual Review`).
-- The PR should include a file called `./<year>/<year>-annual-<Project-Name>.md` (e.g., `2024/2024-annual-amazing.md`) using [the annual review template](../project-updates/0000-annual-review-template.md).
-  - Update the information at the top of the file:
-    - change the `title` line to `YYYY Annual Review <Project Name>` (e.g., `title: 2024 Annual Review Amazing`)
-    - change the `parent` line to `YYYY` (e.g., `parent: 2024`)
-    - change the `grand_parent` to `Project Updates` (i.e., `grand_parent: Project Updates`)
-    - remove the `nav_exclude` line
-  - Text between `<mark></mark>` are instructions. Please remove when section has been completed.
+- The PR should include a file called `./<year>/<year>-annual-<Project-Name>.md` (e.g., `2024/2024-annual-amazing.md`) using [the annual review instructions](../project-updates/annual-review-instructions.md).
 - Send an email to the [TAC mailing list] so that the community knows the PR is there and can comment on it.
 
 ## Potential Outcomes
@@ -72,7 +66,7 @@ NOTE: If the TAC members recommend moving to a new status, additional work may b
 
 - Reviewing the contents of the PR and analyzing the project's community health indicators.
 - Coordinating with the secondary TAC member on their findings prior to the TAC meeting.
-- Documenting their findings within a thread in the TAC channel (TBD `#tac`) for discussion. The thread should contain:
+- Documenting their findings within the pull request for discussion. The thread should contain:
     1. Important facts about the project that could influence the TAC's decision around the future of the project, its current status, and paths to other statuses.
     2. Whether the project's view of themselves is accurate and the ask of the TAC is reasonable to assist the project moving forward.
 - Lead the annual review discussion at the TAC meeting, providing a summary of the project by leveraging the private thread's content as the basis of discussion. The discussion typically focuses on what is going well with the project and areas to improve.
