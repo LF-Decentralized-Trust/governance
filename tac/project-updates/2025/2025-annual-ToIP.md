@@ -77,7 +77,7 @@ The TAC should regard ToIP as a strategically important LFDT project that provid
 
 Notes for Future Project Updates:
 
-Regarding the “Active, diverse community: The All-Members deck notes \~395 organizations and \~180 individual members [(slide deck from Oct 16, 2024](%20https://docs.google.com/presentation/d/1m8lUl8xWdkk_YVIz_FBjh7nFyFbb8T6NchU2Z2q83Q8/edit?slide=id.g2e83d9af3e1_0_0#slide=id.g2e83d9af3e1_0_0)).”  aggregated from [https://trustoverip.org/about/members/](https://trustoverip.org/about/members/)
+Regarding the “Active, diverse community: The All-Members deck notes \~395 organizations and \~180 individual members [(slide deck from Oct 16, 2024](https://docs.google.com/presentation/d/1m8lUl8xWdkk_YVIz_FBjh7nFyFbb8T6NchU2Z2q83Q8/edit?slide=id.g2e83d9af3e1_0_0#slide=id.g2e83d9af3e1_0_0).”  aggregated from [https://trustoverip.org/about/members/](https://trustoverip.org/about/members/)
 
 When diving into LFX insights on TOIP github activity to compare with the listed TOIP Members for contributor dependency
 
