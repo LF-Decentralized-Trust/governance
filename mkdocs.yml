@@ -123,6 +123,7 @@ nav:
     - Project Lifecycle: governing-documents/project-lifecycle.md
     - Project Incubation Exit Criteria: governing-documents/project-incubation-exit.md
     - Project Annual Review: governing-documents/project-annual-review.md
+    - Project Annual Review Instructions: project-updates/annual-review-instructions.md
     - Project Updates: governing-documents/project-updates.md
     - Release Signing: governing-documents/release-signing.md
     - Release Taxonomy: governing-documents/release-taxonomy.md
@@ -302,7 +303,6 @@ not_in_nav: |
   governing-documents/SAMPLE-MAINTAINERS.md
   governing-documents/SAMPLE-SECURITY.md
   github-verified-signature.png
-  project-updates/0000-annual-review-template.md
   project-updates/0000-quarterly-update-template.md
   raising-an-issue.md
   guidelines/index.md
