@@ -16,9 +16,8 @@ None at this time
 
 # Releases
 
--There was a SATP-Hermes feature `0.0.3-beta` version release.
-
--There was no major Cacti release aside from this feature. The latest release is still `v2.1.0`, which was offered last December. As we mentioned in the previous quarterly report, a new version release (either `v2.2.0` `v3.0.0`) is overdue, and we will attempt to do that before the winter break.
+- There was a SATP-Hermes feature `0.0.3-beta` version release.
+- There was no major Cacti release aside from this feature. The latest release is still `v2.1.0`, which was offered last December. As we mentioned in the previous quarterly report, a new version release (either `v2.2.0` `v3.0.0`) is overdue, and we will attempt to do that before the winter break.
 
 # Overall Activity in the Past Quarter
 
