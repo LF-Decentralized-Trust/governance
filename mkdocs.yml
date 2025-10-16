@@ -228,7 +228,7 @@ nav:
         - 2025 Q3 Cacti: project-updates/2025/2025-Q3-Hyperledger-Cacti.md
 #        - 2025 Q3 Hyperledger Bevel: project-updates/2025/2025-Q3-Hyperledger-Bevel.md
 #        - 2025 Q3 Hyperledger Aries: project-updates/2025/2025-Q3-Hyperledger-Aries.md
-#        - 2025 Q3 CREDEBL: project-updates/2025/2025-Q3-CREDEBL.md
+        - 2025 Q3 CREDEBL: project-updates/2025/2025-Q3-CREDEBL.md
         - 2025 Q3 Hyperledger Cello: project-updates/2025/2025-Q3-Hyperledger-Cello.md
         - 2025 Q3 Hyperledger AnonCreds: project-updates/2025/2025-Q3-Hyperledger-AnonCreds.md
         - 2025 Q3 Hyperledger Indy: project-updates/2025/2025-Q3-Hyperledger-Indy.md
@@ -238,6 +238,7 @@ nav:
       - Q2:
         - 2025 Q2 ToIP: project-updates/2025/2025-Q2-ToIP.md
         - 2025 Q2 Besu: project-updates/2025/2025-Q2-Besu.md
+        - 2025 Q2 CREDEBL: project-updates/2025/2025-Q2-CREDEBL.md
         - 2025 Q2 Hiero: project-updates/2025/2025-Q2-Hiero.md
         - 2025 Q2 Hyperledger Solang: project-updates/2025/2025-Q2-Hyperledger-Solang.md
         - 2025 Q2 Web3j: project-updates/2025/2025-Q2-Web3j.md
