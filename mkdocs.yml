@@ -197,7 +197,7 @@ nav:
   - Project Updates:
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
-#      - Q4:
+      - Q4:
 #        - 2025 Q4 Besu: project-updates/2025/2025-Q4-Besu.md
 #        - 2025 Q4 Cacti: project-updates/2025/2025-Q4-Cacti.md
 #        - 2025 Q4 CREDEBL: project-updates/2025/2025-Q4-CREDEBL.md
@@ -207,7 +207,7 @@ nav:
 #        - 2025 Q4 Hyperledger Bevel: project-updates/2025/2025-Q4-Hyperledger-Bevel.md
 #        - 2025 Q4 Hyperledger Caliper: project-updates/2025/2025-Q4-Hyperledger-Caliper.md
 #        - 2025 Q4 Hyperledger Cello: project-updates/2025/2025-Q4-Hyperledger-Cello.md
-#        - 2025 Q4 Hyperledger Fabric: project-updates/2025/2025-Q4-Hyperledger-Fabric.md
+        - 2025 Q4 Hyperledger Fabric: project-updates/2025/2025-Q4-Hyperledger-Fabric.md
 #        - 2025 Q4 Hyperledger FireFly: project-updates/2025/2025-Q4-Hyperledger-FireFly.md
 #        - 2025 Q4 Hyperledger Identus: project-updates/2025/2025-Q4-Hyperledger-Identus.md
 #        - 2025 Q4 Hyperledger Indy: project-updates/2025/2025-Q4-Hyperledger-Indy.md
