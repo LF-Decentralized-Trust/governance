@@ -140,6 +140,7 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2025:
+      - 2025-10-23: meeting-minutes/2025/2025-10-23.md
       - 2025-10-16: meeting-minutes/2025/2025-10-16.md
       - 2025-10-09: meeting-minutes/2025/2025-10-09.md
       - 2025-10-02: meeting-minutes/2025/2025-10-02.md
@@ -217,7 +218,7 @@ nav:
 #        - 2025 Q4 ToIP: project-updates/2025/2025-Q4-ToIP.md
 #        - 2025 Q4 Web3j: project-updates/2025/2025-Q4-Web3j.md
       - Q3:
-#        - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
+        - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
 #        - 2025 Q3 ToIP: project-updates/2025/2025-Q3-ToIP.md
         - 2025 Q3 Hiero: project-updates/2025/2025-Q3-Hiero.md
 #        - 2025 Q3 Web3j: project-updates/2025/2025-Q3-Web3j.md
