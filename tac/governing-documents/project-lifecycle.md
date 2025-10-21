@@ -210,7 +210,7 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 
 ### Structure
 
-- (LFX Insights Best Practice Score): SHOULD be 50% or higher (averaged over all repositories)
+- (GitHub Insights): For repositories hosted in GitHub, the Insights -> Community Standards tab contains a checklist of needed files in the repo. 
 - (Manual): check if the repositories follow the [repository structure guidelines](./repository-structure.md)
 
 ### Maintenance
@@ -224,7 +224,6 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 
 ### Documentation
 
-- (LFX Insights Best Practice Score): MUST be 50% or higher (averaged over all repositories)
 - (Manual): The project must have at least one documentation website (it may have more if it is releasing multiple separate tools) that is not a skeleton (i.e., only titles and links, with no content)
 
 ## Evaluation of Criteria for State Transition Decisions
