@@ -88,7 +88,7 @@ The Governing Board will appoint 5 people from the list of TAC Nominees excludin
 
 ###### Appointment Timeline
 
-* 15 Nov 2025 - Open the vote using OpaVote, Condorcet IRV ranking/election method.
+* 15 Nov 2025 - Open the vote
 * 15 Nov 2025 - An email will be sent to the governing board informing them of the vote and to look for a separate email with the link. In addition, the results of the election from the maintainers will be provided to the Governing Board.
 * 20 Nov 2025 - Governing board meeting
 * 22 Nov 2025 - Reminder email sent to the governing board.
