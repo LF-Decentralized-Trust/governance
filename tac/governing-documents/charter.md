@@ -6,7 +6,7 @@
 <p style="text-align: center;">The Linux Foundation</p>
 <p style="text-align: center;">Effective June 17, 2024</p>
 
-1. **Mission and Scope of the LF Decentralized Trust.**
+## 1. **Mission and Scope of the LF Decentralized Trust.**
     1. The purpose of the Directed Fund is to enable development of platforms, libraries, tools and solutions, for decentralized systems and applications using blockchain, distributed ledger, and related technologies (collectively, “Decentralized Technologies”) and to raise, budget and spend funds in support of various open source, open data and/or open standards projects relating to Decentralized Technologies, including infrastructure and support initiatives related thereto (each such project, a “Technical Project”). The governance of each Technical Project is as set forth in the applicable charter for each Technical Project. Specific goals of the Directed Fund include:
 
         1. Fostering a global community of enterprise developers, researchers, and entrepreneurs dedicated to advancing open-source software and/or open standards for decentralized systems and applications. This includes platforms, libraries, tools, and applications for blockchain, distributed ledger technologies, decentralized identity systems, tokenized assets and other emerging decentralized models.
@@ -21,7 +21,7 @@
 
     1. The Governing Board manages the Directed Fund. The Directed Fund will also have an Outreach Committee, a Technical Advisory Council, and other working groups, councils, committees and similar bodies (collectively, “Committees”) that may be established by the Governing Board. These committees report to the Governing Board.
 
-1. **Membership.**
+## 1. **Membership.**
 
     1. The Directed Fund will be composed of Premier, General and Associate Members (each, a “Member” and, collectively, the “Members”) in Good Standing. All Members must be current corporate members of the LF (at any level) to participate in the Directed Fund as a member. All participants in the Directed Fund, enjoy the privileges and undertake the obligations described in this Charter, as from time to time amended by the Governing Board with the approval of the LF. During the term of their membership, all members will comply with all such policies as the LF Board of Directors and/or the Directed Fund may adopt with notice to members.
 
@@ -37,7 +37,7 @@
 
         1. identify themselves as members of the LF Decentralized Trust supporting the LF Decentralized Trust community.
 
-1. **Governing Board**
+## 1. **Governing Board**
 
     1. The Governing Board voting members will consist of:
 
@@ -87,7 +87,7 @@
 
         1. vote on all decisions or matters coming before the Governing Board.
 
-1. **Committees**
+## 1. **Committees**
 
     1. Outreach Committee.
 
@@ -97,7 +97,7 @@
 
         1. The Governing Board may appoint a chairperson of the Outreach Committee or delegate responsibility for selecting a chairperson to the Outreach Committee. The Outreach Committee chairperson will be responsible for reporting progress back to the Governing Board. The Outreach Committee chairperson may attend meetings of the Governing Board, but, unless the Outreach Committee chairperson is a member of the Governing Board, the Outreach Committee chairperson will not attend as a voting member of the Governing Board.
 
-1. **Technical Advisory Council**
+## 1. **Technical Advisory Council**
 
     1. The role of the TAC is to facilitate communication and collaboration among the Technical Projects. The TAC will be responsible for:
 
@@ -119,7 +119,7 @@
 
     1. The TAC Chair will preside over meetings, ensure minutes are taken and drive the TAC agenda with input from the TAC representatives. The TAC may appoint a Vice Chair to preside over TAC meetings and ensure that minutes are taken when the Chair is not available. A Vice Chair does not serve as the alternate to the TAC Representative with respect to the Governing Board.
 
-1. **Voting**
+## 1. **Voting**
 
     1. Quorum for Governing Board and Committee meetings will require at least fifty percent of the voting representatives. If advance notice of the meeting has been given per normal means and timing, the Governing Board may continue to meet even if quorum is not met, but will be prevented from making any decisions at the meeting.
 
@@ -129,7 +129,7 @@
 
     1. In the event of a tied vote with respect to an action that cannot be resolved by the Governing Board, the Chair may refer the matter to the LF for assistance in reaching a decision. If there is a tied vote in any Committee that cannot be resolved, the matter may be referred to the Governing Board.
 
-1. **Subsidiaries and Related Companies**
+## 1. **Subsidiaries and Related Companies**
 
     1. Definitions:
 
@@ -145,21 +145,21 @@
 
     1. Directed Fund Membership is non-transferable, non-salable and non-assignable, except a Member may transfer its current Membership benefits and obligations to a successor of substantially all of its business or assets, whether by merger, sale or otherwise; provided that the transferee agrees to be bound by this Charter and the Bylaws and policies required by LF membership.
 
-1. **Good Standing**
+## 1. **Good Standing**
 
     1. The Linux Foundation’s Good Standing Policy is available at https://www.linuxfoundation.org/good-standing-policy and will apply to Members of this Directed Fund.
 
-1. **Trademarks**
+## 1. **Trademarks**
 
     1. Any trademarks relating to the Directed Fund or the Technical Project, including without limitation any mark relating to any Conformance Program, must be transferred to and held by LF Projects, LLC or the Linux Foundation and available for use pursuant to LF Projects, LLC’s trademark usage policy, available at http://www.lfprojects.org/trademarks/.
 
-1. **Antitrust Guidelines**
+## 1. **Antitrust Guidelines**
 
     1. All Members must abide by The Linux Foundation’s Antitrust Policy available at http://www.linuxfoundation.org/antitrust-policy.
 
     1. All Members must encourage open participation from any organization able to meet the membership requirements, regardless of competitive interests. Put another way, the Governing Board will not seek to exclude any member based on any criteria, requirements or reasons other than those that are reasonable and applied on a non-discriminatory basis to all members.
 
-1. **Budget**
+## 1. **Budget**
 
     1. The Governing Board will approve an annual budget and never commit to spend in excess of funds raised. The budget and the purposes to which it is applied must be consistent with both (a) the non-profit and tax-exempt mission of The Linux Foundation and (b) the aggregate goals of the Technical Projects.
 
@@ -167,13 +167,13 @@
 
     1. In the event an unbudgeted or otherwise unfunded obligation arises related to the Directed Fund, The Linux Foundation will coordinate with the Governing Board to address gap funding requirements.
 
-1. **General & Administrative Expenses**
+## 1. **General & Administrative Expenses**
 
     1. The Linux Foundation will have custody of and final authority over the usage of any fees, funds and other cash receipts.
 
     1. A General & Administrative (G&A) fee will be applied by The Linux Foundation to funds raised to cover membership records, finance, accounting, and human resources operations. The G&A fee will be 9% of the Directed Fund’s first $1,000,000 of gross receipts each year and 6% of the Directed Fund’s gross receipts each year over $1,000,000.
 
-13) **General Rules and Operations.** The Directed Fund activities must:
+## 13) **General Rules and Operations.** The Directed Fund activities must:
 
     1. engage in the work of the project in a professional manner consistent with maintaining a cohesive community, while also maintaining the goodwill and esteem of The Linux Foundation in the open source community;
 
@@ -183,6 +183,6 @@
 
     1. operate under such rules and procedures as may be approved by the Governing Board and confirmed by The Linux Foundation.
 
-14) **Amendments**
+## 14) **Amendments**
 
     1. This Charter may be amended by a two-thirds vote of the entire Governing Board, subject to approval by The Linux Foundation.
