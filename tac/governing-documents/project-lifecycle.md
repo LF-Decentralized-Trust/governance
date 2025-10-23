@@ -160,10 +160,9 @@ The following criteria MUST be considered for each project when making one of th
 
 ## Description and Breakup of Criteria
 
-Below is a guide for evaluating each of these criteria, with break-ups into sub-criteria that can be directly evaluated using one of three methods:
+Below is a guide for evaluating each of these criteria, with break-ups into sub-criteria that can be directly evaluated using one of the following methods:
 1. Checking their OpenSSF Scorecard scores
-2. Checking their LFX Insights Best Practice Scores (produced by CLOMonitor)
-3. Manual inspection of code repositories
+2. Manual inspection of code repositories
 
 *Notes to keep in mind during evaluation*:
 - The term "close to" below implies that a high (or highest) score is not mandatory but highly desired. If a project falls short on some such criteria but is otherwise mature and well-functioning, the TAC may ignore those criteria while encouraging the project's maintainers to strive for a higher score.
@@ -211,7 +210,7 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 
 ### Structure
 
-- (LFX Insights Best Practice Score): SHOULD be 50% or higher (averaged over all repositories)
+- (GitHub Insights): For repositories hosted in GitHub, the Insights -> Community Standards tab contains a checklist of needed files in the repo. 
 - (Manual): check if the repositories follow the [repository structure guidelines](./repository-structure.md)
 
 ### Maintenance
@@ -225,7 +224,6 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 
 ### Documentation
 
-- (LFX Insights Best Practice Score): MUST be 50% or higher (averaged over all repositories)
 - (Manual): The project must have at least one documentation website (it may have more if it is releasing multiple separate tools) that is not a skeleton (i.e., only titles and links, with no content)
 
 ## Evaluation of Criteria for State Transition Decisions
