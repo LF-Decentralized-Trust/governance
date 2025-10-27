@@ -17,7 +17,7 @@ The annual review should answer the following questions:
 # What Should the TAC Evaluate
 In general, the TAC will be looking at the health of the project overall and if it is in the correct lifecycle stage. The following is what the TAC will specifically look for:
 
-- Whether all requirements specified in the [LF Decentralized Trust TAC governance](../governing-documents/index.md) met
+- Whether all requirements specified in the [LF Decentralized Trust TAC governance documents](../governing-documents/index.md) were met.
 - Signs of consistent or increasing contribution activity.
 - Understanding the diversity of maintainers in terms of organizations participating and whether the number of active maintainers has increased or decreased over the past year. Ensure your MAINTAINERS.md file is up-to-date.
 - Understanding the adoption of the project and how that has changed since the last review or since being accepted into LF Decentralized Trust. Ensure your ADOPTERS.md file is up-to-date.
