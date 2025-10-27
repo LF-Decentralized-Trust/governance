@@ -14,7 +14,7 @@ The annual review should answer the following questions:
 - Do you need any help?
 - What is the Maintainer/Contributor diversity?
 
-# What Should the TAC Evaluate
+# What Does the TAC Evaluate
 In general, the TAC will be looking at the health of the project overall and if it is in the correct lifecycle stage. The following is what the TAC will specifically look for:
 
 - Whether all requirements specified in the [LF Decentralized Trust TAC governance documents](../governing-documents/index.md) were met.
@@ -22,7 +22,9 @@ In general, the TAC will be looking at the health of the project overall and if 
 - Understanding the diversity of maintainers in terms of organizations participating and whether the number of active maintainers has increased or decreased over the past year. Ensure your MAINTAINERS.md file is up-to-date.
 - Understanding the adoption of the project and how that has changed since the last review or since being accepted into LF Decentralized Trust. Ensure your ADOPTERS.md file is up-to-date.
 - Understanding how the project has performed against the goals set in the last review or since the project proposal has been approved. If you have not achieved the goals that you set out, that is okay. The TAC should look at what has been accomplished and what challenges the project had in meeting the goals.
-- Understanding the goals that the project wants to achieve including stretch goals and if there is a plan for how those goals will be achieved. Ensure your ROADMAP.md file is up-to-date.
+- Understanding the goals that the project wants to achieve including stretch goals and if there is a plan for how those goals will be achieved. Ensure your roadmap is up-to-date and publically available.
 
 # What Should the Responsible TAC Members Provide
-The primary and secondary reviewers will ensure that they evaluate the project based on the [evaluation criteria](#what-should-the-tac-evaluate). They will then ensure that the pull request contains information about what requirements have not been met and a set of recommendations for the project for improvements and possible lifecycle state changes. After the discussion has been held at a TAC meeting, the responsible reviewers will create a PR against the committed annual review to include the evaluation and recommendations made.
+The primary and secondary reviewers will ensure that they evaluate the project based on the [evaluation criteria](#what-does-the-tac-evaluate). They will then ensure that the pull request contains information about what requirements have not been met and a set of recommendations for the project for improvements and possible lifecycle state changes. After the discussion has been held at a TAC meeting, the responsible reviewers will create a PR against the committed annual review to include the evaluation and recommendations made. In addition, any follow up action items should be captured in the [lf-decentralized-trust/governance] GitHub repo as issues.
+
+[lf-decentralized-trust/governance]: https://github.com/lf-decentralized-trust/governance/
