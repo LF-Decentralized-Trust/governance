@@ -1,10 +1,3 @@
----
-layout: default
-title: TAC members
-parent: Member Info
-grand_parent: LF Decentralized Trust TAC
-nav_order: 1
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # The LF Decentralized Trust Technical Advisory Council

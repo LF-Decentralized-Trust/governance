@@ -1,10 +1,3 @@
----
-layout: default
-title: TAC Responsibilities
-parent: Member Info
-grand_parent: LF Decentralized Trust TAC
-nav_order: 2
----
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # The LF Decentralized Trust Technical Advisory Council (TAC) Responsibilities

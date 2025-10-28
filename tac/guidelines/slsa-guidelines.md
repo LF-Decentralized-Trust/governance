@@ -6,6 +6,7 @@ As a general rule of guidance, the project may ask the following questions to de
 
 ### SLSA Level 1
 The focus is on documenting the build and artifact release process. The goal is to have an audit record of incorporating new processes.
+
 - Is the build environment and tools documented?
 - Is the project leveraging automated security checks to identify vulnerabilities in the build process?
 - Is there version control in place for the source code and build scripts?
@@ -14,6 +15,7 @@ The focus is on documenting the build and artifact release process. The goal is 
 
 ### SLSA Level 2
 The focus is to ensure that the artifacts generated are verifiable. Any tampering in the generated artifacts must be caught by the user of the artifacts.
+
 - Is the signing process incorporated for the artifacts?
 - Is the signing integrated into the CI pipeline?
 - Is auditing in place for regularly monitoring and auditing the signing practices and build process?
@@ -23,6 +25,7 @@ The focus is to ensure that the artifacts generated are verifiable. Any tamperin
 
 ### SLSA Level 3
 The focus is to ensure that the build environment is verified and trusted.
+
 - Is there access control implemented to secure the build environment?
 - Do you validate the signatures and checksums of all dependencies before ingesting them in the build stage?
 - Do you sign the output of every step in your build pipeline to provide a verifiable guarantee?

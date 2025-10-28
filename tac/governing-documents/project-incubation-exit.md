@@ -11,6 +11,7 @@ This definition specifies the evaluation criteria for a project to be able
 to transition from the *Incubation* phase to the *Graduated* phase. These
 are listed in the [evaluation section of the project lifecycle document](./project-lifecycle.md#evaluation-of-criteria-for-state-transition-decisions)
 (see criteria in box (1)) as follows:
+
 - Legal
 - Diversity (>=3 maintaining organizations)
 - Releases

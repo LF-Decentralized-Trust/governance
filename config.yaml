@@ -3,6 +3,7 @@ teams:
     maintainers:
       - ryjones
     members:
+      - christinaharter
       - Emily-Fisher-PR
       - davidwboswell
       - jwagantall
@@ -13,6 +14,7 @@ teams:
       - Emily-Fisher-PR
       - SeanBohan
       - Tomaz-S-LFDT
+      - christinaharter
       - daniela-barbosa
       - davidwboswell
       - hartm
@@ -26,6 +28,7 @@ teams:
       - ryjones
     members:
       - JFleenor
+      - christinaharter
       - hartm
       - lanayanelson
       - tkuhrt
