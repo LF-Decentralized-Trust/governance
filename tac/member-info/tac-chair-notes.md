@@ -31,7 +31,7 @@ The following is the general flow for all TAC meetings that has been followed fo
 
 ### Initial Meeting
 
-During the first meeting of the TAC term, I have been using that as an opportunity for everyone to introduce themselves to one another and to capture a list of goals that the TAC would like to accomplish during the year. The list of goals is used in the [final meeting](#final-meeting) during the retrospective.
+During the first meeting of the TAC term, I have been using that as an opportunity for everyone to introduce themselves to one another and to capture a list of goals that the TAC would like to accomplish during the year. The list of goals is used in the [retrospective meeting](#retrospective-meeting).
 
 ### First Quarter Meetings
 
