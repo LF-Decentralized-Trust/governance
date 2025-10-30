@@ -17,7 +17,7 @@ Project updates are to be submitted as a pull request to the [LF-Decentralized-T
 
 !!! success "Important Timing Note"
 
-    If project annual reviews are not submitted within two months of their scheduled due date or if pull request comments are not responded to within two weeks, projects will be moved to a [Dormant state](./project-lifecycle.md/#dormant)! New projects may be granted an extension for one quarter for submission, but no more.
+    If project updates are not submitted within two months of their scheduled due date or if pull request comments are not responded to within three weeks, projects will be moved to a [Dormant state](./project-lifecycle.md/#dormant)! New projects may be granted an extension for one quarter for submission, but no more.
 
 ## Merging
 Project updates will be merged after 14 days from submission unless (1) there is still ongoing discussion regarding the report or (2) a majority of the TAC has not approved the PR. If all TAC members have approved the PR before 14 days, then the PR will be merged.
