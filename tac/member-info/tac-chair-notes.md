@@ -6,6 +6,27 @@ To begin with, please familiarize yourself with the [responsibilities for all TA
 
 One of the main responsibilities for the TAC chair is running meetings. If you are not available for a given meeting (e.g., vacation), check to see if the TAC vice-chair can run the meeting. If not, you will need to cancel.
 
+### Agenda Creation and Distribution
+
+Each week on Monday or Tuesday, the agenda needs to be created and distributed.
+
+#### Creation
+
+To create the TAC agenda, there are two places that are always used.
+
+1. [Governance Repo](https://github.com/lf-decentralized-trust/governance) - in this repo, the pull requests will be used for both determining which project updates are ready for review and need to be included in either the _Project Updates_ section of the agenda (for quarterly reports) or the _Discussion_ section of the agenda (for annual reports). In addition, there may be other governance pull requests that should be included in the discussion portion of the agenda. The issues can be used for determining if there are topics that should be discussed and included in the _Discussion_ section of the agenda that may not yet have a pull request available.
+1. [Project Proposals](https://github.com/lf-decentralized-trust/project-proposals) - in this repo, the pull requests will be used to determine if there are any new project proposals that need to be discussed and included in the _Discussion_ section of the agenda.
+
+Meeting agendas will be added to the `mkdocs.yml` file under _Meetings_ section in the appropriate year in reverse chronological order. A new file named `YYYY-MM-DD.md` will be placed under `tac/meeting-minutes/yyyy` folder.
+
+#### Distribution
+
+After creating the TAC agenda, a pull request will be created against the [Governance Repo](https://github.com/lf-decentralized-trust/governance). An example of such a pull request can be seen at: https://github.com/LF-Decentralized-Trust/governance/pull/248.
+
+In addition, a new thread should be created in the **#tac** channel in Discord named `Month dd, YYYY Meeting`.  The `@TAC Members` group should be included, as well as, a link to the agenda in the thread. An example of such a thread can be seen at: https://discord.com/channels/905194001349627914/941384040316018790/1435665707718279271.
+
+Lastly, an email should be sent to the tac@lists.lfdecentralizedtrust.org. An example of such an email can be seen at: https://lists.lfdecentralizedtrust.org/g/tac/message/4165.
+
 ### General Flow for Meetings
 
 The following is the general flow for all TAC meetings that has been followed for years:
