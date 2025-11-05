@@ -15,6 +15,10 @@ Project updates are:
 ## Submitting Project Updates
 Project updates are to be submitted as a pull request to the [LF-Decentralized-Trust/governance](https://github.com/LF-Decentralized-Trust/governance) repository. For instructions on how to file see: [Filing a Project Update](https://lf-decentralized-trust.github.io/governance/project-updates/#instructions-for-filing)
 
+!!! success "Important Timing Note"
+
+    If project updates are not submitted within two months of their scheduled due date or if pull request comments are not responded to within three weeks, projects will be moved to a [Dormant state](./project-lifecycle.md/#dormant)! New projects may be granted an extension for one quarter for submission, but no more.
+
 ## Merging
 Project updates will be merged after 14 days from submission unless (1) there is still ongoing discussion regarding the report or (2) a majority of the TAC has not approved the PR. If all TAC members have approved the PR before 14 days, then the PR will be merged.
 

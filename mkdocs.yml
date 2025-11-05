@@ -123,7 +123,9 @@ nav:
     - Project Lifecycle: governing-documents/project-lifecycle.md
     - Project Incubation Exit Criteria: governing-documents/project-incubation-exit.md
     - Project Annual Review: governing-documents/project-annual-review.md
+    - Project Annual Review Instructions: project-updates/annual-review-instructions.md
     - Project Updates: governing-documents/project-updates.md
+    - Project Updates Instructions: project-updates/quarterly-update-instructions.md
     - Release Signing: governing-documents/release-signing.md
     - Release Taxonomy: governing-documents/release-taxonomy.md
     - Security Policy: governing-documents/security.md
@@ -140,6 +142,7 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2025:
+      - 2025-10-30: meeting-minutes/2025/2025-10-30.md
       - 2025-10-23: meeting-minutes/2025/2025-10-23.md
       - 2025-10-16: meeting-minutes/2025/2025-10-16.md
       - 2025-10-09: meeting-minutes/2025/2025-10-09.md
@@ -221,7 +224,7 @@ nav:
         - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
 #        - 2025 Q3 ToIP: project-updates/2025/2025-Q3-ToIP.md
         - 2025 Q3 Hiero: project-updates/2025/2025-Q3-Hiero.md
-#        - 2025 Q3 Web3j: project-updates/2025/2025-Q3-Web3j.md
+        - 2025 Q3 Web3j: project-updates/2025/2025-Q3-Web3j.md
         - 2025 Q3 Hyperledger Iroha: project-updates/2025/2025-Q3-Hyperledger-Iroha.md
         - 2025 Q3 Hyperledger FireFly: project-updates/2025/2025-Q3-Hyperledger-FireFly.md
         - 2025 Q3 Hyperledger Fabric: project-updates/2025/2025-Q3-Hyperledger-Fabric.md
@@ -302,8 +305,6 @@ not_in_nav: |
   governing-documents/SAMPLE-MAINTAINERS.md
   governing-documents/SAMPLE-SECURITY.md
   github-verified-signature.png
-  project-updates/0000-annual-review-template.md
-  project-updates/0000-quarterly-update-template.md
   raising-an-issue.md
   guidelines/index.md
   meeting-minutes/index.md
