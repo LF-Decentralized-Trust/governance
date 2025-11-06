@@ -48,9 +48,6 @@ We have active maintainers from three different companies (Fujitsu, IBM, and Blo
 |2   |INESC-ID                       |107          |15%            |
 |3   |IBM                            |36           |5%             |
 |4   |Ework Group                    |21           |3%             |
-|5   |The Linux Foundation           |12           |2%             |
-|6   |Hyperledger                    |6            |1%             |
-|7   |Accenture                      |4            |1%             |
 
 Source: [LFX Cacti Project Page](https://insights.linuxfoundation.org/project/cacti/contributors?timeRange=previousQuarter&start=2025-07-01&end=2025-09-30&widget=organization-dependency)
 
