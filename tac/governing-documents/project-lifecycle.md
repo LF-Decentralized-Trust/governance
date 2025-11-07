@@ -228,7 +228,7 @@ Below is a guide for evaluating each of these criteria, with break-ups into sub-
 
 ## Evaluation of Criteria for State Transition Decisions
 
-The below figure illustrates the criteria that MUST be evaluated and considered for the respective lifecycle transitions (denoted by arrows between stages).
+The below figure illustrates the criteria that MUST be evaluated and considered for the respective lifecycle transitions (denoted by arrows between states).
 - The groups of criteria marked in green indicate that a project is ready to make an upgrade transition, or is at least qualified to remain in its present state. The decision is at the discretion of the TAC.
 - The groups of criteria marked in red indicate that a project is a candidate for a downgrade, at the discretion of the TAC.
 - In either case, the subjective metrics (those marked with *SHOULD* or *close to* in the list further above) can be treated as optional when it comes to making a decision about a state transition, but the other metrics (marked with *MUST*) are mandatory for a project to preserve it's state or to qualify for an upgrade.
@@ -251,7 +251,7 @@ Therefore, the qualification for a project to be accepted by the LFDT TAC and to
 
 ### History
 
-A [Badging and Lifecycle Task Force](https://github.com/hyperledger/toc/issues/50) was launched in early 2023 to identify badging criteria for LFDT projects and to use those badges as project health indicators. This was intended to help the TAC determine whether a project ought to be moved to a different lifecycle stage. It was also intended to help users and contributors to make an assessment about the project's maturity.
+A [Badging and Lifecycle Task Force](https://github.com/hyperledger/toc/issues/50) was launched in early 2023 to identify badging criteria for LFDT projects and to use those badges as project health indicators. This was intended to help the TAC determine whether a project ought to be moved to a different lifecycle state. It was also intended to help users and contributors to make an assessment about the project's maturity.
 
 But, based on on the assessment of the [OpenSSF Scorecard Task Force](https://docs.google.com/presentation/d/18zO30diSW1jUfQwoglWza0Lx2_Q8vwuE__q-JdoC3ho/edit#slide=id.g2dd524f49cb_0_28) and experience with the CLOMonitor tool in LFX Insights, the need for extra badges was deemed unnecessary. This is because the broad criteria and associated scores produced on an ongoing basis by the monitoring tools (OpenSSF Scorecard and CLOMonitor) are almost sufficient to cover the original badging criteria debated by the TAC.
 

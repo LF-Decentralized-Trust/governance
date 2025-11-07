@@ -103,7 +103,7 @@ __TAC Reviewers__: Venkatraman Ramakrishna (primary), Matthew Whitehead (seconda
 - Discord channels are easonably well structured, indicating that the project is active enough to need separate channels for high-level topics.
 - Frequent releases are being published for the various Identus components.
 - The documentation looks very well-done and comprehensive.
-- The fact that the Identus platform is being used in three distinct use cases by other companies indicates the interest in the project as well as its utility, which is a good sign for a project in the incubation stage.
+- The fact that the Identus platform is being used in three distinct use cases by other companies indicates the interest in the project as well as its utility, which is a good sign for a project in the incubation state.
 - Produced their annual report ahead of schedule which shows their level of engagement as a project.
 - There are 3 distinct organizations from which the project's maintainers are drawn, but there's a significant skew toward IOG (8 out of 10 maintainers). It's not possible to tell how diverse the code contributions are because the LFX Insights dashboard is not configured for the code repositories yet.
 

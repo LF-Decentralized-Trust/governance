@@ -4,7 +4,7 @@
 
 ## Overview
 
-In addition to the [quarterly project updates](./project-updates.md), projects will undergo an annual review by the TAC. This annual review will replace one of the quarterly reports. Unlike the quarterly updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current [project lifecycle state](./project-lifecycle.md). The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another stage.
+In addition to the [quarterly project updates](./project-updates.md), projects will undergo an annual review by the TAC. This annual review will replace one of the quarterly reports. Unlike the quarterly updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current [project lifecycle state](./project-lifecycle.md). The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
 
 ## Timeline
 
