@@ -52,6 +52,11 @@ teams:
       - petermetz
       - wenjing
 repositories:
+  - name: contribute
+    teams:
+      community: maintain
+      tac: maintain
+    visibility: public
   - name: governance
     teams:
       community: maintain
