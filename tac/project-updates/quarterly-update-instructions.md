@@ -15,7 +15,7 @@ The quarterly review should answer the following questions:
 - Changes to maintainer/contributor diversity
 
 # What Does the TAC Evaluate
-In general, the TAC will be looking at the health of the project overall and if it is in the correct lifecycle stage. The following is what the TAC will specifically look for:
+In general, the TAC will be looking at the health of the project overall and if it is in the correct lifecycle state. The following is what the TAC will specifically look for:
 
 - Whether all requirements specified in the [LF Decentralized Trust TAC governance documents](../governing-documents/index.md) were met.
 - Signs of consistent or increasing contribution activity.
