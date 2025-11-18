@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Project Consistency
+title: Project Consistency Guidelines
 parent: Guidelines
 grand_parent: LF Decentralized Trust TAC
+nav_order: 7
 ---
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
@@ -47,8 +48,10 @@ The `README` for a repository is often the first place maintainers and users go 
 In the past projects have varied a lot in what they attempt to cover in their landing page `README.md` file. We encourage maintainers to look at READMEs from other projects and aim to provide information - or links to information - on the follow:
 
  - What the project is and what does it do?
+ - Features of the project
  - Project/code architecture
- - Getting started information, with links to tutorials/examples
+- Installation instructions
+- Getting started information, with links to tutorials/examples
  - Getting started as a contributor, with links to IDE setup, dev environment help etc.
  - Information about the project roadmap
 
