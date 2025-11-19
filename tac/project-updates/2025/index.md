@@ -3,6 +3,8 @@
 # 2025 Project Updates
 - 2025:
     - [2025 Schedule](2025-schedule.md)
+    - Q4:
+        - [2025 Q4 Hyperledger Identus](2025-Q4-Hyperledger-Identus.md)
     - Q3: 
         - [2025 Q3 Hyperledger AnonCreds](2025-Q3-Hyperledger-AnonCreds.md)
         - [2025 Q3 Hyperledger Indy](2025-Q3-Hyperledger-Indy.md)
