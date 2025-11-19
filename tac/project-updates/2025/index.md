@@ -7,6 +7,7 @@
         - [2025 Q4 Hyperledger AnonCreds](2025-Q4-Hyperledger-AnonCreds.md)
         - [2025 Q4 Hyperledger Cacti](2025-Q4-Hyperledger-Cacti.md)
         - [2025 Q4 Hyperledger Fabric](2025-Q4-Hyperledger-Fabric.md)
+        - [2025 Q4 Hyperledger Identus](2025-Q4-Hyperledger-Identus.md)
         - [2025 Q4 Hyperledger Indy](2025-Q4-Hyperledger-Indy.md)
         - [2025 Q4 Hyperledger Solang](2025-Q4-Hyperledger-Solang.md)
         - [2025 Q4 Web3j](2025-Q4-Web3j.md)
