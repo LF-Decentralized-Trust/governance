@@ -32,7 +32,7 @@ Offline-first improvements and SDK issuance features that were planned earlier i
 
 ## Overall Activity in the Past Quarter
 
-Community engagement on LFDT Discord, GitHub discussions, and the weekly maintainer syncs stayed steady, with contributors continuing to raise issues, test releases, and challenge roadmap assumptions. The team delivered a new DID method implementation for the **Midnight** blockchain (the code is staged privately while we finalize disclosure requirements) so that Identus can natively serve Cardano’s privacy-focused stack. Offline-first work is nearing completion, and issuance capabilities are now available in SDK-TS and SDK-Swift; SDK-KMP is still outdated until the Kotlin refactor described below is complete.
+Community engagement on LFDT Discord, GitHub discussions, and the weekly maintainer syncs stayed steady, with contributors continuing to raise issues, test releases, and challenge roadmap assumptions. Offline-first work is nearing completion, and issuance capabilities are now available in SDK-TS and SDK-Swift; SDK-KMP is still outdated until the Kotlin refactor described below is complete.
 
 Documentation improvements made significant headway thanks to the sustained collaboration with the technical writing audit team, and we expect to close the current iteration before the year's end. We also kicked off the OpenSSF Best Practices Badge and OpenSSF Scorecard Badge tasks; both efforts are on track for a Q1 delivery after we finish collecting evidence across the repositories.
 
@@ -42,7 +42,7 @@ Documentation improvements made significant headway thanks to the sustained coll
 
 The strategic direction continues to align with the annual review while we incorporate the new initiatives raised by the community:
 
-- **Platform simplification** – finish swapping `prism-node` out for `Neoprism`, complete the offline-first SDK rollout, and close the last two [Cardano VDR milestones](https://milestones.projectcatalyst.io/projects/1300189/milestones/4) before year end.
+- **Platform simplification** – finish swapping `prism-node` out for `Neoprism`, complete the offline-first SDK rollout, and close the last two [Cardano VDR milestones](https://milestones.projectcatalyst.io/projects/1300189/milestones/4) before year's end.
 - **Developer experience & documentation** – complete the first iteration of the documentation improvement plan, keep expanding tutorial coverage, and ensure issuance guidance stays in sync across SDK-TS, SDK-Swift, and the upcoming Kotlin rewrite.
 - **SDK & client evolution** – adopt the Identus platform for React/React Native builders by downgrading Kotlin’s Apollo version for compatibility and converting SDK-KMP into a pure Kotlin codebase. We have already started implementing the Verifiable Credentials Data Model (VCDM) 2.0 payloads inside SDK-Swift, with mDoc and OpenBadges 3.0 support queued next.
 - **Security & compliance** – continue executing on the OpenSSF Best Practices and Scorecard badges so that we can check both items off in Q1, and leverage their findings to tighten CI/CD and dependency hygiene.
@@ -67,4 +67,3 @@ The contributor base remains anchored by IOG, with Blocktrust and Socious contin
 
 - The Identus platform work for React/React Native is underway; downgrading the Kotlin Apollo dependency and reworking SDK-KMP into a pure Kotlin module will unlock consistent developer ergonomics across Android, iOS, and React Native.
 - Offline-first parity and the Cardano VDR deliverables are still targeted for completion this calendar year, after which we will shift to hardening issuance at scale.
-- The new Midnight DID method is functionally complete, and once the repositories become public, we will share the specification and reference code with the wider community.
