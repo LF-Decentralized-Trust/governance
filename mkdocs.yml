@@ -139,6 +139,7 @@ nav:
     - Project Best Practices: guidelines/project-best-practices.md
     - Project Incubation Entry Considerations: guidelines/project-incubation-entry-considerations.md
     - Supply Chain Levels for Software Artifacts Recommendations: guidelines/slsa-guidelines.md
+    - Project Consistency Guidelines: guidelines/project-consistency-guidelines.md
   - Meetings:
     - meeting-minutes/index.md
     - 2025:
