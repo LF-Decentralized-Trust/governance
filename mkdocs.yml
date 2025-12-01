@@ -142,6 +142,7 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2025:
+      - 2025-12-04: meeting-minutes/2025/2025-12-04.md
       - 2025-11-20: meeting-minutes/2025/2025-11-20.md
       - 2025-11-13: meeting-minutes/2025/2025-11-13.md
       - 2025-11-06: meeting-minutes/2025/2025-11-06.md
