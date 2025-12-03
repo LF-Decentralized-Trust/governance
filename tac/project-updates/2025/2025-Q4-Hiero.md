@@ -36,15 +36,39 @@ Additionally, the [hiero blog](https://hiero.org/blog/) published several update
 
 Overall, it is a 2026 goal for the Hiero community to make release and roadmap information available and transparent to the community and the Python SDK project is exceeding expectations in this goal. We are inviting all Hiero project maintainers to also participate in the publication of their project roadmap in the TSC meetings, project events and project blog posts with the participation of the project's marketing group. 
 
-The community is implementing new ways to track overall project exposure to the release and project updates announcements. One of these metrics is the implementation of Google Analytics for the hiero.org webpage as well as the Hiero's blog. The Google Analytics data for hiero.org indicates that the main page accounts for 72% of all page views with 1,385 views and 782 active users. Compared to this, the Hiero blog contributs 10% of total views, while individual blog posts each capture between 1–2% of traffic. While these statistics are a bit low, we are expecting to register more views as 2026 new goals take place regarding project updates and transparency.
+# Overall Activity in the Past Quarter
 
-# Overall Activity in the Past Quarter (NEEDS WORK)
+## Project Proposals
 
-The Hiero project is building traction and momentum in our goal to acquire more collaborators and participants. Our [community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) continue to run and recently we were able to host a new Solo Community call, Python SDK Office Hours and Website community call. We also had a short series of calls to discuss the direction of the projects and the baseline and requirements for new projects to join hiero-ledger. We continue to promote openness in the community and continue to welcome the opinion of new users.
+In recent weeks, the Hiero project has approved the following project proposals, further expanding the ecosystem’s capabilities and accelerating development across its components. This is also a step forward towards building a strong and diverse community and attract more organizations to collaborate.
+Included in these new projects we have:
 
-The community was able to obtain Graduated project status. Each repo in hiero-ledger comforms to the TAC guidelines for repo structure, security policies and quality of the code. We continue to work on adopting more [community projects](https://github.com/hiero-ledger/hiero/blob/main/community-transition.md) and seeking the participation of new members from different backgrounds and affiliations.
+- [hiero-ethereum-execution-spec-tests](https://github.com/hiero-ledger/hiero-ethereum-execution-spec-tests) - A fork of https://github.com/ethereum/execution-spec-tests to ensure Ethereum compatibility.
+- [hiero-contracts](https://github.com/hiero-ledger/hiero-contracts) - A fork of https://github.com/hashgraph/hedera-smart-contracts exposing, grouping all the system-contracts, hiero hooks and any solidity interfaces or extension points of the hiero network.
+- [identity-collaboration-hub](https://github.com/hiero-ledger/identity-collaboration-hub) - This hub is modeled after the existing SDK Collaboration Hub and will act as the unified home for identity-related standards, documentation, and source-code collaboration across the Hiero identity ecosystem.
+- [hiero-enterprise-java](https://github.com/hiero-ledger/hiero-enterprise-java) - Transfer the project https://github.com/OpenElements/hiero-enterprise-java to Hiero.
+- [hiero-cli](https://github.com/hiero-ledger/hiero-cli) - Command-line interface designed to simplify, automate, and accelerate development workflows on Hedera and Hiero networks.
+- [homebrew-tools](https://github.com/hiero-ledger/homebrew-tools) - Central repository for maintaining Homebrew Formulas for Hiero tools.
 
-The project maintainers are helping to shape the scores from the OpenSSF reports. We have been working on improving the overall project quality by focusing in the reports obtained by our tools like GitHub Insights, LFX Insights, OpenSSF, Snyk and Step Security.
+At the moment, the TSC is reviewing an additional project proposal for [hiero-hol-specs](https://github.com/hiero-ledger/tsc/issues/261) which will serve as the canonical repository for Hashgraph Consensus Standards (HCS), which define application-layer metaprotocol specifications built on the Hiero Consensus Service.
+
+## Community Calls
+
+The public calendar continues to expand including new ways that the community can participate in the Hiero project. These meetings includes:
+- **Marketing and Community Engagement Meeting** - Where the community can interact with the marketing team to promote events, plan semminars and overall expand the project's visibility to the open source community
+- **Maintainers Monthly Meeting** - Maintainers can gather once a month to discuss issues and plan strategies to encourage participation and reduce project bottlenecks.
+- **Identity Community Call** - Discuss all the latest and greatest in Decentralized Identity on Hiero/Hedera. Target participants can include operators of identity platforms supporting Hedera, and developers interested in using and contributing to Hiero identity repos.
+- **Hiero SDKs Good First Issue Refinement** - Teams meet to cleanup and create new good first issues to attract new participants to the community.
+
+The team also created a [public wiki site](https://github.com/hiero-ledger/governance/wiki) to host more information for all project meetings and help members identify oportunities where they can participate in the project.
+
+## Community Exposure and Events
+
+The Hiero project successfully concluded its participation on October's Hacktoberfest where new contributors where invited to explore the project and contribute to it. This event resulted in the total contribution of [137 issues closed](https://github.com/issues?q=is%3Aclosed%20is%3Aissue%20org%3Ahiero-ledger%20archived%3Afalse%20label%3A%22good%20first%20issue%22%20closed%3A%3E%40today-90d&page=1) across several Hiero projects. As a highlight, the [Python SDK project exceeded expectations](https://hiero.org/blog/a-month-of-merges-how-hacktoberfest-turned-our-python-sdk-into-a-pull-request-party/) by attracting 39 new authors who contributed to 74 merged pull requests just in the month of October.
+
+For LFDT's upcomming Maitainer Days in Jan, the Hiero project is contributing to three presentations discussing strategies to atract and guide new contributors via good first issues, promote open source collaboration best practices and build healthy open source ecosystems with diverse stakeholders. 
+
+Additionally, the community is implementing new ways to track overall project exposure to the release and project updates announcements. One of these metrics is the implementation of Google Analytics for the hiero.org webpage as well as the Hiero's blog. The Google Analytics data for hiero.org indicates that the main page accounts for 72% of all page views with 1,385 views and 782 active users. Compared to this, the Hiero blog contributs 10% of total views, while individual blog posts each capture between 1–2% of traffic. While these statistics are a bit low, we are expecting to register more views as 2026 new goals take place regarding project updates and transparency.
 
 # Current Plans (NEEDS WORK)
 
