@@ -70,38 +70,23 @@ For LFDT's upcomming Maitainer Days in Jan, the Hiero project is contributing to
 
 Additionally, the community is implementing new ways to track overall project exposure to the release and project updates announcements. One of these metrics is the implementation of Google Analytics for the hiero.org webpage as well as the Hiero's blog. The Google Analytics data for hiero.org indicates that the main page accounts for 72% of all page views with 1,385 views and 782 active users. Compared to this, the Hiero blog contributs 10% of total views, while individual blog posts each capture between 1–2% of traffic. While these statistics are a bit low, we are expecting to register more views as 2026 new goals take place regarding project updates and transparency.
 
-# Current Plans (NEEDS WORK)
+# Current Plans
 
-The Hiero project continues to build momentum, with community awareness and adoption receiving continuous expansion. Current priorities include preparing for upcoming conference participation, expanding the contributor and maintainer base, and reinforcing the project’s foundation by leveraging metrics tools and implementing strong security measures to guard against vulnerabilities and potential threats.
+The Hiero community's main focus is to shape 2026 Project Goals. These goals have a strong focus on strengthening the project’s long-term sustainability by growing a diverse, engaged community and implementing practices that encourage contributor and maintainer retention. On the security front, we are looking to implement practices that polish our overal CI/CD practices and hardens our overall security. We are also inviting leaders and maintainers of the project's core component and sub-projects to maintain their own technical roadmap and report progress to the Hiero TSC, enabling transparent planning and effective cross-project coordination. The project will continue serving as the community-governed home for specifications and reference implementations derived from Hedera standards, with an emphasis on consistent and open stewardship of these specifications. The project will also expand community engagement through training, collaboration opportunities, and initiatives that welcome new talent while demonstrating real world adoption through documented use cases and public references. Finally, Hiero will invest in future-readiness by exploring emerging technologies, advancing research prototypes, and deepening technical collaboration across the LFDT ecosystem to promote interoperability and shared innovation.
 
-The project will continue to work with the LFDT TAC to maintain and preserve project status. The main areas of focus will be the project's diversity in contributors and maintainers as well as the improvement of OpenSSF scoring. In the following month, the TSC will renew one TSC position for Contributor Seat with the rest of the governance. We are organizing a Maintainer's Community Call that will allow us to work with the maintainers and explain the roles, participation and impact that the members of the TSC in the project along with how they can influence their desision making when selecting new candidates.
+# Maintainer Diversity
 
-We are also continuing our efforts in cross-project collaboration with other open source communities. The team has started a communication with the Identus maintainers to potentially bring in Hiero's usage for the Identus project development. 
+The Hiero project still has some [project proposals in the pipeline](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22project%20proposal%22) to be reviewed and discussed in the short future. This will open new doors for new maintainers from diverse organizations to find an oportunity to participate in the project development.
 
-Additionally, the project is planning a First Year Anniversary webinar to promote the project's achievement and welcome interested audiences to participate in the project.
+In summary, the [following repos have received changes](https://github.com/hiero-ledger/governance/commits/main/config.yaml?since=2025-09-04&until=2025-12-03): 
 
-# Maintainer Diversity (NEEDS WORK)
+- Release Managers team aquire a new maintainer.
+- Hiero Consensus Node aquire a new maintainer.
+- Identity Collaboration Hub has two new community maintainers working along two of our current maintainers.
+- Hiero Contracts Maintainers bring in several new maintainers into the project.
+- Hiero Ethereum Execution Spec bring in several new maintainers into the project.
 
-In Q3 we continue to add new projects into our hiero-ledger organization.
-- [hiero-hederium](https://github.com/hiero-ledger/hiero-hederium) - Hederium is Golang implementation of Hedera JSON-RPC Relay or Hashio.
-- [hiero-did-sdk-js](https://github.com/hiero-ledger/hiero-did-sdk-js) - A TypeScript/JavaScript SDK for building decentralized identity solutions on Hiero.
-- We are currently working on transfering hiero-cli.
-
-In summary, the [following repos have received changes](https://github.com/hiero-ledger/governance/commits/main/config.yaml?since=2025-06-14&until=2025-09-04): 
-
-- Create the hiero-cli-committers team with several new members. 
-- Nominations are created for the upcoming September elections.
-- LFStaff received an update with one more member.
-- Additional Roles for supporting onboarding & management are created.
-- Block Node received a re-structuring of their maintainers team.
-- Python SDK acquired a new maintainer.
-- Contributors are allowed to perform triage activities for sdk-tck and sdk-js.
-- Consensus Node maintainers team acquired two new members.
-- Added new maintainers team for hashgraph online.
-
-As of today, maintainers in the Hiero Ledger organization are primarily represented by contributors from Hashgraph and LimeChain. The entire composition of the maintainers affiliation can he found [here](https://docs.google.com/spreadsheets/d/1O4wTFxw9rUQbgc3YvCKyDYlAKwmoz7sD0ATJ_rJiWp0/edit?usp=sharing)
-
-These updates reflect the growing adoption and participation in the project, as well as the ongoing efforts to expand and strengthen the project's contributor base.
+## TODO: Add organization representation graph 
 
 # Contributor Diversity (NEEDS WORK)
 
