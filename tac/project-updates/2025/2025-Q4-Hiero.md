@@ -16,7 +16,7 @@ In general, the project is on track for seeing an increse in project participati
 
 There are no issues or questions to bring up to the TAC at this time.
 
-# Releases (NEEDS WORK)
+# Releases
 
 Below is a summary of the most notable recent releases for Q4:
 
@@ -37,7 +37,6 @@ Additionally, the [hiero blog](https://hiero.org/blog/) published several update
 Overall, it is a 2026 goal for the Hiero community to make release and roadmap information available and transparent to the community and the Python SDK project is exceeding expectations in this goal. We are inviting all Hiero project maintainers to also participate in the publication of their project roadmap in the TSC meetings, project events and project blog posts with the participation of the project's marketing group. 
 
 The community is implementing new ways to track overall project exposure to the release and project updates announcements. One of these metrics is the implementation of Google Analytics for the hiero.org webpage as well as the Hiero's blog. The Google Analytics data for hiero.org indicates that the main page accounts for 72% of all page views with 1,385 views and 782 active users. Compared to this, the Hiero blog contributs 10% of total views, while individual blog posts each capture between 1–2% of traffic. While these statistics are a bit low, we are expecting to register more views as 2026 new goals take place regarding project updates and transparency.
-
 
 # Overall Activity in the Past Quarter (NEEDS WORK)
 
@@ -92,6 +91,6 @@ In this quarter, 50% of the organization dependency continues to belong to Hashg
 
 Overall, [266 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=alltime&widget=organization-dependency) have contributed to Hiero activities (compared to 199 organizations reported in Q2). The team continues to seek diversity and promote more inclusion of new organizations and participating maintainers. It is a goal as a community overall to increase the number of participating organizations to be able to preserve project status.
 
-# Additional Information (NEEDS WORK)
+# Additional Information
 
-The Hiero team continues to work closely with the LFX team to have a more accurate representation of the Hiero project in LFX Insights and encouraging more contributors to provide their observations. With the recent re-introduction of the [Security & Best Practices](https://insights.linuxfoundation.org/project/hiero/security?timeRange=custom&start=2025-06-12&end=2025-09-04) scores in May, the team is focused on ensuring that the data remains consistent with the status of the repositories. At the same time, we will work with the OpenSSF team to help us adjusting our repo's scores to reflect any exceptions to the scores and work on improving those scores that are in our maintainer's hands.
+The Hiero project is actively working on defining and shaping its 2026 goals with a strong focus on maturity, transparency, and ecosystem growth. These goals will emphasize increased project participation and community engagement, strengthened security practices and greater transparency across all project activities. The goals will also includes more consistent publication of releases and transparency of project roadmaps and releases, enhanced stewardship of core specifications and continued investment in high-quality reference implementations and innovation. Additionally, training initiatives and deeper cross-project collaboration will play a central role in ensuring that Hiero continues to evolve as a trusted, vendor-neutral project.
