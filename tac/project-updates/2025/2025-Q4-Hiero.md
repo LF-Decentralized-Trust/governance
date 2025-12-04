@@ -6,11 +6,11 @@ In the latest quarter, Hiero has grown considerably with new projects becoming p
 
 The list of issues show the recent [project proposals approved in recent weeks](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22project%20proposal%22). The specifics of these new projects will be discussed in more detail in the **Overall Activity** section below.
 
-In the month of September and October, the Hiero maintainers participated in the re-structuring, clean and creation of the project's [Good First Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) attracting new contributors across the Hiero projects. During October's [Hacktoberfest](https://hacktoberfest.com/), the [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python) in particular, saw a considerable increase of new contributons which will also be dicussed in the following sections. 
+In the month of September and October, the Hiero maintainers participated in the re-structuring, clean and creation of the project's [Good First Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) attracting new contributors across the Hiero projects. During October's [Hacktoberfest](https://hacktoberfest.com/), the [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python) in particular, saw a considerable increase of new contributions which will also be dicussed in the following sections. 
 
-The LF Decentralized Trust is proud to welcome six of the Hiero project maintainers to January's [Member's Summit and Maintainer Days](https://www.lfdecentralizedtrust.org/member-summit-10th-anniversary) where three presentations will be taking part of the schedule. The team is also planning to boost colaboration with other maintainers from the communities represented in this event.
+The LF Decentralized Trust is proud to welcome six of the Hiero project maintainers to January's [Member's Summit and Maintainer Days](https://www.lfdecentralizedtrust.org/member-summit-10th-anniversary) where three presentations will be taking part of the schedule. The team is also planning to boost collaboration with other maintainers from the communities represented in this event.
 
-In general, the project is on track for seeing an increse in project participation and diversity with new organizations able to contribute to the new projects that are becoming part of the hiero-ledger organization.
+In general, the project is on track for seeing an increase in project participation and diversity with new organizations able to contribute to the new projects that are becoming part of the hiero-ledger organization.
 
 # Questions/Issues for the TAC
 
@@ -30,7 +30,7 @@ Below is a summary of the most notable recent releases for Q4:
 - [hiero-consensus-node](https://github.com/hiero-ledger/hiero-consensus-node) - Release [v0.68.3](https://github.com/hiero-ledger/hiero-consensus-node/releases/tag/v0.68.3) includes several backports and cherry-picked improvements, including initializing from the latest block for streaming, expanded throttle accumulator tests, and alignment of gas throttling with throughput throttling. It also updates references from Hashgraph to the new Hiero-ledger packages.
 
 Additionally, the [hiero blog](https://hiero.org/blog/) published several updates for the community:
-- For a great part of these updates, the Python SDK project demostrated how the past [Hacktoberfest](https://hiero.org/blog/a-month-of-merges-how-hacktoberfest-turned-our-python-sdk-into-a-pull-request-party/) became really successful for the community in attracting new contributions and major development updates. At the same time, the Python SDK project announced several releases [v0.1.6](https://hiero.org/blog/hiero-python-sdk-announcing-release-v0.1.6/) and [v0.1.7](https://hiero.org/blog/hiero-python-sdk-announcing-release-v0.1.7/) which were reported by new community members. 
+- For a great part of these updates, the Python SDK project demonstrated how the past [Hacktoberfest](https://hiero.org/blog/a-month-of-merges-how-hacktoberfest-turned-our-python-sdk-into-a-pull-request-party/) became really successful for the community in attracting new contributions and major development updates. At the same time, the Python SDK project announced several releases [v0.1.6](https://hiero.org/blog/hiero-python-sdk-announcing-release-v0.1.6/) and [v0.1.7](https://hiero.org/blog/hiero-python-sdk-announcing-release-v0.1.7/) which were reported by new community members. 
 - As part of Hiero's 2026 goals, we are looking forward to make more project announcements to the community and provide more transparency overall. During this quarter, the Hiero blog published updates regarding the new [Hiero CLI](https://hiero.org/blog/join-the-next-chapter-of-the-cli-explore-hiero-cli/) project.
 - The Hiero community also promoted Hiero's participation in [Hacktoberfest](https://hiero.org/blog/hacktoberfest-2025-contribute-to-hiero/) and called for action to all new contributors to participate for the first time in the project. 
 
@@ -55,20 +55,20 @@ At the moment, the TSC is reviewing an additional project proposal for [hiero-ho
 ## Community Calls
 
 The public calendar continues to expand including new ways that the community can participate in the Hiero project. These meetings includes:
-- **Marketing and Community Engagement Meeting** - Where the community can interact with the marketing team to promote events, plan semminars and overall expand the project's visibility to the open source community
+- **Marketing and Community Engagement Meeting** - Where the community can interact with the marketing team to promote events, plan seminars and overall expand the project's visibility to the open source community
 - **Maintainers Monthly Meeting** - Maintainers can gather once a month to discuss issues and plan strategies to encourage participation and reduce project bottlenecks.
 - **Identity Community Call** - Discuss all the latest and greatest in Decentralized Identity on Hiero/Hedera. Target participants can include operators of identity platforms supporting Hedera, and developers interested in using and contributing to Hiero identity repos.
 - **Hiero SDKs Good First Issue Refinement** - Teams meet to cleanup and create new good first issues to attract new participants to the community.
 
-The team also created a [public wiki site](https://github.com/hiero-ledger/governance/wiki) to host more information for all project meetings and help members identify oportunities where they can participate in the project.
+The team also created a [public wiki site](https://github.com/hiero-ledger/governance/wiki) to host more information for all project meetings and help members identify opportunities where they can participate in the project.
 
 ## Community Exposure and Events
 
 The Hiero project successfully concluded its participation on October's Hacktoberfest where new contributors where invited to explore the project and contribute to it. This event resulted in the total contribution of [137 issues closed](https://github.com/issues?q=is%3Aclosed%20is%3Aissue%20org%3Ahiero-ledger%20archived%3Afalse%20label%3A%22good%20first%20issue%22%20closed%3A%3E%40today-90d&page=1) across several Hiero projects. As a highlight, the [Python SDK project exceeded expectations](https://hiero.org/blog/a-month-of-merges-how-hacktoberfest-turned-our-python-sdk-into-a-pull-request-party/) by attracting 39 new authors who contributed to 74 merged pull requests just in the month of October.
 
-For LFDT's upcomming Maitainer Days in Jan, the Hiero project is contributing to three presentations discussing strategies to atract and guide new contributors via good first issues, promote open source collaboration best practices and build healthy open source ecosystems with diverse stakeholders. 
+For LFDT's upcomming Maitainer Days in Jan, the Hiero project is contributing to three presentations discussing strategies to attract and guide new contributors via good first issues, promote open source collaboration best practices and build healthy open source ecosystems with diverse stakeholders. 
 
-Additionally, the community is implementing new ways to track overall project exposure to the release and project updates announcements. One of these metrics is the implementation of Google Analytics for the hiero.org webpage as well as the Hiero's blog. The Google Analytics data for hiero.org indicates that the main page accounts for 72% of all page views with 1,385 views and 782 active users. Compared to this, the Hiero blog contributs 10% of total views, while individual blog posts each capture between 1–2% of traffic. While these statistics are a bit low, we are expecting to register more views as 2026 new goals take place regarding project updates and transparency.
+Additionally, the community is implementing new ways to track overall project exposure to the release and project updates announcements. One of these metrics is the implementation of Google Analytics for the hiero.org webpage as well as the Hiero's blog. The Google Analytics data for hiero.org indicates that the main page accounts for 72% of all page views with 1,385 views and 782 active users. Compared to this, the Hiero blog contributes 10% of total views, while individual blog posts each capture between 1–2% of traffic. While these statistics are a bit low, we are expecting to register more views as 2026 new goals take place regarding project updates and transparency.
 
 # Current Plans
 
@@ -76,17 +76,17 @@ The Hiero community's main focus is to shape 2026 Project Goals. These goals hav
 
 # Maintainer Diversity
 
-The Hiero project still has some [project proposals in the pipeline](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22project%20proposal%22) to be reviewed and discussed in the short future. This will open new doors for new maintainers from diverse organizations to find an oportunity to participate in the project development.
+The Hiero project still has some [project proposals in the pipeline](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22project%20proposal%22) to be reviewed and discussed in the short future. This will open new doors for new maintainers from diverse organizations to find an opportunity to participate in the project development.
 
 In summary, the [following repos have received changes](https://github.com/hiero-ledger/governance/commits/main/config.yaml?since=2025-09-04&until=2025-12-03): 
 
-- Release Managers team aquire a new maintainer.
-- Hiero Consensus Node aquire a new maintainer.
+- Release Managers team acquire a new maintainer.
+- Hiero Consensus Node acquire a new maintainer.
 - Identity Collaboration Hub has two new community maintainers working along two of our current maintainers.
 - Hiero Contracts Maintainers bring in several new maintainers into the project.
 - Hiero Ethereum Execution Spec bring in several new maintainers into the project.
 
-On regards to [organization diversity](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=past90days&start=2025-09-05&end=2025-12-04&widget=organization-dependency), the mayority of the maintainers are still represented by Hashgraph and LimeChain. We are working with the community on adding 2026 goals around organization diverification and new strategies to implement. 
+On regards to [organization diversity](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=past90days&start=2025-09-05&end=2025-12-04&widget=organization-dependency), the majority of the maintainers are still represented by Hashgraph and LimeChain. We are working with the community on adding 2026 goals around organization diverification and new strategies to implement. 
 
 # Contributor Diversity
 
@@ -98,7 +98,7 @@ In summary, the [following repos have received changes](https://github.com/hiero
 - Hiero Improvement Proposals aquired a new committer.
 - Homebrew Tools aquired a new committer.
 - Consensus Node repo aquired 2 new committers.
-- TCK and JS DSK aquired a new committer.
+- TCK and JS SDK aquired a new committer.
 - Python SDK aquired a new committer.
 - Identity Collaboration Hub has a new committer working along 2 of our current members.
 - Hiero Enterprise Java aquired 3 new committers.
