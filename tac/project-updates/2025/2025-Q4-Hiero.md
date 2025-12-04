@@ -86,19 +86,26 @@ In summary, the [following repos have received changes](https://github.com/hiero
 - Hiero Contracts Maintainers bring in several new maintainers into the project.
 - Hiero Ethereum Execution Spec bring in several new maintainers into the project.
 
-## TODO: Add organization representation graph 
+On regards to [organization diversity](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=past90days&start=2025-09-05&end=2025-12-04&widget=organization-dependency), the mayority of the maintainers are still represented by Hashgraph and LimeChain. We are working with the community on adding 2026 goals around organization diverification and new strategies to implement. 
 
-# Contributor Diversity (NEEDS WORK)
+# Contributor Diversity
 
-Projects in Hiero continue to promote more participation from external contributors. For example, the Python SDK team recently held one of their [Office Hours events](https://hiero.org/blog/introducing-the-hiero-python-sdk-office-hour/) to help the community get started, understand the project's proposed feature requests, get familiar with the codebase, troubleshooting their tests and even help new collaborators create their first PR.
+Projects in Hiero continue to promote more participation from external contributors. The community is dedicating additional support to create and maintain new good first issues across all SDKs. Using the lessons learnt from the success seen in the Python SDK, the maintainers are working towards applying similar strategies across other SDKs to attract new talent. 
 
-Our workshop to help users create their own test network and communicate to it via our SDKs will continue to be promoted in future events.
+In summary, the [following repos have received changes](https://github.com/hiero-ledger/governance/commits/main/config.yaml?since=2025-09-04&until=2025-12-03): 
 
-Our [latest community calls](https://hiero.org/#contribute) are easily visible for the community to select one and join with the rest of the maintainers. For any of these calls, there are no expertise requirements. We welcome anyone in the community interested in using, adopting and contributing to Hiero.
+- Hiero CLI committers aquired 6 new members.
+- Hiero Improvement Proposals aquired a new committer.
+- Homebrew Tools aquired a new committer.
+- Consensus Node repo aquired 2 new committers.
+- TCK and JS DSK aquired a new committer.
+- Python SDK aquired a new committer.
+- Identity Collaboration Hub has a new committer working along 2 of our current members.
+- Hiero Enterprise Java aquired 3 new committers.
+- Hiero Contracts bring in several new committers into the project.
+- Hiero Ethereum Execution Spec bring in several new committers into the project.
 
-In this quarter, 50% of the organization dependency continues to belong to Hashgraph and LimeChain among [35 active companies collaborating](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=custom&start=2025-06-20&end=2025-09-04&widget=organization-dependency) in GitHub commits/issues/discussions. 
-
-Overall, [266 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=alltime&widget=organization-dependency) have contributed to Hiero activities (compared to 199 organizations reported in Q2). The team continues to seek diversity and promote more inclusion of new organizations and participating maintainers. It is a goal as a community overall to increase the number of participating organizations to be able to preserve project status.
+Overall, Hiero has the participation of [40 organizations](https://insights.linuxfoundation.org/project/hiero/contributors?timeRange=past90days&start=2025-09-05&end=2025-12-04&widget=organization-dependency) in this quarter. It is a goal as a community overall to increase the number of participating organizations to be able to preserve project status.
 
 # Additional Information
 
