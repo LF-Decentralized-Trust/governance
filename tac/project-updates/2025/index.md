@@ -4,6 +4,7 @@
 - 2025:
     - [2025 Schedule](2025-schedule.md)
     - Q4:
+        - [2025 Q4 Hiero](2025-Q4-Hiero.md)
         - [2025 Q4 Hyperledger AnonCreds](2025-Q4-Hyperledger-AnonCreds.md)
         - [2025 Q4 Hyperledger Cacti](2025-Q4-Hyperledger-Cacti.md)
         - [2025 Q4 Hyperledger Fabric](2025-Q4-Hyperledger-Fabric.md)
