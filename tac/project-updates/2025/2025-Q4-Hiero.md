@@ -40,7 +40,7 @@ Overall, it is a 2026 goal for the Hiero community to make release and roadmap i
 
 ## Project Proposals
 
-In recent weeks, the Hiero project has approved the following project proposals, further expanding the ecosystem’s capabilities and accelerating development across its components. This is also a step forward towards building a strong and diverse community and attract more organizations to collaborate.
+In recent weeks, the Hiero project has approved the following project proposals, further expanding the ecosystem’s capabilities and accelerating development across its components. This is also a step towards building a strong and diverse community and attract more organizations to collaborate.
 Included in these new projects we have:
 
 - [hiero-ethereum-execution-spec-tests](https://github.com/hiero-ledger/hiero-ethereum-execution-spec-tests) - A fork of https://github.com/ethereum/execution-spec-tests to ensure Ethereum compatibility.
