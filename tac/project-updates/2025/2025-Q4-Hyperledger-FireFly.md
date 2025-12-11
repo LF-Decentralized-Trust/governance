@@ -46,8 +46,6 @@ It's always helpful to review in a Q4 report what the goals were at the beginnin
 
 # Maintainer Diversity
 
-*Required: Please include the maintainers that were added since your last report. This information will allow us to track the diversity and growth of the maintainers of the project. NOTE: If no maintainers were added since your last report, provide the list of existing maintainers.*
-
 FireFly has 15 maintainers representing four different companies:
 
 * [Kaleido](https://kaleido.io/)  
