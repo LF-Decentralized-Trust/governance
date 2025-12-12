@@ -57,7 +57,7 @@ It is worth noting that each company has at least one maintainer who is a subjec
 
 A list of all maintainers for Hyperledger FireFly may be found [here](https://wiki.hyperledger.org/display/FIR/Maintainers).
 
-Contributor Diversity  
+# Contributor Diversity
 
 This past quarter we have seen a decrease in activity as the code base has continued to mature.
 
