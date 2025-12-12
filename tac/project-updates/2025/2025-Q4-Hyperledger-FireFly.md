@@ -14,7 +14,7 @@ Enhancements in the Connector Toolkit and implementation of the EVM Connector in
 
 The star activity for the FireFly repository has continued to grow from 564 end of last quarter to 577 end of this quarter. Discord activity has been very high this quarter with \~60 DAU.
 
-![][./images/FF-Q4-Star-History.png]
+![](./images/FF-Q4-Star-History.png)
 
 Contributors are active in the project and in Q3 2025, there were 18 contributors who performed at least one commit.
 
