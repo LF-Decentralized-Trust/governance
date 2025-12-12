@@ -63,5 +63,5 @@ This past quarter we have seen a decrease in activity as the code base has conti
 
 <https://insights.linuxfoundation.org/project/firefly/contributors?timeRange=past90days\&start=2025-08-14\&end=2025-11-12>
 
-![][./images/FF-Q4-Active-Contributors.png]
-![][./images/FF-Q4-Active-Organizations.png]
+![](./images/FF-Q4-Active-Contributors.png)
+![](./images/FF-Q4-Active-Organizations.png)
