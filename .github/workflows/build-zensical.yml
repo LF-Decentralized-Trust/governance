@@ -1,9 +1,8 @@
 name: Documentation
 on:
-- workflow_dispatch
-#  push:
-#    branches:
-#      - main
+  push:
+    branches:
+      - main
 permissions:
   contents: read
   pages: write
