@@ -23,6 +23,7 @@
 | Q1 (annual) | 2026-03-12 | ToIP      |
 | Q1 (annual) | 2026-03-19 | Paladin   |
 | Q1 (annual) | 2026-03-19 | Smoot     |
+| Q1 (annual) | 2026-03-19 | Minokawa  |
 | Q2          | 2026-04-23 | Cacti     |
 | Q2          | 2026-04-23 | Fabric    |
 | Q2          | 2026-04-30 | Identus   |
@@ -40,6 +41,7 @@
 | Q2          | 2026-06-04 | ToIP      |
 | Q2          | 2026-06-11 | Paladin   |
 | Q2          | 2026-06-11 | Smoot     |
+| Q2          | 2026-06-11 | Minokawa  |
 | Q3          | 2026-07-23 | Cacti     |
 | Q3          | 2026-07-23 | Fabric    |
 | Q3          | 2026-07-30 | Identus   |
@@ -57,6 +59,7 @@
 | Q3          | 2026-09-03 | ToIP      |
 | Q3          | 2026-09-10 | Paladin   |
 | Q3          | 2026-09-10 | Smoot     |
+| Q3          | 2026-09-10 | Minokawa  |
 | Q4          | 2026-10-22 | Cacti     |
 | Q4          | 2026-10-22 | Fabric    |
 | Q4          | 2026-10-29 | Identus   |
@@ -74,3 +77,4 @@
 | Q4          | 2026-12-03 | ToIP      |
 | Q4          | 2026-12-10 | Paladin   |
 | Q4          | 2026-12-10 | Smoot     |
+| Q4          | 2026-12-10 | Minokawa  |

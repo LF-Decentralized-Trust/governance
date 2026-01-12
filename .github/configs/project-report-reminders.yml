@@ -289,3 +289,20 @@ projects:
       - date: 2026-12-10
         title: Reminder to submit the 2026 Q4 quarterly project report
         description: Please submit the 2026 Q4 quarterly project report (due 2026-12-10). After submitting your pull request, please mark this issue as complete.
+  - name: Minokawa
+    github_org: LFDT-Minokawa
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-19
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-19). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-06-11
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-06-11). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-09-10
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-09-10). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-12-10
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-12-10). After submitting your pull request, please mark this issue as complete.
