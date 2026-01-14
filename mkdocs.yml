@@ -131,7 +131,7 @@ nav:
     - Security Policy: governing-documents/security.md
     - Task Forces: governing-documents/task-force.md
   - Guidelines:
-    - ./guidelines/index.md
+    - guidelines/index.md
     - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
     - GitHub Contribution Guide: guidelines/github-contribution-guide.md
     - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
