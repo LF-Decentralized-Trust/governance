@@ -1,6 +1,6 @@
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# 2025 Q3 Lockness
+# 2025 Q4 Lockness
 
 # Project Health
 The project remains in a healthy, active state, highlighted by the release of a major CGGMP24 update that addresses disclosed vulnerabilities and proactively implements significant security enhancements. A key achievement this quarter was the removal of the default dependency on an AGPL library, which is now an opt-in feature for users requiring higher performance, thereby improving licensing flexibility. Additionally, the team is continuing its work on refactoring the fundamental `round-based` library to upgrade its API and feature set, alongside delivering various minor improvements across the ecosystem.
