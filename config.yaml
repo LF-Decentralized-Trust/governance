@@ -61,6 +61,11 @@ repositories:
       community: maintain
       tac: maintain
     visibility: public
+  - name: maintainer-days
+    teams:
+      community: maintain
+      tac: maintain
+    visibility: public
   - name: project-proposals
     teams:
       community: maintain
