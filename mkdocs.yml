@@ -220,7 +220,8 @@ nav:
     - 2026:
       - 2026 Schedule: project-updates/2026/2026-schedule.md
       - Annual:
-        - 2025 Annual Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
+        - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
+        - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Cacti.md
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
       - Q4:
