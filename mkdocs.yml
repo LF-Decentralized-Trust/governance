@@ -211,6 +211,10 @@ nav:
       - Election Timelines:
         - 2026: member-info/election-timeline.md
   - Project Updates:
+    - 2026:
+      - 2026 Schedule: project-updates/2026/2026-schedule.md
+      - Annual:
+        - 2026 Annual Cacti: project-updates/2026/2026-annual-Cacti.md
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
       - Q4:
