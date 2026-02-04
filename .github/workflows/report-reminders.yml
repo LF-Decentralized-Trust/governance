@@ -14,5 +14,5 @@ jobs:
       - name: Send due report reminders
         uses: hyperledger-tooling/github-issue-schedule@1.2
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.UPDATE_REMINDERS }}"
           CONFIG_FILE: ./.github/configs/project-report-reminders.yml
