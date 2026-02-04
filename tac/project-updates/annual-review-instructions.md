@@ -4,7 +4,7 @@
 Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `tac/project-updates/2024/2024-annual-lf-decentralized-trust-amazing.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate year and quarter. If the year or quarter does not yet exist, please add it to match what you see in the `Project Updates` section.
 
 # What Should the Annual Review Contain
-Unlike the quarterly updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current project lifecycle state. The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another stage.
+Unlike the quarterly updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current project lifecycle state. The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
 
 The annual review should answer the following questions:
 
@@ -15,7 +15,7 @@ The annual review should answer the following questions:
 - What is the Maintainer/Contributor diversity?
 
 # What Does the TAC Evaluate
-In general, the TAC will be looking at the health of the project overall and if it is in the correct lifecycle stage. The following is what the TAC will specifically look for:
+In general, the TAC will be looking at the health of the project overall and if it is in the correct lifecycle state. The following is what the TAC will specifically look for:
 
 - Whether all requirements specified in the [LF Decentralized Trust TAC governance documents](../governing-documents/index.md) were met.
 - Signs of consistent or increasing contribution activity.

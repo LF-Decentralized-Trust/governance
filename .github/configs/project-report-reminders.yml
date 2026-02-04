@@ -1,0 +1,308 @@
+buffer_window_days: 7
+projects:
+  - name: Besu
+    github_org: hyperledger
+    github_repo: besu
+    maintainers: []
+    schedules:
+      - date: 2026-02-26
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-02-26). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-21
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-21). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-20
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-20). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-19
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-19). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Fabric
+    github_org: hyperledger
+    github_repo: fabric
+    maintainers: []
+    schedules:
+      - date: 2026-01-22
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-01-22). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-04-23
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-04-23). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-07-23
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-07-23). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-10-22
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-10-22). After submitting your pull request, please mark this issue as complete.
+  - name: CREDEBL
+    github_org: credebl
+    github_repo: platform
+    maintainers: []
+    schedules:
+      - date: 2026-03-12
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-12). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-06-04
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-06-04). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-09-03
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-09-03). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-12-03
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-12-03). After submitting your pull request, please mark this issue as complete.
+  - name: Hiero
+    github_org: hiero-ledger
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-05
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-05). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-28
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-28). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-27
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-27). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-26
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-26). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Anoncreds
+    github_org: anoncreds
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-02-05
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-02-05). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-07
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-07). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-06
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-06). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-05
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-05). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Cacti
+    github_org: hyperledger-cacti
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-01-22
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-01-22). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-04-23
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-04-23). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-07-23
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-07-23). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-10-22
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-10-22). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Caliper
+    github_org: hyperledger-caliper
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-05
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-05). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-28
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-28). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-27
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-27). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-26
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-26). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Firefly
+    github_org: hyperledger
+    github_repo: firefly
+    maintainers: []
+    schedules:
+      - date: 2026-02-26
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-02-26). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-21
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-21). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-20
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-20). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-19
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-19). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Identus
+    github_org: hyperledger-identus
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-01-29
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-01-29). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-04-30
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-04-30). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-07-30
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-07-30). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-10-29
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-10-29). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Indy
+    github_org: hyperledger-indy
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-02-05
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-02-05). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-07
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-07). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-06
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-06). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-05
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-05). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Iroha
+    github_org: hyperledger-iroha
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-02-12
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-02-12). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-14
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-14). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-13
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-13). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-12
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-12). After submitting your pull request, please mark this issue as complete.
+  - name: Hyperledger Solang
+    github_org: hyperledger-solang
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-02-12
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-02-12). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-14
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-14). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-13
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-13). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-12
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-12). After submitting your pull request, please mark this issue as complete.
+  - name: Lockness
+    github_org: LFDT-Lockness
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-05
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-05). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-05-28
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-05-28). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-08-27
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-08-27). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-11-26
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-26). After submitting your pull request, please mark this issue as complete.
+  - name: Smoot
+    github_org: LFDT-Smoot
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-19
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-19). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-06-11
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-06-11). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-09-10
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-09-10). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-12-10
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-12-10). After submitting your pull request, please mark this issue as complete.
+  - name: Trust Over IP
+    github_org: trustoverip
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-12
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-12). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-06-04
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-06-04). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-09-03
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-09-03). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-12-03
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-12-03). After submitting your pull request, please mark this issue as complete.
+  - name: Web3j
+    github_org: LFDT-web3j
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-01-29
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-01-29). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-04-30
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-04-30). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-07-30
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-07-30). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-10-29
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-10-29). After submitting your pull request, please mark this issue as complete.
+  - name: Paladin
+    github_org: LFDT-paladin
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-19
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-19). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-06-11
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-06-11). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-09-10
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-09-10). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-12-10
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-12-10). After submitting your pull request, please mark this issue as complete.
+  - name: Minokawa
+    github_org: LFDT-Minokawa
+    github_repo: governance
+    maintainers: []
+    schedules:
+      - date: 2026-03-19
+        title: Reminder to submit the 2026 Q1 annual project report
+        description: Please submit the 2026 Q1 annual report (due 2026-03-19). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-06-11
+        title: Reminder to submit the 2026 Q2 quarterly project report
+        description: Please submit the 2026 Q2 quarterly report (due 2026-06-11). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-09-10
+        title: Reminder to submit the 2026 Q3 quarterly project report
+        description: Please submit the 2026 Q3 quarterly report (due 2026-09-10). After submitting your pull request, please mark this issue as complete.
+      - date: 2026-12-10
+        title: Reminder to submit the 2026 Q4 quarterly project report
+        description: Please submit the 2026 Q4 quarterly project report (due 2026-12-10). After submitting your pull request, please mark this issue as complete.

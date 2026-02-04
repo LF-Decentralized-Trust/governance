@@ -12,5 +12,6 @@ The TAC has created a number of guidelines for use by projects and their maintai
 - :fontawesome-solid-handshake-simple:{ .lg .middle} __[Project Best Practices](./project-best-practices.md)__
 - :octicons-checklist-16:{ .lg .middle } __[Project Incubation Entry Considerations](./project-incubation-entry-considerations.md)__
 - :fontawesome-solid-chain:{ .lg .middle } __[Supply Chain Levels for Software Artifacts Recommendations](./slsa-guidelines.md)__
+- :fontawesome-brands-github-alt:{ .lg .middle } __[GitHub Asynchronous Voting using GitVote](./github-gitvote.md)__
 </div>
 

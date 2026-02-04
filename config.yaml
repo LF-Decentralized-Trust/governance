@@ -27,7 +27,6 @@ teams:
     maintainers:
       - ryjones
     members:
-      - JFleenor
       - christinaharter
       - hartm
       - lanayanelson
@@ -39,20 +38,30 @@ teams:
       - ryjones
   - name: tac
     maintainers:
-      - tkuhrt
-    members:
       - EnriqueL8
+    members:
+      - OsamaRab3
       - VRamakrishna
       - arsulegai
-      - cjhowland
       - dmueller2001
       - hendrikebbers
+      - kkaur01
+      - kmillikin
       - matthew1001
       - mbrandenburger
-      - petermetz
-      - wenjing
+      - tock-ibm
 repositories:
+  - name: contribute
+    teams:
+      community: maintain
+      tac: maintain
+    visibility: public
   - name: governance
+    teams:
+      community: maintain
+      tac: maintain
+    visibility: public
+  - name: maintainer-days
     teams:
       community: maintain
       tac: maintain

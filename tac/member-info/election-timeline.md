@@ -69,12 +69,12 @@ To nominate yourself for the TAC, first [determine if you are eligible](https://
 
 ###### Voting period: 03 Nov 2025 - 14 Nov 2025 
 
-The individuals eligible to vote in the TAC election is defined in §4.a.ii of the LF Decentralized Trust Charter. The election will be created using https://vote.heliosvoting.org/. The vote will elect 6 people from the list of TAC nominees.
+The individuals eligible to vote in the TAC election is defined in §4.a.ii of the LF Decentralized Trust Charter. The election will be created using [https://vote.heliosvoting.org/](https://vote.heliosvoting.org/helios/e/lfdt-tac-2026). The vote will elect 6 people from the list of TAC nominees.
 
 ###### Election Timeline
 
 * 03 Nov 2025 - Formally announce the slate of candidates.
-* 03 Nov 2025 - Open the vote using https://vote.heliosvoting.org/. A GitHub notification will be sent to eligible voters with information about casting their ballot. GitHub IDs will be used for the voters.
+* 03 Nov 2025 - Open the vote using [https://vote.heliosvoting.org/](https://vote.heliosvoting.org/helios/e/lfdt-tac-2026). A GitHub notification will be sent to eligible voters with information about casting their ballot. GitHub IDs will be used for the voters.
 * 03 Nov 2025 - TAC will be notified via email that the vote is open.
 * 14 Nov 2025 - Election closes at 23:59 UTC
 * 15 Nov 2025 - The vote results will determine the 6 elected TAC members. These members will be removed from the appointment vote.
