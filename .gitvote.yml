@@ -1,0 +1,24 @@
+version: "1"
+
+# Define a profile for TAC votes
+audit:
+  enabled: true
+
+profiles:
+  tsc-project-update:
+    # 6 out of 11 is ~54.55%
+    pass_threshold: 55
+    # The team allowed to vote (ensure this matches your GitHub team slug)
+    allowed_voters:
+      - teams:
+          - tac
+    # Duration the vote stays open (optional, e.g., 1 week)
+    duration: 14d
+
+# Automatically trigger the vote based on file paths
+automation:
+  enabled: true
+  rules:
+    - patterns:
+        - "tac/project-updates/**"
+      profile: tsc-project-update
