@@ -5,7 +5,7 @@ audit:
   enabled: true
 
 profiles:
-  tac-project-update:
+  tacProjectUpdate:
     # 6 out of 11 is 54.55%
     pass_threshold: 55
     # Fixed: removed the dash before 'teams' to make it a struct
