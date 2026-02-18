@@ -132,17 +132,69 @@ The OpenSSF Scorecard is a relatively new tool, and while adjustments are needed
 
 ## Indy Annual Review 2026 Notes from the TAC
 
+The report is really well written and gives a clear overview of Indy's status at the end of 2025.
 
+A look through one of the main repos, `indy-node`, shows that the project is exercising good practices in terms of issue tagging (e.g. using `good-first-issue`, `help-wanted` and so on) to help with project development.
+
+Discussion is clearly very active on the project's Discord channels. This is clearly a project that is active and has a lot of live discussion.
+
+Contributor calls are very well run with a very clear agenda, for example https://lf-hyperledger.atlassian.net/wiki/spaces/indy/pages/527925249/2025-10-07+Indy+Contributors+Call from October 2025.
 
 ### Project Health
 
+LFX Insights gives the project an Excellent score (see https://insights.linuxfoundation.org/project/indy?timeRange=past365days&start=2025-02-18&end=2026-02-18) with a couple of warnings:
+
+ - 4 orgs provide the majority of contributors
+
+Compared to other LFDT projects this probably puts Indy in a slightly healthier position than other projects, so is not particularly concerning.
+
+ - 4 contributors account for the majority of commits
+  
+While not ideal, again this is somewhat on par with other LFDT projects and isn't seen as a concern by TAC reviewers.
+
 ### Progress and Releases
+
+As the previous annual report highlighted some of the focus has been on Indy Besu. As such there haven't been any new releases of Indy Node in 2025 but work on upgrading it to Ubuntu 22.04 has been active. 
+
+There has been active work on other repos, including at least 1 release in 2025. Particularly:
+
+ - `indy-besu`
+ - `indy-vdr`
+ - `indy-node-container`
 
 ### Goal Review
 
+There has been some clear progress on the goals set for 2025. Indy Besu particularly has had a lot of focus, with the 2 main goals completed.
+
+While the work to upgrade Indy Node hasn't closed out in 2025, it has been progressing and is due to close out in 2026.
+
+Work on the OpenSSF scorecard is the biggest area for attention on Indy. Scores of particular concern are:
+
+ - `Maintained` (0/10)
+ - `SAST` (0/10)
+ - `Signed Releases` (0/10)
+ - `Vulnerabilities` (0/10)
+ - `Branch protection` (?)
+
+The annual report has highlighted the fact that the scorecard is relatively new, but as a graduated project it is important to address these as a priority.
+
 ### Compliance with Hyperledger Project Lifecycle Criteria
+
+ - The project completed its move to the new `hyperledger-indy` org which is a big success given the amount of admin required to shift all of the repositories from the `hyperledger` org.
+ - The project has a security policy including a named security team, identified in `SECURITY.md` 
+ - Most repositories have all the requisite files as per the [repository structure](https://github.com/LF-Decentralized-Trust/governance/blob/d34f0806ffaab3f48ac728e5354da1f86dd780b2/tac/governing-documents/repository-structure.md) guidelines. There are a small number of areas to tidy up in this regard:
+   - Most repos have `SECURITY.md`, but since the file is duplicated across them it is liable to get out of date. It might be better to have most repos have a minimal `SECURITY.md` that links to the main `indy` repo (or perhaps the `governance` repo)
+   - Some repos are missing `SECURITY.md`, for example `indy-cli-rs`
+   - The project doesn't have a `NOTICES` file in any of the repos. This is a `SHOULD` recommendation of the repository structure guidelines.
+   - The project doesn't have an `ADOPTERS.md` file. This would be a useful addition to help the TSC and potential users understand the use-cases for Indy
 
 ### Recommendations
 
+It will be difficult for the TAC to agree for Indy to remain in `graduated` status after 2026 if there is not a noticeable improvement in the OpenSSF scorecard.
+
+Since the project is stable and still in active development, and the project maintainers assert in this report that they have a goal for 2026 to address the scorecard, it feels acceptable to leave the project in `graduated` status for 2026, with the following recommendations:
+
+ - That the scorecard goal for 2026 be one of their highest priority items
+ - That they acknowledge the possiblity of been moved out of `graduated` at the end of 2026 if this has not been sufficiently improved.
 
 ### Decision
