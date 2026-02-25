@@ -4,17 +4,27 @@
 
 ## Project Health
 
-
+[ TODO:: Add summary from Insights/GH Insights and other analytics ]
+[ TODO:: Add a summary on how hiero-ledger compared with the previous year and recently created projects ]
+[ TODO:: Add a summary of HIPs performance ]
+[ TODO:: Add a summary of overall events and community awareness work ]
 
 ## Maintainer Diversity
 
+[ TODO:: Add statistics ]
+[ TODO:: Add current initiatives and work being done in the GFI front ]
+[ TODO:: Add information on current challenges ]
 
 ## Project Adoption
 
+[ TODO:: Add information on current TSC group and plans for future elections ]
+[ TODO:: Add information on real world cases from recent news ]
 
 ## Goals
 
 ### Performance Against Prior Goals
+
+[ TODO:: Add a summary of what we have achieved last year and how last years goals compare to this years ]
 
 
 ### 2026 Year's Goals
