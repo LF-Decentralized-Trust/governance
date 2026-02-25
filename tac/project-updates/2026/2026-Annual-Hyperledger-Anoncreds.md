@@ -10,9 +10,9 @@ Development activity in 2025 continued at a maintenance mode level with AnonCred
 
 The transition of the AnonCreds repos from the Hyperledger GitHub organization to a new "anoncreds" GitHub organization has been completed, with [all repositories](https://github.com/orgs/anoncreds/repositories?type=all) in their new home. [Three remaining repositories](https://github.com/orgs/hyperledger/repositories?q=AnonCreds) in the Hyperledger GitHub organization provide for the automatic redirection of specs and docs published via GH-Pages. After the move, artifact generation (e.g. to PyPi, NPM, GHCR, etc.) was confirmed and as appropriate, new releases generated.
 
-Little progress has been made on AnonCreds v2 due to the slow overall progress of ZK-based verifiable credentials/tweaks and the corresponding lack of interest in . In a repeat of information from last year's report, the broader landscape of ZKP-based verifiable credentials remains fragmented, with various groups pursuing their own solutions. The rush to get something out and distracted from getting something privacy-preserving. Different groups appear and highlight the need for ZK-based Credentials in all parts of the world -- but then they continue their local focus, often with under-funded efforts. Progress is being made (see Google's [Longfellow-ZK], [IETF CFRG BBS Work], and [ZK proposals in the EU], amongst others), but the work is not merging into a united effort. Worse, none of the ZK solutions include a ZK-based revocation scheme. AnonCreds v1 and AnonCreds v2 (based on [BBS Signatures] or [PS Signatures]) remain the only complete solutions. Key projects were keeping an eye on in the space include:
+Little progress has been made on AnonCreds v2 due to the slow overall progress of ZK-based verifiable credentials/tweaks and the corresponding lack of interest from organizations wanting to contribute. In a repeat of information from last year's report, the broader landscape of ZKP-based verifiable credentials remains fragmented, with various groups pursuing their own solutions. The rush to get something out and distracted from getting something privacy-preserving. Different groups appear and highlight the need for ZK-based Credentials in all parts of the world -- but then they continue their local focus, often with under-funded efforts. Progress is being made (see Google's [Longfellow-ZK], [IETF CFRG BBS Work], and [ZK proposals in the EU], amongst others), but the work is not merging into a united effort. Worse, none of the ZK solutions include a ZK-based revocation scheme. AnonCreds v1 and AnonCreds v2 (based on [BBS Signatures] or [PS Signatures]) remain the only complete solutions. Key projects were keeping an eye on in the space include:
 
-- Google's [Longfellow-ZK] project
+- Google's [Longfellow-ZK] project ([Longfellow-ZK analysis])
 - Efforts to get the IETF [CFRG] to approve [BBS Signatures], [BBS Blind Secrets] and [BBS Per Verifier Linkability]
 - [ZK Efforts in the EU] to meet the regulatory requirements for the EUDI Wallet and infrastructure
 
@@ -21,6 +21,8 @@ Little progress has been made on AnonCreds v2 due to the slow overall progress o
 [BBS Blind Signatures]: https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-blind-signatures/
 [BBS Per Verifier Linkability]: https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-per-verifier-linkability/
 [ZK Efforts in the EU]: https://hpi.de/lehmann/eudi.html
+[Longfellow-ZK]: https://eprint.iacr.org/2024/2010
+[Longfellow-ZK analysis]: https://news.dyne.org/longfellow-zero-knowledge-google-zk/
 
 A consideration going into last year was trying to rebrand AnonCreds v2 and while that would still be a good path, there were enough naysayers in the ZK-based verifiable credentials community that we did not put effort into that approach.
 
