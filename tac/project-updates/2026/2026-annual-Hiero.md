@@ -19,6 +19,8 @@
 
 ### 2026 Year's Goals
 
+[ TODO:: Add more information on current goal progress ]
+
 The Hiero TSC and community is commited to focus on the following 2026 goals:
 
 |                           Scope                           |                                                                                                                                                                                  Purpose                                                                                                                                                                                 | Progress |
@@ -37,6 +39,13 @@ Everyone is encouraged to provide your comments in the GH discussion's comments 
 
 ### Help Required
 
+[ TODO:: Expand on the following ideas for support that could help communties like Hiero ]
+
+- Raise awarness on the importance for communtiy maintainers to stay connected with the community collaborating in their project. This includes tracking community calls, project perception and quick response and turnaround to PR requests.
 
 
 ## Project Lifecycle Status Recommendation
+
+The Hiero project requests to keep the current Graduated state.
+
+[ TODO:: Expand on why are we requesting to keep Graduated status ]
