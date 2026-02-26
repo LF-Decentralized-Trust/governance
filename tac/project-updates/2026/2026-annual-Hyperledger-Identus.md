@@ -33,7 +33,7 @@ Adoption momentum is reinforced by offline-first SDK work, issuance support now 
 
 ### Performance Against Prior Goals
 
-Roadmap board: [Identus Roadmap](https://github.com/orgs/hyperledger/projects/48)
+Roadmap board: [Identus Roadmap](https://github.com/orgs/hyperledger-identus/projects/2)
 
 Key outcomes delivered in 2025:
 - Shipped platform releases **v2.15** and **v2.16**, bringing issuance to SDK-TS/Swift, offline-first improvements, and an Ed25519 fix for revocation lists.
