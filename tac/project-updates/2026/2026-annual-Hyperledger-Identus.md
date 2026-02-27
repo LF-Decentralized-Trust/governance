@@ -8,9 +8,11 @@ Following its transition to the Hyperledger Identus GitHub organization, the pro
 
 Overall contribution volume remains strong, with roughly 4,800–5,000 contribution events annually (including commits, pull requests, issues, and reviews), averaging around 400 activity events per month. The project maintains healthy delivery cycles, with a median merge lead time of about 6 days and an average issue resolution time of approximately 39 days.
 
-Contribution patterns remain concentrated, however: the top three individual contributors account for roughly 55% of total activity, and two organizations contribute about 62% of all contributions. Improving reviewer capacity and broadening organizational participation therefore remain important focus areas for long-term sustainability.
+At the same time, there has been a 50% decrease in commits and a 58.2% decrease in PRs compared to the previous [year](https://insights.linuxfoundation.org/project/open-enterprise-agent/development?timeRange=past365days&start=2025-01-01&end=2026-01-01). This indicator is related to the restructuring of the Atala Tribe at the end of 2024 and its transformation into the Identus Team, and to the fact that part of the focus shifted to integrating the Identus Platform into the Lace Wallet (the Lace Wallet repositories are not listed under the LFDT umbrella).
 
-Security/compliance: the team kicked off **OpenSSF Best Practices** and **Scorecard** work; status is tracked at [ssf.identus.work](https://ssf.identus.work/).
+Contribution patterns remain concentrated, however: the top three individual contributors account for roughly 55% of total activity, and two organizations contribute about 62% of all contributions. Improving reviewer capacity and broadening organizational participation, therefore, remain important focus areas for long-term sustainability.
+
+Security/compliance: the team kicked off work on the **OpenSSF Best Practices** and **Scorecard**; status is tracked at [ssf.identus.work](https://ssf.identus.work/).
 
 Infrastructure: ongoing optimizations are in flight. **Neoprism** is being positioned to replace `prism-node` and the default Cardano infrastructure; it is more efficient and configurable (see [repo](https://github.com/hyperledger-identus/neoprism) and [docs](https://hyperledger-identus.github.io/neoprism/)).
 
