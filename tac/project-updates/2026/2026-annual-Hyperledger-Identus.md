@@ -14,7 +14,7 @@ Security/compliance: the team kicked off **OpenSSF Best Practices** and **Scorec
 
 Infrastructure: ongoing optimizations are in flight. **Neoprism** is being positioned to replace `prism-node` and the default Cardano infrastructure; it is more efficient and configurable (see [repo](https://github.com/hyperledger-identus/neoprism) and [docs](https://hyperledger-identus.github.io/neoprism/)).
 
-Community engagement is healthy across the LFDT Discord, weekly maintainer calls, and GitHub discussions. Workshops such as RareEvo 2025 (offline-first + Lace wallet demo) and ongoing roadmap discussions continue to attract external participation. Repository migration is complete, improving transparency and aligning metrics.
+Community engagement is healthy across the LFDT Discord, weekly maintainer calls, and GitHub discussions. Workshops such as RareEvo 2025 (offline-first + Lace wallet demo) and ongoing roadmap discussions continue to attract external participation. Repository migration is complete, improving transparency and aligning metrics. The [video](https://www.youtube.com/watch?v=vlBsXzNqvDc) of the workshop is publicly available on YouTube.
 
 ## Maintainer Diversity
 
