@@ -79,13 +79,16 @@ Everyone is encouraged to provide your comments in the GH discussion's comments 
 
 ### Help Required
 
-[ TODO:: Expand on the following ideas for support that could help communties like Hiero ]
+While the Hiero community continues expands its initiatives to foster and aquire new talent, it remains a challenge overall to progress on this goal.
 
-- Raise awarness on the importance for communtiy maintainers to stay connected with the community collaborating in their project. This includes tracking community calls, project perception and quick response and turnaround to PR requests.
+As a community, we would like to continue to raise awarness on the importance for maintainers and contributors to stay connected with the community participating in their project. This includes tracking community calls, project perception and quick response and turnaround to PR requests. Internally, we want to also encourage Technical Steering Committee members to stay engaged with as many areas of the project as possible and to continue to provide their expert guidance to drive the project in the right direction.
 
+Overall, we would like the Technical Advisory Council to continue supporting and encourage these practices not only in Hiero, but in all LF Decentralized Trust projects.
 
 ## Project Lifecycle Status Recommendation
 
 The Hiero project requests to keep the current Graduated state.
 
-[ TODO:: Expand on why are we requesting to keep Graduated status ]
+Hiero has demonstrated sustained growth in adoption, contributor engagement, and technical maturity which reflect the expectations of a Graduated LF Decentralized Trust project. The community continues to expand in both scalability and diversity supported by new structured onboarding pathways, mentorship/certification initiatives, and a clear progression model that enables contributors to evolve into confident maintainers.
+
+In addition, Hiero has established a solid set of 2026 goals focused on strengthening contributor retention, expanding project visibility, introducing certification and training opportunities, and enhancing the project’s overall security posture and release reliability (among others). These commitments are designed to continue reinforcing the project’s health and strategic direction.
