@@ -4,10 +4,40 @@
 
 ## Project Health
 
-[ TODO:: Add summary from Insights/GH Insights and other analytics ]
-[ TODO:: Add a summary on how hiero-ledger compared with the previous year and recently created projects ]
-[ TODO:: Add a summary of HIPs performance ]
-[ TODO:: Add a summary of overall events and community awareness work ]
+2025 was a very exciting year for the Hiero project. Not only the project achieved graduated status in time for it's 1st year anniversary, but it also continues to grow considerablyin terms of projects adopted, contributions, community meetings and overall media/event exposure.
+
+### GH Organization Overview
+
+Today, Hiero includes [42 active repositories](https://github.com/orgs/hiero-ledger/repositories) supported by contributions from nearly [500 authors](https://insights.linuxfoundation.org/project/hiero/contributors?widget=contributor-dependency) and continues to gain strong momentum and [popularity](https://insights.linuxfoundation.org/project/hiero/popularity) across the open-source community. The project's performance is also recognized by its strong CI processes which only [registered](https://github.com/orgs/hiero-ledger/actions/metrics/performance?dateRangeType=DATE_RANGE_TYPE_LAST_YEAR&tab=repositories) 8% of job failures and an avarage queue job time of less than 5 minutes. 
+
+### Community Calls
+
+As Hiero’s community continues to grow, so does the variety of collaborative [project calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week). The project has expanded its community meetings to reflect the many dimensions of its development and initiatives. Among the most recent efforts is the continued work in Good First Issues, designed to ease the barrier of entry for new contributors and create a clear pathway for learning and carreer growth. SDK teams are actively refining contribution guidelines and onboarding documentation to provide a more structured and supportive learning journey for developers interested in collaborating in the project.
+
+In addition, Hiero has launched a dedicated marketing community call, bringing contributors together to collaborate on documentation improvements, website enhancements, brand visibility, and event engagement. Maintainers have also introduced a new monthly sync designed to enhance overal goal alignment and provide a space to share ongoing initiatives, adopt best practices and share project effort ideas. Additionally, we have introduced a mentorship call, where maintainers and aspiring mentors coordinate opportunities to support mentees and expand participation across the community in an effort to aquire new talent.
+
+Alongside its established project calls, Hiero offers a diverse and growing set of opportunities for contributors at every stage to get involved, learn, and be part of the project’s future.
+
+### Project composition
+
+Hiero is actively looking for oportunities to expand and optimize its technology via [project adoption](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22project%20proposal%22).
+
+In recent months, Hiero has stand out for welcomming the following projects into the ecosystem. Some notable examples include:
+- [Heka Identity Platform](https://github.com/hiero-ledger/tsc/issues/281) - a ready-to-use decentralized identity (aka Self-Sovereign Identity or SSI) solution for the Hiero ecosystem. 
+- [Hiero Ethereum Client Spec](https://github.com/hiero-ledger/tsc/issues/249) - a comprehensive Python-based framework and collection of test cases designed to generate standardized test vectors for Ethereum execution clients.
+- [Hiero Identity Standards](https://github.com/hiero-ledger/tsc/issues/229) - a dedicated home for identity-related standards under Hiero governance. Its purpose is to host, version, and maintain specifications that define how decentralized identity standards are implemented on Hiero networks.
+- [Hiero CLI](https://github.com/hiero-ledger/tsc/issues/191) - a command-line interface designed to simplify, automate, and accelerate development workflows on Hedera and Hiero networks.
+- [Hiero Hederium](https://github.com/hiero-ledger/tsc/issues/143) - a Golang implementation of the existing hiero-json-rpc-relay that complies with the Ethereum JSON-RPC Standard.
+- [Hiero Consensus Specifications](https://github.com/hiero-ledger/tsc/issues/261) - a canonical repository for Hashgraph Consensus Standards (HCS), which define application-layer metaprotocol specifications built on the Hiero Consensus Service.
+
+It is also important to highlight that at the most recent [Hedera DevDay](https://hiero.org/blog/hedera-devday-2026-was-a-success/), the team unveiled several ambitious “moonshot initiatives” that are now being actively developed in the open under LF Decentralized Trust within the hiero-ledger GitHub organization. These forward-looking efforts signal a meaningful evolution in the project’s trajectory, representing a transformative step toward shaping Hiero’s future through transparent, community-driven innovation. 
+
+### Improvement Proposals Adopted
+
+A total of [15 Improvement Proposals](https://github.com/orgs/hiero-ledger/projects/31/views/1?filterQuery=reviewed-by-tsc-on%3A%3E%40today-1y) were reviewed and approved by Hiero's Technical Steering Committee. 
+
+<img width="1031" height="635" alt="image" src="https://github.com/user-attachments/assets/0a9a21b5-6d1b-427e-b443-b3e806615b70" />
+
 
 ## Maintainer Diversity
 
