@@ -47,8 +47,9 @@ A total of [15 Improvement Proposals](https://github.com/orgs/hiero-ledger/proje
 
 ## Project Adoption
 
-[ TODO:: Add information on current TSC group and plans for future elections ]
-[ TODO:: Add information on real world cases from recent news ]
+Hiero remains committed to strengthening organizational diversity within its [governance leadership](https://github.com/hiero-ledger/tsc/?tab=readme-ov-file#members). The upcoming 2026 elections present an important opportunity to broaden representation by welcoming the participation from additional organizations and reinforcing the project’s commitment to build an inclusive, vendor-neutral, and community-driven governance.
+
+[ TODO:: Add organization dependency content ]
 
 ## Goals
 
@@ -58,8 +59,6 @@ A total of [15 Improvement Proposals](https://github.com/orgs/hiero-ledger/proje
 
 
 ### 2026 Year's Goals
-
-[ TODO:: Add more information on current goal progress ]
 
 The Hiero TSC and community is commited to focus on the following 2026 goals:
 
