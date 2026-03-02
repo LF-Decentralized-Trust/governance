@@ -55,8 +55,13 @@ Hiero remains committed to strengthening organizational diversity within its [go
 
 ### Performance Against Prior Goals
 
-[ TODO:: Add a summary of what we have achieved last year and how last years goals compare to this years ]
+The year 2025 marked a big milestone for the Hiero project, as the community focused on delivering its first open source release and advancing the project toward technical and governance maturity in the TAC. The priorities during that year were centered on establishing a strong baseline for the project as well as successfully transfering the project into an open source state. At the same time, significant emphasis was placed on promoting the project within the broader open source community and establishing a strong, credible introductory presence. The goal was not only to launch Hiero technically, but also to ensure it was visible and well recognized as a strong initiative.
 
+In contrast, the goals for 2026 reflect a natural progression from launch to continued momentum. With the foundational work now in place, the project is focused on accelerating growth, expanding adoption, and building upon the stability achieved in the previous year 2025 to continue to drive long term impact and growth.
+
+From those goals, is worth presenting the following comparison:
+
+| Goal | 2025 Result | 2026 Work in Progress |
 
 ### 2026 Year's Goals
 
