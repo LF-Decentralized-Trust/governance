@@ -90,17 +90,17 @@ The Hiero TSC and community is committed to focus on the following 2026 goals:
 | 7. Innovation & Future-Readiness                          | Ensure Hiero remains at the forefront of emerging technologies. The intent is to position the project for future readiness by validating new concepts through research, prototypes, and cross-project collaboration.                                                                                                                                                     | With the introduction of the latest project initiatives during [Hedera DevDay](https://hiero.org/blog/hedera-devday-2026-was-a-success/), maintainers are working on promoting participation as this work is being developed in the open.                                                                                                                              |
 | 8. Cross-Project Collaboration Targets                    | Strengthen alignment and technical collaboration across the broader LFDT ecosystem and key partnering projects. Create meaningful integrations and workshops that reinforce interoperability and shared visionary innovation.                                                                                                                                            | We welcome the participation of new collaborators from different industries and we are committed to continue strengthening our connections outside of the project to create opportunities for collaboration. The team is working on more project exposure as well as workshop initiatives that can help create more project awareness.                                 |
 
+While the Hiero community continues to expand its initiatives to foster and acquire new talent, it remains a challenge overall to progress on this goal.
+
+As a community, we would like to continue to raise awareness on the importance for maintainers and contributors to stay connected with the community participating in their project. This includes tracking community calls, project perception and quick response and turnaround to PR requests. Internally, we want to also encourage Technical Steering Committee members to stay engaged with as many areas of the project as possible and to continue to provide their expert guidance to drive the project in the right direction.
+
+Overall, this is an importan goal to keep in mind for 2026 as it becomes the foundation for other goals to produce great results.
 
 To view the complete list of Actions, Measures and Responsible parties for these goals, please follow our [GH Discussion](https://github.com/hiero-ledger/tsc/discussions/285).
 Everyone is encouraged to provide your comments in the GH discussion's comments section.
 
 ### Help Required
 
-While the Hiero community continues to expand its initiatives to foster and acquire new talent, it remains a challenge overall to progress on this goal.
-
-As a community, we would like to continue to raise awareness on the importance for maintainers and contributors to stay connected with the community participating in their project. This includes tracking community calls, project perception and quick response and turnaround to PR requests. Internally, we want to also encourage Technical Steering Committee members to stay engaged with as many areas of the project as possible and to continue to provide their expert guidance to drive the project in the right direction.
-
-Overall, we would like the Technical Advisory Council to continue supporting and encouraging these practices not only in Hiero, but in all LF Decentralized Trust projects.
 
 ## Project Lifecycle Status Recommendation
 
