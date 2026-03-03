@@ -41,7 +41,11 @@ A total of [15 Improvement Proposals](https://github.com/orgs/hiero-ledger/proje
 
 ## Maintainer Diversity
 
-[ TODO:: Add statistics ]
+The Hiero project has welcomed new project proposals into the organization. However, maintainer diversity has not seen a considerable change compared to the previous year.
+
+<img width="1193" height="367" alt="image" src="https://github.com/user-attachments/assets/a8a3a35b-d5b2-4a13-af99-9ea8334d1b18" />
+
+Instead, there is a slight diference in the positive side. However, in terms of work in progress to work on diverity, there is a great ammount of work being done by the existing maintainers which is described below.
 
 Maintainers across the SDKs are working on a Good First Issue Initiative to build a developer growth path to build maintainers. These efforts are currently in progress in the [public meetings](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) for Hiero SDKs, Community Management and Good First Issue calls. Currently, these are the following results noticed and challenges faced in this initiative:
 
