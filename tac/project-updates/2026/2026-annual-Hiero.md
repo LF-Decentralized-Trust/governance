@@ -101,6 +101,11 @@ Everyone is encouraged to provide your comments in the GH discussion's comments 
 
 ### Help Required
 
+While we are working on post graduation goals at this point in time in Hiero, we would like to focus on both mentorship oportunities and cross project collaboration.
+
+On the mentorship side, our maintainers are working closely to participate in [several ideas](https://github.com/hiero-ledger/governance/wiki/Mentorship20250302) which will be presented as a project proposal soon.
+
+Regarding cross project collaboration, we would like to ask the TAC to help enable opportunities for cross project collaboration between Hiero and other ecosystem projects.
 
 ## Project Lifecycle Status Recommendation
 
