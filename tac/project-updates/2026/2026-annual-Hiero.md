@@ -57,9 +57,7 @@ Maintainers across the SDKs are working on a Good First Issue Initiative to buil
 
 ## Project Adoption
 
-Hiero remains committed to strengthening organizational diversity within its [governance leadership](https://github.com/hiero-ledger/tsc/?tab=readme-ov-file#members). The upcoming 2026 elections present an important opportunity to broaden representation by welcoming the participation from additional organizations and reinforcing the project’s commitment to build an inclusive, vendor-neutral, and community-driven governance.
-
-[ TODO:: Add organization dependency content ]
+Hiero remains committed to strengthening [organizational diversity](https://insights.linuxfoundation.org/project/hiero/contributors?widget=organization-dependency) within its [governance leadership](https://github.com/hiero-ledger/tsc/?tab=readme-ov-file#members). The upcoming 2026 elections present an important opportunity to broaden representation by welcoming the participation from additional organizations and reinforcing the project’s commitment to build an inclusive, vendor-neutral, and community-driven governance.
 
 ## Goals
 
