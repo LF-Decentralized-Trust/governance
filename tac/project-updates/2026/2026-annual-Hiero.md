@@ -42,8 +42,14 @@ A total of [15 Improvement Proposals](https://github.com/orgs/hiero-ledger/proje
 ## Maintainer Diversity
 
 [ TODO:: Add statistics ]
-[ TODO:: Add current initiatives and work being done in the GFI front ]
-[ TODO:: Add information on current challenges ]
+
+Maintainers across the SDKs are working on a Good First Issue Initiative to build a developer growth path to build maintainers. These efforts are currently in progress in the [public meetings](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) for Hiero SDKs, Community Management and Good First Issue calls. Currently, these are the following results noticed and challenges faced in this initiative:
+
+- New [guidelines](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/good-first-issues.md) are being implemented in the project which help build the fundation for a well structured initiative.
+- A new role, [Junior Committer](https://github.com/hiero-ledger/governance/blob/main/roles/roles-and-groups.md#junior-committers), has been formally adopted in the community. This role will allow triage permissions to its members to allow them to manage issues more efficiently.
+- The list of organization wide [good first issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) are being processed at a high speed. While this is a great achievent for the project, it also becomes a bottleneck since the community is always in need for beginner friendly issues that the community can use to jump start new contributors.
+- The team behind this initiative is in need of more support to be able to replicate this work across more SDKs and, eventually, all core components of the project.
+- While we have seen a great number of new contributors joining this effort in some SDKs, for example the [Pyton SDK](https://github.com/hiero-ledger/hiero-sdk-python/graphs/community), the community is focusing on ways to continue this momentum and recruit the participation of current maintainers across other projects to do the same.
 
 ## Project Adoption
 
