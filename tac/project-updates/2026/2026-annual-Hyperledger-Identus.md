@@ -65,3 +65,49 @@ No TAC help requested at this time; the team is already coordinating directly wi
 ## Project Lifecycle Status Recommendation
 
 Identus remains an incubating project in the LF Decentralized Trust ecosystem and should stay in **Incubation** while maintainer diversity and OpenSSF compliance mature.
+
+---
+
+## Identus Annual Review 2026 Notes from the TAC
+
+__TAC Reviewers__: Enrique Lacal (primary), VRamakrishna (secondary)
+
+### Project Health
+
+- Pleased to see the project's completed transition to the Hyperledger Identus GitHub organization. This move improves transparency, enables proper LFX Insights tracking, and aligns the project more clearly within the LFDT ecosystem. All of which were recommendations from the 2025 TAC review.
+- The project continues to demonstrate consistent development activity with 37 active contributors, approximately 51% quarterly contributor retention, and development recorded on 313 of the last 365 days. Median merge lead time of around 6 days and an average issue resolution time of approximately 39 days reflect a well-maintained codebase.
+- A notable concern is the 50% decrease in commits and 58.2% decrease in PRs compared to the prior year. The maintainers have attributed this to two factors: a reduction in the size of the maintainer team following the Atala Team restructuring at the end of 2024, and a portion of the team's focus shifting to work in repositories outside the LFDT umbrella. While the explanation is reasonable, this trend should be closely monitored over the next review cycle.
+- Contribution remains concentrated: the top three individual contributors account for roughly 55% of total activity, and two organizations account for approximately 62% of all contributions. Broadening organizational participation remains an important area of focus for long-term project sustainability.
+- It is encouraging to see that the team has done a lot of work on **OpenSSF Best Practices** and **Scorecard** compliance, tracking progress at [ssf.identus.work](https://ssf.identus.work/). This was a recommendation from the 2025 TAC review and the project has made a great effort.
+- The advancement of **Neoprism** as a more efficient and configurable successor to `prism-node` is a positive infrastructure development that should reduce operational complexity going forward.
+
+### Progress and Releases
+
+Overall, the project has made good progress against its 2025 goals. Mapping deliverables against each original strategic goal:
+
+- **Reduce maintenance cost and complexity**: The advancement of **Neoprism** as a more efficient successor to `prism-node` is the primary vehicle here. The project self-assesses approximately 80% completion on this strategic goal, which is reasonable given the ongoing Cardano VDR milestones.
+- **Increase platform adoption**: **Platform releases v2.15 and v2.16** delivered issuance capabilities to SDK-TS and SDK-Swift, and **SDK-KMP** is approaching feature parity. The **Cardano VDR** (via the VDR Catalyst Project) was completed, introducing the VDR driver and API to the platform. The **DID Prism AnonCreds** method for schema and credential-definition resolution was also added.
+- **Improve platform interoperability**: The **Cardano VDR** work directly addresses this goal. However, **OID4VCI/OID4VP/SIOP 2.0** and **Authentication using the PRISM DID method** were not delivered and have been carried into 2026. The **Pollux Plugin** abstraction was similarly not completed. These are the most significant outstanding items from the 2025 plan and should remain a priority.
+- **Improve documentation and tutorials**: Documentation was refreshed with an updated Quick Start guide and tutorials, and a community workshop (RareEvo 2025) was run. This goal is largely met, with ongoing improvements expected.
+
+The carryovers (OID4VCI/OID4VP/SIOP 2.0, Authentication with PRISM DID, Pollux Plugin) are noted without major concern given the overall scope of work undertaken.
+
+#### View on 2026 Goals
+
+We view the 2026 goals positively overall. The direction is right with large pieces via Neoprism, broader SDK parity, interoperability improvements, and a graduation application as something to look to. Making sure the above concerns on maintainer diversity and project health are met before the graduation application will be key.
+
+That said, the 2026 goal list carries a significant amount of work that was originally planned for 2025 (OID4VCI/OID4VP/SIOP 2.0, Authentication with PRISM DID, Pollux Plugin). Combined with an already ambitious set of new goals (VCDM 2.0, mDoc, OpenBadges 3.0, React Native enablement, OpenSSF completion, and a graduation application), the scope is substantial. We encourages the project to be deliberate about prioritization and to set realistic expectations with the community about what will be delivered versus what may slip. A graduation application in Q3 2026 is a welcomed goal, but it will require the compliance items particularly maintainer diversity and following the project lifecycle documents to include things such as the ADOPTERS.md.
+
+### Compliance with Hyperledger Project Lifecycle Criteria
+
+- **OpenSSF Best Practices and Scorecard badges**: great work has been done and just needs the badges added to the main repository following the guidance in the [repository structure](https://github.com/LF-Decentralized-Trust/governance/blob/main/tac/governing-documents/repository-structure.md#required-content-in-home-page) and [project lifecycle](https://github.com/LF-Decentralized-Trust/governance/blob/main/tac/governing-documents/project-lifecycle.md#links) governing documents. 
+- **MAINTAINERS.md**: current and up to date.
+- **ADOPTERS.md**: not yet created. This was raised during the PR review and the maintainers have committed to creating it. It should be added to the main Identus repository.
+- **Roadmap**: a public GitHub Projects board exists and provides a clear view of the project's priorities and progress.
+
+### Recommendations
+
+- **Create an ADOPTERS.md file** in the main Identus repository, as discussed in the PR. This improves transparency and is a governance best practice.
+- **Monitor the commit and PR trend** over the next two quarters. If the downward trend does not stabilize or reverse, the project should actively work to diversify its contributor base to ensure long-term sustainability.
+- **Grow the maintainer and reviewer pool** by setting a concrete goal to increase the number of active reviewers from organizations beyond the current primary contributors.
+- Given all of the above, the project should **remain in Incubation** status. 
