@@ -4,3 +4,5 @@
 
 - 2026:
   - [2026 Schedule](2026-schedule.md)
+  - Annual:
+     - [2026 Annual Hyperledger Fabric](2026-annual-Hyperledger-Fabric.md)
