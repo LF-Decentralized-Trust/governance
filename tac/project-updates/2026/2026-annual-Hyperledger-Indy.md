@@ -102,11 +102,7 @@ Beyond the "Read Replica" work referenced earlier in this report, little progres
 
 Here is a list of goals we intend to work towards during the coming year to help maintain and enhance the Hyperledger Indy project:
 
-1. Complete the Indy-node upgrade to Ubuntu 22.04
-2. Ensure developer onboarding is a smooth process to attract new developers to the project
-3. Research companies using Indy in testing or production and invite them to contribute to Indy
-4. Begin work on the Indy-node upgrade to Ubuntu 24.04
-5. Increase OpenSSF Scorecard rating
+1. Meet all the OpenSSF scorecard requirements for graduated projects
     a. Ensure that individual releases are signed
     b. Implement token permissions model
     c. Introduce tooling for pinned dependencies (use dependabot report tooling), fuzzing, and SAST
@@ -114,6 +110,10 @@ Here is a list of goals we intend to work towards during the coming year to help
     e. Add code quality checking for project commits
     f. Reformat code base
     g. Add poetry package management
+2. Complete the Indy-node upgrade to Ubuntu 22.04
+3. Ensure developer onboarding is a smooth process to attract new developers to the project
+4. Research companies using Indy in testing or production and invite them to contribute to Indy
+5. Begin work on the Indy-node upgrade to Ubuntu 24.04
 6. Update the Python version and related dependencies.
 
 ### Help Required
