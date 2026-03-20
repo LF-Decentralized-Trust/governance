@@ -214,6 +214,11 @@ nav:
       - Election Timelines:
         - 2026: member-info/election-timeline.md
   - Project Updates:
+    - 2026:
+      - 2026 Schedule: project-updates/2026/2026-schedule.md
+      - Q1 (Annual):
+        - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
+        - 2026 Annual Hyperledger FireFly: project-updates/2026/2026-annual-Hyperledger-FireFly.md
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
       - Q4:
