@@ -118,7 +118,9 @@ During the last year, the project has achieved the following goals:
 ### Next Year's Goals
 - Update project roadmap;
 - Continue to provide maintenance, resolve issues, and release at least once a month;
-- Prague/Electra Upgrade and Future Ethereum Forks;
+- Continue enhancement of support for Prague/Electra Upgrade;
+- Fusaka Upgrade;
+- Glamsterdam Upgrade;
 - Web3j-unit and Web3j-evm updates;
 - Improve the process for generation of Kotlin wrappers for Solidity Smart contracts;
 
