@@ -27,22 +27,22 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - content.code.copy
-    - content.action.view
-    - navigation.expand
-    - navigation.footer
-    - navigation.indexes
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.path
-    - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.suggest
-    - toc.follow
+  - content.code.copy
+  - content.action.view
+  - navigation.expand
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant
+  - navigation.instant.prefetch
+  - navigation.path
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.suggest
+  - toc.follow
 markdown_extensions:
   - abbr
   - admonition
@@ -111,214 +111,213 @@ extra:
 nav:
   - Home: index.md
   - Governing Documents:
-      - governing-documents/index.md
-      - Charter: governing-documents/charter.md
-      - Antitrust Policy Notice: governing-documents/antitrust.md
-      - Code of Conduct: governing-documents/code-of-conduct.md
-      - Allowed Third Party Licenses: governing-documents/allowed-third-party-licenses.md
-      - Common Repository Structure: governing-documents/repository-structure.md
-      - Defining Adopters: governing-documents/defining-adopters.md
-      - MAINTAINERS File Requirements: governing-documents/MAINTAINERS-file.md
-      - Inactivity Policies: governing-documents/inactivity.md
-      - Project Lifecycle: governing-documents/project-lifecycle.md
-      - Project Incubation Exit Criteria: governing-documents/project-incubation-exit.md
-      - Project Annual Review: governing-documents/project-annual-review.md
-      - Project Annual Review Instructions: project-updates/annual-review-instructions.md
-      - Project Updates: governing-documents/project-updates.md
-      - Project Updates Instructions: project-updates/quarterly-update-instructions.md
-      - Release Signing: governing-documents/release-signing.md
-      - Release Taxonomy: governing-documents/release-taxonomy.md
-      - Security Policy: governing-documents/security.md
-      - Task Forces: governing-documents/task-force.md
+    - governing-documents/index.md
+    - Charter: governing-documents/charter.md
+    - Antitrust Policy Notice: governing-documents/antitrust.md
+    - Code of Conduct: governing-documents/code-of-conduct.md
+    - Allowed Third Party Licenses: governing-documents/allowed-third-party-licenses.md
+    - Common Repository Structure: governing-documents/repository-structure.md
+    - Defining Adopters: governing-documents/defining-adopters.md
+    - MAINTAINERS File Requirements: governing-documents/MAINTAINERS-file.md
+    - Inactivity Policies: governing-documents/inactivity.md
+    - Project Lifecycle: governing-documents/project-lifecycle.md
+    - Project Incubation Exit Criteria: governing-documents/project-incubation-exit.md
+    - Project Annual Review: governing-documents/project-annual-review.md
+    - Project Annual Review Instructions: project-updates/annual-review-instructions.md
+    - Project Updates: governing-documents/project-updates.md
+    - Project Updates Instructions: project-updates/quarterly-update-instructions.md
+    - Release Signing: governing-documents/release-signing.md
+    - Release Taxonomy: governing-documents/release-taxonomy.md
+    - Security Policy: governing-documents/security.md
+    - Task Forces: governing-documents/task-force.md
   - Guidelines:
-      - guidelines/index.md
-      - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
-      - GitHub Contribution Guide: guidelines/github-contribution-guide.md
-      - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
-      - GitHub Organization: guidelines/github-organization.md
-      - Project Best Practices: guidelines/project-best-practices.md
-      - Project Incubation Entry Considerations: guidelines/project-incubation-entry-considerations.md
-      - Supply Chain Levels for Software Artifacts Recommendations: guidelines/slsa-guidelines.md
-      - Project Consistency Guidelines: guidelines/project-consistency-guidelines.md
+    - guidelines/index.md
+    - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
+    - GitHub Contribution Guide: guidelines/github-contribution-guide.md
+    - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
+    - GitHub Organization: guidelines/github-organization.md
+    - Project Best Practices: guidelines/project-best-practices.md
+    - Project Incubation Entry Considerations: guidelines/project-incubation-entry-considerations.md
+    - Supply Chain Levels for Software Artifacts Recommendations: guidelines/slsa-guidelines.md
+    - Project Consistency Guidelines: guidelines/project-consistency-guidelines.md
   - Meetings:
-      - meeting-minutes/index.md
-      - 2026:
-          - 2026-03-26: meeting-minutes/2026/2026-03-26.md
-          - 2026-03-19: meeting-minutes/2026/2026-03-19.md
-          - 2026-03-12: meeting-minutes/2026/2026-03-12.md
-          - 2026-03-05: meeting-minutes/2026/2026-03-05.md
-          - 2026-02-26: meeting-minutes/2026/2026-02-26.md
-          - 2026-02-12: meeting-minutes/2026/2026-02-12.md
-          - 2026-02-05: meeting-minutes/2026/2026-02-05.md
-          - 2026-01-22: meeting-minutes/2026/2026-01-22.md
-          - 2026-01-15: meeting-minutes/2026/2026-01-15.md
-          - 2026-01-08: meeting-minutes/2026/2026-01-08.md
-      - 2025:
-          - 2025-12-18: meeting-minutes/2025/2025-12-18.md
-          - 2025-12-11: meeting-minutes/2025/2025-12-11.md
-          - 2025-12-04: meeting-minutes/2025/2025-12-04.md
-          - 2025-11-20: meeting-minutes/2025/2025-11-20.md
-          - 2025-11-13: meeting-minutes/2025/2025-11-13.md
-          - 2025-11-06: meeting-minutes/2025/2025-11-06.md
-          - 2025-10-30: meeting-minutes/2025/2025-10-30.md
-          - 2025-10-23: meeting-minutes/2025/2025-10-23.md
-          - 2025-10-16: meeting-minutes/2025/2025-10-16.md
-          - 2025-10-09: meeting-minutes/2025/2025-10-09.md
-          - 2025-10-02: meeting-minutes/2025/2025-10-02.md
-          - 2025-09-25: meeting-minutes/2025/2025-09-25.md
-          - 2025-09-18: meeting-minutes/2025/2025-09-18.md
-          - 2025-09-11: meeting-minutes/2025/2025-09-11.md
-          - 2025-09-04: meeting-minutes/2025/2025-09-04.md
-          - 2025-08-28: meeting-minutes/2025/2025-08-28.md
-          - 2025-08-21: meeting-minutes/2025/2025-08-21.md
-          - 2025-08-14: meeting-minutes/2025/2025-08-14.md
-          - 2025-07-31: meeting-minutes/2025/2025-07-31.md
-          - 2025-07-24: meeting-minutes/2025/2025-07-24.md
-          - 2025-07-17: meeting-minutes/2025/2025-07-17.md
-          - 2025-07-10: meeting-minutes/2025/2025-07-10.md
-          - 2025-06-26: meeting-minutes/2025/2025-06-26.md
-          - 2025-06-12: meeting-minutes/2025/2025-06-12.md
-          - 2025-06-05: meeting-minutes/2025/2025-06-05.md
-          - 2025-05-29: meeting-minutes/2025/2025-05-29.md
-          - 2025-05-22: meeting-minutes/2025/2025-05-22.md
-          - 2025-05-15: meeting-minutes/2025/2025-05-15.md
-          - 2025-05-08: meeting-minutes/2025/2025-05-08.md
-          - 2025-05-01: meeting-minutes/2025/2025-05-01.md
-          - 2025-04-24: meeting-minutes/2025/2025-04-24.md
-          - 2025-04-17: meeting-minutes/2025/2025-04-17.md
-          - 2025-04-10: meeting-minutes/2025/2025-04-10.md
-          - 2025-04-03: meeting-minutes/2025/2025-04-03.md
-          - 2025-03-27: meeting-minutes/2025/2025-03-27.md
-          - 2025-03-20: meeting-minutes/2025/2025-03-20.md
-          - 2025-03-06: meeting-minutes/2025/2025-03-06.md
-          - 2025-02-27: meeting-minutes/2025/2025-02-27.md
-          - 2025-02-20: meeting-minutes/2025/2025-02-20.md
-          - 2025-02-13: meeting-minutes/2025/2025-02-13.md
-          - 2025-02-06: meeting-minutes/2025/2025-02-06.md
-          - 2025-01-30: meeting-minutes/2025/2025-01-30.md
-          - 2025-01-23: meeting-minutes/2025/2025-01-23.md
-          - 2025-01-16: meeting-minutes/2025/2025-01-16.md
-          - 2025-01-09: meeting-minutes/2025/2025-01-09.md
-      - 2024:
-          - 2024-12-19: meeting-minutes/2024/2024-12-19.md
-          - 2024-12-12: meeting-minutes/2024/2024-12-12.md
-          - 2024-12-05: meeting-minutes/2024/2024-12-05.md
-          - 2024-11-21: meeting-minutes/2024/2024-11-21.md
-          - 2024-11-14: meeting-minutes/2024/2024-11-14.md
-          - 2024-11-07: meeting-minutes/2024/2024-11-07.md
-          - 2024-10-31: meeting-minutes/2024/2024-10-31.md
-          - 2024-10-10: meeting-minutes/2024/2024-10-10.md
-          - 2024-10-03: meeting-minutes/2024/2024-10-03.md
-          - 2024-09-26: meeting-minutes/2024/2024-09-26.md
-          - 2024-09-19: meeting-minutes/2024/2024-09-19.md
+    - meeting-minutes/index.md
+    - 2026:
+      - 2026-03-26: meeting-minutes/2026/2026-03-26.md
+      - 2026-03-19: meeting-minutes/2026/2026-03-19.md
+      - 2026-03-12: meeting-minutes/2026/2026-03-12.md
+      - 2026-03-05: meeting-minutes/2026/2026-03-05.md
+      - 2026-02-26: meeting-minutes/2026/2026-02-26.md
+      - 2026-02-12: meeting-minutes/2026/2026-02-12.md
+      - 2026-02-05: meeting-minutes/2026/2026-02-05.md
+      - 2026-01-22: meeting-minutes/2026/2026-01-22.md
+      - 2026-01-15: meeting-minutes/2026/2026-01-15.md
+      - 2026-01-08: meeting-minutes/2026/2026-01-08.md
+    - 2025:
+      - 2025-12-18: meeting-minutes/2025/2025-12-18.md
+      - 2025-12-11: meeting-minutes/2025/2025-12-11.md
+      - 2025-12-04: meeting-minutes/2025/2025-12-04.md
+      - 2025-11-20: meeting-minutes/2025/2025-11-20.md
+      - 2025-11-13: meeting-minutes/2025/2025-11-13.md
+      - 2025-11-06: meeting-minutes/2025/2025-11-06.md
+      - 2025-10-30: meeting-minutes/2025/2025-10-30.md
+      - 2025-10-23: meeting-minutes/2025/2025-10-23.md
+      - 2025-10-16: meeting-minutes/2025/2025-10-16.md
+      - 2025-10-09: meeting-minutes/2025/2025-10-09.md
+      - 2025-10-02: meeting-minutes/2025/2025-10-02.md
+      - 2025-09-25: meeting-minutes/2025/2025-09-25.md
+      - 2025-09-18: meeting-minutes/2025/2025-09-18.md
+      - 2025-09-11: meeting-minutes/2025/2025-09-11.md
+      - 2025-09-04: meeting-minutes/2025/2025-09-04.md
+      - 2025-08-28: meeting-minutes/2025/2025-08-28.md
+      - 2025-08-21: meeting-minutes/2025/2025-08-21.md
+      - 2025-08-14: meeting-minutes/2025/2025-08-14.md
+      - 2025-07-31: meeting-minutes/2025/2025-07-31.md
+      - 2025-07-24: meeting-minutes/2025/2025-07-24.md
+      - 2025-07-17: meeting-minutes/2025/2025-07-17.md
+      - 2025-07-10: meeting-minutes/2025/2025-07-10.md
+      - 2025-06-26: meeting-minutes/2025/2025-06-26.md
+      - 2025-06-12: meeting-minutes/2025/2025-06-12.md
+      - 2025-06-05: meeting-minutes/2025/2025-06-05.md
+      - 2025-05-29: meeting-minutes/2025/2025-05-29.md
+      - 2025-05-22: meeting-minutes/2025/2025-05-22.md
+      - 2025-05-15: meeting-minutes/2025/2025-05-15.md
+      - 2025-05-08: meeting-minutes/2025/2025-05-08.md
+      - 2025-05-01: meeting-minutes/2025/2025-05-01.md
+      - 2025-04-24: meeting-minutes/2025/2025-04-24.md
+      - 2025-04-17: meeting-minutes/2025/2025-04-17.md
+      - 2025-04-10: meeting-minutes/2025/2025-04-10.md
+      - 2025-04-03: meeting-minutes/2025/2025-04-03.md
+      - 2025-03-27: meeting-minutes/2025/2025-03-27.md
+      - 2025-03-20: meeting-minutes/2025/2025-03-20.md
+      - 2025-03-06: meeting-minutes/2025/2025-03-06.md
+      - 2025-02-27: meeting-minutes/2025/2025-02-27.md
+      - 2025-02-20: meeting-minutes/2025/2025-02-20.md
+      - 2025-02-13: meeting-minutes/2025/2025-02-13.md
+      - 2025-02-06: meeting-minutes/2025/2025-02-06.md
+      - 2025-01-30: meeting-minutes/2025/2025-01-30.md
+      - 2025-01-23: meeting-minutes/2025/2025-01-23.md
+      - 2025-01-16: meeting-minutes/2025/2025-01-16.md
+      - 2025-01-09: meeting-minutes/2025/2025-01-09.md
+    - 2024:
+      - 2024-12-19: meeting-minutes/2024/2024-12-19.md
+      - 2024-12-12: meeting-minutes/2024/2024-12-12.md
+      - 2024-12-05: meeting-minutes/2024/2024-12-05.md
+      - 2024-11-21: meeting-minutes/2024/2024-11-21.md
+      - 2024-11-14: meeting-minutes/2024/2024-11-14.md
+      - 2024-11-07: meeting-minutes/2024/2024-11-07.md
+      - 2024-10-31: meeting-minutes/2024/2024-10-31.md
+      - 2024-10-10: meeting-minutes/2024/2024-10-10.md
+      - 2024-10-03: meeting-minutes/2024/2024-10-03.md
+      - 2024-09-26: meeting-minutes/2024/2024-09-26.md
+      - 2024-09-19: meeting-minutes/2024/2024-09-19.md
   - Member Info:
       - TAC Members: member-info/tac-members.md
       - TAC Responsibilities: member-info/tac-responsibilities.md
       - TAC Chair Notes: member-info/tac-chair-notes.md
       - Election Timelines:
-          - 2026: member-info/election-timeline.md
+        - 2026: member-info/election-timeline.md
   - Project Updates:
-      - 2026:
-          - 2026 Schedule: project-updates/2026/2026-schedule.md
-          - Annual:
-              - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
-              - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
-              - 2026 Annual Paladin: project-updates/2026/2026-annual-paladin.md
-      - 2025:
-          - 2025 Schedule: project-updates/2025/2025-schedule.md
-          - Q4:
-              - 2025 Q4 Hyperledger AnonCreds: project-updates/2025/2025-Q4-Hyperledger-AnonCreds.md
-              - 2025 Q4 Hyperledger Cacti: project-updates/2025/2025-Q4-Hyperledger-Cacti.md
-              - 2025 Q4 Hyperledger Fabric: project-updates/2025/2025-Q4-Hyperledger-Fabric.md
-              - 2025 Q4 Hyperledger Indy: project-updates/2025/2025-Q4-Hyperledger-Indy.md
-              - 2025 Q4 Hyperledger Iroha: project-updates/2025/2025-Q4-Hyperledger-Iroha.md
-              - 2025 Q4 Hyperledger Solang: project-updates/2025/2025-Q4-Hyperledger-Solang.md
-              - 2025 Q4 Web3j: project-updates/2025/2025-Q4-Web3j.md
-              - 2025 Q4 Besu: project-updates/2025/2025-Q4-Besu.md
-              - 2025 Q4 CREDEBL: project-updates/2025/2025-Q4-CREDEBL.md
-              - 2025 Q4 Hiero: project-updates/2025/2025-Q4-Hiero.md
-              #        - 2025 Q4 Hyperledger Aries: project-updates/2025/2025-Q4-Hyperledger-Aries.md
-              #        - 2025 Q4 Hyperledger Bevel: project-updates/2025/2025-Q4-Hyperledger-Bevel.md
-              #        - 2025 Q4 Hyperledger Caliper: project-updates/2025/2025-Q4-Hyperledger-Caliper.md
-              #        - 2025 Q4 Hyperledger Cello: project-updates/2025/2025-Q4-Hyperledger-Cello.md
-              #        - 2025 Q4 Hyperledger FireFly: project-updates/2025/2025-Q4-Hyperledger-FireFly.md
-              #        - 2025 Q4 Hyperledger Identus: project-updates/2025/2025-Q4-Hyperledger-Identus.md
-              - 2025 Q4 Hyperledger Iroha: project-updates/2025/2025-Q4-Hyperledger-Iroha.md
-              - 2025 Q4 Lockness: project-updates/2025/2025-Q4-lockness.md
-              - 2025 Q4 ToIP: project-updates/2025/2025-Q4-ToIP.md
-          - Q3:
-              - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
-              #        - 2025 Q3 ToIP: project-updates/2025/2025-Q3-ToIP.md
-              - 2025 Q3 Hiero: project-updates/2025/2025-Q3-Hiero.md
-              - 2025 Q3 Web3j: project-updates/2025/2025-Q3-Web3j.md
-              - 2025 Q3 Hyperledger Iroha: project-updates/2025/2025-Q3-Hyperledger-Iroha.md
-              - 2025 Q3 Hyperledger FireFly: project-updates/2025/2025-Q3-Hyperledger-FireFly.md
-              - 2025 Q3 Hyperledger Fabric: project-updates/2025/2025-Q3-Hyperledger-Fabric.md
-              - 2025 Q3 Hyperledger Caliper: project-updates/2025/2025-Q3-Hyperledger-Caliper.md
-              - 2025 Q3 Cacti: project-updates/2025/2025-Q3-Hyperledger-Cacti.md
-              #        - 2025 Q3 Hyperledger Bevel: project-updates/2025/2025-Q3-Hyperledger-Bevel.md
-              #        - 2025 Q3 Hyperledger Aries: project-updates/2025/2025-Q3-Hyperledger-Aries.md
-              - 2025 Q3 CREDEBL: project-updates/2025/2025-Q3-CREDEBL.md
-              - 2025 Q3 Hyperledger Cello: project-updates/2025/2025-Q3-Hyperledger-Cello.md
-              - 2025 Q3 Hyperledger AnonCreds: project-updates/2025/2025-Q3-Hyperledger-AnonCreds.md
-              - 2025 Q3 Hyperledger Indy: project-updates/2025/2025-Q3-Hyperledger-Indy.md
-              - 2025 Q3 Hyperledger Identus: project-updates/2025/2025-Q3-Hyperledger-Identus.md
-              - 2025 Q3 Hyperledger Solang: project-updates/2025/2025-Q3-Hyperledger-Solang.md
-              - 2025 Q3 Lockness: project-updates/2025/2025-Q3-Lockness.md
-          - Q2:
-              - 2025 Q2 ToIP: project-updates/2025/2025-Q2-ToIP.md
-              - 2025 Q2 Besu: project-updates/2025/2025-Q2-Besu.md
-              - 2025 Q2 CREDEBL: project-updates/2025/2025-Q2-CREDEBL.md
-              - 2025 Q2 Hiero: project-updates/2025/2025-Q2-Hiero.md
-              - 2025 Q2 Hyperledger Solang: project-updates/2025/2025-Q2-Hyperledger-Solang.md
-              - 2025 Q2 Web3j: project-updates/2025/2025-Q2-Web3j.md
-              - 2025 Q2 Hyperledger Iroha: project-updates/2025/2025-Q2-Hyperledger-Iroha.md
-              - 2025 Q2 Hyperledger Indy: project-updates/2025/2025-Q2-Hyperledger-Indy.md
-              - 2025 Q2 Hyperledger Identus: project-updates/2025/2025-Q2-Hyperledger-Identus.md
-              - 2025 Q2 Hyperledger FireFly: project-updates/2025/2025-Q2-Hyperledger-FireFly.md
-              - 2025 Q2 Hyperledger Fabric: project-updates/2025/2025-Q2-Hyperledger-Fabric.md
-              - 2025 Q2 Hyperledger Cello: project-updates/2025/2025-Q2-Hyperledger-Cello.md
-              - 2025 Q2 Hyperledger Caliper: project-updates/2025/2025-Q2-Hyperledger-Caliper.md
-              - 2025 Q2 Cacti: project-updates/2025/2025-Q2-Cacti.md
-              - 2025 Q2 Hyperledger Bevel: project-updates/2025/2025-Q2-Hyperledger-Bevel.md
-              - 2025 Q2 Hyperledger Aries: project-updates/2025/2025-Q2-Hyperledger-Aries.md
-              - 2025 Q2 Hyperledger AnonCreds: project-updates/2025/2025-Q2-Hyperledger-AnonCreds.md
-          - Annual:
-              - 2025 Annual ToIP: project-updates/2025/2025-annual-ToIP.md
-              - 2025 Annual Lockness: project-updates/2025/2025-annual-lockness.md
-              - 2025 Annual Web3j: project-updates/2025/2025-annual-Web3j.md
-              - 2025 Annual Solang: project-updates/2025/2025-annual-Solang.md
-              - 2025 Annual Hyperledger Iroha: project-updates/2025/2025-annual-hyperledger-iroha.md
-              - 2025 Annual Hyperledger Indy: project-updates/2025/2025-annual-Hyperledger-Indy.md
-              - 2025 Annual Identus: project-updates/2025/2025-annual-Identus.md
-              - 2025 Annual Hiero: project-updates/2025/2025-annual-Hiero.md
-              - 2025 Annual Hyperledger FireFly: project-updates/2025/2025-annual-Hyperledger-FireFly.md
-              - 2025 Annual Hyperledger Fabric: project-updates/2025/2025-annual-hyperledger-fabric.md
-              - 2025 Annual CREDEBL: project-updates/2025/2025-annual-CREDEBL.md
-              - 2025 Annual Hyperledger Cello: project-updates/2025/2025-annual-hyperledger-Cello.md
-              - 2025 Annual Hyperledger Caliper: project-updates/2025/2025-annual-hyperledger-caliper.md
-              - 2025 Annual Cacti: project-updates/2025/2025-annual-Cacti.md
-              - 2025 Annual Hyperledger Bevel: project-updates/2025/2025-annual-Hyperledger-Bevel.md
-              - 2025 Annual Besu: project-updates/2025/2025-annual-Besu.md
-              - 2025 Annual Hyperledger Aries: project-updates/2025/2025-annual-Hyperledger-Aries.md
-              - 2025 Annual Hyperledger Anoncreds: project-updates/2025/2025-annual-hyperledger-anoncreds.md
-      - 2024:
-          - 2024 Schedule: project-updates/2024/2024-schedule.md
-          - Q4:
-              - 2024 Q4 Hyperledger Web3j: project-updates/2024/2024-Q4-Hyperledger-Web3j.md
-              - 2024 Q4 Hyperledger Solang: project-updates/2024/2024-Q4-Hyperledger-Solang.md
-              - 2024 Q4 Hyperledger Iroha: project-updates/2024/2024-Q4-Hyperledger-Iroha.md
-              - 2024 Q4 Hyperledger Indy: project-updates/2024/2024-Q4-Hyperledger-Indy.md
-              - 2024 Q4 Hyperledger Identus: project-updates/2024/2024-Q4-Hyperledger-Identus.md
-              - 2024 Q4 Hyperledger FireFly: project-updates/2024/2024-Q4-Hyperledger-FireFly.md
-              - 2024 Q4 Hyperledger Fabric: project-updates/2024/2024-Q4-Hyperledger-Fabric.md
-              - 2024 Q4 Hyperledger Cello: project-updates/2024/2024-Q4-Hyperledger-Cello.md
-              - 2024 Q4 Hyperledger Caliper: project-updates/2024/2024-Q4-Hyperledger-Caliper.md
-              - 2024 Q4 Hyperledger Cacti: project-updates/2024/2024-Q4-Hyperledger-Cacti.md
-              - 2024 Q4 Hyperledger Bevel: project-updates/2024/2024-Q4-Hyperledger-Bevel.md
-              - 2024 Q4 Hyperledger Besu: project-updates/2024/2024-Q4-Hyperledger-Besu.md
-              - 2024 Q4 Hyperledger Aries: project-updates/2024/2024-Q4-Hyperledger-Aries.md
-              - 2024 Q4 Hyperledger AnonCreds: project-updates/2024/2024-Q4-Hyperledger-AnonCreds.md
+    - 2026:
+      - 2026 Schedule: project-updates/2026/2026-schedule.md
+      - Annual:
+        - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
+        - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
+    - 2025:
+      - 2025 Schedule: project-updates/2025/2025-schedule.md
+      - Q4:
+        - 2025 Q4 Hyperledger AnonCreds: project-updates/2025/2025-Q4-Hyperledger-AnonCreds.md
+        - 2025 Q4 Hyperledger Cacti: project-updates/2025/2025-Q4-Hyperledger-Cacti.md
+        - 2025 Q4 Hyperledger Fabric: project-updates/2025/2025-Q4-Hyperledger-Fabric.md
+        - 2025 Q4 Hyperledger Indy: project-updates/2025/2025-Q4-Hyperledger-Indy.md
+        - 2025 Q4 Hyperledger Iroha: project-updates/2025/2025-Q4-Hyperledger-Iroha.md
+        - 2025 Q4 Hyperledger Solang: project-updates/2025/2025-Q4-Hyperledger-Solang.md
+        - 2025 Q4 Web3j: project-updates/2025/2025-Q4-Web3j.md
+        - 2025 Q4 Besu: project-updates/2025/2025-Q4-Besu.md
+        - 2025 Q4 CREDEBL: project-updates/2025/2025-Q4-CREDEBL.md
+        - 2025 Q4 Hiero: project-updates/2025/2025-Q4-Hiero.md
+#        - 2025 Q4 Hyperledger Aries: project-updates/2025/2025-Q4-Hyperledger-Aries.md
+#        - 2025 Q4 Hyperledger Bevel: project-updates/2025/2025-Q4-Hyperledger-Bevel.md
+#        - 2025 Q4 Hyperledger Caliper: project-updates/2025/2025-Q4-Hyperledger-Caliper.md
+#        - 2025 Q4 Hyperledger Cello: project-updates/2025/2025-Q4-Hyperledger-Cello.md
+#        - 2025 Q4 Hyperledger FireFly: project-updates/2025/2025-Q4-Hyperledger-FireFly.md
+#        - 2025 Q4 Hyperledger Identus: project-updates/2025/2025-Q4-Hyperledger-Identus.md
+        - 2025 Q4 Hyperledger Iroha: project-updates/2025/2025-Q4-Hyperledger-Iroha.md
+        - 2025 Q4 Lockness: project-updates/2025/2025-Q4-lockness.md
+        - 2025 Q4 ToIP: project-updates/2025/2025-Q4-ToIP.md
+      - Q3:
+        - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
+#        - 2025 Q3 ToIP: project-updates/2025/2025-Q3-ToIP.md
+        - 2025 Q3 Hiero: project-updates/2025/2025-Q3-Hiero.md
+        - 2025 Q3 Web3j: project-updates/2025/2025-Q3-Web3j.md
+        - 2025 Q3 Hyperledger Iroha: project-updates/2025/2025-Q3-Hyperledger-Iroha.md
+        - 2025 Q3 Hyperledger FireFly: project-updates/2025/2025-Q3-Hyperledger-FireFly.md
+        - 2025 Q3 Hyperledger Fabric: project-updates/2025/2025-Q3-Hyperledger-Fabric.md
+        - 2025 Q3 Hyperledger Caliper: project-updates/2025/2025-Q3-Hyperledger-Caliper.md
+        - 2025 Q3 Cacti: project-updates/2025/2025-Q3-Hyperledger-Cacti.md
+#        - 2025 Q3 Hyperledger Bevel: project-updates/2025/2025-Q3-Hyperledger-Bevel.md
+#        - 2025 Q3 Hyperledger Aries: project-updates/2025/2025-Q3-Hyperledger-Aries.md
+        - 2025 Q3 CREDEBL: project-updates/2025/2025-Q3-CREDEBL.md
+        - 2025 Q3 Hyperledger Cello: project-updates/2025/2025-Q3-Hyperledger-Cello.md
+        - 2025 Q3 Hyperledger AnonCreds: project-updates/2025/2025-Q3-Hyperledger-AnonCreds.md
+        - 2025 Q3 Hyperledger Indy: project-updates/2025/2025-Q3-Hyperledger-Indy.md
+        - 2025 Q3 Hyperledger Identus: project-updates/2025/2025-Q3-Hyperledger-Identus.md
+        - 2025 Q3 Hyperledger Solang: project-updates/2025/2025-Q3-Hyperledger-Solang.md
+        - 2025 Q3 Lockness: project-updates/2025/2025-Q3-Lockness.md
+      - Q2:
+        - 2025 Q2 ToIP: project-updates/2025/2025-Q2-ToIP.md
+        - 2025 Q2 Besu: project-updates/2025/2025-Q2-Besu.md
+        - 2025 Q2 CREDEBL: project-updates/2025/2025-Q2-CREDEBL.md
+        - 2025 Q2 Hiero: project-updates/2025/2025-Q2-Hiero.md
+        - 2025 Q2 Hyperledger Solang: project-updates/2025/2025-Q2-Hyperledger-Solang.md
+        - 2025 Q2 Web3j: project-updates/2025/2025-Q2-Web3j.md
+        - 2025 Q2 Hyperledger Iroha: project-updates/2025/2025-Q2-Hyperledger-Iroha.md
+        - 2025 Q2 Hyperledger Indy: project-updates/2025/2025-Q2-Hyperledger-Indy.md
+        - 2025 Q2 Hyperledger Identus: project-updates/2025/2025-Q2-Hyperledger-Identus.md
+        - 2025 Q2 Hyperledger FireFly: project-updates/2025/2025-Q2-Hyperledger-FireFly.md
+        - 2025 Q2 Hyperledger Fabric: project-updates/2025/2025-Q2-Hyperledger-Fabric.md
+        - 2025 Q2 Hyperledger Cello: project-updates/2025/2025-Q2-Hyperledger-Cello.md
+        - 2025 Q2 Hyperledger Caliper: project-updates/2025/2025-Q2-Hyperledger-Caliper.md
+        - 2025 Q2 Cacti: project-updates/2025/2025-Q2-Cacti.md
+        - 2025 Q2 Hyperledger Bevel: project-updates/2025/2025-Q2-Hyperledger-Bevel.md
+        - 2025 Q2 Hyperledger Aries: project-updates/2025/2025-Q2-Hyperledger-Aries.md
+        - 2025 Q2 Hyperledger AnonCreds: project-updates/2025/2025-Q2-Hyperledger-AnonCreds.md
+      - Annual:
+        - 2025 Annual ToIP: project-updates/2025/2025-annual-ToIP.md
+        - 2025 Annual Lockness: project-updates/2025/2025-annual-lockness.md
+        - 2025 Annual Web3j: project-updates/2025/2025-annual-Web3j.md
+        - 2025 Annual Solang: project-updates/2025/2025-annual-Solang.md
+        - 2025 Annual Hyperledger Iroha: project-updates/2025/2025-annual-hyperledger-iroha.md
+        - 2025 Annual Hyperledger Indy: project-updates/2025/2025-annual-Hyperledger-Indy.md
+        - 2025 Annual Identus: project-updates/2025/2025-annual-Identus.md
+        - 2025 Annual Hiero: project-updates/2025/2025-annual-Hiero.md
+        - 2025 Annual Hyperledger FireFly: project-updates/2025/2025-annual-Hyperledger-FireFly.md
+        - 2025 Annual Hyperledger Fabric: project-updates/2025/2025-annual-hyperledger-fabric.md
+        - 2025 Annual CREDEBL: project-updates/2025/2025-annual-CREDEBL.md
+        - 2025 Annual Hyperledger Cello: project-updates/2025/2025-annual-hyperledger-Cello.md
+        - 2025 Annual Hyperledger Caliper: project-updates/2025/2025-annual-hyperledger-caliper.md
+        - 2025 Annual Cacti: project-updates/2025/2025-annual-Cacti.md
+        - 2025 Annual Hyperledger Bevel: project-updates/2025/2025-annual-Hyperledger-Bevel.md
+        - 2025 Annual Besu: project-updates/2025/2025-annual-Besu.md
+        - 2025 Annual Hyperledger Aries: project-updates/2025/2025-annual-Hyperledger-Aries.md
+        - 2025 Annual Hyperledger Anoncreds: project-updates/2025/2025-annual-hyperledger-anoncreds.md
+    - 2024:
+      - 2024 Schedule: project-updates/2024/2024-schedule.md
+      - Q4:
+        - 2024 Q4 Hyperledger Web3j: project-updates/2024/2024-Q4-Hyperledger-Web3j.md
+        - 2024 Q4 Hyperledger Solang: project-updates/2024/2024-Q4-Hyperledger-Solang.md
+        - 2024 Q4 Hyperledger Iroha: project-updates/2024/2024-Q4-Hyperledger-Iroha.md
+        - 2024 Q4 Hyperledger Indy: project-updates/2024/2024-Q4-Hyperledger-Indy.md
+        - 2024 Q4 Hyperledger Identus: project-updates/2024/2024-Q4-Hyperledger-Identus.md
+        - 2024 Q4 Hyperledger FireFly: project-updates/2024/2024-Q4-Hyperledger-FireFly.md
+        - 2024 Q4 Hyperledger Fabric: project-updates/2024/2024-Q4-Hyperledger-Fabric.md
+        - 2024 Q4 Hyperledger Cello: project-updates/2024/2024-Q4-Hyperledger-Cello.md
+        - 2024 Q4 Hyperledger Caliper: project-updates/2024/2024-Q4-Hyperledger-Caliper.md
+        - 2024 Q4 Hyperledger Cacti: project-updates/2024/2024-Q4-Hyperledger-Cacti.md
+        - 2024 Q4 Hyperledger Bevel: project-updates/2024/2024-Q4-Hyperledger-Bevel.md
+        - 2024 Q4 Hyperledger Besu: project-updates/2024/2024-Q4-Hyperledger-Besu.md
+        - 2024 Q4 Hyperledger Aries: project-updates/2024/2024-Q4-Hyperledger-Aries.md
+        - 2024 Q4 Hyperledger AnonCreds: project-updates/2024/2024-Q4-Hyperledger-AnonCreds.md
 not_in_nav: |
   meeting-minutes/Introduction_to_Standards_for_OSS_Projects.pdf
   project-updates/2025/HLFF_2025_Q2_stars.png
@@ -341,3 +340,4 @@ not_in_nav: |
   project-updates/2024/index.md
   project-updates/2025/index.md
   project-updates/2025/2025-annual-Hyperledger-FireFly-project-adoption.png
+
