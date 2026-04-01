@@ -19,7 +19,9 @@ This branch will continue to be developed as we work towards the V1 release of P
 
 ### OpenSSF Scorecard
 
-Writing this report highlighted that our OpenSSF scorecard setup had not yet been merged (https://github.com/LFDT-Paladin/paladin/pull/909). This has now been rectified so scorecard results can be included in future reports.
+Writing this report highlighted that our OpenSSF scorecard setup had not yet been merged (https://github.com/LFDT-Paladin/paladin/pull/909). This has now been rectified and the current scorecard is available at https://scorecard.dev/viewer/?uri=github.com/LFDT-Paladin/paladin
+
+We have some areas to address which will be a priority for 2026.
 
 ### LFX Insights (summary)
 
@@ -54,11 +56,12 @@ These have all been delivered more or less in line with our original intentions.
 
 ### Next Year’s Goals (2026)
 
-1. Ship a V1 beta release (1-2Q)
-2. Ship V1 with the new distributed sequencing engine and related enhancements over `0.x`
-3. Meet any new or remaining LFDT project requirements
-4. Grow the list of cases in `ADOPTERS.md` to help potential users understand Paladin's use-cases
-5. Integrate the output of the Java SDK mentor programme as a first class part of the project
+1. Meet all of the OpenSSF requirements for incubating projects
+2. Ship a V1 beta release (1-2Q)
+3. Ship V1 with the new distributed sequencing engine and related enhancements over `0.x`
+4. Meet any new or remaining LFDT project requirements
+5. Grow the list of cases in `ADOPTERS.md` to help potential users understand Paladin's use-cases
+6. Integrate the output of the Java SDK mentor programme as a first class part of the project
 
 ### Help Required
 
