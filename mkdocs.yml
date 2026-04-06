@@ -143,6 +143,13 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2026:
+      - 2026-04-02: meeting-minutes/2026/2026-04-02.md
+      - 2026-03-26: meeting-minutes/2026/2026-03-26.md
+      - 2026-03-19: meeting-minutes/2026/2026-03-19.md
+      - 2026-03-12: meeting-minutes/2026/2026-03-12.md
+      - 2026-03-05: meeting-minutes/2026/2026-03-05.md
+      - 2026-02-26: meeting-minutes/2026/2026-02-26.md
+      - 2026-02-12: meeting-minutes/2026/2026-02-12.md
       - 2026-02-05: meeting-minutes/2026/2026-02-05.md
       - 2026-01-22: meeting-minutes/2026/2026-01-22.md
       - 2026-01-15: meeting-minutes/2026/2026-01-15.md
@@ -213,7 +220,10 @@ nav:
         - 2026: member-info/election-timeline.md
   - Project Updates:
     - 2026:
+      - 2026 Schedule: project-updates/2026/2026-schedule.md
       - Annual:
+        - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
+        - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
         - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
@@ -226,7 +236,7 @@ nav:
         - 2025 Q4 Hyperledger Solang: project-updates/2025/2025-Q4-Hyperledger-Solang.md
         - 2025 Q4 Web3j: project-updates/2025/2025-Q4-Web3j.md
         - 2025 Q4 Besu: project-updates/2025/2025-Q4-Besu.md
-#        - 2025 Q4 CREDEBL: project-updates/2025/2025-Q4-CREDEBL.md
+        - 2025 Q4 CREDEBL: project-updates/2025/2025-Q4-CREDEBL.md
         - 2025 Q4 Hiero: project-updates/2025/2025-Q4-Hiero.md
 #        - 2025 Q4 Hyperledger Aries: project-updates/2025/2025-Q4-Hyperledger-Aries.md
 #        - 2025 Q4 Hyperledger Bevel: project-updates/2025/2025-Q4-Hyperledger-Bevel.md
@@ -234,9 +244,9 @@ nav:
 #        - 2025 Q4 Hyperledger Cello: project-updates/2025/2025-Q4-Hyperledger-Cello.md
 #        - 2025 Q4 Hyperledger FireFly: project-updates/2025/2025-Q4-Hyperledger-FireFly.md
 #        - 2025 Q4 Hyperledger Identus: project-updates/2025/2025-Q4-Hyperledger-Identus.md
-#        - 2025 Q4 Hyperledger Iroha: project-updates/2025/2025-Q4-Hyperledger-Iroha.md
+        - 2025 Q4 Hyperledger Iroha: project-updates/2025/2025-Q4-Hyperledger-Iroha.md
         - 2025 Q4 Lockness: project-updates/2025/2025-Q4-lockness.md
-#        - 2025 Q4 ToIP: project-updates/2025/2025-Q4-ToIP.md
+        - 2025 Q4 ToIP: project-updates/2025/2025-Q4-ToIP.md
       - Q3:
         - 2025 Q3 Besu: project-updates/2025/2025-Q3-Besu.md
 #        - 2025 Q3 ToIP: project-updates/2025/2025-Q3-ToIP.md
