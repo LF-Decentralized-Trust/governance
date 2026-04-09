@@ -222,6 +222,8 @@ nav:
     - 2026:
       - 2026 Schedule: project-updates/2026/2026-schedule.md
       - Annual:
+        - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
+        - 2026 Annual Hyperledger FireFly: project-updates/2026/2026-annual-Hyperledger-FireFly.md
         - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
         - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
     - 2025:
