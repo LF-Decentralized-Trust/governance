@@ -143,6 +143,11 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2026:
+      - 2026-04-02: meeting-minutes/2026/2026-04-02.md
+      - 2026-03-26: meeting-minutes/2026/2026-03-26.md
+      - 2026-03-19: meeting-minutes/2026/2026-03-19.md
+      - 2026-03-12: meeting-minutes/2026/2026-03-12.md
+      - 2026-03-05: meeting-minutes/2026/2026-03-05.md
       - 2026-02-26: meeting-minutes/2026/2026-02-26.md
       - 2026-02-12: meeting-minutes/2026/2026-02-12.md
       - 2026-02-05: meeting-minutes/2026/2026-02-05.md
@@ -216,9 +221,11 @@ nav:
   - Project Updates:
     - 2026:
       - 2026 Schedule: project-updates/2026/2026-schedule.md
-      - Q1 (Annual):
+      - Annual:
         - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
         - 2026 Annual Hyperledger FireFly: project-updates/2026/2026-annual-Hyperledger-FireFly.md
+        - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
+        - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
     - 2025:
       - 2025 Schedule: project-updates/2025/2025-schedule.md
       - Q4:
