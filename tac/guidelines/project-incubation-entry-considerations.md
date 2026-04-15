@@ -27,7 +27,7 @@ A project is more likely to succeed if it publicly states its intent and estimat
         1. Working to diversify contributors and maintainers from the initial set of contributing organizations
         1. Mentoring new contributors to become maintainers
     1. Supporting public, community forums (e.g. GitHub, Discord)
-    1. Submitting annual and quarterly reports to the TAC in a timely fashion
+    1. Submitting annual and mid-year reports to the TAC in a timely fashion
 
 If you need any assistance with community engagement planning, LFDT staff is happy to help.
 

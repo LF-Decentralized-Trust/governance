@@ -1,14 +1,14 @@
-[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+[//]: # "SPDX-License-Identifier: CC-BY-4.0"
 
 # Project Annual Review
 
 ## Overview
 
-In addition to the [quarterly project updates](./project-updates.md), projects will undergo an annual review by the TAC. This annual review will replace one of the quarterly reports. Unlike the quarterly updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current [project lifecycle state](./project-lifecycle.md). The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
+In addition to the [mid-year project updates](./project-updates.md), projects will undergo an annual review by the TAC. Unlike the mid-year updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current [project lifecycle state](./project-lifecycle.md). The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
 
 ## Timeline
 
-Annual reviews will replace the Q1 quarterly report.  **If a project's annual review is not submitted within two months of notification, the TAC will take this as a sign that the project is not under active maintenance and is likely to decide to archive the project and move it to End of Life status.**
+ **If a project's annual review is not submitted within two months of notification, the TAC will take this as a sign that the project is not under active maintenance and is likely to decide to archive the project and move it to End of Life status.**
 
 **NOTE:** If a project has genuinely stalled the project's TSC (or similar) can save everyone’s time and effort by archiving the project and moving it to `End of Life`.
 
@@ -31,7 +31,7 @@ LF Decentralized Trust staff will notify the project TSC and copy the TAC when t
 
 Project TSC members are responsible for agreeing between them who will complete the annual review. One of the project's TSC members (or maintainer) should create the review in GitHub under [lf-decentralized-trust/governance] in the `/tac/project-updates/` folder.
 
-- Raise a PR titled *`[year] [Project Name] Annual Review`* (e.g., `2024 Amazing Annual Review`).
+- Raise a PR titled _`[year] [Project Name] Annual Review`_ (e.g., `2024 Amazing Annual Review`).
 - The PR should include a file called `./<year>/annual-<Project-Name>.md` (e.g., `2024/annual-amazing.md`) using [the annual review instructions](../project-updates/annual-review-instructions.md).
 - Send an email to the [TAC mailing list] so that the community knows the PR is there and can comment on it.
 
@@ -67,8 +67,8 @@ NOTE: If the TAC members recommend moving to a new status, additional work may b
 - Reviewing the contents of the PR and analyzing the project's community health indicators.
 - Coordinating with the secondary TAC member on their findings prior to the TAC meeting.
 - Documenting their findings within the pull request for discussion. The thread should contain:
-    1. Important facts about the project that could influence the TAC's decision around the future of the project, its current status, and paths to other statuses.
-    2. Whether the project's view of themselves is accurate and the ask of the TAC is reasonable to assist the project moving forward.
+  1. Important facts about the project that could influence the TAC's decision around the future of the project, its current status, and paths to other statuses.
+  2. Whether the project's view of themselves is accurate and the ask of the TAC is reasonable to assist the project moving forward.
 - Lead the annual review discussion at the TAC meeting, providing a summary of the project by leveraging the private thread's content as the basis of discussion. The discussion typically focuses on what is going well with the project and areas to improve.
 - After the public meeting wraps up, summarizing the discussion in a new PR that updates the annual report. In addition to the summary, a link to the recording where the annual report was discussed should be included.
 - Capture any action items by filing issues in the [lf-decentralized-trust/governance] GitHub repo.

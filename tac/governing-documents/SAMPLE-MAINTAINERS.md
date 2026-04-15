@@ -53,7 +53,7 @@ Maintainers are expected to perform the following duties for this repository. Th
 - Monitor requests from the LF Decentralized Trust Technical Advisory Council about the
 contents and management of LFDT repositories, such as branch handling,
 required files in repositories and so on.
-- Contribute to the LFDT Project's Quarterly Report.
+- Contribute to the LFDT Project's Mid-Year Report.
 
 ## Becoming a Maintainer
 

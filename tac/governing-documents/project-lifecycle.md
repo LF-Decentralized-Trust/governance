@@ -143,7 +143,7 @@ The TAC must evaluate a project's lifecycle state during its [annual review](./p
 - Upgrade (e.g., *Incubation* to *Graduated*)
 - Downgrade (e.g., *Graduated* to *Dormant*)
 
-In addition, a project's lifecycle state should be evaluated during the quarterly updates if the TAC sees that a project is struggling to meet the requirements of its current state.
+In addition, a project's lifecycle state should be evaluated during the mid-year update if the TAC sees that a project is struggling to meet the requirements of its current state.
 
 (*Note*: as a rough hierarchy, the *Graduated* state represents the highest maturity, followed by *Incubated*, followed by *Dormant*, followed by *Archived*.)
 
