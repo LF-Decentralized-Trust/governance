@@ -19,10 +19,10 @@ Several Government Entities and Enterprises are using the CREDEBL project for pr
 
 Following organizations have recently deployed CREDEBL as population scale:
 
--Digi Yatra Foundation – Successfully completed the [IATA International Contactless Travel Proof-of-concept](https://www.iata.org/contentassets/a46387f9bc6b42368c0a72664f6f930f/cycle2-attachment-poc.pdf), leveraging the CREDEBL platform to validate Digi Yatra’s seamless interoperability and compliance with global travel standards. See *Use Case #6* in the linkeddocument.
-- https://www.bhutanndi.com - Bhutan NDI for Royal Government of Bhutan.
-- https://www.ict.gov.pg/sevis-wallet - SevisPass Digital ID Pilot for Papua New Guinea.
-- https://sovio.id - Sovio SaaS Platform.
+- [Digi Yatra Foundation](https://digiyatrafoundation.com/) – Successfully completed the [IATA International Contactless Travel Proof-of-concept](https://www.iata.org/contentassets/a46387f9bc6b42368c0a72664f6f930f/cycle2-attachment-poc.pdf), leveraging the CREDEBL platform to validate Digi Yatra’s seamless interoperability and compliance with global travel standards. See *Use Case #6* in the linked document.
+- [Bhutan NDI](https://www.bhutanndi.com) - Bhutan NDI for Royal Government of Bhutan.
+- [Sevis Wallet](https://www.ict.gov.pg/sevis-wallet) - SevisPass Digital ID Pilot for Papua New Guinea.
+- [SOVIO.id](https://sovio.id) - Sovio SaaS Platform for organizations and individuals to use reusable, cryptographically secure digital identities and credentials.
 
 ## Goals
 
