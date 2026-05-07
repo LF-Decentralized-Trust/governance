@@ -28,6 +28,7 @@ teams:
     members:
       - christinaharter
       - hartm
+      - jwagantall
   - name: security-managers
     maintainers:
       - hartm
