@@ -143,6 +143,7 @@ nav:
   - Meetings:
     - meeting-minutes/index.md
     - 2026:
+      - 2026-05-21: meeting-minutes/2026/2026-05-21.md
       - 2026-05-14: meeting-minutes/2026/2026-05-14.md
       - 2026-05-07: meeting-minutes/2026/2026-05-07.md
       - 2026-04-30: meeting-minutes/2026/2026-04-30.md
