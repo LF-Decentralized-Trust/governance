@@ -20,6 +20,3 @@
     - [2024 Q4 Hyperledger Aries](./2024-Q4-Hyperledger-Aries.md)
     - [2024 Q4 Hyperledger AnonCreds](./2024-Q4-Hyperledger-AnonCreds.md)
 
-- [2024 Hyperleger project updates](https://toc.hyperledger.org/project-reports/2024/)
-
-
