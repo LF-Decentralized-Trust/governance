@@ -121,4 +121,4 @@ Smoot successfully achieved the goals set for 2025. In addition to the technical
 ## Project Lifecycle Status Recommendation
 
 
-This report recommends continuing the project’s “active development” status.
+This report recommends continuing the project’s “incubation” status.
