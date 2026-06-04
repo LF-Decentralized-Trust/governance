@@ -187,23 +187,6 @@ projects:
       - date: 2026-11-12
         title: Reminder to submit the 2026 Q4 quarterly project report
         description: Please submit the 2026 Q4 quarterly project report (due 2026-11-12). After submitting your pull request, please mark this issue as complete.
-  - name: Hyperledger Solang
-    github_org: hyperledger-solang
-    github_repo: governance
-    maintainers: []
-    schedules:
-      - date: 2026-02-12
-        title: Reminder to submit the 2026 Q1 annual project report
-        description: Please submit the 2026 Q1 annual report (due 2026-02-12). After submitting your pull request, please mark this issue as complete.
-      - date: 2026-05-14
-        title: Reminder to submit the 2026 Q2 quarterly project report
-        description: Please submit the 2026 Q2 quarterly report (due 2026-05-14). After submitting your pull request, please mark this issue as complete.
-      - date: 2026-08-13
-        title: Reminder to submit the 2026 Q3 quarterly project report
-        description: Please submit the 2026 Q3 quarterly report (due 2026-08-13). After submitting your pull request, please mark this issue as complete.
-      - date: 2026-11-12
-        title: Reminder to submit the 2026 Q4 quarterly project report
-        description: Please submit the 2026 Q4 quarterly project report (due 2026-11-12). After submitting your pull request, please mark this issue as complete.
   - name: Lockness
     github_org: LFDT-Lockness
     github_repo: governance
