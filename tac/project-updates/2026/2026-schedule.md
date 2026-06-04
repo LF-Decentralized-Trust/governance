@@ -13,7 +13,6 @@
 | 1H (annual) | 2026-02-05 | Indy      |
 | 1H (annual) | 2026-02-05 | AnonCreds |
 | 1H (annual) | 2026-02-12 | Iroha     |
-| 1H (annual) | 2026-02-12 | Solang    |
 | 1H (annual) | 2026-02-26 | Firefly   |
 | 1H (annual) | 2026-02-26 | Besu      |
 | 1H (annual) | 2026-03-05 | Caliper   |
@@ -31,7 +30,6 @@
 | 2H          | 2026-07-?? | Indy      |
 | 2H          | 2026-07-?? | AnonCreds |
 | 2H          | 2026-07-?? | Iroha     |
-| 2H          | 2026-07-?? | Solang    |
 | 2H          | 2026-07-?? | Firefly   |
 | 2H          | 2026-07-?? | Besu      |
 | 2H          | 2026-07-?? | Caliper   |
