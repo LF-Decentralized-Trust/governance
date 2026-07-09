@@ -16,7 +16,7 @@ Smoot demonstrated strong development momentum throughout 2025. The following mi
 ## Phase 1: Migration Completed
 
 
-The Wanchain implementation was successfully migrated to the LFDT repository.  
+The Wanchain implementation was successfully migrated to the LFDT repository. The repository relocation is https://github.com/LFDT-Smoot/bridge. 
 The codebase was redesigned to be vendor-agnostic, improving flexibility and long-term sustainability.  
 A modular architecture was introduced, allowing contributors to add and extend components independently.  
 The project was established as a fully open-source codebase, intentionally designed to support and encourage community contributions.
