@@ -74,7 +74,7 @@ The Smoot project actively welcomes additional third-party organizations to part
 ## Project Adoption
 
 
-Smoot is a relatively new project, and production-level adoption is still limited. Outreach and ecosystem engagement remain key focus areas.
+Smoot is a relatively new project, and production-level adoption is still limited. Outreach and ecosystem engagement remain key focus areas. Basically we would like to find new use cases and partners who are willing to leverage the Smoot framework to build crosschain applications.
 
 
 ---
