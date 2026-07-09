@@ -89,7 +89,7 @@ Smoot is a relatively new project, and production-level adoption is still limite
 Smoot successfully achieved the goals set for 2025. In addition to the technical milestones described above, the following dissemination and community engagement activities were completed:
 
 
-- Publication of a blog post introducing the Smoot project  
+- Publication of a blog post introducing the Smoot project (https://www.lfdecentralizedtrust.org/blog/meet-smoot-one-framework-to-connect-all-chains)
 - Two community meetup presentations  
 - Blog post announcing the merger of Smoot and Harmonia  
 - Joint interoperability presentation with the Cacti project  
