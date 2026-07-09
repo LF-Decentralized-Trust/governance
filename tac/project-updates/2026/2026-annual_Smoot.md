@@ -90,8 +90,8 @@ Smoot successfully achieved the goals set for 2025. In addition to the technical
 
 
 - Publication of a blog post introducing the Smoot project (https://www.lfdecentralizedtrust.org/blog/meet-smoot-one-framework-to-connect-all-chains)
-- Two community meetup presentations  
-- Blog post announcing the merger of Smoot and Harmonia  
+- Two community meetup presentations (See LDFT meeting calendar.  Some external links are available: https://scitechinstitute.org/event/lfdt-introduction-to-smoot-a-new-blockchain-interoperability-project/)
+- Blog post announcing the merger of Smoot and Harmonia (https://www.lfdecentralizedtrust.org/blog/strengthening-blockchain-interoperability-for-enterprises-harmonia-lab-merges-into-lfdt-smoot)
 - Joint interoperability presentation with the Cacti project  
 - Joint presentation at the LFDT Summit  
 
