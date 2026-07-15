@@ -4,11 +4,11 @@
 
 Projects are required to create a mid-year report for their project.
 
-Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-Qn-Project-Name.md` (e.g., `2023-MidYear-Hyperledger-Iroha.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate mid-year section e.g. "2026" as the top level, "MidYear" as the level below it. If the year or mid-year nav does not yet exist, please add it to match what you see in the `Project Updates` section.
+Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-MidYear-Project-Name.md` (e.g., `2026-MidYear-Hyperledger-Fabric.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate mid-year section e.g. "2026" as the top level, "MidYear" as the level below it. If the year or mid-year nav does not yet exist, please add it to match what you see in the `Project Updates` section.
 
 # What Should the Mid-Year Review Contain?
 
-Mid-year reviews are intended to look at the 6 months since the annual review to see how the project is progressing against its goals. This allows for a wide audience to better understand the project's health.
+Mid-year reviews are intended to look at the 6 months since the annual review to see how the project is progressing against its goals. This allows for a wide audience to better understand the project's health. Starting in 2026, all projects submit two reports per year: an annual review and a mid-year review.
 
 The review should answer the following questions:
 
@@ -29,7 +29,7 @@ In general, the TAC will be looking at the health of the project overall and if 
 - Whether deliverable are being created (e.g., releases or standards updates)
 - Understanding the diversity of maintainers in terms of organizations participating and whether the number of active maintainers has increased or decreased over the past year. Ensure your MAINTAINERS.md file is up-to-date.
 - Understanding the adoption of the project and how that has changed since the last review or since being accepted into LF Decentralized Trust. Ensure your ADOPTERS.md file is up-to-date.
-- Understanding how the project has performed against the goals set in the annual review. If you have not achieved the goals that you set out, that is okay. Feel free to include updates to your goals if things have changed. The TAC should look at what has been accomplished and what challenges the project had in meeting the goals. Ensure your roadmap is up-to-date and is publically available.
+- Understanding how the project has performed against the goals set in the annual review. If you have not achieved the goals that you set out, that is okay. Feel free to include updates to your goals if things have changed. The TAC should look at what has been accomplished and what challenges the project had in meeting the goals. Ensure your roadmap is up-to-date and is publicly available.
 
 # What is the Outcome of the Review
 
