@@ -23,20 +23,20 @@
 | 1H (annual) | 2026-03-19 | Paladin   |
 | 1H (annual) | 2026-03-19 | Smoot     |
 | 1H (annual) | 2026-03-19 | Minokawa  |
-| 2H          | 2026-07-?? | Cacti     |
-| 2H          | 2026-07-?? | Fabric    |
-| 2H          | 2026-07-?? | Identus   |
-| 2H          | 2026-07-?? | Web3j     |
-| 2H          | 2026-07-?? | Indy      |
-| 2H          | 2026-07-?? | AnonCreds |
-| 2H          | 2026-07-?? | Iroha     |
-| 2H          | 2026-07-?? | Firefly   |
-| 2H          | 2026-07-?? | Besu      |
-| 2H          | 2026-07-?? | Caliper   |
-| 2H          | 2026-07-?? | Lockness  |
-| 2H          | 2026-07-?? | Hiero     |
-| 2H          | 2026-07-?? | Credebl   |
-| 2H          | 2026-07-?? | ToIP      |
-| 2H          | 2026-07-?? | Paladin   |
-| 2H          | 2026-07-?? | Smoot     |
-| 2H          | 2026-07-?? | Minokawa  |
+| 2H          | 2026-07-30 | Cacti     |
+| 2H          | 2026-07-30 | Fabric    |
+| 2H          | 2026-08-06 | Identus   |
+| 2H          | 2026-08-06 | Web3j     |
+| 2H          | 2026-08-13 | Indy      |
+| 2H          | 2026-08-13 | AnonCreds |
+| 2H          | 2026-08-20 | Iroha     |
+| 2H          | 2026-08-27 | Firefly   |
+| 2H          | 2026-08-27 | Besu      |
+| 2H          | 2026-09-03 | Caliper   |
+| 2H          | 2026-09-03 | Lockness  |
+| 2H          | 2026-09-03 | Hiero     |
+| 2H          | 2026-09-10 | Credebl   |
+| 2H          | 2026-09-10 | ToIP      |
+| 2H          | 2026-09-17 | Paladin   |
+| 2H          | 2026-09-17 | Smoot     |
+| 2H          | 2026-09-17 | Minokawa  |
