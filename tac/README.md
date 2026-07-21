@@ -1,19 +1,18 @@
-This directory contains the Technical Advisory Council website, which includes
-governing documents, guidelines, and meeting minutes.
+# LF Decentralized Trust TAC
 
-This directory is licensed under Creative Commons Attribution 4.0 International
-(CC-BY-4.0), a copy of which can be found in the [LICENSE](license) file.
+This is the website of the LF Decentralized Trust (LFDT) Technical Advisory
+Council (TAC). The LFDT TAC is responsible for facilitating communication
+and collaboration amongst the LFDT technical communities, including approving
+new proposals for project lifecycle changes, establishing community norms,
+workflows, or policies that are not within the scope of any single project,
+and resolving technical matters that affect multiple projects.
 
-A [rendered version of this website][website] is probably what you want to see.
+<div class="grid cards" markdown>
 
-[website]: https://lf-decentralized-trust.github.io/governance/
+- :material-scale-balance:{ .lg .middle } __[Governing Documents](./governing-documents/index.md)__
+- :material-help-box-multiple-outline:{ .lg .middle } __[Guidelines](./guidelines/index.md)__
+- :material-calendar-blank:{ .lg .middle } __[Meeting Minutes](./meeting-minutes/index.md)__
+- :fontawesome-solid-magnifying-glass:{ .lg .middle } __[Project Updates](./project-updates/index.md)__
+- :octicons-cross-reference-16:{ .lg .middle } __[Raising an Issue](./raising-an-issue.md)__
 
-This repository uses MkDocs. For full documentation visit
-[mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
+</div>
