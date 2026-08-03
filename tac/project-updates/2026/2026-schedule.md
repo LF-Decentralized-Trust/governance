@@ -23,7 +23,7 @@
 | 1H (annual) | 2026-03-19 | Paladin   |
 | 1H (annual) | 2026-03-19 | Smoot     |
 | 1H (annual) | 2026-03-19 | Minokawa  |
-| 2H          | 2026-07-30 | Cacti     |
+| 2H          | 2026-08-13 | Cacti     |
 | 2H          | 2026-07-30 | Fabric    |
 | 2H          | 2026-08-06 | Identus   |
 | 2H          | 2026-08-06 | Web3j     |
@@ -36,7 +36,7 @@
 | 2H          | 2026-09-03 | Lockness  |
 | 2H          | 2026-09-03 | Hiero     |
 | 2H          | 2026-09-10 | Credebl   |
-| 2H          | 2026-09-10 | ToIP      |
+| 2H          | 2026-10-29 | ToIP      |
 | 2H          | 2026-09-17 | Paladin   |
 | 2H          | 2026-09-17 | Smoot     |
 | 2H          | 2026-09-17 | Minokawa  |

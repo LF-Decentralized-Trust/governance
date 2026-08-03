@@ -13,7 +13,7 @@ projects:
         description: Please submit the 2026 mid-year report (due 2026-08-27). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
   - name: Hyperledger Fabric
     github_org: hyperledger
-    github_repo: fabric
+    github_repo: fabric-x
     maintainers: []
     schedules:
       - date: 2026-01-22
@@ -63,9 +63,9 @@ projects:
       - date: 2026-01-22
         title: Reminder to submit the 2026 annual project report
         description: Please submit the 2026 annual report (due 2026-01-22). After submitting your pull request, please mark this issue as complete.
-      - date: 2026-07-30
+      - date: 2026-08-13
         title: Reminder to submit the 2026 mid-year project report
-        description: Please submit the 2026 mid-year report (due 2026-07-30). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
+        description: Please submit the 2026 mid-year report (due 2026-08-13). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
   - name: Hyperledger Caliper
     github_org: hyperledger-caliper
     github_repo: governance
@@ -151,9 +151,9 @@ projects:
       - date: 2026-03-12
         title: Reminder to submit the 2026 annual project report
         description: Please submit the 2026 annual report (due 2026-03-12). After submitting your pull request, please mark this issue as complete.
-      - date: 2026-09-10
+      - date: 2026-10-29
         title: Reminder to submit the 2026 mid-year project report
-        description: Please submit the 2026 mid-year report (due 2026-09-10). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
+        description: Please submit the 2026 mid-year report (due 2026-10-29). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
   - name: Web3j
     github_org: LFDT-web3j
     github_repo: governance
