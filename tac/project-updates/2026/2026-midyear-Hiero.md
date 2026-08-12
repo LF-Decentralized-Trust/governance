@@ -7,6 +7,21 @@
 
 ### GH Organization Overview
 
+
+### Community Calls
+
+The Hiero project has seen a slight decrease in attendance of community calls compared to last period. During this time, few calls were taken out of the public calendar (Mentorship and Marketing/Docs/Website calls). In case of the Mentorship call, the mentorship program has started and it continues to work independently from the public calendar. In this case, a weekly call is not necessary. Marketing/Docs/Website calls have been deprecated given that attendance has reduced. 
+
+On the other side, the Hiero project introduced two new working groups to their public calendar to offer an opportunity to collaborate with Hashgraph Online maintainers: HOL: Registries Subcommittee which facilitates working groups for agentic trust scores, adapters, registries, and more and HOL Cryptographic Agent Execution Standards Working Group where the team will explore agent security measures using ZK proofs for authorization and execution, threshold decryption for keys, collusion resistance, and SMPC for data privacy under adversarial conditions.
+
+In general, the Hiero TSC has made aware about the decrease of attendance of community meetings and its working together with the community to gather feedback on how to make this attendance possible. Part of this work includes adding exciting content to the public agendas, promote more communication beforehand in Discord to acquire more interest and [adding this expectation](https://github.com/hiero-ledger/governance/pull/686) as part of being a committer and a maintainer in Hiero.  
+
+### Project composition
+
+### Improvement Proposals Adopted
+
+## Maintainer Diversity
+
 The Hiero community continues to welcome new project proposals and bring in new development of features. The work that the Hiero community continues to promote via [hiero-hackers](https://github.com/orgs/hiero-hackers/repositories), the current mentorship programs, and recent project adoption has reflected a boost in organization diversity compared to July 2025.
 
 The following snapshot for July 2025, reflects the earlier status of the maintainer diversity where Hashgraph maintainers were holding the most maintainer positions in the hiero-ledger organization. The chart also reflects the introduction of LimeChain as part of the maintainers for subprojects like hiero-local-node, hiero-json-rpc-relay and part of the hiero SDKs. Compared to 2025, the second chart showing the current 2026 snapshot showcases the introduction of BlockyDevs, Hashgraph Online and DSR maintainers as part of the community.
@@ -30,19 +45,6 @@ When it comes to the Hiero community as a whole (maintainers, contributors, coll
 
 The community continues to strengthen project diversity through promotion, workshops, mentorship programs, and contributor growth, with a focus on developing new maintainers and committers through issue progression across all repositories.
 
-### Community Calls
-
-The Hiero project has seen a slight decrease in attendance of community calls compared to last period. During this time, few calls were taken out of the public calendar (Mentorship and Marketing/Docs/Website calls). In case of the Mentorship call, the mentorship program has started and it continues to work independently from the public calendar. In this case, a weekly call is not necessary. Marketing/Docs/Website calls have been deprecated given that attendance has reduced. 
-
-On the other side, the Hiero project introduced two new working groups to their public calendar to offer an opportunity to collaborate with Hashgraph Online maintainers: HOL: Registries Subcommittee which facilitates working groups for agentic trust scores, adapters, registries, and more and HOL Cryptographic Agent Execution Standards Working Group where the team will explore agent security measures using ZK proofs for authorization and execution, threshold decryption for keys, collusion resistance, and SMPC for data privacy under adversarial conditions.
-
-In general, the Hiero TSC has made aware about the decrease of attendance of community meetings and its working together with the community to gather feedback on how to make this attendance possible. Part of this work includes adding exciting content to the public agendas, promote more communication beforehand in Discord to acquire more interest and [adding this expectation](https://github.com/hiero-ledger/governance/pull/686) as part of being a committer and a maintainer in Hiero.  
-
-### Project composition
-
-### Improvement Proposals Adopted
-
-## Maintainer Diversity
 ## Project Adoption
 
 ## Goals
