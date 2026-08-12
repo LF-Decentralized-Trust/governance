@@ -74,6 +74,10 @@ The community continues to strengthen project diversity through promotion, works
 
 ## Project Adoption
 
+Hiero remains committed to strengthening [organizational diversity](https://insights.linuxfoundation.org/project/hiero/contributors?widget=organization-dependency) within its [governance leadership](https://github.com/hiero-ledger/tsc/?tab=readme-ov-file#members). The upcoming September 2026 elections present an important opportunity to broaden representation by welcoming the participation from additional organizations and reinforcing the project’s commitment to build an inclusive, vendor-neutral, and community-driven governance.
+
+[September elections](https://github.com/hiero-ledger/governance/blob/main/elections/nominees/sep-2026-election/README.md) will result in the election of 2 TSC Maintainers Seats and 1 TSC Voted Seat which will replace the current ones.  
+
 ## Goals
 
 ### Performance Against Prior Goals
