@@ -22,6 +22,14 @@ In general, the Hiero TSC has made aware about the decrease of attendance of com
 
 ### Improvement Proposals Adopted
 
+As seen in our [Hiero Analytics HIPs Tracker](https://hiero-hackers.github.io/analytics/#tab=HIPs) each of these numbers represents the total of pull requests created to implement each Hierp Improvement Proposal in the different components/services and SDKs in Hiero. This implementation activity highlights not only the amount of development completed, but also the ongoing collaboration among maintainers and contributors to take each improvement proposals into production-ready functionality across each of Hiero's components.
+
+<img width="1156" height="815" alt="image" src="https://github.com/user-attachments/assets/c80c5e6d-37fa-4551-a93d-12d41999d79e" />
+
+While these HIP analytics are new, the community continues to build data references that helps us visualize the impact of Hiero's Improvement Proposals across the entire project. For example, we are now able to track which Hiero Subproject continues to participate in new and distinct proposals. 
+
+<img width="1112" height="720" alt="image" src="https://github.com/user-attachments/assets/0426fcac-5464-4e09-bbb5-38b861c592d4" />
+
 ## Maintainer Diversity
 
 The Hiero community continues to welcome new project proposals and bring in new development of features. The work that the Hiero community continues to promote via [hiero-hackers](https://github.com/orgs/hiero-hackers/repositories), the current mentorship programs, and recent project adoption has reflected a boost in organization diversity compared to July 2025.
