@@ -4,9 +4,11 @@
 
 ## Project Health
 
+The Hiero project obtained an [Excellent health score](https://insights.linuxfoundation.org/project/hiero?timeRange=custom&start=2026-01-01&end=2026-08-12) in 2026. The project is positioned as part of the 10% projects that have been recognized for its overall commit activity, active contributors and community, active organizations and forked repos. It has also scored in the top 25% due to its popularity via stars.  
 
 ### GH Organization Overview
 
+So far in 2026, Hiero includes 42 active repositories supported by contributions from approximately 534 authors and continues to gain strong momentum and popularity across the open-source community. The project's performance is also recognized by its strong CI processes which only registered 9% of job failures and an average queue job time of less than 4 minutes according to [GH Insights](https://github.com/orgs/hiero-ledger/actions/metrics/performance?dateRangeType=DATE_RANGE_TYPE_LAST_90_DAYS).
 
 ### Community Calls
 
