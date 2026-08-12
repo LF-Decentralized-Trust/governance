@@ -4,11 +4,18 @@
 
 ## Project Health
 
-The Hiero project obtained an [Excellent health score](https://insights.linuxfoundation.org/project/hiero?timeRange=custom&start=2026-01-01&end=2026-08-12) in 2026. The project is positioned as part of the 10% projects that have been recognized for its overall commit activity, active contributors and community, active organizations and forked repos. It has also scored in the top 25% due to its popularity via stars.  
+The Hiero project obtained an [Excellent health score](https://insights.linuxfoundation.org/project/hiero?timeRange=custom&start=2026-01-01&end=2026-08-12) in 2026. The project is positioned as part of the 10% projects that have been recognized for its overall commit activity, active contributors and community, active organizations and forked repos. It has also scored in the top 25% due to its popularity via stars. 
+
+The following report has been generated leveraging statistics from:
+- LFX Insights
+- Hiero Analytics
+- GH Insights
 
 ### GH Organization Overview
 
 So far in 2026, Hiero includes 42 active repositories supported by contributions from approximately 534 authors and continues to gain strong momentum and popularity across the open-source community. The project's performance is also recognized by its strong CI processes which only registered 9% of job failures and an average queue job time of less than 4 minutes according to [GH Insights](https://github.com/orgs/hiero-ledger/actions/metrics/performance?dateRangeType=DATE_RANGE_TYPE_LAST_90_DAYS).
+
+<img width="1299" height="792" alt="image" src="https://github.com/user-attachments/assets/f0def677-4eee-4903-bcb3-39b7f5ef443c" />
 
 ### Community Calls
 
@@ -19,6 +26,16 @@ On the other side, the Hiero project introduced two new working groups to their 
 In general, the Hiero TSC has made aware about the decrease of attendance of community meetings and its working together with the community to gather feedback on how to make this attendance possible. Part of this work includes adding exciting content to the public agendas, promote more communication beforehand in Discord to acquire more interest and [adding this expectation](https://github.com/hiero-ledger/governance/pull/686) as part of being a committer and a maintainer in Hiero.  
 
 ### Project composition
+
+Hiero is actively looking for opportunities to expand and optimize its technology via [project adoption](https://github.com/hiero-ledger/tsc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22project%20proposal%22).
+
+Hiero has created its new GitHub organization [hiero-hackers](https://github.com/orgs/hiero-hackers). This initiative is a result of Hiero's community work with their continued development in its four Mentorship Programs combined with an initiative to jumpstart new ideas faster for anyone interested in developing features on top of Hiero. Today, hiero-hackers hosts 27 repositories which represent the ideas of [30+ community members](https://hiero-hackers.github.io/analytics/#tab=Contributors&org=hiero-hackers). By giving contributors the freedom to prototype, test, iterate, and learn quickly, hiero-hackers helps turn community ideas into working feature with the potential adoption into hiero-ledger.
+
+<img width="1123" height="184" alt="image" src="https://github.com/user-attachments/assets/c8eca2df-2ad1-44e2-853a-7648e5b2e594" />
+
+Each of these repositories continues to gain attention from new contributors and new members of the community who want to test their ideas in Hiero. This participation translates in new talent acquisition and diversity of contributions as well as potential candidates for contributors to become new maintainers.
+
+<img width="1758" height="923" alt="image" src="https://github.com/user-attachments/assets/9e3bd773-05f3-4a7e-bfe4-80f7efffa742" />
 
 ### Improvement Proposals Adopted
 
