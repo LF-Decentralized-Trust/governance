@@ -87,7 +87,9 @@ Hiero remains committed to strengthening [organizational diversity](https://insi
 
 ### Help Required
 
+**Community communication channels** -> The Hiero community is facing difficulties trying to stay on top of communication outside of community meetings. GitHub notifications can be easy to miss and maintainers are doing their best at trying to adjust their personal notification preferences. On the other side, internal Slack (Hashgraph Slack) continues to hold a good portion of the discussions that are happening in the tech teams. Discord, on the other hand, is the main preferred method of communication for Hiero's independent collaborators which is attempting to promote more activity and involvement of Hashgraph and Limechain maintainers. The Hiero community requests the LFDT's TAC advise on helping Hiero (and communities with similar communication issues) brainstorm ways to engage the communities into an effective and responsive communication.
 
+**Project status** -> Hiero was able to acquire graduated status within its first year after joining LFDT. Hiero continues to hold its graduated status but it will be beneficial for the community to have a target measure to look forward to (for example: bronze, silver, gold status). While we understand this can be quite complicated and difficult to implement, we request the TAC's advice on helping defining ways or measures to help improve motivation to keep or reach a particular status. 
 
 ## Project Lifecycle Status Recommendation
 
