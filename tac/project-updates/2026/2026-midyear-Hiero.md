@@ -82,10 +82,19 @@ Hiero remains committed to strengthening [organizational diversity](https://insi
 
 ### Performance Against Prior Goals
 
+
 ### 2026 Year's Goals
 
 ### Help Required
 
 
+
 ## Project Lifecycle Status Recommendation
 
+The Hiero project requests to keep the current Graduated state.
+
+The Hiero community continues to mature and transform as time passes. The new September elections will contribute to new members of the community to step into project steering decisions that will help drive Hiero through the reminder of 2026 and for new refined goals for 2027. 
+
+The completion of the mentorship programs will also reflect in more interest in contributing to Hiero and allow for new maintainers to step into the role. Alongside mentorship, the Hiero community continues to promote Hiero in universities across Europe and will continue to highlight the work being done in future events where fellow communities can meet. The community is also excited to see the results of the work that is currently being shared in hiero-hackers and will continue to shape the future of these features for inclusion in hiero-ledger.  
+
+Hiero has still some areas of improvement detected when comparing the current progress of 2026 goals. These topics have been brought up to the TSC's attention and, as a community, we continue to bring focus and awareness to them. The Hiero community understands that there is a still a lot of work to do to improve and maintain project performance, however, it still deserving of maintaining graduated status.
