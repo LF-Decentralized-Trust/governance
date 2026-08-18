@@ -7,9 +7,9 @@
 The Hiero project obtained an [Excellent health score](https://insights.linuxfoundation.org/project/hiero?timeRange=custom&start=2026-01-01&end=2026-08-12) in 2026. The project is positioned as part of the 10% projects that have been recognized for its overall commit activity, active contributors and community, active organizations and forked repos. It has also scored in the top 25% due to its popularity via stars. 
 
 The following report has been generated leveraging statistics from:
-- LFX Insights
-- Hiero Analytics
-- GH Insights
+- [LFX Insights](https://insights.linuxfoundation.org/project/hiero)
+- [Hiero Analytics](https://hiero-hackers.github.io/analytics/)
+- [GH Insights](https://github.com/orgs/hiero-ledger/actions/metrics/usage)
 
 ### GH Organization Overview
 
