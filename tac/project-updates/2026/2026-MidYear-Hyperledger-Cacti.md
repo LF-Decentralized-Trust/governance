@@ -26,7 +26,7 @@ Maintainers continue to participate in the IETF SATP working group, keeping the 
 
 ### 3. Improve OpenSSF and LFX Insights Scores
 
-The security vulnerability fixes carried out as part of the cleanup initiative have produced a significant and measurable result: GitHub security alerts were reduced from ~4,000 down to ~400, with zero critical vulnerabilities remaining. we plan to continue addressing the security and OpenSSF score for the second half of 2026, aligned with the documentation revamp.
+The security vulnerability fixes carried out as part of the cleanup initiative have produced a significant and measurable result: GitHub security alerts were reduced from ~4,000 down to ~400, with zero critical vulnerabilities remaining. We plan to continue addressing the security and OpenSSF score for the second half of 2026, aligned with the documentation revamp.
 
 ### 4. Fix Release Automation and Push v3+ Releases
 
@@ -44,8 +44,8 @@ Progress here has been limited given the focus on cleanup and release automation
 
 | Deliverable | Details |
 |---|---|
-| [cacti v3 beta](https://github.com/hyperledger-cacti/cacti/releases?page=2#release-weaver/core/network/fabric-interop-cc/interfaces/asset-mgmt/v3.0.0-alpha.8) | First v3-series release |
-| [cacti v3 release](https://github.com/hyperledger-cacti/cacti/releases/tag/3.0.0) | Major release |
+| [cacti v3 beta](https://github.com/hyperledger-cacti/cacti/releases?page=2#release-v3.0.0-beta.1) | v3 beta release |
+| [cacti v3 release](https://github.com/hyperledger-cacti/cacti/releases/tag/v3.0.0) | Major release |
 | [cacti-demos v1.0.0](https://github.com/hyperledger-cacti/cacti-demos/releases/tag/1.0.0) | Standalone demos and examples repository, separated from the core codebase |
 | Security vulnerability fixes | Security alerts reduced from ~4,000 to ~400; zero critical vulnerabilities remaining |
 | Cleanup initiative milestone | 77 issues closed, ~80 PRs merged, unmaintained packages archived |
@@ -56,8 +56,8 @@ Progress here has been limited given the focus on cleanup and release automation
 ## Goals for the Second Half of 2026
 
 - Ship v3.1.0 (or v3.0.1) release and continue release-automation improvements.
-- Complete Cacti documentation revamp — the next major milestone of the [cleanup initiative](https://github.com/orgs/hyperledger-cacti/projects/2), driven jointly by the LFDT mentorship and the core maintainer team.
-- Expand [cacti-demos](https://github.com/hyperledger-cacti/cacti-demos) — consider add more documentation, application examples, and integration showcases to lower the barrier for new adopters.
+- Complete Cacti [documentation revamp](https://hyperledger-cacti.github.io/cacti/) — the next major milestone of the [cleanup initiative](https://github.com/orgs/hyperledger-cacti/projects/2), driven jointly by the LFDT mentorship and the core maintainer team.
+- Expand [cacti-demos](https://github.com/hyperledger-cacti/cacti-demos) — consider adding more documentation, application examples, and integration showcases to lower the barrier for new adopters.
 - Continue SATP-Hermes development in line with IETF draft updates, tracking the standard toward RFC status.
 - Consider new DLT connectors — evaluate community demand and prioritise connectors that broaden Cacti's reach without conflicting with the depth-over-breadth strategy.
 - Security and usability improvements: continue hardening the codebase, building on the alert reduction achieved in the first half, with an eye toward the next major or minor version milestone.
@@ -67,12 +67,27 @@ Progress here has been limited given the focus on cleanup and release automation
 
 ---
 
+## Maintainer Diversity
+
+The project counts with 5 maintainers:
+
+| Name | GitHub | Chat | Institution |
+|------|--------|------|------|
+| Michal Bajer | [outSH] | bajerm | Fujitsu |
+| Venkatraman Ramakrishna | [VRamakrishna] | vramaiitkgp | IBM |
+| Sandeep Nishad | [sandeepnRES] | sandeepn | IBM |
+| Rafael Belchior | [RafaelAPB] | rafaelapb | INESC-ID |
+| André Augusto | [AndreAugusto11] | andreaugusto | INESC-ID |
+| Carlos Amaro | [LordKubaya] | kubaya |INESC-ID |
+
+---
+
 ## Help Required
 
 We would appreciate TAC assistance in the following subjects:
 1 - in finding and onboarding new maintainers. The project's contributor and organization concentration (2 contributors and 2 organizations accounting for the majority of contributions) is a known risk, and growing the maintainer base is a priority. The ongoing cleanup initiative and the documentation revamp are intentionally designed to be approachable entry points for new contributors who may grow into maintainers. Action step would be helping us with the project marketing, which we would be in a good position to reinforce after the v3 release.
 
-2 - any support for AI tokensm, e.g., Copilot subsription. Some maintainers are using their subscriptions out of pocket exclusively for the project. We are happy to explain how we are planning to use such tokens to advance the project (of course, aligned with our AI policy).
+2 - any support for AI tokens, e.g., Copilot subsription. Some maintainers are using their subscriptions out of pocket exclusively for the project. We are happy to explain how we are planning to use such tokens to advance the project (of course, aligned with our AI policy).
 
 ## Acknowledgments
 
