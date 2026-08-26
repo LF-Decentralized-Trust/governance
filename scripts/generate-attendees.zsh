@@ -2,14 +2,17 @@
 #
 # Generate attendees.md for TAC meeting minutes directories.
 #
-# Usage: scripts/generate-attendees.zsh [--stdout] [year|directory ...]
+# Usage: scripts/generate-attendees.zsh [--stdout] [--quorum N] [year|directory ...]
 #
 #   With no arguments, every year directory under tac/meeting-minutes is
 #   processed. A bare year ("2026") is resolved relative to tac/meeting-minutes;
 #   anything else is treated as a path.
 #
-#   --stdout  print the report instead of writing attendees.md
-#             (only valid with a single directory)
+#   --stdout    print the report instead of writing attendees.md
+#               (only valid with a single directory)
+#   --quorum N  fixed quorum threshold. By default quorum follows the charter
+#               rule of fifty percent of the roster listed for that meeting,
+#               rounded up -- 6 of 11.
 #
 # Each YYYY-MM-DD.md file is read, its "# Attended by" checklist parsed
 # ("- [x] Name" present, "- [ ] ~~Name~~" absent), and a report written with
@@ -22,14 +25,24 @@ repo_root=${0:A:h:h}
 minutes_root=$repo_root/tac/meeting-minutes
 
 to_stdout=0
+quorum_override=0
 typeset -a targets
 targets=()
 
-for arg in "$@"; do
+while (( $# )); do
+  arg=$1
   case $arg in
     --stdout) to_stdout=1 ;;
+    --quorum)
+      shift
+      if [[ ${1-} != <-> ]]; then
+        print -u2 "generate-attendees: --quorum needs a number"
+        exit 2
+      fi
+      quorum_override=$1
+      ;;
     -h|--help)
-      sed -n '3,17p' ${0:A} | sed 's/^# \{0,1\}//'
+      sed -n '3,20p' ${0:A} | sed 's/^# \{0,1\}//'
       exit 0
       ;;
     -*)
@@ -39,6 +52,7 @@ for arg in "$@"; do
     <->) targets+=($minutes_root/$arg) ;;
     *)   targets+=(${arg:A}) ;;
   esac
+  shift
 done
 
 if (( ! $#targets )); then
@@ -59,9 +73,11 @@ fi
 # report <directory> -- writes the markdown report for one year to stdout
 report() {
   local src_dir=$1
-  local -a files dates roster sortable here away
+  local -a files dates roster sortable here away no_quorum
   local -A att n_present n_absent seen rate streak first_seen last_seen
+  local -A m_present m_listed m_quorum
   local f date line mark name key entry d s i listed total_present in_section
+  local p l quorum_cell
 
   files=(${src_dir}/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].md(N.on))
   if (( ! $#files )); then
@@ -117,6 +133,29 @@ report() {
 
   # --- derived stats ---------------------------------------------------------
 
+  # per-meeting turnout and quorum. The charter puts quorum at fifty percent
+  # of the voting representatives, so default to half the roster listed for
+  # that meeting, rounded up (6 of 11).
+  no_quorum=()
+  for d in $dates; do
+    p=0
+    l=0
+    for name in $roster; do
+      key="$d|$name"
+      (( ${+att[$key]} )) || continue
+      l=$(( l + 1 ))
+      [[ $att[$key] == x ]] && p=$(( p + 1 ))
+    done
+    m_present[$d]=$p
+    m_listed[$d]=$l
+    if (( quorum_override > 0 )); then
+      m_quorum[$d]=$quorum_override
+    else
+      m_quorum[$d]=$(( (l + 1) / 2 ))
+    fi
+    (( p < ${m_quorum[$d]} )) && no_quorum+=($d)
+  done
+
   for name in $roster; do
     listed=$(( ${n_present[$name]} + ${n_absent[$name]} ))
     rate[$name]=$(( listed ? 100.0 * ${n_present[$name]} / listed : 0 ))
@@ -162,6 +201,13 @@ report() {
   print -r -- "- Meetings: **$#dates** ($dates[1] through $dates[-1])"
   print -r -- "- People on the roster: **$#roster**"
   printf -- "- Average attendance per meeting: **%.1f**\n" $(( 1.0 * total_present / $#dates ))
+  if (( quorum_override > 0 )); then
+    print -r -- "- Quorum: **$quorum_override** attendees"
+  else
+    print -r -- "- Quorum: **fifty percent of the roster, rounded up** (6 of 11)"
+  fi
+  printf -- "- Meetings without quorum: **%d** (%.0f%%)\n" \
+    $#no_quorum $(( 100.0 * $#no_quorum / $#dates ))
   print -r -- ""
   print -r -- "## Per-attendee stats"
   print -r -- ""
@@ -175,10 +221,22 @@ report() {
       $rate[$name] $streak[$name] $first_seen[$name] $last_seen[$name]
   done
   print -r -- ""
+  print -r -- "## Meetings without quorum"
+  print -r -- ""
+  if (( ! $#no_quorum )); then
+    print -r -- "Every meeting reached quorum."
+  else
+    print -r -- "| Meeting | Present | Listed | Quorum | Short by |"
+    print -r -- "| --- | ---: | ---: | ---: | ---: |"
+    for d in $no_quorum; do
+      print -r -- "| [$d](./$d.md) | ${m_present[$d]} | ${m_listed[$d]} | ${m_quorum[$d]} | $(( ${m_quorum[$d]} - ${m_present[$d]} )) |"
+    done
+  fi
+  print -r -- ""
   print -r -- "## Per-meeting attendance"
   print -r -- ""
-  print -r -- "| Meeting | Present | Absent | Attendees |"
-  print -r -- "| --- | ---: | ---: | --- |"
+  print -r -- "| Meeting | Present | Absent | Quorum | Attendees |"
+  print -r -- "| --- | ---: | ---: | :---: | --- |"
   for d in $dates; do
     here=() away=()
     for name in $roster; do
@@ -188,7 +246,12 @@ report() {
         -) away+=($name) ;;
       esac
     done
-    print -r -- "| [$d](./$d.md) | $#here | $#away | ${(j:, :)here} |"
+    if (( $#here >= ${m_quorum[$d]} )); then
+      quorum_cell="yes"
+    else
+      quorum_cell="**no**"
+    fi
+    print -r -- "| [$d](./$d.md) | $#here | $#away | $quorum_cell | ${(j:, :)here} |"
   done
 }
 
