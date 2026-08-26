@@ -66,17 +66,6 @@ projects:
       - date: 2026-08-13
         title: Reminder to submit the 2026 mid-year project report
         description: Please submit the 2026 mid-year report (due 2026-08-13). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
-  - name: Hyperledger Caliper
-    github_org: hyperledger-caliper
-    github_repo: governance
-    maintainers: []
-    schedules:
-      - date: 2026-03-05
-        title: Reminder to submit the 2026 annual project report
-        description: Please submit the 2026 annual report (due 2026-03-05). After submitting your pull request, please mark this issue as complete.
-      - date: 2026-09-03
-        title: Reminder to submit the 2026 mid-year project report
-        description: Please submit the 2026 mid-year report (due 2026-09-03). See the [mid-year review instructions](https://lf-decentralized-trust.github.io/governance/project-updates/mid-year-update-instructions/) for guidance. After submitting your pull request, please mark this issue as complete.
   - name: Hyperledger Firefly
     github_org: hyperledger
     github_repo: firefly
