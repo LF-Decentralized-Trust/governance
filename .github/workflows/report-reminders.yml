@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the governance repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Send due report reminders
-        uses: hyperledger-tooling/github-issue-schedule@1.4
+        uses: hyperledger-tooling/github-issue-schedule@c11fdda5658aea8719f9ccb9bdc94763786822e7 # 1.4
         env:
           GITHUB_TOKEN: "${{ secrets.UPDATE_REMINDERS }}"
           CONFIG_FILE: ./.github/configs/project-report-reminders.yml
