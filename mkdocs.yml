@@ -146,6 +146,7 @@ nav:
       - meeting-minutes/index.md
       - 2026:
           - 2026 attendance: meeting-minutes/2026/attendees.md
+          - 2026-08-27: meeting-minutes/2026/2026-08-27.md
           - 2026-08-20: meeting-minutes/2026/2026-08-20.md
           - 2026-08-13: meeting-minutes/2026/2026-08-13.md
           - 2026-08-06: meeting-minutes/2026/2026-08-06.md
