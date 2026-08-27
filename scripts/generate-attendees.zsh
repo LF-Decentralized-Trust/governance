@@ -211,6 +211,10 @@ report() {
   print -r -- ""
   print -r -- "## Per-attendee stats"
   print -r -- ""
+  # the wrapper carries the CSS that keeps this eight column table inside the
+  # content width; the blank lines keep the table markdown on GitHub too
+  print -r -- "<div class=\"attendance-stats\" markdown=\"1\">"
+  print -r -- ""
   print -r -- "| Attendee | Attended | Absent | Listed | Rate | Current streak | First attended | Last attended |"
   print -r -- "| --- | ---: | ---: | ---: | ---: | ---: | --- | --- |"
   for entry in $sortable; do
@@ -220,6 +224,8 @@ report() {
       $name $n_present[$name] $n_absent[$name] $listed \
       $rate[$name] $streak[$name] $first_seen[$name] $last_seen[$name]
   done
+  print -r -- ""
+  print -r -- "</div>"
   print -r -- ""
   print -r -- "## Meetings without quorum"
   print -r -- ""
