@@ -23,3 +23,4 @@
   - MidYear:
      - [2026 Mid-Year AnonCreds](2026-MidYear-AnonCreds.md)
      - [2026 Mid-Year Web3j](2026-MidYear-Web3j.md)
+     - [2026 Mid-Year Hyperledger Fabric](2026-MidYear-Hyperledger-Fabric.md)
