@@ -135,6 +135,7 @@ nav:
   - Guidelines:
       - guidelines/index.md
       - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
+      - Dependabot Configuration Example: guidelines/dependabot-example.md
       - GitHub Contribution Guide: guidelines/github-contribution-guide.md
       - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
       - GitHub Organization: guidelines/github-organization.md
