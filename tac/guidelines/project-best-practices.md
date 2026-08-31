@@ -114,6 +114,7 @@ The [Project Incubation Exit Criteria](../governing-documents/project-incubation
     - Software Composition Analysis dependency scans, e.g. Dependabot, Govulncheck
     - Static Application Security Testing (SAST) aka static analysis scans, e.g. CodeQL, Snyk
 * Pin dependencies and keep dependencies up to date,  e.g. using Dependabot, although be wary of auto-upgrades and lookout for malware.
+    - See the annotated [Dependabot Configuration Example](./dependabot-example.md) for a starting `.github/dependabot.yml` that groups updates into a single pull request per ecosystem and applies a 30-day cooldown to reduce exposure to compromised releases.
 * Engage with LFDT staff on possibility of [security audits](https://wiki.hyperledger.org/display/SEC/Security+Code+Audits) for Graduated project major releases; address audit results and socialize
 * Review [OpenSSF secure developer guide](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Developing-More-Secure-Software.md) and OpenSSF overview presentation to TAC ([charts](https://wiki.hyperledger.org/download/attachments/80775801/OpenSSF%20Hyperledger%2020230119.pdf?version=1&modificationDate=1674218724000&api=v2), [replay](https://youtu.be/0AFFIDKFNvc))
 * Review and obtain OpenSSF Best Practices Badge - see [criteria](https://bestpractices.coreinfrastructure.org/en/criteria/0)
