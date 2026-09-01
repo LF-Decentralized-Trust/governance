@@ -1,9 +1,4 @@
----
-layout: default
-title: 2026 Mid-Year Review: Web3j
-parent: 2026
-grand_parent: Project Updates
----
+[//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # 2026 Mid-Year Review of Web3j
 
