@@ -14,7 +14,7 @@ Each week on Monday or Tuesday, the agenda needs to be created and distributed.
 
 To create the TAC agenda, there are two places that are always used.
 
-1. [Governance Repo](https://github.com/lf-decentralized-trust/governance) - in this repo, the pull requests will be used for both determining which project updates are ready for review and need to be included in either the _Project Updates_ section of the agenda (for quarterly reports) or the _Discussion_ section of the agenda (for annual reports). In addition, there may be other governance pull requests that should be included in the discussion portion of the agenda. The issues can be used for determining if there are topics that should be discussed and included in the _Discussion_ section of the agenda that may not yet have a pull request available.
+1. [Governance Repo](https://github.com/lf-decentralized-trust/governance) - in this repo, the pull requests will be used for both determining which project updates are ready for review and need to be included in either the _Project Updates_ section of the agenda (for mid-year reports) or the _Discussion_ section of the agenda (for annual reports). In addition, there may be other governance pull requests that should be included in the discussion portion of the agenda. The issues can be used for determining if there are topics that should be discussed and included in the _Discussion_ section of the agenda that may not yet have a pull request available.
 1. [Project Proposals](https://github.com/lf-decentralized-trust/project-proposals) - in this repo, the pull requests will be used to determine if there are any new project proposals that need to be discussed and included in the _Discussion_ section of the agenda.
 
 Meeting agendas will be added to the `mkdocs.yml` file under _Meetings_ section in the appropriate year in reverse chronological order. A new file named `YYYY-MM-DD.md` will be placed under `tac/meeting-minutes/yyyy` folder.
@@ -23,7 +23,7 @@ Meeting agendas will be added to the `mkdocs.yml` file under _Meetings_ section 
 
 After creating the TAC agenda, a pull request will be created against the [Governance Repo](https://github.com/lf-decentralized-trust/governance). An example of such a pull request can be seen at: https://github.com/LF-Decentralized-Trust/governance/pull/248.
 
-In addition, a new thread should be created in the **#tac** channel in Discord named `Month dd, YYYY Meeting`.  The `@TAC Members` group should be included, as well as, a link to the agenda in the thread. An example of such a thread can be seen at: https://discord.com/channels/905194001349627914/941384040316018790/1435665707718279271.
+In addition, a new thread should be created in the **#tac** channel in Discord named `Month dd, YYYY Meeting`. The `@TAC Members` group should be included, as well as, a link to the agenda in the thread. An example of such a thread can be seen at: https://discord.com/channels/905194001349627914/941384040316018790/1435665707718279271.
 
 Lastly, an email should be sent to the tac@lists.lfdecentralizedtrust.org. An example of such an email can be seen at: https://lists.lfdecentralizedtrust.org/g/tac/message/4165.
 
@@ -35,20 +35,20 @@ The following is the general flow for all TAC meetings that has been followed fo
 1. Cover the Antitrust Policy
 1. Cover the Code of Conduct (usually just pointing out that everyone is welcome and should respect each other and letting people know that the full text of the code of conduct is available in the agenda)
 1. Announcements
-    1. Official announcements always include a call for contributions to the /dev/weekly developer newsletter and any other announcements that may be relevant, such as upcoming webinars, reminders, and timelines for elections
-    1. Ask if there are any other announcements that anyone would like to make
+   1. Official announcements always include a call for contributions to the /dev/weekly developer newsletter and any other announcements that may be relevant, such as upcoming webinars, reminders, and timelines for elections
+   1. Ask if there are any other announcements that anyone would like to make
 1. Project Updates
-    1. Remind people of submitted reports and discuss any open questions on those reports
-    1. Remind people of upcoming due reports
-    1. Remind people of any overdue reports (note it is the TAC vice-chairs responsibility to follow up on these so may be worth asking if they have any updates)
+   1. Remind people of submitted reports and discuss any open questions on those reports
+   1. Remind people of upcoming due reports
+   1. Remind people of any overdue reports (note it is the TAC vice-chairs responsibility to follow up on these so may be worth asking if they have any updates)
 1. Discussion Items
-    1. Governance Updates
-    1. Annual Review Discussions
-    1. New Project Proposals
-    1. Task Force Updates
+   1. Governance Updates
+   1. Annual Review Discussions
+   1. New Project Proposals
+   1. Task Force Updates
 1. Closing Meeting
-    1. Ask if there is anything else that needs to be covered before ending the meeting
-    1. Remind attendees of what might be on the agenda for next week (also a good way to ensure that there will be an agenda)
+   1. Ask if there is anything else that needs to be covered before ending the meeting
+   1. Remind attendees of what might be on the agenda for next week (also a good way to ensure that there will be an agenda)
 
 ### Initial Meeting
 
@@ -56,7 +56,7 @@ During the first meeting of the TAC term, I have been using that as an opportuni
 
 ### First Quarter Meetings
 
-For the past few years, these meetings have been dedicated to reviewing the annual reviews for each of the projects. This consisted of a readout from the primary and secondary TAC reviewers; however, it has been suggested that in addition to these readouts, the project maintainers or TSC representatives should first present the annual review before the readout. NOTE: It will be important to limit the time (possibly 10 minutes) for the presentation to ensure that there is enough time for the readout. 
+For the past few years, these meetings have been dedicated to reviewing the annual reviews for each of the projects. This consisted of a readout from the primary and secondary TAC reviewers; however, it has been suggested that in addition to these readouts, the project maintainers or TSC representatives should first present the annual review before the readout. NOTE: It will be important to limit the time (possibly 10 minutes) for the presentation to ensure that there is enough time for the readout.
 
 NOTE: The TAC primary and secondary reviewers needs to be assigned by the TAC chair. I have typically done this by asking the TAC members to note their conflict of interests for projects and then assigning to ensure that members with conflicts are not assigned to those projects.
 
@@ -64,7 +64,7 @@ An example of this can be found in [Annual Reports 2025](https://docs.google.com
 
 ### Remainder of Year Meetings
 
-The other meetings during the year are driven by the goals that the TAC has set out for the year and any other items that require attention. These meetings generally focus on 
+The other meetings during the year are driven by the goals that the TAC has set out for the year and any other items that require attention. These meetings generally focus on
 
 1. Governance Updates
 1. Annual Review Discussions
@@ -82,7 +82,7 @@ For the past couple of years, one of the final meeting of the year is reserved f
 
 ## Providing TAC and Project Updates to the Governing Board
 
-Each month, you are responsbible for representing the TAC and the projects to the Governing Board. The LFDT project manager (currently Min Yu) will reach out to you a week prior to the due date to let you know that the update is due. During this update, I have typically provided an update on what the TAC is up to (e.g., decisions made, discussions had) and then provide a short update on the annual reviews or quarterly updates provided by the projects. You can see previous updates since November, 2021 under [Governing Board Updates](https://drive.google.com/drive/folders/1tO6UwQ4ezDYYuC2bjQRK1ORPjSq5n38U?usp=sharing).
+Each month, you are responsbible for representing the TAC and the projects to the Governing Board. The LFDT project manager (currently Min Yu) will reach out to you a week prior to the due date to let you know that the update is due. During this update, I have typically provided an update on what the TAC is up to (e.g., decisions made, discussions had) and then provide a short update on the annual reviews or mid-year updates provided by the projects. You can see previous updates since November, 2021 under [Governing Board Updates](https://drive.google.com/drive/folders/1tO6UwQ4ezDYYuC2bjQRK1ORPjSq5n38U?usp=sharing).
 
 ## Conference and Webinar Updates
 

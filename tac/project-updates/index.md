@@ -14,6 +14,7 @@ Project updates are:
 
 <div class="grid cards" markdown>
 
+- :fontawesome-solid-list:{ .lg .middle } __[2026 Updates](./2026/index.md)__
 - :fontawesome-solid-list:{ .lg .middle } __[2025 Updates](./2025/index.md)__
 - :fontawesome-solid-list:{ .lg .middle } __[2024 Updates](./2024/index.md)__
 

@@ -33,8 +33,7 @@ each Maintainer given one or more of those designated scopes:
   - The LFDT TAC manages a team per LFDT Project that includes all contributors to the project. That team is given the "Read" GitHub role in all project repositories. This team need not be documented in the "MAINTAINERS" file.
 - Maintainers **MAY** define Maintainer scopes within a repository that don't require
   elevated GitHub privileges. For example, a scope might include hosting
-  community meetings, or contributing to the LFDT Project's Quarterly
-  report.
+  community meetings, or contributing to the LFDT Project's mid-year report.
 
 If there is more than the single "Maintainer" scope used in a repository, there **MUST** be a list of the repository specific scopes in the MAINTAINERS file. The list must include the scope name, the definition of the scope, and if applicable, the related GitHub Role and Team for the scope.
 
@@ -73,7 +72,7 @@ The following table format **MUST** be used for both Maintainers lists (active a
 
 The `MAINTAINERS.md` file **SHOULD** contain information about the different
 maintainer scopes, and for each, the maintainers duties (e.g., maintainers
-calls, quarterly reports, code reviews, issue cleansing). See the [Sample
+calls, mid-year reports, code reviews, issue cleansing). See the [Sample
 Maintainers](./SAMPLE-MAINTAINERS.md) for an example of what to include in this
 section for an open source software project. Feel free to evolve that text to
 match the needs of the repository and project.

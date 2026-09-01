@@ -39,4 +39,4 @@ The TAC Chair has the following additional responsibilities:
 The TAC Vice Chair has the following additional responsibilities:
 
 * Running the TAC meetings when the chair is unable
-* Reaching out to projects when they miss submitting their TAC Quarterly Project Update to remind the projects that they have a report due
+* Reaching out to projects when they miss submitting their TAC Mid-Year Project Update to remind the projects that they have a report due

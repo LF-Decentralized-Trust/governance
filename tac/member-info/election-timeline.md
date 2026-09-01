@@ -1,10 +1,10 @@
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
-# Election Timeline for 2026 TAC
+# Election Timeline for 2027 TAC
 
-## 2026 TAC Elections
+## 2027 TAC Elections
 
-This is for the election of the 2026 TAC
+This is for the election of the 2027 TAC
 
 ### Nomination Process and Timeline
 
@@ -44,58 +44,58 @@ This is for the election of the 2026 TAC
 
 Active means having made at least one contribution accepted to any Technical Project during the prior 12 months.
 
-Nominees: Contributors active within the scope of LF Decentralized Trust and who have nominated themselves for the TAC 
+Nominees: Contributors active within the scope of LF Decentralized Trust and who have nominated themselves for the TAC
 
 Voters: All maintainers (or similar technical role in the case of Supported Projects that have different technical roles than TAC Projects) of any Technical Project who have been active in the past year
 
-##### Nomination period: 14 Oct 2025 - 31 Oct 2025 
+##### Nomination period: 13 Oct 2026 - 30 Oct 2026
 
 To nominate yourself for the TAC, first [determine if you are eligible](https://lf-decentralized-trust.github.io/tac-eligibility-check/). If you are eligible, [file an issue on GitHub](https://github.com/LF-Decentralized-Trust/governance/issues) with your nomination statement.
 
 ##### Nomination Timeline
 
-* 13 Oct 2025 - The community architects will gather the GitHub IDs of the active contributors and update the eligibility check site.
-* 13 Oct 2025 - Update the email templates to reflect the dates for the 2025 election cycle.
-* 13 Oct 2025 - Publish the template for submitting nominations and open the call for nominees.
-* 13 Oct 2025 - Communication sent to LF Decentralized Trust Discord announcement channel announcing the call for TAC nominations using the above template.
-* 13 Oct 2025 - TAC will be notified via email that the call for nominations has begun.
-* 27 Oct 2025 - Reminder communication sent about nominations to LF Decentralized Trust Discord announcement channel about the call for TAC nominations using the above template.
-* 31 Oct 2025 - Nominations close noon Pacific. Go through activity log of the election list during the nomination period to see if any nomination statements were tagged as spam and rejected.  Follow up with people as needed.
-* 31 Oct 2025 - All nominees must have created their nomination statement as a GitHub Issue on [LF-Decentralized-Trust governance](https://github.com/LF-Decentralized-Trust/governance/issues) repo prior to noon Pacific.
+* 12 Oct 2026 - The community architects will gather the GitHub IDs of the active contributors and update the eligibility check site.
+* 12 Oct 2026 - Update the email templates to reflect the dates for the 2026 election cycle.
+* 12 Oct 2026 - Publish the template for submitting nominations and open the call for nominees.
+* 12 Oct 2026 - Communication sent to LF Decentralized Trust Discord announcement channel announcing the call for TAC nominations using the above template.
+* 12 Oct 2026 - TAC will be notified via email that the call for nominations has begun.
+* 26 Oct 2026 - Reminder communication sent about nominations to LF Decentralized Trust Discord announcement channel about the call for TAC nominations using the above template.
+* 30 Oct 2026 - Nominations close noon Pacific. Go through activity log of the election list during the nomination period to see if any nomination statements were tagged as spam and rejected.  Follow up with people as needed.
+* 30 Oct 2026 - All nominees must have created their nomination statement as a GitHub Issue on [LF-Decentralized-Trust governance](https://github.com/LF-Decentralized-Trust/governance/issues) repo prior to noon Pacific.
 
 
 #### Election Process
 ##### Voting
 
-###### Voting period: 03 Nov 2025 - 14 Nov 2025 
+###### Voting period: 02 Nov 2026 - 13 Nov 2026
 
-The individuals eligible to vote in the TAC election is defined in §4.a.ii of the LF Decentralized Trust Charter. The election will be created using [https://vote.heliosvoting.org/](https://vote.heliosvoting.org/helios/e/lfdt-tac-2026). The vote will elect 6 people from the list of TAC nominees.
+The individuals eligible to vote in the TAC election is defined in §4.a.ii of the LF Decentralized Trust Charter. The election will be created using [https://vote.heliosvoting.org/](https://vote.heliosvoting.org/helios/e/lfdt-tac-2027). The vote will elect 6 people from the list of TAC nominees.
 
 ###### Election Timeline
 
-* 03 Nov 2025 - Formally announce the slate of candidates.
-* 03 Nov 2025 - Open the vote using [https://vote.heliosvoting.org/](https://vote.heliosvoting.org/helios/e/lfdt-tac-2026). A GitHub notification will be sent to eligible voters with information about casting their ballot. GitHub IDs will be used for the voters.
-* 03 Nov 2025 - TAC will be notified via email that the vote is open.
-* 14 Nov 2025 - Election closes at 23:59 UTC
-* 15 Nov 2025 - The vote results will determine the 6 elected TAC members. These members will be removed from the appointment vote.
+* 02 Nov 2026 - Formally announce the slate of candidates.
+* 02 Nov 2026 - Open the vote using [https://vote.heliosvoting.org/](https://vote.heliosvoting.org/helios/e/lfdt-tac-2027). A GitHub notification will be sent to eligible voters with information about casting their ballot. GitHub IDs will be used for the voters.
+* 02 Nov 2026 - TAC will be notified via email that the vote is open.
+* 13 Nov 2026 - Election closes at 23:59 UTC
+* 14 Nov 2026 - The vote results will determine the 6 elected TAC members. These members will be removed from the appointment vote.
 
 #### Appointment Process
 ##### Voting
 
-###### Appointment Period 15 Nov 2025 - 04 Dec 2025 
+###### Appointment Period 14 Nov 2026 - 03 Dec 2026
 
 The Governing Board will appoint 5 people from the list of TAC Nominees excluding the 6 elected TAC members. The Governing Board will be provided with the results of the election from the maintainers so that they can ensure appropriate diversity of the TAC during their vote.
 
 ###### Appointment Timeline
 
-* 15 Nov 2025 - Open the vote
-* 15 Nov 2025 - An email will be sent to the governing board informing them of the vote and to look for a separate email with the link. In addition, the results of the election from the maintainers will be provided to the Governing Board.
-* 20 Nov 2025 - Governing board meeting
-* 22 Nov 2025 - Reminder email sent to the governing board.
-* 04 Dec 2025 - Election closes at 1400 UTC
-* 04 Dec 2025 - Email sent to the TAC mailing list announcing the newly elected and appointed TAC members.
+* 14 Nov 2026 - Open the vote
+* 14 Nov 2026 - An email will be sent to the governing board informing them of the vote and to look for a separate email with the link. In addition, the results of the election from the maintainers will be provided to the Governing Board.
+* 19 Nov 2026 - Governing board meeting
+* 21 Nov 2026 - Reminder email sent to the governing board.
+* 03 Dec 2026 - Election closes at 1400 UTC
+* 03 Dec 2026 - Email sent to the TAC mailing list announcing the newly elected and appointed TAC members.
 
 ## TAC Chair/Vice Chair Election
 
-* 04 Dec 2025 - 15 Dec 2025 Incoming TAC elects the new TAC chair and vice chair
+* 03 Dec 2026 - 14 Dec 2026 Incoming TAC elects the new TAC chair and vice chair
 

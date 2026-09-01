@@ -1,10 +1,13 @@
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 # Annual Review Instructions
-Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `tac/project-updates/2024/2024-annual-lf-decentralized-trust-amazing.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate year and quarter. If the year or quarter does not yet exist, please add it to match what you see in the `Project Updates` section.
+
+The main annual review for a project takes place at the beginning of the year, and is based on the project's annual report write-up. An interim report is submitted by projects in the middle of the year.
+
+Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `tac/project-updates/2024/2024-annual-lf-decentralized-trust-amazing.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate year and either "1H" or "2H" depending on which report it is. If the year or "1H"/"2H" does not yet exist, please add it to match what you see in the `Project Updates` section.
 
 # What Should the Annual Review Contain
-Unlike the quarterly updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current project lifecycle state. The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
+Unlike the mid-year updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current project lifecycle state. The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
 
 The annual review should answer the following questions:
 

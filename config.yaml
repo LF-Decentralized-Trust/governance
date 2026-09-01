@@ -19,7 +19,6 @@ teams:
       - davidwboswell
       - hartm
       - jwagantall
-      - lanayanelson
       - minyu66
       - thelinuxfoundation
       - tykeal
@@ -28,9 +27,25 @@ teams:
       - ryjones
     members:
       - christinaharter
+      - davidwboswell
       - hartm
-      - lanayanelson
-      - tkuhrt
+      - jwagantall
+  - name: lab-stewards
+    maintainers:
+      - mbrandenburger
+    members:
+      - EnriqueL8
+      - OsamaRab3
+      - VRamakrishna
+      - alvaropicazo
+      - arsulegai
+      - dmueller2001
+      - hendrikebbers
+      - kkaur01
+      - kmillikin
+      - matthew1001
+      - tock-ibm
+      - vipinsun
   - name: security-managers
     maintainers:
       - hartm
@@ -64,6 +79,13 @@ repositories:
   - name: maintainer-days
     teams:
       community: maintain
+      tac: maintain
+    visibility: public
+  - name: lab-proposals
+    teams:
+      community: maintain
+      security-managers: read
+      lab-stewards: maintain
       tac: maintain
     visibility: public
   - name: project-proposals
