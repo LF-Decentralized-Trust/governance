@@ -16,4 +16,4 @@ requests~=2.34
 
 # Temporarily pin click until this is resolved in MkDocs, see
 # https://github.com/mkdocs/mkdocs/issues/4014#issuecomment-3146508306
-click<8.4.3
+click<8.5.1
