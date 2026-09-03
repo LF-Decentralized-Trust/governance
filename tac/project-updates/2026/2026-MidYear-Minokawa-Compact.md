@@ -79,7 +79,7 @@ We remain committed to diversifying Minokawa adoption among a variety of organiz
 - Encourage and engage community to contribute to Compact
 - Adopt CoIPs from the community and plan to implement them
 - Engage with the community and share design discussions on discord
-- Develop a public roadmap for 2027
+- Develop a public roadmap that contains timelines, priorities, aspirations, and asking explicitly for help from the community
 
 ## Help Required
 
