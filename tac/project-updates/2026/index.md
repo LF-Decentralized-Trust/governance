@@ -16,3 +16,5 @@
      - [2026 Annual Hyperledger Iroha](2026-annual-Hyperledger-Iroha.md)
      - [2026 Annual Lockness](2026-Annual-Lockness.md)
      - [2026 Annual Web3J](2026-annual-Web3j.md)
+  - MidYear:
+     - [2026 Mid-Year Minokawa Compact](2026-MidYear-Minokawa-Compact.md)
