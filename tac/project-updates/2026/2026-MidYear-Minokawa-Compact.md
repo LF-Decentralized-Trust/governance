@@ -54,7 +54,7 @@ The following is the list of releases of Compact toolchain and Compact developer
 **Notes**
 
 - Developer builds (`dev-<commit-hash>` tags) are on-demand, unsupported builds and they are vulnerable to deletion.
-- The jumps in some of the releases are due to finding bugs during validation of a release candidate at which point following the semver model it was appropriate to move on to the next release.
+- The jumps in some of the releases are due to finding bugs during validation of a release candidate at which point following the semver model it was appropriate to move on to the next release. Additionally, Compact still relies on software shipped by Shielded Technology which might take longer to reach a final release. This reliance also caused some of the jumps and delays in Compact release.
 - All releases of Compact toolchain on Minokawa are accompanied with detailed [release notes](https://github.com/LFDT-Minokawa/compact/tree/main/doc/release-notes).
 
 ## Community Calls
