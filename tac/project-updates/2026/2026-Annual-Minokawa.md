@@ -65,31 +65,57 @@ Continued lowering of the barrier to building real dapps: cross-contract module 
 
 ## Deliverables and Outputs (September 2025 – August 2026)
 
-The following is the list of releases of Compact toolchain and Compact developer tool since moving the project under LFDT. This list does not include neither the release candidates nor the developer releases. Note that the very first release of Compact toolchain appearing under Minokawa is `0.30.0` due the team taking some time to migrate the release process. Compact toolchain releases appear under [releases](https://github.com/LFDT-Minokawa/compact/releases) while Compact developer tool releases appear under [tags](https://github.com/LFDT-Minokawa/compact/tags). Compact runtime is published on [npm](https://www.npmjs.com/package/@midnight-ntwrk/compact-runtime?activeTab=versions).
+The Minokawa project primarily releases two software artifacts:
+the Compact developer tools (devtools) and the Compact toolchain.
+The devtools include the Compact updater tool which allows downloading new versions
+and switching between versions.
+The devtools also provide the command-line interface for invoking tools provided by the toolchain,
+such as the Compact compiler, the Compact formatter, and a "fixup" tool to automate
+language updates, deprecations, etc.
+The devtools and the toolchain are versioned separately and released independently.
 
-| release | date |
-|---|---|
-| Compact runtime 0.19.0 | 2026-08-25 |
-| Compact toolchain 0.34.0 (language 0.26.0) | 2026-08-18 |
-| Compact developer tool 0.5.2 | 2026-08-13 |
-| Compact toolchain 0.31.1 (language 0.23.0) | 2026-06-25 |
-| Compact runtime 0.16.0 | 2026-04-29 |
-| Compact toolchain 0.31.0 (language 0.23.0) | 2026-04-28 |
-| Compact developer tool 0.5.1 | 2026-03-25 |
-| Compact runtime 0.15.0 | 2026-03-17 |
-| Compact developer tool 0.5.0 | 2026-03-17 |
-| Compact toolchain 0.30.0 (language 0.22.0) | 2026-03-16 |
-| Compact toolchain 0.29.0 (language 0.21.0) | 2026-02-11 |
-| Compact toolchain 0.28.0 (language 0.20.0) | 2026-01-28 |
-| Compact runtime 0.14.0 | 2026-01-28 |
-| Compact developer tool 0.3.0 | 2025-12-05 |
-| Compact runtime 0.9.0 | 2025-10-07 |
+The Compact compiler generates TypeScript interfaces and JavaScript (JS) implementations for Compact contracts.
+The generated JavaScript code imports the Compact runtime JS package.
+This package provides common services used by Compact contracts.
+The Compact runtime is slightly more stable than the Compact toolchain;
+not every Compact toolchain update uses a different Compact runtime.
+Therefore, the Compact runtime is versioned separately from the toolchain.
 
-**Notes**
+Additionally, the Compact language itself is versioned.
+Again, the language is slightly more stable than the Compact toolchain;
+not every Compact toolchain update will change the langauge version.
 
-- Developer builds (`dev-<commit-hash>` tags) are on-demand, unsupported builds and they are vulnerable to deletion.
-- The jumps in some of the releases are due to finding bugs during validation of a release candidate at which point following the semver model it was appropriate to move on to the next release. Additionally, Compact still relies on software shipped by Shielded Technology which might take longer to reach a final release. This reliance also caused some of the jumps and delays in Compact release.
-- All releases of Compact toolchain on Minokawa are accompanied with detailed [release notes](https://github.com/LFDT-Minokawa/compact/tree/main/doc/release-notes).
+### Releases
+
+The devtools are released irregularly, as new features are developed.
+In contast, the toolchain and thus the runtime and the language, strive to adhere to a regular four-week release cadence.
+This cadence has occasionally been disrupted by external responsibilities such as the launch of the Midnight Network's Mainnet and the preparation for the first Midnight network hard fork.
+
+During the reporting year, there were devtools releases 0.3.0, 0.5.0, 0.5.1, and 0.5.2.
+There were toolchain releases 0.28.0, 0.29.0, 0.30.0, 0.31.0, 0.31.1, and 0.34.0.
+The Compact runtime went from version 0.14.0 to version 0.19.0;
+and the Compact language went from version 0.20.0 to version 0.26.0.
+
+Skipped version numbers are due to hiccups around the mentioned release of Midnight Mainnet (in March 2026),
+and preparation for the first Midnight hard fork (expected in the fourth quarter of 2026).
+
+### Release Notes and Change Log
+
+The features added during the year are too many to mention.
+Releases include detailed release notes that are in the repository in the [doc/release-notes](https://github.com/LFDT-Minokawa/compact/tree/main/doc/release-notes) subdirectory.
+There is a detailed change log kept in the repository at [CHANGELOG.md](https://github.com/LFDT-Minokawa/compact/blob/main/CHANGELOG.md).
+
+### Release Candidates and Developer Builds
+
+As part of the toolchain release process, the maintainers will make a series of "release candidate" builds which are also released on the `LFDT-Minokawa/compact` repository.
+
+A contributor provided a mechanism for makind "developer builds" from work in progress on the project's developer branch (`main`).
+Developer builds are triggered by a button press by a maintainer,
+they build binary toolchain artifacts from the developer branch,
+tag it with a version including the commit hash,
+and publish it as a GitHub release.
+
+This workflow simplifies development and testing for downstream projects.
 
 ## Community Calls
 
