@@ -3,16 +3,33 @@ on:
   schedule:
     - cron: '0 1 * * *'
   workflow_dispatch:
+    inputs:
+      dry-run:
+        description: 'Log the reminders that are due without creating issues'
+        required: false
+        type: boolean
+        default: false
 permissions:
-  issues: write
+  contents: read
 jobs:
   remind:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the governance repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Convert the reminder schedule to JSON
+        run: yq -o=json '.' .github/configs/project-report-reminders.yml > "$RUNNER_TEMP/project-report-reminders.json"
       - name: Send due report reminders
-        uses: hyperledger-tooling/github-issue-schedule@c11fdda5658aea8719f9ccb9bdc94763786822e7 # 1.4
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          GITHUB_TOKEN: "${{ secrets.UPDATE_REMINDERS }}"
-          CONFIG_FILE: ./.github/configs/project-report-reminders.yml
+          DRY_RUN: ${{ inputs.dry-run }}
+        with:
+          github-token: ${{ secrets.UPDATE_REMINDERS }}
+          script: |
+            const remind = require('./scripts/report-reminders.js');
+            await remind({
+              github,
+              core,
+              configFile: `${process.env.RUNNER_TEMP}/project-report-reminders.json`,
+              dryRun: process.env.DRY_RUN === 'true',
+            });
