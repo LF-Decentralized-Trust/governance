@@ -2,32 +2,66 @@
 
 ---
 layout: default
-title: 2026 Mid-Year Review Minokawa Compact
+title: 2026 Minokawa Annual Review
 parent: 2026
 grand_parent: Project Updates
 ---
 
-# 2026 Mid-Year Review of Minokawa Compact
+# 2026 Annual Review Minokawa
 
-This is the first review of Minokawa Compact and it covers **30 September 2025 through 31 August 2026**.
+This is the first review of Minokawa Compact and it covers
+**30 September 2025 through 31 August 2026**.
 
 ## Project Health
 
-The LFDT page of Minokawa can be found [here](https://github.com/LFDT-Minokawa).
+The Minokawa repositories can be found [here](https://github.com/LFDT-Minokawa).
 
-The Minokawa project began in September 2025 and has been growing ever since. We have transitioned Compact repository into Minokawa/Compact. While developing Compact, we were able to onboard new contributors to Minokawa coming from the community.
+The open-source Minokawa project began in September 2025 and has been growing since then.
+The Compact programming language implementation was moved from its private Midnight Network
+repository to `LFDT-Minokawa/compact`.
+While continuing to develop Compact, the maintainers have onboarded new community contributors.
 
-Next to transitioning the repositories, we have set up an open governance model for the project. We run public meetings on a weekly basis where we discuss the project and its plans for the future.
+In addition to switching to the open-source repository,
+the Minokawa TSC has set up an open governance model for the project.
+There are weekly public meetings where the project and its plans for the future are discussed.
+
+Since September there have been 15 software component releases.
+Since January there have been over 1000 commits to the repository and 750 issues opened.
 
 ## Progress Against Prior Goals 
 
-Our initial target was to move Compact repository to Minokawa. We have accomplished this goal along with setting up mechanisms for proposing new features (CoIP: **Co**mpact **I**mprovement **P**roposal), mainstreaming the release process of Compact, disintangle workflows from the previous host of Compact, developing new features, improving existing features of Compact, increasing independent testing of Compact, and improving the documentation of the Compact language.
+There have been several major accomplishments in Minokawa's first year as an open-source project.
+The private Compact language repository was successfully moved to the open-source LFDT-Minokawa repository.
+Along with this source code move, the maintainers also transitioned to working in the open,
+including issue reporting and project planning.
+Disentangling the project's GitHub workflows from private systems and tooling was a challenge in early 2026.
+Additionally, the release process, based on GitHub workflows, was streamlined and improved.
 
-| Goal | Sep 2025 – Aug 2026 Result | 2026 Work in Progress and Planned |
-|---|---|---|
-| **Project Health** | Compact was contributed to LFDT and at the end of Sep 2025. The first release of Compact under LFDT was toolchain 0.28.0-rc.0 (this does not show up under [LFDT-Minokawa/compact/releases](https://github.com/LFDT-Minokawa/compact/releases) due to taking the team some time to migrate release processes). Since then the toolchain has advanced steadily through 0.34.x with regular, detailed releases (CHANGELOG.md tracks breaking changes, fixes, and additions ), plus companion releases of the `compact` CLI/devtools (up to 0.5.2) and compact runtime (up to 0.19.0). The repo shows sustained activity (1,037+ commits on `main`) and healthy triage — LFX Insights rates the project **Lifecycle: Active** with a median maintainer response time of **3 days**. Overall LFX Health Score is **59/100 ("Excellent")**, with development cadence cited as the main drag and maintainer coverage as the main strength. 111 open issues / 46 open PRs at time of writing. The development cadence has ebbs and flows due to when a feature gets designed and implemented. The team is actively practicing to conduct design decisions in public and on the repo to better reflect the active development of the project. Since Q2 of 2026, the project has experienced more irregular releases and the team is working on getting back to more regular releases.  | Continued compiler-internals work (both improvements and new features), improvements to Compact developer tool, ongoing release-engineering (including publishing `RELEASE.md` which is currently missing) and testing hardening. |
-| **Maintainer Diversity** | Per LFX Insights: **5 active maintainers with merge rights**, contributors spanning **2 organizations**, and "excellent" quarter-over-quarter contributor retention. However, the project is still flagged as having **low contributor diversity** (4 contributors account for 51%+ of activity) and **high org dependency** (1 organizations account for 51%+ of activity) — expected for a project only a year removed from being a single-vendor codebase (formerly maintained solely by Shielded Technologies) before moving under LFDT governance. Note: LFX Insights misrepresents the number of active maintainers (it states it as 14) and organization diversity (it states contributors span over 29 organizations). Note: the repo does not currently have a `MAINTAINERS.md`; instead this is replaced by `CODEOWNERS` designates the `@LFDT-Minokawa/compact-maintainers` team as sole reviewer. | Growing the maintainer/contributor base beyond the founding team now that the project is under open LFDT governance. |
-| **Project Adoption** | Compact is the primary smart-contract language for the **Midnight Network**, which has progressed through Preprod/Preview and is now referenced as live on **Mainnet**. It's consumed transitively by the broader Midnight ecosystem — Compact.js/midnight-js runtimes, the DApp Connector API, and the Wallet SDK — and the toolchain has kept pace with ledger upgrades (e.g., toolchain 0.30 and 0.33 added support for ledger version 8 and 9, respectively). On GitHub: 43 stars, 30 forks. Community usage includes hackathon/template projects built against it. Furthermore, in Q2 of 2026 we did a full rewrite of Compact langauge reference to ensure a smooth onboarding of new contributors. More recently, Compact has been getting traction by other ecosystems (see [Adoption](#adoption)). Note: the repo does not currently have an `ADOPTERS.md`, so adopters aren't formally enumerated as the LFDT process asks for. | Continued lowering of the barrier to building real dapps: cross-contract module resolution work (CoIP-3, dynamic module resolution), documentation/tutorial improvements (`doc/writing.mdx`, language reference), and example/template maintenance to support more complex production use cases. Adding `ADOPTERS.md`.|
+The TSC has adopted a mechanism for open design of language and tooling features: the Compact Improvement Proposal (CoIP) process.
+This process is modeled after other successful programming language processes, mainly the Python Enhancement Proposal (PEP) process.
+
+There was a major effort in the first half of 2026 to improve the primary source of documentation for the Compact programming language:
+the [Compact Reference](https://docs.midnight.network/compact/reference/compact-reference).
+
+Specific goals and results, along with work in progress and planned work are discussed below.
+
+### Project Health
+
+Compact was contributed to LFDT and at the end of Sep 2025. The first release of Compact under LFDT was toolchain 0.28.0-rc.0 (this does not show up under [LFDT-Minokawa/compact/releases](https://github.com/LFDT-Minokawa/compact/releases) due to taking the team some time to migrate release processes). Since then the toolchain has advanced steadily through 0.34.x with regular, detailed releases (CHANGELOG.md tracks breaking changes, fixes, and additions ), plus companion releases of the `compact` CLI/devtools (up to 0.5.2) and compact runtime (up to 0.19.0). The repo shows sustained activity (1,037+ commits on `main`) and healthy triage — LFX Insights rates the project **Lifecycle: Active** with a median maintainer response time of **3 days**. Overall LFX Health Score is **59/100 ("Excellent")**, with development cadence cited as the main drag and maintainer coverage as the main strength. 111 open issues / 46 open PRs at time of writing. The development cadence has ebbs and flows due to when a feature gets designed and implemented. The team is actively practicing to conduct design decisions in public and on the repo to better reflect the active development of the project. Since Q2 of 2026, the project has experienced more irregular releases and the team is working on getting back to more regular releases.
+
+Continued compiler-internals work (both improvements and new features), improvements to Compact developer tool, ongoing release-engineering (including publishing `RELEASE.md` which is currently missing) and testing hardening.
+
+### Maintainer Diversity
+
+Per LFX Insights: **5 active maintainers with merge rights**, contributors spanning **2 organizations**, and "excellent" quarter-over-quarter contributor retention. However, the project is still flagged as having **low contributor diversity** (4 contributors account for 51%+ of activity) and **high org dependency** (1 organizations account for 51%+ of activity) — expected for a project only a year removed from being a single-vendor codebase (formerly maintained solely by Shielded Technologies) before moving under LFDT governance. Note: LFX Insights misrepresents the number of active maintainers (it states it as 14) and organization diversity (it states contributors span over 29 organizations). Note: the repo does not currently have a `MAINTAINERS.md`; instead this is replaced by `CODEOWNERS` designates the `@LFDT-Minokawa/compact-maintainers` team as sole reviewer.
+
+Growing the maintainer/contributor base beyond the founding team now that the project is under open LFDT governance.
+
+### Project Adoption
+
+Compact is the primary smart-contract language for the **Midnight Network**, which has progressed through Preprod/Preview and is now referenced as live on **Mainnet**. It's consumed transitively by the broader Midnight ecosystem — Compact.js/midnight-js runtimes, the DApp Connector API, and the Wallet SDK — and the toolchain has kept pace with ledger upgrades (e.g., toolchain 0.30 and 0.33 added support for ledger version 8 and 9, respectively). On GitHub: 43 stars, 30 forks. Community usage includes hackathon/template projects built against it. Furthermore, in Q2 of 2026 we did a full rewrite of Compact langauge reference to ensure a smooth onboarding of new contributors. More recently, Compact has been getting traction by other ecosystems (see [Adoption](#adoption)). Note: the repo does not currently have an `ADOPTERS.md`, so adopters aren't formally enumerated as the LFDT process asks for.
+
+Continued lowering of the barrier to building real dapps: cross-contract module resolution work (CoIP-3, dynamic module resolution), documentation/tutorial improvements (`doc/writing.mdx`, language reference), and example/template maintenance to support more complex production use cases. Adding `ADOPTERS.md`.
 
 ## Deliverables and Outputs (September 2025 – August 2026)
 
