@@ -109,7 +109,7 @@ There is a detailed change log kept in the repository at [CHANGELOG.md](https://
 
 As part of the toolchain release process, the maintainers will make a series of "release candidate" builds which are also released on the `LFDT-Minokawa/compact` repository.
 
-A contributor provided a mechanism for makind "developer builds" from work in progress on the project's developer branch (`main`).
+A contributor provided a mechanism for making "developer builds" from work in progress on the project's developer branch (`main`).
 Developer builds are triggered by a button press by a maintainer,
 they build binary toolchain artifacts from the developer branch,
 tag it with a version including the commit hash,
