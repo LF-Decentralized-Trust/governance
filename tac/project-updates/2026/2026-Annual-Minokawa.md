@@ -47,19 +47,19 @@ Specific goals and results, along with work in progress and planned work are dis
 
 ### Project Health
 
-Compact was contributed to LFDT and at the end of Sep 2025. The first release of Compact under LFDT was toolchain 0.28.0-rc.0 (this does not show up under [LFDT-Minokawa/compact/releases](https://github.com/LFDT-Minokawa/compact/releases) due to taking the team some time to migrate release processes). Since then the toolchain has advanced steadily through 0.34.x with regular, detailed releases (CHANGELOG.md tracks breaking changes, fixes, and additions ), plus companion releases of the `compact` CLI/devtools (up to 0.5.2) and compact runtime (up to 0.19.0). The repo shows sustained activity (1,037+ commits on `main`) and healthy triage — LFX Insights rates the project **Lifecycle: Active** with a median maintainer response time of **3 days**. Overall LFX Health Score is **59/100 ("Excellent")**, with development cadence cited as the main drag and maintainer coverage as the main strength. 111 open issues / 46 open PRs at time of writing. The development cadence has ebbs and flows due to when a feature gets designed and implemented. The team is actively practicing to conduct design decisions in public and on the repo to better reflect the active development of the project. Since Q2 of 2026, the project has experienced more irregular releases and the team is working on getting back to more regular releases.
+Compact was contributed to LFDT and at the end of September 2025. The first release of Compact under LFDT was toolchain 0.28.0-rc.0 (this does not show up under [LFDT-Minokawa/compact/releases](https://github.com/LFDT-Minokawa/compact/releases) due to taking the team some time to migrate release processes). Since then the toolchain has advanced steadily through 0.34.x with regular, detailed releases (CHANGELOG.md tracks breaking changes, fixes, and additions ), plus companion releases of the `compact` CLI/devtools (up to 0.5.2) and compact runtime (up to 0.19.0). The repository shows sustained activity (1,037+ commits on `main`) and healthy triage — LFX Insights rates the project **Lifecycle: Active** with a median maintainer response time of **3 days**. Overall LFX Health Score is **59/100 ("Excellent")**, with development cadence cited as the main drag and maintainer coverage as the main strength. 111 open issues / 46 open pull requests at time of writing. The development cadence has ebbs and flows due to when a feature gets designed and implemented. The team is actively practicing to conduct design decisions in public and on the repository to better reflect the active development of the project. Since Q2 of 2026, the project has experienced more irregular releases and the team is working on getting back to more regular releases.
 
 Continued compiler-internals work (both improvements and new features), improvements to Compact developer tool, ongoing release-engineering (including publishing `RELEASE.md` which is currently missing) and testing hardening.
 
 ### Maintainer Diversity
 
-Per LFX Insights: **5 active maintainers with merge rights**, contributors spanning **2 organizations**, and "excellent" quarter-over-quarter contributor retention. However, the project is still flagged as having **low contributor diversity** (4 contributors account for 51%+ of activity) and **high org dependency** (1 organizations account for 51%+ of activity) — expected for a project only a year removed from being a single-vendor codebase (formerly maintained solely by Shielded Technologies) before moving under LFDT governance. Note: LFX Insights misrepresents the number of active maintainers (it states it as 14) and organization diversity (it states contributors span over 29 organizations). Note: the repo does not currently have a `MAINTAINERS.md`; instead this is replaced by `CODEOWNERS` designates the `@LFDT-Minokawa/compact-maintainers` team as sole reviewer.
+Per LFX Insights: **5 active maintainers with merge rights**, contributors spanning **2 organizations**, and "excellent" quarter-over-quarter contributor retention. However, the project is still flagged as having **low contributor diversity** (4 contributors account for 51%+ of activity) and **high org dependency** (1 organizations account for 51%+ of activity) — expected for a project only a year removed from being a single-vendor codebase (formerly maintained solely by Shielded Technologies) before moving under LFDT governance. Note: LFX Insights misrepresents the number of active maintainers (it states it as 14) and organization diversity (it states contributors span over 29 organizations). Note: the repository does not currently have a `MAINTAINERS.md`; instead this is replaced by `CODEOWNERS` designates the `@LFDT-Minokawa/compact-maintainers` team as sole reviewer.
 
 Growing the maintainer/contributor base beyond the founding team now that the project is under open LFDT governance.
 
 ### Project Adoption
 
-Compact is the primary smart-contract language for the **Midnight Network**, which has progressed through Preprod/Preview and is now referenced as live on **Mainnet**. It's consumed transitively by the broader Midnight ecosystem — Compact.js/midnight-js runtimes, the DApp Connector API, and the Wallet SDK — and the toolchain has kept pace with ledger upgrades (e.g., toolchain 0.30 and 0.33 added support for ledger version 8 and 9, respectively). On GitHub: 43 stars, 30 forks. Community usage includes hackathon/template projects built against it. Furthermore, in Q2 of 2026 we did a full rewrite of Compact langauge reference to ensure a smooth onboarding of new contributors. More recently, Compact has been getting traction by other ecosystems (see [Adoption](#adoption)). Note: the repo does not currently have an `ADOPTERS.md`, so adopters aren't formally enumerated as the LFDT process asks for.
+Compact is the primary smart-contract language for the **Midnight Network**, which has progressed through Preprod/Preview and is now referenced as live on **Mainnet**. It's consumed transitively by the broader Midnight ecosystem — Compact.js/midnight-js runtimes, the DApp Connector API, and the Wallet SDK — and the toolchain has kept pace with ledger upgrades (e.g., toolchain 0.30 and 0.33 added support for ledger version 8 and 9, respectively). On GitHub: 43 stars, 30 forks. Community usage includes hackathon/template projects built against it. Furthermore, in Q2 of 2026 we did a full rewrite of Compact language reference to ensure a smooth onboarding of new contributors. More recently, Compact has been getting traction by other ecosystems (see [Adoption](#adoption)). Note: the repository does not currently have an `ADOPTERS.md`, so adopters aren't formally enumerated as the LFDT process asks for.
 
 Continued lowering of the barrier to building real dapps: cross-contract module resolution work (CoIP-3, dynamic module resolution), documentation/tutorial improvements (`doc/writing.mdx`, language reference), and example/template maintenance to support more complex production use cases. Adding `ADOPTERS.md`.
 
@@ -83,12 +83,12 @@ Therefore, the Compact runtime is versioned separately from the toolchain.
 
 Additionally, the Compact language itself is versioned.
 Again, the language is slightly more stable than the Compact toolchain;
-not every Compact toolchain update will change the langauge version.
+not every Compact toolchain update will change the language version.
 
 ### Releases
 
 The devtools are released irregularly, as new features are developed.
-In contast, the toolchain and thus the runtime and the language, strive to adhere to a regular four-week release cadence.
+In contrast, the toolchain and thus the runtime and the language, strive to adhere to a regular four-week release cadence.
 This cadence has occasionally been disrupted by external responsibilities such as the launch of the Midnight Network's Mainnet and the preparation for the first Midnight network hard fork.
 
 During the reporting year, there were devtools releases 0.3.0, 0.5.0, 0.5.1, and 0.5.2.
@@ -119,13 +119,13 @@ This workflow simplifies development and testing for downstream projects.
 
 ## Community Calls
 
-The Minokawa project has been holding consistent community calls on Wednesday ([zoom link](https://zoom-lfx.platform.linuxfoundation.org/meeting/92376999403?password=23e83ac5-4334-4da3-9e07-2afb5065fa28)), meeting notes are kept udner a [subdirectory](https://github.com/LFDT-Minokawa/compact/tree/main/meetings), and recordings are available on [LFDT calendar](https://www.lfdecentralizedtrust.org/meeting-calendar).
+The Minokawa project has been holding consistent community calls on Wednesday ([zoom link](https://zoom-lfx.platform.linuxfoundation.org/meeting/92376999403?password=23e83ac5-4334-4da3-9e07-2afb5065fa28)), meeting notes are kept under a [subdirectory](https://github.com/LFDT-Minokawa/compact/tree/main/meetings), and recordings are available on [LFDT calendar](https://www.lfdecentralizedtrust.org/meeting-calendar).
 
-During recent calls, the community has engaged significantly asking for new proposals. We welcome all engagements. We are particularly interested in creating a potential experimental repo under Minokawa for ideas and implementations that we are excited about but we do not have capacity to commit to maintain, test, and release yet. 
+During recent calls, the community has engaged significantly asking for new proposals. We welcome all engagements. We are particularly interested in creating a potential experimental repository under Minokawa for ideas and implementations that we are excited about but we do not have capacity to commit to maintain, test, and release yet. 
 
 ## Adoption
 
-The community has engaged greatly with the project. This is particularly exciting for the team and the project since new contributors from different organizations are engainign with Minokawa/Compact. Interesting examples:
+The community has engaged greatly with the project. This is particularly exciting for the team and the project since new contributors from different organizations are engaging with Minokawa/Compact. Interesting examples:
 
 - [MinoCrab](https://github.com/sig-net/minocrab)--a Rust eDSL of Compact
 - [CoIP on adding a Rust backend to Compact](https://github.com/LFDT-Minokawa/compact/pull/730)
@@ -145,11 +145,11 @@ We remain committed to diversifying Minokawa adoption among a variety of organiz
 
 We would like to ask TAC to help enable opportunities for mentorship and adoption cross project/organization collaboration. Additionally, we extremely feel the need to develop an AI policy and would like to ask TAC for their recommendations/requirements. 
 
-As mentioned earlier, we are excited to create a new repo under Minokawa for experimental projects suggested and contributed by the community which the TSC does not have capacity to fully maintain and test at this time. We ask TAC if they have experience with such a scenario and if so what have they learned that will be useful for us.
+As mentioned earlier, we are excited to create a new repository under Minokawa for experimental projects suggested and contributed by the community which the TSC does not have capacity to fully maintain and test at this time. We ask TAC if they have experience with such a scenario and if so what have they learned that will be useful for us.
 
 ## Maintainer and Contributor Diversity
 
-On the project's management front, the team hasn't had bandwith to evaluate and analyze key project health metrics that track our progress towards a thriving and diverse community. However, these are important metric that enable us to assess the project's performance by measuring contributions, code velocity, and issue response and resolution times. 
+On the project's management front, the team hasn't had bandwidth to evaluate and analyze key project health metrics that track our progress towards a thriving and diverse community. However, these are important metric that enable us to assess the project's performance by measuring contributions, code velocity, and issue response and resolution times. 
 
 We anticipate continued growth in our community's diversity, enabling the adoption of more community-driven components. Given that anticipation we plan to focus on these metrics in 2027:
 
