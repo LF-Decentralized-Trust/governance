@@ -249,6 +249,8 @@ nav:
   - Project Updates:
       - 2026:
           - 2026 Schedule: project-updates/2026/2026-schedule.md
+          - MidYear:
+              - 2026 Mid-Year Hyperledger Identus: project-updates/2026/2026-MidYear-Hyperledger-Identus.md
           - Annual:
               - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
               - 2026 Annual Hyperledger FireFly: project-updates/2026/2026-annual-Hyperledger-FireFly.md
