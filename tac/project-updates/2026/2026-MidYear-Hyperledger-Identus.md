@@ -14,7 +14,7 @@ The [LFX contributor data](https://insights.linuxfoundation.org/project/open-ent
 
 The team reports that LLM-assisted development and stronger automation have helped the smaller group maintain delivery throughput. All changes remain subject to maintainer review and the project's normal quality controls.
 
-Security and governance work progressed. OpenSSF Scorecard workflows are present in ten of the 17 public repositories, and eight component READMEs currently display OpenSSF Best Practices badges. Per-repository results are published in the [OpenSSF Scorecard viewer](https://securityscorecards.dev), and registered components are listed in the [OpenSSF Best Practices registry](https://www.bestpractices.dev/en/projects?q=identus). The team plans to complete OpenSSF Best Practices adoption by the end of 2026. The main project also added the requested [ADOPTERS.md](https://github.com/hyperledger-identus/hyperledger-identus/blob/main/ADOPTERS.md), listing CSIGN, Blocktrust, Socious, and Trust0 across production use and active development.
+Security and governance work progressed. OpenSSF Scorecard workflows are present in ten of the 17 public repositories, and eight component READMEs currently display OpenSSF Best Practices badges. Per-repository results are listed under [OpenSSF Scorecard results](#openssf-scorecard-results), and registered components are listed in the [OpenSSF Best Practices registry](https://www.bestpractices.dev/en/projects?q=identus). The team plans to complete OpenSSF Best Practices adoption by the end of 2026. The main project also added the requested [ADOPTERS.md](https://github.com/hyperledger-identus/hyperledger-identus/blob/main/ADOPTERS.md), listing CSIGN, Blocktrust, Socious, and Trust0 across production use and active development.
 
 ## Progress Against 2026 Goals
 
@@ -26,7 +26,7 @@ The goals are those recorded in the [2026 annual review](2026-annual-Hyperledger
 | Complete offline-first parity across SDKs | **Strategic consolidation in progress** | SDK-TS and SDK-Swift passed the [v2.17 integration tests](https://github.com/hyperledger-identus/hyperledger-identus/releases/tag/v2.17). SDK-KMP 5.0.0 was not included because of its known functional limitations, and staffing changes reduced Swift and Kotlin capacity. The project is addressing this sustainably through the shared [SDK-Rust](https://github.com/hyperledger-identus/sdk-rust) foundation rather than continuing full independent reimplementation in every language. |
 | Improve React and React Native support | **Good foundation; integration continues** | SDK-TS 8.0.0 included Expo compatibility and WASM packaging improvements in the [v8 refactor](https://github.com/hyperledger-identus/sdk-ts/pull/511). SDK-Rust has begun experimental WASM and UniFFI host foundations, while work supporting Lace and React Native continues across the wider Identus ecosystem. |
 | Deliver OID4VCI/OID4VP/SIOP 2.0 and additional credential formats | **Partial / carried forward** | SDK-Rust contains active OID4VCI, presentation, JOSE, credential, and COSE work. The repository is explicitly pre-release, and the broader OID4VP/SIOP 2.0, VCDM 2.0, mDoc, OpenBadges 3.0, and JSON-LD goals are not yet complete platform deliverables. |
-| Complete OpenSSF Best Practices and Scorecard adoption | **On track** | Scorecard workflows and Best Practices badges now cover many core repositories. The remaining work is visible in the [OpenSSF Best Practices registry](https://www.bestpractices.dev/en/projects?q=identus) and the [Scorecard results](https://securityscorecards.dev), and is planned for completion by the end of 2026. |
+| Complete OpenSSF Best Practices and Scorecard adoption | **On track** | Scorecard workflows and Best Practices badges now cover many core repositories. The remaining work is visible in the [OpenSSF Scorecard results](#openssf-scorecard-results) and the [OpenSSF Best Practices registry](https://www.bestpractices.dev/en/projects?q=identus), and is planned for completion by the end of 2026. |
 | Deliver a unified development/workshop environment | **Active testing** | The internal `workspace` repository assembles NeoPRISM, Cloud Agent, Mediator, VDR, SDKs, documentation, and integration tests under a Nix-based development environment. The team is actively testing it and plans to adopt it during 2026 to automate routine work and support cross-cutting feature development. |
 | Grow community participation and run LFDT programs | **Good mentorship progress** | Identus maintainers joined the LFDT Mentorship Program and launched the [Identity Portal mentorship](https://github.com/LF-Decentralized-Trust-Mentorships/mentorship-program/issues/77). The resulting [identity-portal](https://github.com/hyperledger-identus/identity-portal) repository is active. Additional LFDT workshops remain planned. |
 | Prepare for lifecycle advancement in Q3 2026 | **Timing under review** | The project has continued the readiness work, including [adopter documentation](https://github.com/hyperledger-identus/hyperledger-identus/blob/main/ADOPTERS.md), OpenSSF adoption, mentorship, and maintainer governance. The Q3 application may be postponed so the team can complete the SDK support transition, OpenSSF rollout, and maintainer-record alignment before applying. |
@@ -68,6 +68,25 @@ The project also maintained a regular community-call cadence. The [LFX calendar]
 - The team continues work to integrate Identus capabilities into Lace and to improve React Native adoption. The [SDK-TS v8 workspace refactor](https://github.com/hyperledger-identus/sdk-ts/pull/511) and Expo/WASM fixes provide a more modular foundation for that work. Much of the Lace-specific activity is outside the LFDT-tracked repositories, so LFX does not capture all of it.
 - The internal `workspace` repository is under active testing and is planned for adoption during 2026. It will automate recurring development routines and provide a shared environment for features that span NeoPRISM, Cloud Agent, Mediator, VDR, and the SDKs.
 
+### OpenSSF Scorecard results
+
+OpenSSF Scorecard workflows are present in ten of the 17 public repositories. Per-repository results are published through the OpenSSF Scorecard viewer:
+
+| Repository | Score | Last run |
+| --- | --- | --- |
+| [apollo](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/apollo) | 4.8 | 17 August 2026 |
+| [cloud-agent](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/cloud-agent) | 6.8 | 9 September 2026 |
+| [integration](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/integration) | 6.2 | 14 September 2026 |
+| [mediator](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/mediator) | 7.3 | 14 September 2026 |
+| [neoprism](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/neoprism) | 6.8 | 15 September 2026 |
+| [prism-vdr-driver](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/prism-vdr-driver) | 7.0 | 13 September 2026 |
+| [sdk-kmp](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/sdk-kmp) | 5.4 | 17 August 2026 |
+| [sdk-swift](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/sdk-swift) | 5.1 | 18 August 2026 |
+| [sdk-ts](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/sdk-ts) | 6.0 | 11 September 2026 |
+| [vdr](https://scorecard.dev/viewer/?uri=github.com/hyperledger-identus/vdr) | 4.3 | 5 February 2026 |
+
+Scores and last-run dates reflect the OpenSSF Scorecard API as of 16 September 2026.
+
 ## Goals for the Remainder of 2026
 
 1. **Define and deliver the first SDK-Rust release boundary.** Complete the planned cryptographic, DID, credential, presentation, OID4VCI, WASM, and UniFFI slices; publish explicit stability and compatibility criteria before positioning it as a replacement for existing SDKs.
@@ -75,7 +94,7 @@ The project also maintained a regular community-call cadence. The [LFX calendar]
 3. **Formalize the NeoPRISM transition.** Continue hardening NeoPRISM as the default Cloud Agent backend and complete the announced Q4 2026 deprecation of `prism-node`, with clear migration documentation for existing deployments.
 4. **Advance React Native and Lace integration.** Turn the current Expo/WASM/UniFFI foundations into documented, tested integration paths for React Native applications and wallet use cases.
 5. **Complete the Identity Portal mentorship deliverables and run an LFDT workshop.** Finish credential issuance, presentation, and verification flows, reusable SSI modules, and workshop-quality documentation; use the resulting environment in at least one planned LFDT workshop.
-6. **Finish OpenSSF rollout by the end of 2026.** Extend Scorecard and Best Practices coverage to all actively maintained repositories and resolve the remaining priority findings recorded in the [OpenSSF Best Practices registry](https://www.bestpractices.dev/en/projects?q=identus) and the [Scorecard results](https://securityscorecards.dev).
+6. **Finish OpenSSF rollout by the end of 2026.** Extend Scorecard and Best Practices coverage to all actively maintained repositories and resolve the remaining priority findings recorded in the [OpenSSF Scorecard results](#openssf-scorecard-results) and the [OpenSSF Best Practices registry](https://www.bestpractices.dev/en/projects?q=identus).
 7. **Reconcile governance records and reduce key-person dependency.** Align the organization and repository `MAINTAINERS.md` files, operational GitHub permissions, and LFX's active-maintainer view; record affiliations consistently; and develop additional active reviewers outside the current core.
 8. **Refresh the public roadmap.** Update the organization project board to include SDK-Rust, Identity Portal, SDK support decisions, and the revised consolidation strategy.
 9. **Continue the community-led AI/MCP initiative.** Support the community effort to expose Identus platform capabilities through Model Context Protocol integrations, while keeping security boundaries and human accountability explicit.
