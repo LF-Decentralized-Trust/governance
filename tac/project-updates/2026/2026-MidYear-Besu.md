@@ -26,7 +26,7 @@ Additional debt cleared: ETC Classic support removed (26.2.0), Holesky network d
 
 ### 4. Maintainer Diversity — Limited Progress
 
-Three maintainers moved to emeritus status in February 2026. One new maintainer was added: Miroslav Kovář in April 2026 (PR #10033). The project currently has 19 active maintainers, with organizational distribution still heavily skewed toward Consensys. No new organizations have been onboarded into the maintainer set in this period. See the maintainer/contributor diversity section below.
+Three maintainers moved to emeritus status in February 2026. One new maintainer was added: Miroslav Kovář (Absa) in April 2026, bringing a second organization into the maintainer set alongside Kaleido. The project currently has 19 active maintainers, with organizational distribution still heavily skewed toward Consensys. See the maintainer/contributor diversity section below.
 
 ### 5. Bonsai Archive and Archive Proofs — On Track
 
@@ -73,6 +73,12 @@ The repository migrated from `hyperledger/besu` to `besu-eth/besu`, announced wi
 
 Starting with 26.6.0, JDK 25 is required to build and run Besu.
 
+### Enterprise and Permissioned Network Support
+
+Empty block period (`emptyblockperiodseconds`) graduated out of experimental status, and the deprecated `xemptyblockperiodseconds` genesis flag was removed. Several maturity fixes followed: QBFT now produces a block immediately when transactions arrive during an empty block period, including when the previous proposer has crashed, and validators break out of the empty block period to handle QBFT votes.
+
+For free-gas networks, an opt-in transitionable per-transaction gas limit was added for QBFT and IBFT2, letting operators of zero-gas-price chains bound the cost of any single transaction without reintroducing a gas market. BFT chains also gained time-based fork support.
+
 ---
 
 ## Goals for the Second Half of 2026
@@ -82,6 +88,7 @@ Starting with 26.6.0, JDK 25 is required to build and run Besu.
 - **Bonsai archive proofs**: Land archive proofs (simple trie) and advance the stateroot refactoring that underpins it.
 - **Continue performance work**: Further EVM arithmetic and serialization improvements building on the UInt256 foundation. Target improved standing in EEST mgas/s benchmarks.
 - **Vert.x 5.x migration**: Complete the upgrade started in unreleased work.
+- **Continued enterprise hardening**: Further QBFT/IBFT2 robustness and free-gas network safety controls, informed by production deployments.
 
 ---
 
@@ -99,6 +106,6 @@ Maintainer organizational diversity remains the project's most persistent struct
 - Moved to emeritus (February 2026): cdivitotawela, pullurib
 - Added as maintainer (April 2026): Miroslav Kovář
 
-**Organizational distribution** remains predominantly Consensys (~18 of 19). Miroslav Kovář (Kaleido) is the only maintainer from outside Consensys. This is unchanged from the annual review.
+**Organizational distribution** remains predominantly Consensys (~17 of 19). Matthew Whitehead (Kaleido) and Miroslav Kovář (Absa) are the maintainers from outside Consensys. This is unchanged from the annual review.
 
 **Contributors in 2026:** 86 unique contributors by author name, 860 commits (January–August). Commit activity has been consistent, with monthly commit counts ranging from 65 (January) to 146 (March).
