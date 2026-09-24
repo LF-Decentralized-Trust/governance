@@ -83,10 +83,10 @@ repositories:
     visibility: public
   - name: lab-proposals
     teams:
-      community: maintain
       security-managers: read
       lab-stewards: maintain
       tac: maintain
+      lf-staff: maintain
     visibility: public
   - name: project-proposals
     teams:
