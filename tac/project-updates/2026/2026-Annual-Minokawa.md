@@ -9,7 +9,7 @@ grand_parent: Project Updates
 
 # 2026 MidYear and Annual Review Minokawa
 
-This is the first review of Minokawa Compact and it covers
+This is the first review of Minokawa and it covers
 **30 September 2025 through 31 August 2026**.
 
 ## Project Health
