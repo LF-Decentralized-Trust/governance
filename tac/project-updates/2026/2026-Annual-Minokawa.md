@@ -2,12 +2,12 @@
 
 ---
 layout: default
-title: 2026 Minokawa Annual Review
+title: 2026 Minokawa Annual and MidYear Review
 parent: 2026
 grand_parent: Project Updates
 ---
 
-# 2026 Annual Review Minokawa
+# 2026 MidYear and Annual Review Minokawa
 
 This is the first review of Minokawa Compact and it covers
 **30 September 2025 through 31 August 2026**.
