@@ -159,7 +159,7 @@ We anticipate continued growth in our community's diversity, enabling the adopti
 
 ## Project Lifecycle Status Recommendation
 
-The Minokawa project requests to keep the current Graduated state.
+The Minokawa project requests to keep the current Incubation state.
 
 Minokawa has demonstrated sustained growth in contributor engagement and technical maturity which reflect the expectations of a Graduated LF Decentralized Trust project. We continue to focus on reducing contributor retention, expanding the project visibility, enhancing the project's security health, releasing the toolchain frequently, and improving the user experience to lower the barrier of entry for new contributors.
 
