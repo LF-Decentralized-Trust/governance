@@ -135,6 +135,7 @@ nav:
   - Guidelines:
       - guidelines/index.md
       - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
+      - Dependabot Configuration Example: guidelines/dependabot-example.md
       - GitHub Contribution Guide: guidelines/github-contribution-guide.md
       - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
       - GitHub Organization: guidelines/github-organization.md
@@ -146,6 +147,12 @@ nav:
       - meeting-minutes/index.md
       - 2026:
           - 2026 attendance: meeting-minutes/2026/attendees.md
+          - 2026-10-01: meeting-minutes/2026/2026-10-01.md
+          - 2026-09-24: meeting-minutes/2026/2026-09-24.md
+          - 2026-09-17: meeting-minutes/2026/2026-09-17.md
+          - 2026-09-10: meeting-minutes/2026/2026-09-10.md
+          - 2026-09-03: meeting-minutes/2026/2026-09-03.md
+          - 2026-08-27: meeting-minutes/2026/2026-08-27.md
           - 2026-08-20: meeting-minutes/2026/2026-08-20.md
           - 2026-08-13: meeting-minutes/2026/2026-08-13.md
           - 2026-08-06: meeting-minutes/2026/2026-08-06.md
@@ -258,6 +265,9 @@ nav:
               - 2026 Annual Hiero: project-updates/2026/2026-annual-Hiero.md
           - MidYear:
               - 2026 MidYear Besu: project-updates/2026/2026-MidYear-Besu.md
+              - 2026 Annual Minokawa: project-updates/2026/2026-Annual-Minokawa.md
+          - MidYear:
+              - 2026 MidYear Minokawa: project-updates/2026/2026-Annual-Minokawa.md
       - 2025:
           - 2025 Schedule: project-updates/2025/2025-schedule.md
           - Q4:
