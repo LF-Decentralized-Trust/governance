@@ -1,8 +1,8 @@
 ---
 name: Nomination
 about: Nominate yourself to run for the TAC
-title: "[NOMINATION 2026 TAC]: Your name"
-labels: "nomination-2026"
+title: "[NOMINATION 2027 TAC]: Your name"
+labels: "nomination-2027"
 assignees: ''
 
 ---

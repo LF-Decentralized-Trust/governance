@@ -91,6 +91,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+extra_css:
+  - stylesheets/extra.css
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -133,6 +135,7 @@ nav:
   - Guidelines:
       - guidelines/index.md
       - Automated Pipelines Best Practices: guidelines/automated-pipelines-best-practices.md
+      - Dependabot Configuration Example: guidelines/dependabot-example.md
       - GitHub Contribution Guide: guidelines/github-contribution-guide.md
       - Maintainer Diversity Best Practices: guidelines/maintainer-diversity-best-practices.md
       - GitHub Organization: guidelines/github-organization.md
@@ -143,6 +146,15 @@ nav:
   - Meetings:
       - meeting-minutes/index.md
       - 2026:
+          - 2026 attendance: meeting-minutes/2026/attendees.md
+          - 2026-10-15: meeting-minutes/2026/2026-10-15.md
+          - 2026-10-08: meeting-minutes/2026/2026-10-08.md
+          - 2026-10-01: meeting-minutes/2026/2026-10-01.md
+          - 2026-09-24: meeting-minutes/2026/2026-09-24.md
+          - 2026-09-17: meeting-minutes/2026/2026-09-17.md
+          - 2026-09-10: meeting-minutes/2026/2026-09-10.md
+          - 2026-09-03: meeting-minutes/2026/2026-09-03.md
+          - 2026-08-27: meeting-minutes/2026/2026-08-27.md
           - 2026-08-20: meeting-minutes/2026/2026-08-20.md
           - 2026-08-13: meeting-minutes/2026/2026-08-13.md
           - 2026-08-06: meeting-minutes/2026/2026-08-06.md
@@ -174,6 +186,7 @@ nav:
           - 2026-01-15: meeting-minutes/2026/2026-01-15.md
           - 2026-01-08: meeting-minutes/2026/2026-01-08.md
       - 2025:
+          - 2025 attendance: meeting-minutes/2025/attendees.md
           - 2025-12-18: meeting-minutes/2025/2025-12-18.md
           - 2025-12-11: meeting-minutes/2025/2025-12-11.md
           - 2025-12-04: meeting-minutes/2025/2025-12-04.md
@@ -220,6 +233,7 @@ nav:
           - 2025-01-16: meeting-minutes/2025/2025-01-16.md
           - 2025-01-09: meeting-minutes/2025/2025-01-09.md
       - 2024:
+          - 2024 attendance: meeting-minutes/2024/attendees.md
           - 2024-12-19: meeting-minutes/2024/2024-12-19.md
           - 2024-12-12: meeting-minutes/2024/2024-12-12.md
           - 2024-12-05: meeting-minutes/2024/2024-12-05.md
@@ -250,9 +264,11 @@ nav:
               - 2026 Annual Besu: project-updates/2026/2026-annual-Besu.md
               - 2026 Annual WEB3J: project-updates/2026/2026-annual-Web3j.md
               - 2026 Annual Lockness: project-updates/2026/2026-Annual-Lockness.md
+              - 2026 Annual Minokawa: project-updates/2026/2026-Annual-Minokawa.md
               - 2026 Annual Hiero: project-updates/2026/2026-annual-Hiero.md
           - MidYear:
               - 2026 Mid-Year Web3j: project-updates/2026/2026-MidYear-Web3j.md
+              - 2026 MidYear Minokawa: project-updates/2026/2026-Annual-Minokawa.md
       - 2025:
           - 2025 Schedule: project-updates/2025/2025-schedule.md
           - Q4:

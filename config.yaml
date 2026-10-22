@@ -30,6 +30,22 @@ teams:
       - davidwboswell
       - hartm
       - jwagantall
+  - name: lab-stewards
+    maintainers:
+      - mbrandenburger
+    members:
+      - EnriqueL8
+      - OsamaRab3
+      - VRamakrishna
+      - alvaropicazo
+      - arsulegai
+      - dmueller2001
+      - hendrikebbers
+      - kkaur01
+      - kmillikin
+      - matthew1001
+      - tock-ibm
+      - vipinsun
   - name: security-managers
     maintainers:
       - hartm
@@ -64,6 +80,13 @@ repositories:
     teams:
       community: maintain
       tac: maintain
+    visibility: public
+  - name: lab-proposals
+    teams:
+      security-managers: read
+      lab-stewards: maintain
+      tac: maintain
+      lf-staff: maintain
     visibility: public
   - name: project-proposals
     teams:

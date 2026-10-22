@@ -1,0 +1,21 @@
+/* SPDX-License-Identifier: CC-BY-4.0 */
+
+/* Per-attendee stats table on the meeting attendance pages.
+ *
+ * Material reserves a 5rem minimum for every table cell, which pushes these
+ * eight columns past the content column and leaves the table with a
+ * horizontal scrollbar. Let the cells size to their content instead, and keep
+ * the values on one line -- ISO dates otherwise break at their hyphens once
+ * the columns tighten up. The headers and the name column still wrap. */
+.md-typeset .attendance-stats table:not([class]) th,
+.md-typeset .attendance-stats table:not([class]) td {
+  min-width: 0;
+}
+
+.md-typeset .attendance-stats table:not([class]) td {
+  white-space: nowrap;
+}
+
+.md-typeset .attendance-stats table:not([class]) td:first-child {
+  white-space: normal;
+}
