@@ -99,8 +99,3 @@ repositories:
       community: maintain
       lf-staff: maintain
     visibility: public
-  - name: wikix
-    teams:
-      community: maintain
-      lf-staff: maintain
-    visibility: private
