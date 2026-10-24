@@ -4,7 +4,7 @@
 
 # Progress Against 2026 Goals
 
-This review covers progress since the 2026 annual review through August 15, 2026. Web3j remains an active `incubation` project.
+This review covers progress since the 2026 annual review through August 15, 2026, with monthly usage metrics from July through September 30, a September maturity snapshot and a development and maintenance update dated October 21, 2026. The original LFX activity figures and release list retain their August reporting cutoff. The newer metrics below have their own stated periods and scopes. Web3j remains an `incubation` project.
 
 ## Project Health
 
@@ -16,12 +16,26 @@ Contributors have shown less interest in joining the biweekly Web3j Contributors
 
 Discord remains active.
 
-Highlights from the 2026 Insights report so far:
+Highlights from the 2026 LFX Insights report at the original August reporting cutoff:
 
 - 42 contributors
 - 349 commits
 - 75% of code activity was performed by one organization (Web3 Labs), a decrease of 1 percentage point compared with last year
 - 12 active organizations, 6 fewer than in the previous period
+
+### Maturity — September 2026 snapshot
+
+As of September 2026, the [core Web3j repository](https://github.com/LFDT-web3j/web3j) has recorded 232 unique contributors, 2,591 commits and 123 releases since 2016. These cumulative figures reflect a decade of open-source development and complement the year-to-date LFX activity figures above.
+
+### Agent-assisted development and maintenance — 21 October 2026
+
+Web3j is making greater use of agentic capabilities across development and maintenance to make better use of maintainers' time. By automating routine investigation, preparing reviews and assisting with implementation, the project can focus human attention on assessing changes and keeping the library reliable for its users.
+
+Since September, scheduled agents have been collecting issues and pull requests across the Web3j repositories, preparing reviews, checking Ethereum specification changes and producing ecosystem health briefs. Governance deadlines and TAC review follow-ups are now included in the weekly checks. These jobs provide evidence and recommendations for maintainers; implementation proceeds through separately authorized work, with human review and merge decisions.
+
+This approach is already contributing to practical improvements. On 21 October, Conor merged [Web3j PR #2315](https://github.com/LFDT-web3j/web3j/pull/2315), developed with agent assistance, to improve validation and publication from the same commit. Build, integration tests and CodeQL passed on the merged revision, and the [snapshot publication workflow](https://github.com/LFDT-web3j/web3j/actions/runs/39586680664) completed successfully.
+
+The immediate focus is routine maintenance: triaging issues, assessing contributed fixes, keeping builds and releases reliable, and identifying Ethereum compatibility work. Agentic tooling provides a practical way to cover more of this work within the time maintainers have available. Priorities and release timing remain guided by user impact, validated changes and available capacity.
 
 ## Releases
 
@@ -84,23 +98,39 @@ The project delivered 1 release in 2026 ([Releases](https://github.com/LFDT-web3
 
 ## Maintainer Diversity
 
-At the moment, there are only 3 active maintainers, all from Web3 Labs. They have been the project's maintainers since it was donated to LF Decentralized Trust. During the second half of 2026, Web3 Labs stopped funding and supporting Web3j contributions. This may have a significant impact on the project's ongoing maintenance. The current maintainers will continue their efforts to maintain Web3j despite the loss of the previous funding and support.
+At the August reporting cutoff, the report identified three active maintainers, all from Web3 Labs. Paid maintainer capacity remains limited following the funding change described in the [1 September response](https://github.com/LF-Decentralized-Trust/governance/pull/360#discussion_r3904128245). The growing use of agentic tooling is intended to reduce the time required for routine development and maintenance. Conor's available time is focused on core maintenance and review; individual maintainers' continuing involvement depends on their own availability. Contributions from the wider JVM and Ethereum community remain valuable in broadening the maintainer base.
 
-The MAINTAINERS.md file is up to date and can be found [here](https://github.com/LFDT-web3j/web3j/blob/main/MAINTAINERS.md).
+The [MAINTAINERS.md file](https://github.com/LFDT-web3j/web3j/blob/main/MAINTAINERS.md) records the listed maintainers; their current availability and responsibilities need to be reconfirmed.
 
-The project is happy to mentor anyone interested in becoming a contributor or future maintainer. In terms of mentoring, Web3j is participating in the 2026 LF Decentralized Trust Mentorship Program for the third time. One mentorship is currently ongoing:
+Web3j participated in the 2026 LF Decentralized Trust Mentorship Program for the third time. At the August reporting cutoff, the following mentorship was ongoing:
 
-1. [LFDT - Web3j Libraries Full Development Lifecycle](https://mentorship.lfx.linuxfoundation.org/project/54546ffa-df1d-4985-a366-0e03780f5208/mentees), which is progressing well and helping the project achieve its roadmap goals and close a considerable number of open issues. Since the mentorship began, all commits made to the repositories have been part of the mentorship work.
+1. [LFDT - Web3j Libraries Full Development Lifecycle](https://mentorship.lfx.linuxfoundation.org/project/54546ffa-df1d-4985-a366-0e03780f5208/mentees), which was progressing well and helping the project achieve its roadmap goals and close open issues. The August report attributed all repository commits since the mentorship began to that work.
 
-The Web3j maintainers also mentor new contributors who are interested in resolving open issues in the project repositories—many of which are easy to fix—or in adding new functionality to the project. Prospective contributors can find detailed instructions in the project's CONTRIBUTING.md file and are encouraged to seek help through GitHub comments or Discord.
+Contributors can use the project's CONTRIBUTING.md guidance to prepare reproductions, tests, fixes and new functionality for review through GitHub.
 
 ## Project Adoption
 
-Based on research into enterprise users of Web3j, at least 10 organizations are using Web3j in production, according to the available statistics. This represents 3 fewer organizations than in the same period last year.
+According to Scarf.sh, Web3j recorded approximately 4.3 million Maven Central downloads during September 2026.
+
+### Usage — July–September 2026
+
+**Sources: Maven Central and Scarf.sh.** The following rounded figures cover download activity for the `org.web3j` namespace. September covers the full calendar month, 1–30 September. Scarf's [free plan](https://about.scarf.sh/pricing/) only provides access to the most recent three months of data.
+
+| Metric | July 2026 | August 2026 | September 2026 |
+| --- | --- | --- | --- |
+| Downloads | ~4.6 million | 4.3 million | 4.3 million |
+| Unique download sources | 34,000 | 35,500 | 47,100 |
+| Companies identified from download traffic | — | 2,000 | 3,300 |
+
+According to Scarf.sh's figures, unique download sources increased by approximately 39% from July to September, including approximately 33% growth from August to September. Scarf.sh also reports around 4.3 million downloads in both August and September.
+
+July's company count is not available.
+
+These figures measure download activity across the namespace. Unique sources are not necessarily individual developers, and traffic-identified companies are not a verified count of production deployments. Monthly unique-source and company counts can overlap across months. October activity is excluded.
+
+The [core GitHub repository](https://github.com/LFDT-web3j/web3j) had approximately 5,400 stars and 1,800 forks in September 2026.
 
 The project does not maintain an ADOPTERS file because it is difficult to keep this information up to date, and the project does not want to misrepresent actual adoption or give preference to certain vendors.
-
-Developers occasionally organize events to showcase Web3j features and help increase enterprise adoption.
 
 To promote new features, several blog posts were published:
 
@@ -115,7 +145,7 @@ To promote new features, several blog posts were published:
 During the first part of this year, the project has achieved or made progress toward the following goals:
 
 - Update the project roadmap - DONE
-- Continue to provide maintenance, resolve issues, and release at least once a month - ONGOING; releasing every month has been difficult due to limited maintainer availability
+- Continue maintenance and resolve issues - ONGOING, with greater use of agentic tooling to make effective use of maintainer time. Releases follow validated changes and available capacity.
 - Continue enhancing support for the Prague/Electra Upgrade - DONE
 - Fusaka Upgrade support - DONE
 - Glamsterdam Upgrade
@@ -124,13 +154,14 @@ During the first part of this year, the project has achieved or made progress to
 
 ### Help Required
 
-We continue to work with LFDT staff to organize events and identify contributors and potential maintainers.
+Web3j's established user base provides an opportunity for downstream organizations to contribute to the library they rely on. Useful contributions include issue reproductions and regression tests, reviews of transaction encoding and signing changes, Ethereum compatibility work, CI and release engineering, documentation, and testing generated applications across the related tooling.
 
-LF Decentralized Trust can help with the following:
+The proposed requests to LFDT are:
 
-- Promote the Web3j project within the LF Decentralized Trust community
-- Help attract active contributors who could eventually commit to serving as maintainers
+- Introductions to organizations that rely on Web3j and could contribute funded maintainer time, sponsorship, or recurring engineering support.
+- Help recruiting additional JVM/Ethereum reviewers and maintainers, including someone able to share release and incident responsibilities.
+- Promotion of existing contribution opportunities through LFDT's channels, with an emphasis on practical engineering contributions to routine maintenance.
 
 ## Project Lifecycle Status Recommendation
 
-This report recommends continuing the `incubation` status.
+This report recommends continuing the `incubation` status. Web3j combines a decade of development and substantial ongoing usage with an evolving approach to maintenance. Greater use of agentic tooling, human review and improved release automation supports continued development within available maintainer time. Broadening community participation and access to funded engineering support remain useful next steps for the project.
