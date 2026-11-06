@@ -88,10 +88,10 @@ The Governing Board will appoint 5 people from the list of TAC Nominees excludin
 
 ###### Appointment Timeline
 
-* 14 Nov 2026 - Open the vote
-* 14 Nov 2026 - An email will be sent to the governing board informing them of the vote and to look for a separate email with the link. In addition, the results of the election from the maintainers will be provided to the Governing Board.
 * 19 Nov 2026 - Governing board meeting
-* 21 Nov 2026 - Reminder email sent to the governing board.
+* 19 Nov 2026 - Open the vote
+* 19 Nov 2026 - An email will be sent to the governing board informing them of the vote and to look for a separate email with the link. In addition, the results of the election from the maintainers will be provided to the Governing Board.
+* 23 Nov 2026 - Reminder email sent to the governing board.
 * 03 Dec 2026 - Election closes at 1400 UTC
 * 03 Dec 2026 - Email sent to the TAC mailing list announcing the newly elected and appointed TAC members.
 
