@@ -1,0 +1,4 @@
+# Site build. The Documentation workflow installs this file and runs
+# `zensical build --clean`; requirements.txt is the separate mkdocs-material
+# stack for building the site locally.
+zensical==0.1.1
