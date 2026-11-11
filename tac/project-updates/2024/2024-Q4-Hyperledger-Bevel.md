@@ -50,7 +50,7 @@ For Bevel Operator Fabric
 ## Maintainer Diversity
 
 -	There is a change in the maintainers for Bevel. You can find our current maintainer list here:  
-<a href="https://github.com/hyperledger/bevel/blob/main/MAINTAINERS.md" class="external-link" rel="nofollow">https://github.com/hyperledger/bevel/blob/main/MAINTAINERS.md</a>.
+<https://github.com/hyperledger/bevel/blob/main/MAINTAINERS.md>.
 
 <!-- -->
 -	Existing maintainers:
@@ -66,7 +66,7 @@ For Bevel Operator Fabric
 	-	Weihong Ou (Walmart)
 
 -	There is no change in the maintainers Bevel-Operator-Fabric. You can find our current maintainer list here:  
-<a href="https://github.com/hyperledger/bevel-operator-fabric/blob/main/MAINTAINERS.md" class="external-link" rel="nofollow">https://github.com/hyperledger/bevel-operator-fabric/blob/main/MAINTAINERS.md</a>.
+<https://github.com/hyperledger/bevel-operator-fabric/blob/main/MAINTAINERS.md>.
 
 <!-- -->
 
