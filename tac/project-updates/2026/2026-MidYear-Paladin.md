@@ -35,7 +35,7 @@ The OpenSSF Scorecard scanning action was merged in the first half and the curre
 
 As of 22nd September 2026 the repo scores **4.7** which is a slight improvement over the previous report. Areas we have specifically addressed:
 
-- Adding a security.md (this was raised some time ago butn hand't been merged)
+- Adding a security.md (this was raised some time ago but hadn't been merged)
 - Enabling dependabot on some of the code areas
 - Updating branch protection rules to ensure higher branch protection standards
 
