@@ -4,6 +4,8 @@
 
 - 2026:
   - [2026 Schedule](2026-schedule.md)
+  - MidYear:
+     - [2026 Mid-Year Hyperledger Identus](2026-MidYear-Hyperledger-Identus.md)
   - Annual:
      - [2026 Annual Hyperledger Fabric](2026-annual-Hyperledger-Fabric.md)
      - [2026 Annual CREDEBL](2026-Annual-CREDEBL.md)
