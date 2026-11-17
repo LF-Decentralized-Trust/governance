@@ -11,6 +11,9 @@ grand_parent: Project Updates
 
 This review covers **1 January 2026 through 30 June 2026** and follows the [2026 annual review](2026-annual-Hyperledger-Fabric.md). It reports on both sub-projects of the Fabric umbrella: **Hyperledger Fabric** (referred to below as Fabric, the original architecture) and **Hyperledger Fabric-X** (the high-performance re-architecture).
 
+**PS** (17/November/2026): Fabric-X changed its name to [Chaguar](https://github.com/Chaguar/chaguar) and is now an [independent LFDT incubation project](https://github.com/LF-Decentralized-Trust/project-proposals/blob/main/proposals/incubation/chaguar.md).
+
+
 ## Scope and methodology
 
 This report treats seven repositories as the Fabric-X technical scope: [fabric-x](https://github.com/hyperledger/fabric-x), [fabric-x-orderer](https://github.com/hyperledger/fabric-x-orderer), [fabric-x-committer](https://github.com/hyperledger/fabric-x-committer), [fabric-x-common](https://github.com/hyperledger/fabric-x-common), [fabric-x-endorser](https://github.com/hyperledger/fabric-x-endorser), plus [fabric-x-evm](https://github.com/hyperledger/fabric-x-evm) and [fabric-x-sdk](https://github.com/hyperledger/fabric-x-sdk), both created in March 2026 and therefore new since the annual review. The Fabric [GOVERNANCE.md](https://github.com/hyperledger/fabric/blob/main/GOVERNANCE.md) still lists only the five pre-existing repositories as sources of Fabric-X TSC voting members; the governance status of EVM and SDK maintainers therefore needs clarification.
