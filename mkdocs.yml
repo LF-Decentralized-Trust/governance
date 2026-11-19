@@ -253,38 +253,44 @@ nav:
       - Election Timelines:
           - 2026: member-info/election-timeline.md
   - Project Updates:
+      # The years between the markers are written by
+      # scripts/generate-project-updates.py from the files in
+      # tac/project-updates/<year>/, on every site build. To file a report,
+      # add the file there; there is nothing to edit here. The committed
+      # copy is a snapshot and may lag behind the files.
+      # BEGIN GENERATED project-updates -- do not edit down to the END line.
       - 2026:
           - 2026 Schedule: project-updates/2026/2026-schedule.md
-          - MidYear:
-              - 2026 Mid-Year Hyperledger Identus: project-updates/2026/2026-MidYear-Hyperledger-Identus.md
           - Annual:
-              - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
-              - 2026 Annual Hyperledger FireFly: project-updates/2026/2026-annual-Hyperledger-FireFly.md
-              - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
-              - 2026 Annual Hyperledger Iroha: project-updates/2026/2026-annual-Hyperledger-Iroha.md
-              - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
-              - 2026 Annual Paladin: project-updates/2026/2026-annual-paladin.md
-              - 2026 Annual Besu: project-updates/2026/2026-annual-Besu.md
-              - 2026 Annual WEB3J: project-updates/2026/2026-annual-Web3j.md
-              - 2026 Annual Lockness: project-updates/2026/2026-Annual-Lockness.md
-              - 2026 Annual Hiero: project-updates/2026/2026-annual-Hiero.md
-              - 2026 Annual Minokawa: project-updates/2026/2026-Annual-Minokawa.md
-              - 2026 Annual CREDEBL: project-updates/2026/2026-Annual-CREDEBL.md
               - 2026 Annual AnonCreds: project-updates/2026/2026-annual-AnonCreds.md
+              - 2026 Annual Besu: project-updates/2026/2026-annual-Besu.md
+              - 2026 Annual CREDEBL: project-updates/2026/2026-Annual-CREDEBL.md
+              - 2026 Annual Hiero: project-updates/2026/2026-annual-Hiero.md
+              - 2026 Annual Hyperledger Cacti: project-updates/2026/2026-annual-Hyperledger-Cacti.md
+              - 2026 Annual Hyperledger Fabric: project-updates/2026/2026-annual-Hyperledger-Fabric.md
+              - 2026 Annual Hyperledger FireFly: project-updates/2026/2026-annual-Hyperledger-FireFly.md
+              - 2026 Annual Hyperledger Identus: project-updates/2026/2026-annual-Hyperledger-Identus.md
               - 2026 Annual Hyperledger Indy: project-updates/2026/2026-annual-Hyperledger-Indy.md
+              - 2026 Annual Hyperledger Iroha: project-updates/2026/2026-annual-Hyperledger-Iroha.md
+              - 2026 Annual Lockness: project-updates/2026/2026-Annual-Lockness.md
+              - 2026 Annual Minokawa: project-updates/2026/2026-Annual-Minokawa.md
+              - 2026 Annual Paladin: project-updates/2026/2026-annual-paladin.md
+              - 2026 Annual Smoot: project-updates/2026/2026-annual_Smoot.md
               - 2026 Annual ToIP: project-updates/2026/2026-annual-ToIP.md
-          - Midyear:
-              - 2026 Mid-Year Minokawa: project-updates/2026/2026-Annual-Minokawa.md
-              - 2026 Mid-Year Web3j: project-updates/2026/2026-MidYear-Web3j.md
+              - 2026 Annual Web3j: project-updates/2026/2026-annual-Web3j.md
+          - MidYear:
               - 2026 Mid-Year AnonCreds: project-updates/2026/2026-MidYear-AnonCreds.md
-              - 2026 Mid-Year Hyperledger FireFly: project-updates/2026/2026-MidYear-Hyperledger-FireFly.md
-              - 2026 Mid-Year Hyperledger Cacti: project-updates/2026/2026-MidYear-Hyperledger-Cacti.md
               - 2026 Mid-Year Besu: project-updates/2026/2026-MidYear-Besu.md
               - 2026 Mid-Year CREDEBL: project-updates/2026/2026-MidYear-CREDEBL.md
+              - 2026 Mid-Year Hiero: project-updates/2026/2026-midyear-Hiero.md
+              - 2026 Mid-Year Hyperledger Cacti: project-updates/2026/2026-MidYear-Hyperledger-Cacti.md
+              - 2026 Mid-Year Hyperledger Fabric: project-updates/2026/2026-MidYear-Hyperledger-Fabric.md
+              - 2026 Mid-Year Hyperledger FireFly: project-updates/2026/2026-MidYear-Hyperledger-FireFly.md
+              - 2026 Mid-Year Hyperledger Identus: project-updates/2026/2026-MidYear-Hyperledger-Identus.md
               - 2026 Mid-Year Lockness: project-updates/2026/2026-MidYear-Lockness.md
               - 2026 Mid-Year Paladin: project-updates/2026/2026-MidYear-Paladin.md
-              - 2026 Mid-Year Hyperledger Fabric: project-updates/2026/2026-MidYear-Hyperledger-Fabric.md
-              - 2026 Mid-Year Hiero: project-updates/2026/2026-midyear-Hiero.md
+              - 2026 Mid-Year Web3j: project-updates/2026/2026-MidYear-Web3j.md
+      # END GENERATED project-updates
       - 2025:
           - 2025 Schedule: project-updates/2025/2025-schedule.md
           - Q4:
