@@ -4,6 +4,7 @@ teams:
       - ryjones
     members:
       - bthomasco
+      - minyu66
   - name: calendar
     maintainers:
       - ryjones
