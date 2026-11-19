@@ -21,6 +21,8 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements-docs.txt
+      # list the report files in the Project Updates nav and year index
+      - run: python scripts/generate-project-updates.py
       - run: zensical build --clean 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
