@@ -1,4 +1,5 @@
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
+[//]: # (project-updates: unlisted)
 
 
 # Smoot – 2025 Annual Review

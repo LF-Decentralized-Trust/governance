@@ -24,6 +24,15 @@ that name: `2026-MidYear-Hyperledger-Fabric.md` becomes
 "2026 Mid-Year Hyperledger Fabric". Any other markdown file in the directory
 is listed directly under the year and reported on stderr.
 
+A report can carry a directive, a markdown comment line of its own near the
+top of the file, for the two cases the file name cannot express:
+
+  [//]: # (project-updates: unlisted)
+      leave the file out of both listings (a project that has become a lab)
+  [//]: # (project-updates: also midyear)
+      list the file under a second kind as well (one report filed as both
+      the annual and the mid-year review)
+
   --check   write nothing; exit 1 if either listing is out of date
 """
 
@@ -53,6 +62,38 @@ REPORT_RE = re.compile(
 )
 
 
+DIRECTIVE_RE = re.compile(
+    r"^\[//\]: # [(\"]project-updates:\s*(unlisted|also\s+(\S+?))\s*[)\"]\s*$",
+    re.IGNORECASE,
+)
+DIRECTIVE_LINES = 20  # directives are only looked for this far into a file
+
+
+def directives(path):
+    """Return (unlisted, [extra kinds]) from the directive lines in path."""
+    unlisted, also = False, []
+    with path.open(encoding="utf-8") as handle:
+        for number, line in enumerate(handle):
+            if number >= DIRECTIVE_LINES:
+                break
+            match = DIRECTIVE_RE.match(line.strip())
+            if not match:
+                continue
+            if match.group(2) is None:
+                unlisted = True
+                continue
+            kind = match.group(2).lower().replace("-", "")
+            if any(k[0] == kind for k in KINDS):
+                also.append(kind)
+            else:
+                print(
+                    f"generate-project-updates: {path.parent.name}/{path.name}: "
+                    f"unknown kind in directive: also {match.group(2)}",
+                    file=sys.stderr,
+                )
+    return unlisted, also
+
+
 def words(stem):
     """File name fragment to title: separators become spaces, and a name
     written entirely in lower case gets its first letter capitalised."""
@@ -74,12 +115,17 @@ def scan(year_dir):
         name = path.name
         if name == "index.md":
             continue
+        unlisted, also = directives(path)
+        if unlisted:
+            continue
         match = REPORT_RE.match(name)
         if match and match.group(1) == year:
-            kind = match.group(2).lower().replace("-", "")
-            title_word = next(k[2] for k in KINDS if k[0] == kind)
-            title = f"{year} {title_word} {words(match.group(3))}"
-            by_kind.setdefault(kind, []).append((title, name))
+            kinds = [match.group(2).lower().replace("-", "")]
+            kinds += [kind for kind in also if kind not in kinds]
+            for kind in kinds:
+                title_word = next(k[2] for k in KINDS if k[0] == kind)
+                title = f"{year} {title_word} {words(match.group(3))}"
+                by_kind.setdefault(kind, []).append((title, name))
             continue
         stem = path.stem
         if stem.startswith(year):
