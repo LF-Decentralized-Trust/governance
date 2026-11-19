@@ -4,8 +4,6 @@
 
 - 2026:
   - [2026 Schedule](2026-schedule.md)
-  - MidYear:
-     - [2026 Mid-Year Hyperledger Identus](2026-MidYear-Hyperledger-Identus.md)
   - Annual:
      - [2026 Annual Hyperledger Fabric](2026-annual-Hyperledger-Fabric.md)
      - [2026 Annual CREDEBL](2026-Annual-CREDEBL.md)
@@ -23,6 +21,14 @@
      - [2026 Annual Paladin](2026-annual-paladin.md)
      - [2026 Annual ToIP](2026-annual-ToIP.md)
   - MidYear:
+     - [2026 Mid-Year Hyperledger Identus](2026-MidYear-Hyperledger-Identus.md)
      - [2026 Mid-Year AnonCreds](2026-MidYear-AnonCreds.md)
      - [2026 Mid-Year Web3j](2026-MidYear-Web3j.md)
      - [2026 Mid-Year Hyperledger Fabric](2026-MidYear-Hyperledger-Fabric.md)
+     - [2026 Mid-Year CREDEBL](2026-MidYear-CREDEBL.md)
+     - [2026 Mid-Year Lockness](2026-MidYear-Lockness.md)
+     - [2026 Mid-Year Paladin](2026-MidYear-Paladin.md)
+     - [2026 Mid-Year Besu](2026-MidYear-Besu.md)
+     - [2026 Mid-Year Hyperledger Cacti](2026-MidYear-Hyperledger-Cacti.md)
+     - [2026 Mid-Year Hyperledger FireFly](2026-MidYear-Hyperledger-FireFly.md)
+     - [2026 Mid-Year Hiero](2026-midyear-Hiero.md)
