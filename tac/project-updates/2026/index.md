@@ -20,7 +20,6 @@
      - [2026 Annual Lockness](2026-Annual-Lockness.md)
      - [2026 Annual Minokawa](2026-Annual-Minokawa.md)
      - [2026 Annual Paladin](2026-annual-paladin.md)
-     - [2026 Annual Smoot](2026-annual_Smoot.md)
      - [2026 Annual ToIP](2026-annual-ToIP.md)
      - [2026 Annual Web3j](2026-annual-Web3j.md)
   - MidYear:
@@ -33,6 +32,7 @@
      - [2026 Mid-Year Hyperledger FireFly](2026-MidYear-Hyperledger-FireFly.md)
      - [2026 Mid-Year Hyperledger Identus](2026-MidYear-Hyperledger-Identus.md)
      - [2026 Mid-Year Lockness](2026-MidYear-Lockness.md)
+     - [2026 Mid-Year Minokawa](2026-Annual-Minokawa.md)
      - [2026 Mid-Year Paladin](2026-MidYear-Paladin.md)
      - [2026 Mid-Year Web3j](2026-MidYear-Web3j.md)
 
