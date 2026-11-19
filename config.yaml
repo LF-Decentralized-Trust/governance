@@ -1,4 +1,9 @@
 teams:
+  - name: artwork-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - bthomasco
   - name: calendar
     maintainers:
       - ryjones
@@ -66,6 +71,10 @@ teams:
       - mbrandenburger
       - tock-ibm
 repositories:
+  - name: artwork
+    maintainers:
+      artwork-maintainers: maintain
+    visibility: public
   - name: contribute
     teams:
       community: maintain
