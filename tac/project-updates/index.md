@@ -22,9 +22,9 @@ Project updates are:
 
 ## Instructions for Filing
 
-1. Copy the `0000-quarterly-update-template.md` file to the subdirectory for the current year and name the file `YYYY-Qn-Project-Name` (e.g., `2024-Q1-Besu.md`).
-1. Update the information at the top of the file:
-    - change the `parent` line to `YYYY` (e.g., `parent: 2024`)
-    - change the `grand_parent` to `Project Updates` (i.e., `grand_parent: Project Updates`)
-    - remove the `nav_exclude` line
-1. Text between `<mark></mark>` are instructions. Please remove when section has been completed.
+Projects file two reports a year: an annual review at the beginning of the year and a mid-year review about six months later. Quarterly updates are no longer filed; the reports for 2025 and earlier remain under Past Project Updates. The year's schedule (e.g., the [2026 Schedule](./2026/2026-schedule.md)) gives the date each project is due.
+
+1. Add one file to the subdirectory for the current year:
+    - annual review: `YYYY-annual-Project-Name.md` (e.g., `2026-annual-Besu.md`), following the [annual review instructions](./annual-review-instructions.md)
+    - mid-year review: `YYYY-MidYear-Project-Name.md` (e.g., `2026-MidYear-Besu.md`), following the [mid-year review instructions](./mid-year-update-instructions.md)
+1. Open a pull request with that file. Do not edit `mkdocs.yml` or the year's `index.md`; the report is added to the navigation and the year's index page from its file name.

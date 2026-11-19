@@ -4,7 +4,14 @@
 
 The main annual review for a project takes place at the beginning of the year, and is based on the project's annual report write-up. An interim report is submitted by projects in the middle of the year.
 
-Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `tac/project-updates/2024/2024-annual-lf-decentralized-trust-amazing.md`). That one file is the whole submission: the site build lists it in the navigation and on the year's index page from its name (see `scripts/generate-project-updates.py`), so do not edit `mkdocs.yml` or `index.md`.
+Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-annual-Project-Name.md` (e.g., `tac/project-updates/2024/2024-annual-lf-decentralized-trust-amazing.md`). That one file is the whole submission; do not edit `mkdocs.yml` or the year's `index.md`.
+
+The report is listed from its file name, so keep to the pattern: `2026-annual-Hyperledger-Fabric.md` appears as "2026 Annual Hyperledger Fabric". Once the pull request merges:
+
+- the site build runs `scripts/generate-project-updates.py`, which adds the report to the navigation and to the year's index page, so it is listed on the published site straight away
+- the "Generate Project Updates listings" workflow opens a follow-up pull request that refreshes the copy of those listings committed to the repository; a maintainer merges it, and there is nothing for the project to do
+
+If one report serves as both the annual and the mid-year review, add the line `[//]: # (project-updates: also midyear)` directly under the license line at the top of the file and it is listed under both.
 
 # What Should the Annual Review Contain
 Unlike the mid-year updates, the annual review process will be a "big picture" assessment of the project by reviewing the progress on goals from the prior year and goals for the next year. In addition, the annual review process will include a deep dive into the project health, including contributor and maintainer diversity and adoption metrics, and will include an assessment of the current project lifecycle state. The review will result in a set of recommendations for the project to improve and/or recommendation to move a project to another state.
