@@ -4,7 +4,7 @@
 
 Projects are required to create a mid-year report for their project.
 
-Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-MidYear-Project-Name.md` (e.g., `2026-MidYear-Hyperledger-Fabric.md`). Update the `mkdocs.yml` document in the root directory to include the file in the `nav` section under the appropriate mid-year section e.g. "2026" as the top level, "MidYear" as the level below it. If the year or mid-year nav does not yet exist, please add it to match what you see in the `Project Updates` section.
+Create a file in the `tac/project-updates` subdirectory for the current year and name the file `YYYY-MidYear-Project-Name.md` (e.g., `2026-MidYear-Hyperledger-Fabric.md`). That one file is the whole submission: the site build lists it in the navigation and on the year's index page from its name (see `scripts/generate-project-updates.py`), so do not edit `mkdocs.yml` or `index.md`.
 
 # What Should the Mid-Year Review Contain?
 
