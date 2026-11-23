@@ -144,108 +144,15 @@ nav:
       - Supply Chain Levels for Software Artifacts Recommendations: guidelines/slsa-guidelines.md
       - Project Consistency Guidelines: guidelines/project-consistency-guidelines.md
   - Meetings:
+      # The dated minutes are not listed here. There are about a hundred of
+      # them, and on a phone the nav sits behind the hamburger menu, which
+      # left this landing page looking blank; they are listed on the page
+      # itself by scripts/generate-meeting-minutes.py, and matched by the
+      # meeting-minutes globs in not_in_nav below.
       - meeting-minutes/index.md
-      - 2026:
-          - 2026 attendance: meeting-minutes/2026/attendees.md
-          - 2026-10-22: meeting-minutes/2026/2026-10-22.md
-          - 2026-10-15: meeting-minutes/2026/2026-10-15.md
-          - 2026-10-08: meeting-minutes/2026/2026-10-08.md
-          - 2026-10-01: meeting-minutes/2026/2026-10-01.md
-          - 2026-09-24: meeting-minutes/2026/2026-09-24.md
-          - 2026-09-17: meeting-minutes/2026/2026-09-17.md
-          - 2026-09-10: meeting-minutes/2026/2026-09-10.md
-          - 2026-09-03: meeting-minutes/2026/2026-09-03.md
-          - 2026-08-27: meeting-minutes/2026/2026-08-27.md
-          - 2026-08-20: meeting-minutes/2026/2026-08-20.md
-          - 2026-08-13: meeting-minutes/2026/2026-08-13.md
-          - 2026-08-06: meeting-minutes/2026/2026-08-06.md
-          - 2026-07-30: meeting-minutes/2026/2026-07-30.md
-          - 2026-07-23: meeting-minutes/2026/2026-07-23.md
-          - 2026-07-16: meeting-minutes/2026/2026-07-16.md
-          - 2026-07-09: meeting-minutes/2026/2026-07-09.md
-          - 2026-06-25: meeting-minutes/2026/2026-06-25.md
-          - 2026-06-18: meeting-minutes/2026/2026-06-18.md
-          - 2026-06-11: meeting-minutes/2026/2026-06-11.md
-          - 2026-06-04: meeting-minutes/2026/2026-06-04.md
-          - 2026-05-28: meeting-minutes/2026/2026-05-28.md
-          - 2026-05-21: meeting-minutes/2026/2026-05-21.md
-          - 2026-05-14: meeting-minutes/2026/2026-05-14.md
-          - 2026-05-07: meeting-minutes/2026/2026-05-07.md
-          - 2026-04-30: meeting-minutes/2026/2026-04-30.md
-          - 2026-04-23: meeting-minutes/2026/2026-04-23.md
-          - 2026-04-16: meeting-minutes/2026/2026-04-16.md
-          - 2026-04-09: meeting-minutes/2026/2026-04-09.md
-          - 2026-04-02: meeting-minutes/2026/2026-04-02.md
-          - 2026-03-26: meeting-minutes/2026/2026-03-26.md
-          - 2026-03-19: meeting-minutes/2026/2026-03-19.md
-          - 2026-03-12: meeting-minutes/2026/2026-03-12.md
-          - 2026-03-05: meeting-minutes/2026/2026-03-05.md
-          - 2026-02-26: meeting-minutes/2026/2026-02-26.md
-          - 2026-02-12: meeting-minutes/2026/2026-02-12.md
-          - 2026-02-05: meeting-minutes/2026/2026-02-05.md
-          - 2026-01-22: meeting-minutes/2026/2026-01-22.md
-          - 2026-01-15: meeting-minutes/2026/2026-01-15.md
-          - 2026-01-08: meeting-minutes/2026/2026-01-08.md
-      - 2025:
-          - 2025 attendance: meeting-minutes/2025/attendees.md
-          - 2025-12-18: meeting-minutes/2025/2025-12-18.md
-          - 2025-12-11: meeting-minutes/2025/2025-12-11.md
-          - 2025-12-04: meeting-minutes/2025/2025-12-04.md
-          - 2025-11-20: meeting-minutes/2025/2025-11-20.md
-          - 2025-11-13: meeting-minutes/2025/2025-11-13.md
-          - 2025-11-06: meeting-minutes/2025/2025-11-06.md
-          - 2025-10-30: meeting-minutes/2025/2025-10-30.md
-          - 2025-10-23: meeting-minutes/2025/2025-10-23.md
-          - 2025-10-16: meeting-minutes/2025/2025-10-16.md
-          - 2025-10-09: meeting-minutes/2025/2025-10-09.md
-          - 2025-10-02: meeting-minutes/2025/2025-10-02.md
-          - 2025-09-25: meeting-minutes/2025/2025-09-25.md
-          - 2025-09-18: meeting-minutes/2025/2025-09-18.md
-          - 2025-09-11: meeting-minutes/2025/2025-09-11.md
-          - 2025-09-04: meeting-minutes/2025/2025-09-04.md
-          - 2025-08-28: meeting-minutes/2025/2025-08-28.md
-          - 2025-08-21: meeting-minutes/2025/2025-08-21.md
-          - 2025-08-14: meeting-minutes/2025/2025-08-14.md
-          - 2025-07-31: meeting-minutes/2025/2025-07-31.md
-          - 2025-07-24: meeting-minutes/2025/2025-07-24.md
-          - 2025-07-17: meeting-minutes/2025/2025-07-17.md
-          - 2025-07-10: meeting-minutes/2025/2025-07-10.md
-          - 2025-06-26: meeting-minutes/2025/2025-06-26.md
-          - 2025-06-12: meeting-minutes/2025/2025-06-12.md
-          - 2025-06-05: meeting-minutes/2025/2025-06-05.md
-          - 2025-05-29: meeting-minutes/2025/2025-05-29.md
-          - 2025-05-22: meeting-minutes/2025/2025-05-22.md
-          - 2025-05-15: meeting-minutes/2025/2025-05-15.md
-          - 2025-05-08: meeting-minutes/2025/2025-05-08.md
-          - 2025-05-01: meeting-minutes/2025/2025-05-01.md
-          - 2025-04-24: meeting-minutes/2025/2025-04-24.md
-          - 2025-04-17: meeting-minutes/2025/2025-04-17.md
-          - 2025-04-10: meeting-minutes/2025/2025-04-10.md
-          - 2025-04-03: meeting-minutes/2025/2025-04-03.md
-          - 2025-03-27: meeting-minutes/2025/2025-03-27.md
-          - 2025-03-20: meeting-minutes/2025/2025-03-20.md
-          - 2025-03-06: meeting-minutes/2025/2025-03-06.md
-          - 2025-02-27: meeting-minutes/2025/2025-02-27.md
-          - 2025-02-20: meeting-minutes/2025/2025-02-20.md
-          - 2025-02-13: meeting-minutes/2025/2025-02-13.md
-          - 2025-02-06: meeting-minutes/2025/2025-02-06.md
-          - 2025-01-30: meeting-minutes/2025/2025-01-30.md
-          - 2025-01-23: meeting-minutes/2025/2025-01-23.md
-          - 2025-01-16: meeting-minutes/2025/2025-01-16.md
-          - 2025-01-09: meeting-minutes/2025/2025-01-09.md
-      - 2024:
-          - 2024 attendance: meeting-minutes/2024/attendees.md
-          - 2024-12-19: meeting-minutes/2024/2024-12-19.md
-          - 2024-12-12: meeting-minutes/2024/2024-12-12.md
-          - 2024-12-05: meeting-minutes/2024/2024-12-05.md
-          - 2024-11-21: meeting-minutes/2024/2024-11-21.md
-          - 2024-11-14: meeting-minutes/2024/2024-11-14.md
-          - 2024-11-07: meeting-minutes/2024/2024-11-07.md
-          - 2024-10-31: meeting-minutes/2024/2024-10-31.md
-          - 2024-10-10: meeting-minutes/2024/2024-10-10.md
-          - 2024-10-03: meeting-minutes/2024/2024-10-03.md
-          - 2024-09-26: meeting-minutes/2024/2024-09-26.md
-          - 2024-09-19: meeting-minutes/2024/2024-09-19.md
+      - 2026 attendance: meeting-minutes/2026/attendees.md
+      - 2025 attendance: meeting-minutes/2025/attendees.md
+      - 2024 attendance: meeting-minutes/2024/attendees.md
   - Member Info:
       - TAC Members: member-info/tac-members.md
       - TAC Responsibilities: member-info/tac-responsibilities.md
@@ -388,6 +295,8 @@ nav:
               - 2024 Q4 Hyperledger AnonCreds: project-updates/2024/2024-Q4-Hyperledger-AnonCreds.md
 not_in_nav: |
   meeting-minutes/Introduction_to_Standards_for_OSS_Projects.pdf
+  meeting-minutes/*/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].md
+  meeting-minutes/2026/CRA Readiness for LFDT Projects – SBOM & Support Policy Proposal.pdf
   project-updates/2025/HLFF_2025_Q2_stars.png
   project-updates/2025/HLFF_2025_Q2_4.png
   project-updates/2025/HLFF_2025_Q2_3.png
